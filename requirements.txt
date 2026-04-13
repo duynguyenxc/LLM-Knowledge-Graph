@@ -1,0 +1,7 @@
+langchain
+langchain-core
+langchain-openai
+langgraph
+pydantic>=2.0
+pypdf
+python-dotenv

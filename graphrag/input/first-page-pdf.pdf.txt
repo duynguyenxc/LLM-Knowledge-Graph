@@ -1,0 +1,42 @@
+TITLE: A Novel Educational Tool for Teaching Diagnostic Reasoning and Laboratory Data Interpretation to Veterinary (and Medical) Students
+AUTHORS: Holly S. Bender, Jared A. Danielson
+YEAR: 2011
+DOI: 10.1016/j.cll.2010.10.007
+
+CONTENT:
+A Novel Educational
+To o l f o r Te a c h i n g
+Diagnostic Reasoning
+and Laboratory Data
+Interpretation to
+Veterinary (and
+Medical) Students
+Holly S. Bender, DVM, PhD *, Jared A. Danielson, PhD
+Readers of Clinics in Laboratory Medicine no doubt share an interest in laboratory
+science and clinical pathology, but it is likely that few dreamed of becoming laborator-
+ians while growing up. More often, interest in clinical pathology is piqued by particular
+courses or instructors or when we discover the compelling power of laboratory data to
+uncover and clarify hidden disease. Experienced diagnosticians, veterinarians, and
+physicians, with expertise developed over years of diligent study and practice, become
+increasingly adept at learning to trace back through a cascade of data abnormalities,
+using logic to connect them to underlying mechanisms of disease and ultimately iden-
+tifying failing organ systems. They also learn to value data that assure of healthy organ
+The contents of this article were partially developed under a grant from the Learning Anytime
+Anywhere Partnerships (LAAP), a program of the Fund for the Improvement of Postsecondary
+Education (FIPSE), US Department of Education, as well as 2 grants from the US Department of
+Agriculture (USDA) Higher Education Challenge program in addition to seed funding from
+Virginia Tech and Iowa State University. However, these contents do not necessarily represent
+the policy of the Department of Education or USDA, and you should not assume endorsement
+by the Federal Government.
+The authors have nothing to disclose.
+Department of Veterinary Pathology, College of Veterinary Medicine, Iowa State University,
+1600 South 16th Street, Ames, IA 50011, USA
+* Corresponding author.
+E-mail address: hbender@iastate.edu
+KEYWORDS
+/C15Clinical pathology /C15Case based learning /C15Problem solving
+/C15Diagnostic reasoning /C15Expert thinking /C15Cognitive tool
+/C15Learning /C15Software design and development
+Clin Lab Med 31 (2011) 201–215
+doi:10.1016/j.cll.2010.10.007 labmed.theclinics.com
+0272-2712/11/$ – see front matter /C2112011 Elsevier Inc. All rights reserved.

@@ -1,0 +1,589 @@
+TITLE: Ineffectiveness of cognitive forcing strategies
+AUTHORS: Jonathan Sherbino, Kulamakan Kulasegaram, Elizabeth Howey, Geoffrey Norman
+YEAR: 2014
+DOI: 10.2310/8000.2013.130860
+
+CONTENT:
+Education
+Ineffectiveness of cognitive forcing strategies
+to reduce biases in diagnostic reasoning: a
+controlled trial
+Jonathan Sherbino, MD Med*; Kulamakan Kulasegaram, BHSc 3; Elizabeth Howey, BSc 3;
+Geoffrey Norman, PhD 3
+ABSTRACT
+Objectives: Cognitive forcing strategies (CFS) may reduce error
+arising from cognitive biases. This is the first experimental test
+to determine the effect of CFS training in medical students.
+Methods: Students were allocated to CFS training or control
+during a 4-week emergency medicine rotation (n 5 191). At the
+end of the rotation examination, students were tested using
+computer-based cases. Application of CFS could enable
+reduction of diagnostic error, as evidenced by identifying
+multiple correct diagnoses for the two cases prone to search
+satisficing bias (SSB) and uncommon diagnoses for the two
+cases prone to availability bias (AB). Two ‘‘false positive’’
+cases were included to test for possible ‘‘oversearching.’’
+Results: There were 145 students in the intervention and 46 in
+the control group. For the SSB cases, 52% of students with CFS
+training and 48% in the control group initiated a search for the
+second diagnosis (x2 5 0.13, df 5 1, p 5 0.91). More than half
+(54%) correctly identified the second diagnosis in the CFS
+group, and 48% identified it in the control group. The difference
+was not significant (x2 5 2.25, df 5 1, p 5 0.13). For the second
+diagnosis in the false positive cases, 64% of the CFS group and
+77% of the control group incorrectly identified it. There were no
+significant differences between groups (x2 5 2.38, df 5 1, p 5
+0.12). In the AB cases, only 45% in each group identified the
+uncommon correct diagnosis (x2 5 0.001, df 5 1, p 5 0.98).
+Conclusions: The educational interventions suggested by
+experts in clinical reasoning and employed in our study to teach
+CFS failed to show any reduction in diagnostic error by novices.
+RE´ SUME´
+Objectifs: Les strate´ gies de «forc¸age» cognitif (SFC) peuvent
+re´duire le nombre d’erreurs de ´ coulant de la partialite ´
+cognitive. Il s’agit du premier essai expe ´ rimental visant a`
+de´ terminer l’effet de la formation fonde´ e sur les SFC, sur les
+e´ tudiants en me´ decine.
+Me´ thodes: Les e´tudiants ont rec¸u la formation fonde´e sur l es
+SFC ou la formation habituelle durant un stage de 4 semaines
+en me´ decine d’urgence (n 5 191). A` la fin de l’examen relatif au
+stage, les e´tudiants ont e´te´s o u m i s a` une analyse de cas
+informatise´e. L’application des SFC pourrait permettre une
+re´duction du nombre de diagnostics errone ´s, co mm e en
+te´moignent la possibilite´ de plus d’un bon diagnostic con-
+cernant deux cas susceptibles de donner lieu au biais de
+recherche passable (BRP) et la pose de diagnostics rares
+concernant deux cas susceptibles de donner lieu au biais de
+disponibilite´ (BD). La liste comprenait e´galement deux cas «faux
+positifs» pour ve´rifier la possibilite´ de «recherche excessive».
+Re´ sultats: Le groupe expe´ rimental comptait 145 e´tudiants et le
+groupe te´moin, 46. En ce qui concerne les cas susceptibles du
+BRP, 52% des e´ tudiants ayant rec¸u une formation fonde´esurl es
+SFC et 48% des e´ tudiants ayant rec¸u la formation habituelle ont
+entrepris une recherche sur le deuxie`me diagnostic (x2 5 0.13;
+fonction de re´partition [F(x)] 5 1; p 5 0.91). Plus de la moitie´
+(54%) des sujets du groupe de SFC a conside´r e´, a` juste titre, le
+deuxie`me diagnostic comme bon contre 48% dans le groupe
+te´moi n . L ’ e´ca rt n’ e´ tait pas significatif (x2 5 2.25; F(x) 5 1; p 5
+0.13). En ce qui concerne le deuxie` me diagnostic dans les cas
+«faux positifs», 64% des e´tudiants du groupe de SFC et 77% des
+e´tudiants du groupe te´ moin ont pose´ le mauvais diagnostic. La`
+encore, l’e´c a r t n ’ e´tait pas significatif entre les deux groupes (x2
+5 2.38; F(x) 5 1; p 5 0.12). Quant aux cas susceptibles du BD,
+seulement 45% des participants dans chacun des groupes a
+bien reconnu le diagnostic rare (x2 5 0.001; F(x) 5 1; p 5 0.98).
+Conclusion: Les interventions didactiques pre´conise´es par des
+experts en raisonnement clinique et applique´e s d a n s l ’ e´t u d e
+de´ crite ici, visant a` enseigner les SFC n’ont pas permis de re´ duire
+le nombre de diagnostics errone´ s, pose´s par le s e´tudiants.
+Keywords: cognitive error, diagnostic reasoning, instruc-
+tional methods, medical education
+From the *Division of Emergency Medicine, Department of Medicine, and3Program for Educational Research and Development, McMaster University,
+Hamilton, ON.
+Correspondence to: Dr. Jonathan Sherbino, McMaster Clinic 2nd Floor, Hamilton General Hospital Site, 237 Barton Street East, Hamilton, ON
+L8L 2X2; sherbino@mcmaster.ca.
+This article has been peer reviewed.
+CJEM 2014;16(1):34-40/C223Canadian Association of Emergency Physicians DOI 10.2310/8000.2013.130860
+ORIGINAL RESEARCH N RECHERCHE ORIGINALE
+34 2014;16(1) CJEM N JCMU
+https://doi.org/10.2310/8000.2013.130860 Published online by Cambridge University Press
+A number of studies have described the prevalence
+of diagnostic error. 1–4 In primary care settings, an
+estimated 7 to 17% of cases have some type of
+diagnostic error associated with them. 5 In the emer-
+gency department, medical error occurs in 3% of visits,
+with 70% of these errors being classified as a
+diagnostic error.6
+Although most cases of diagnostic error are detected
+and resolved prior to serious patient harm, serious
+consequences can ensue. In fact, a substantial propor-
+tion of malpractice suits are related to diagnostic
+error.4
+Despite the systematic description of the phenom-
+enon, few studies have identified the root cause of
+diagnostic error. Although studies of medical manage-
+ment errors typically describe a multifactorial cause,
+some authors have claimed cognitive errors committed
+by physicians as the major, but easily correctable,
+source. Specifically, cognitive biases, the systematic
+errors of reasoning independent of specific content
+knowledge, are thought to play a significant role in
+diagnostic error.7–11
+The central claim of these authors is that cognitive
+biases are the result of rapid, nonanalytic reasoning
+that neglects appropriate evidence and failure to
+employ a slower, conscious decision-making process,
+necessary for the correct diagnosis. 7,9 Multiple biases
+exist. Croskerry has catalogued 32 possible biases that
+may arise in diagnostic situations. 12 One example is
+‘‘search satisficing bias’’ (SSB), a form of premature
+closure that occurs when the search for additional
+evidence stops once an obvious or prominent diagnosis
+is reached. This may lead physicians to miss a potential
+second diagnosis that may be detected through further
+investigation. Another example is ‘‘availability bias,’’ in
+which a clinician makes a diagnostic decision on the
+ease of recall of similar cases and ignores base rates.
+Kahneman and colleagues established cognitive biases
+as universal features of human cognition using studies
+of everyday decision making by psychology under-
+graduates.11 The influence of such biases in the
+different context of medical diagnostic error has been
+researched in a very limited manner. 13
+This lack of evidence has not discouraged the promo-
+tion of training programs to minimize cognitive bias.10,11,14
+Croskerry proposed that metacognitive training at the
+novice stage can decrease the impact of cognitive biases in
+future decision making. 7,8 Specifically, these programs
+claimed that metacognitive techniques (termed cognitive
+forcing strategies [CFS]) can identify specific biases,
+promote self-monitoring, and develop approaches to
+minimize biasing of diagnoses. 7,8,10,11,14 Despite their
+promise and widespread promotion, CFS programs have
+very limited evidence for their success in preventing
+diagnostic error in educational settings. Apart from a small
+pilot study conducted by Sherbino and colleagues,15 no
+experimental evidence on the efficacy of a CFS program
+exists. The failure of CFS training in that study is limited
+by the small sample and lack of an adequate control group.
+This study is an extension of the previous work using
+a larger sample of learners, longer follow-up, and a
+control group. The objective of this study was to
+determine the effect of CFS training on diagnostic
+error in senior medical students.
+METHODS
+Study design
+This was a prospective, controlled trial of an education
+intervention. Ethics approval was granted by the
+McMaster University Faculty of Health Sciences
+Research Ethics Board.
+Study setting and population
+Senior medical students (final year of a 3-year curricu-
+lum) in clerkship at McMaster University completed a
+4-week emergency medicine (EM) rotation in groups of
+15 to 18 students. Participants in each rotation were
+recruited at the start of rotation and enrolled in the
+study for the duration of the rotation. A total of 198
+participants in 11 rotations were recruited from
+September 2009 to February 2011.
+Study protocol
+The methods used in this study are identical to those
+described elsewhere. 15 The first eight rotations were
+allocated to receive CFS training, and the following
+three rotations served as controls. The initiation of the
+study in the middle of the final year of medical school
+(and bridging two respective class years) ensured that
+there was equitable distribution of previous clinical
+experience between the experimental and control
+groups. Recruitment of an equal number of controls
+was interrupted by a curriculum redesign of the EM
+rotation.
+Ineffectiveness of cognitive forcing strategies
+2014;16(1) 35CJEM N JCMU
+https://doi.org/10.2310/8000.2013.130860 Published online by Cambridge University Press
+The CFS training was held during the first
+instructional week of each rotation. The educational
+intervention consisted of a 90-minute, interactive,
+case-based seminar of 15 students and one instructor
+following an outline of standardized Microsoft
+PowerPoint slides. The curriculum was refined based
+on feedback from local educational experts and
+medical students who piloted the initial version.
+Students were taught two biases: search satisficing
+and availability. With SSB, the clinician may identify
+one diagnosis but miss a second. With availability
+bias, clinicians may identify incorrect, common
+diagnoses and miss a correct, but uncommon,
+diagnosis. Training session facilitators were expert
+EM clinicians experienced with teaching CFS. For
+each instructional case, the provided information
+included patient demographics, chief complaint,
+history of present illness, past medical history,
+medications, allergies, vital signs, general appearance,
+physical examination findings (e.g., cardiac and
+respiratory examinations), and digital images of either
+an electrocardiogram (ECG) or an x-ray. The design
+and delivery of CFS teaching were modeled after
+Croskerry’s commonly cited model. 9 The educational
+intervention was refined with feedback from the pilot
+sample and local CFS experts.
+The seminar introduced cognitive biases, the preva-
+lence and effect of diagnostic error, and the application to
+specific pathologies. CFS teaching included self-monitoring
+during decision making, potential bias identification, and
+active employment of a cognitive process to counter a
+potential bias. Students then individually practiced CFS
+using given clinical cases by developing a diagnosis and
+treatment plan for each case. Feedback was provided to
+the group based on the range of responses once the
+correct diagnosis was revealed. Generalizability of these
+biases was also taught. Students were explicitly told that
+each bias can occur in multiple contexts. They were
+provided with examples and invited to contribute their
+own examples to the group discussion.
+On alternate rotations, diagnostic tests and biases
+were counterbalanced. For the first group, SSB was
+taught using x-rays and availability bias using ECGs,
+and for the second group, search satisficing was taught
+with ECG materials and availability with x-rays.
+(Specific materials differed because the task require-
+ments were different.)
+The control group received no specific, scheduled
+instruction on CFS. During their first instructional
+(i.e., nonclinical) week of the rotation, the 90-minute
+session was left for self-directed study.
+Measurements
+At the end of the 4-week rotation, a 2-hour mandatory,
+computer-based examination was conducted as part
+of the clerkship rotation. As a component of the
+48-question examination, students were presented with
+six testing cases as part of the examination. Each testing
+case used a free text box asking the student to input the
+correct diagnosis(es) as appropriate (Appendix). At the
+conclusion of the end-of-rotation examination, students
+were informed that the six questions relating to CFS
+training were not included in their written examination
+score. Students could request that their blinded,
+anonymous information be removed from pooled
+analysis. Blinded answers were scored by one of the
+expert authors using a predesigned scoring rubic.
+Each case consisted of a clinical vignette (including a
+detailed history and physical examination) and either
+an x-ray or an ECG, which the students used to
+establish a diagnosis. All correct diagnoses were
+recorded. All cases were designed by expert clinicians
+and pilot tested. Six cases were associated with
+potential biases, with the others serving as filler. SSB
+consisted of one case using an x-ray and one using an
+ECG. Each case had two correct diagnoses. Two ‘‘false
+positive’’ search satisficing cases, for which there is
+no correct second diagnosis, were also included to
+determine if students were ‘‘oversearching’’ for a
+secondary diagnosis. Availability bias was tested with
+one case using an x-ray and one case using an ECG, for
+which a common diagnosis was possible but incorrect,
+whereas an uncommon diagnosis was correct. A list of
+cases and diagnoses is presented in Table 1.
+Data analysis
+All analyses were conducted with the Cochran-Mantel-
+Haenszel x2 test of conditional independence with case
+type (x-ray/ECG) as the stratification variable. The
+Breslow-Day x2 test of homogeneity was used to
+determine if performance varied between x-ray and
+ECG cases. For SSB, we compared the proportion of
+students in the CFS group and the control group who
+searched for a second diagnosis and the proportion
+whose second diagnosis was correct. Similarly, the
+proportion that identified a second diagnosis was
+Sherbino et al
+36 2014;16(1) CJEM N JCMU
+https://doi.org/10.2310/8000.2013.130860 Published online by Cambridge University Press
+compared for the false positive cases (for which there was
+no second diagnosis). For availability bias, we compared
+the proportion that identified the uncommon diagnosis.
+All analyses were conducted usingSPSS version 16 (SPSS
+Inc., Chicago, IL). There was no a priori determination
+of what constituted an educationally significant improve-
+ment in performance because there is no previous
+research in this field to guide such an estimate.
+However, based on our sample size, we had 80% power
+to detect a difference of 20% with a two-tailed alpha
+value of 0.05 when comparing the intervention group to
+the control group to detect a second diagnosis for the
+SSB cases and to identify the uncommon, correct
+diagnosis in the availability bias cases.
+RESULTS
+Of the 198 potential students, 145 students were
+enrolled in the intervention group and 46 in the
+control group. Seven students were unavailable for
+follow-up because their clinical placement was in a
+distant community site, which used a paper examina-
+tion instead of the computerized version. Overall
+proportions for each group are reported below by bias
+and case type, along with the results of the analysis. No
+effect of counterbalancing was detected using the
+Breslow-Day test of homogeneity for all analyses.
+Thus, the subgroups were collapsed into comparisons
+of experimental versus control groups.
+For the SSB cases, 52% of students with CFS
+training and 48% in the control group initiated
+a search for the second diagnosis ( x2 5 0.13, df 5 1,
+p 5 0.91). Of these, 54% correctly identified the
+second diagnosis in the CFS group and 48% did so in
+the control group; the difference was not significant (x2
+5 2.25, df 5 1, p 5 0.13; Table 2).
+False positive cases were designed to see if CFS
+training promoted oversearching for the second
+diagnosis. Sixty-four percent of the CFS group and
+77% of the control group incorrectly identified a
+second diagnosis. There were no significant differences
+between groups (x2 5 2.38, df 5 1, p 5 0.12; Table 3).
+In the availability bias cases, only 45% of the
+participants in both groups identified the uncommon
+correct diagnosis, with no difference between groups
+(x2 5 0.001, df 5 1, p 5 0.98; Table 4).
+Table 2. Performance on search satisficing bias cases
+Group
+Correctly identified
+first diagnosis (%)
+Searched for
+second diagnosis (%)
+Correctly identified
+second diagnosis (%)
+CFS training 144 (99.5) 76 (52) 45 (54.5)
+Control 46 (100) 23 (48.5) 11 (47.8)
+CFS 5 cognitive forcing strategies.
+Table 1. Cases and diagnoses
+Bias type Diagnostic test Primary diagnosis Secondary diagnosis
+Search satisficing X-ray Metacarpal fracture Distal phalynx dislocation
+Search satisficing ECG ST elevation myocardial infarction Atrial fibrillation
+Primary diagnosis Examples of incorrect additional diagnoses
+False positive X-ray Pediatric supracondylar fracture Olecranon, radial head, capitulum, trochelar
+fractures, etc.
+False positive ECG Sinus bradycardia First and second-degree AV blocks; ST
+segment changes consistent with cardiac
+ischemia, etc.
+‘‘Uncommon’’ correct diagnosis Examples of ‘‘common’’ incorrect diagnoses
+Availability X-ray Pulmonary abscess Pneumonia, lung cancer, etc.
+Availability ECG Pericarditis ST elevation myocardial infarction, left
+ventricular hypertrophy, etc.
+AV 5 atrioventricular; ECG 5 electrocardiogram.
+Ineffectiveness of cognitive forcing strategies
+2014;16(1) 37CJEM N JCMU
+https://doi.org/10.2310/8000.2013.130860 Published online by Cambridge University Press
+DISCUSSION
+This study builds on our earlier work by using a larger
+sample size, increasing the period of follow-up, and
+employing a control group. 15 Similar to the earlier
+study, we found that for both biases, CFS training
+resulted in only half of the experimental group
+avoiding a diagnostic error and making the correct
+diagnosis(es). However, this was not significantly
+different from the diagnostic accuracy of the control
+group. In both the experimental and control groups,
+the proportion of participants identifying a second
+diagnosis was as high for the false positive cases as the
+true search satisficing cases. CFS training (as imple-
+mented in this study) had no impact on preventing
+diagnostic error.
+One possible explanation for the failure of CFS in
+this study is that it purports to target biases arising
+from nonanalytic reasoning. If novices are not using
+nonanalytic reasoning, CFS may be of little benefit.
+The overall diagnostic accuracy of both experimental
+and control groups suggests that these ‘‘novices’’ may
+lack sufficient experience to employ nonanalytic
+reasoning. There is some evidence that novices do
+tend to rely on conscious, analytic reasoning, employ-
+ing algorithms or feature counts to determine a
+diagnosis.16 Kulatunga-Moruzi and colleagues showed
+that preclerkship medical students relied on analytic
+and deliberate strategies to make diagnoses when
+presented with dermatologic slides. 17
+A second explanation is that a ‘‘ceiling’’ on analytic
+processing was achieved, and the benefits of CFS could
+not be accessed. Most analytic processes are limited by
+the amount of working memory of the learner, as well
+as the intrinsic and extrinsic cognitive load of the
+activity.18 Further encouragement to engage in addi-
+tional circumspection (particularly in a novice, where,
+by definition, more analytic than nonanalytic reasoning
+is carried out) may simply overwhelm an individual’s
+cognitive load without any effect on outcomes. 19
+Third, the six cases may not have been complex
+enough to benefit from analytic reasoning (by defini-
+tion, CFS is a form of analytic reasoning). A number of
+studies have suggested that analytic reasoning benefits
+complex or ambiguous cases, but in straightforward (i.e.,
+simple) cases, diagnostic accuracy is not improved,
+whether nonanalytic or analytic reasoning is used. 20–22
+However, recent research we conducted suggests
+that this hypothesis may be incorrect. 23 In a study
+of participants completing the Medical Council of
+Canada’s Qualifying Examination Part 2, participants
+were exposed to a range of simple and complex clinical
+cases (e.g., subconjunctival hemorrhage, glyburide-
+induced hypoglycemia in acute renal failure). The time
+to diagnosis was inversely proportional to the accuracy
+of the diagnosis. Our results suggest that analytic
+reasoning (which requires a longer diagnostic process)
+does not necessarily lead to improved accuracy, regard-
+less of the complexity of the case. Thus, the failure of
+CFS (i.e., analytic reasoning) to improve diagnostic
+accuracy in this study seems congruent with our
+previous work.
+Finally, there is also reason to challenge the
+assumption that diagnostic errors arise via nonanalytic
+reasoning and that interventions should be designed to
+counter the biasing of this reasoning process. There is
+Table 3. Performance on false positive cases
+Group Correctly identified diagnosis (%) Identified a second (nonexistent) diagnosis (%)
+CFS training 111 (76.5) 94 (64.5)
+Control 25 (55) 34 (76.7)
+CFS 5 cognitive forcing strategies.
+Table 4. Performance on availability bias cases
+Group Identified common incorrect diagnosis (%) Identified uncommon correct diagnosis (%)
+CFS training 141 (97.2) 66 (45.2)
+Control 41 (89.1) 21 (44.6)
+CFS 5 cognitive forcing strategies.
+Sherbino et al
+38 2014;16(1) CJEM N JCMU
+https://doi.org/10.2310/8000.2013.130860 Published online by Cambridge University Press
+considerable evidence that encouragement to use both
+analytic and nonanalytic strategies, where possible, is
+of advantage to novices. 24–27 The few studies that have
+examined cognitive biases in medical experts find that
+they may be more susceptible to bias than novices. For
+example, Eva and colleagues showed that experienced
+physicians were prone to the primacy effect, a cognitive
+bias describing the tendency to choose an incorrect
+diagnosis when its features are presented earlier in the
+case,26 in comparison with features of the correct
+diagnosis that are presented later. 28 This suggests the
+intriguing possibility that the primary beneficiaries of
+CFS may be experts and not novices, in contrast to the
+arguments suggested in diagnostic reasoning editorials.
+Future research should explore this hypothesis.
+LIMITATIONS
+This study is limited by the restricted range of diagnoses
+and diagnostic tests used to evaluate CFS. A wider range
+of clinical cases and diagnostic information may
+constitute a more thorough assessment of CFS. The
+artificial testing situation may also have influenced the
+effectiveness of CFS. Although there were no significant
+differences detected between groups, there was some
+suggestion that the control group had slightly lower
+accuracy and slightly higher false positive rates.
+This study is also limited by the imbalance of the
+size and lack of randomization between the experi-
+mental and control groups. Contamination between
+groups might also have occurred; however, the
+experimental and control groups were composed of
+different medical school years, thus potentially miti-
+gating contamination. Nonetheless, these issues might
+mean that a type II error occurred, where a difference
+between groups is present, but the study did not detect
+it.
+A final limitation of this study is that the follow-up
+assessment of participants occurred more than 3 weeks
+after instruction. Education experts would question the
+impact of a single intervention to change a cognitive
+bias at a remote testing interval. Our previous pilot
+study demonstrated no effect in the immediate testing
+period.15 Nonetheless, multiple educational reinforce-
+ments of CFS may increase the impact on diagnostic
+errors. However, the CFS training in this study is
+consistent with the other education sessions offered
+during the EM rotation and adheres to the educational
+design for CFS training advocated in the literature. 7,8
+CONCLUSION
+The educational interventions suggested by experts in
+clinical reasoning and employed in our study to teach
+cognitive forcing strategies failed to show any reduc-
+tion in diagnostic error by novices. Future studies with
+more experienced physicians are required to see if CFS
+may be effective in this population.
+Competing interests: This study was funded through a peer-
+reviewed grant from the Medical Council of Canada.
+REFERENCES
+1. Graber M, Franklin N, Gordon R. Diagnostic error in
+internal medicine. Arch Intern Med 2005;165:1493-9,
+doi:10.1001/archinte.165.13.1493.
+2. Kohn LT, Corrigan JM, Donaldson MS, editors. To err is
+human. Building a safer health system .W a s h i n g t o n( D C ) :
+National Academy Press; 1999.
+3. Kuhn GJ. Diagnostic errors. Acad Emerg Med 2002;9:740-50,
+doi:10.1111/j.1553-2712.2002.tb02155.x.
+4. Agency for Healthcare Research and Quality. Medical errors:
+the scope of the problem . Available at: http://www.ahrq.gov/
+qual/errback.htm (accessed July 1, 2008).
+5. Blendon RJ, DesRoches CM, Brodie M. Views of practicing
+physicians and the public on medical errors. N Engl J Med
+2002;347:1933-9, doi:10.1056/NEJMsa022151.
+6. Leape LL, Brennan TA, Laird N, et al. The nature of
+adverse events in hospitalized patients. Results of the
+Harvard Medical Practice Study II. N Engl J Med 1991;
+324:377-84, doi:10.1056/NEJM199102073240605.
+7. Croskerry P. Cognitive forcing strategies in clinical decision-
+making. Ann Emerg Med 2003;41:110-20, doi: 10.1067/
+mem.2003.22.
+8. Croskerry P. Cognitive forcing strategies in emergency
+medicine. Emerg Med J 2002;19:A9.
+9. Croskerry P. Critical thinking and decision making: avoiding
+the perils of thin-slicing. Ann Emerg Med 2006;6:720-3,
+doi:10.1016/j.annemergmed.2006.03.030.
+10. Redelmeier D. The cognitive psychology of missed diag-
+noses. Ann Intern Med 2005;142:115-20, doi:10.7326/0003-
+4819-142-2-200501180-00010.
+11. Kahnemann D, Slovik P, Tversky A, editors. Judgment under
+uncertainty: heuristics and biases . New York: Cambridge
+University Press; 1982.
+12. Croskerry P. The importance of cognitive errors in diagnosis
+and strategies to minimize them. Acad Med 2003;78:775-80.
+13. Elstein AS. Heuristics and biases: selected errors in clinical
+reasoning. Acad Med 1999;74:791-4, doi:10.1097/00001888-
+199907000-00012.
+14. Singh H, Petersen LA, Thomas EJ. Understanding diag-
+nostic errors in medicine: a lesson from aviation. Qual Saf
+Health Care 2006;15:159-64, doi:10.1136/qshc.2005.016444.
+15. Sherbino J, Yip S, Dore KL, et al. The effectiveness of
+cognitive forcing strategies to decrease diagnostic error: an
+Ineffectiveness of cognitive forcing strategies
+2014;16(1) 39CJEM N JCMU
+https://doi.org/10.2310/8000.2013.130860 Published online by Cambridge University Press
+exploratory study. Teach Learn Med 2011;23:78-84,
+doi:10.1080/10401334.2011.536897.
+16. Ark TK, Brooks LR, Eva KW. The benefits of flexibility: the
+pedagogical value of instructions to adopt multifaceted
+diagnostic reasoning strategies. Med Educ 2007;41:281-7,
+doi:10.1111/j.1365-2929.2007.02688.x.
+17. Kulatunga-Moruzi C, Brooks LR, Norman GR. Coordination
+of analytic and similarity-based processing strategies and
+expertise in dermatological diagnosis.Teach Learn Med 2001;
+13:110-6, doi:10.1207/S15328015TLM1302_6.
+18. Evans JSBT. Dual-processing accounts of reasoning, judg-
+ment, and social cognition.Annu Rev Psychol 2008;59:255-78,
+doi:10.1146/annurev.psych.59.103006.093629.
+19. Van Merrie¨nboer JJG, Sweller J. Cognitive load theory in
+health professional education: design principles and strate-
+gies. Med Educ 2010;44:85-93, doi: 10.1111/j.1365-2923.
+2009.03498.x.
+20. Mamede S, Schmidt HG, Rikers RM, et al. Breaking down
+automaticity: case ambiguity and the shift to reflective
+approaches in clinical reasoning.Med Educ 2007;41:1185-92,
+doi:10.1111/j.1365-2923.2007.02921.x.
+21. Mamede S, Schmidt HG, Penaforte JC. Effects of reflective
+practice on the accuracy of medical diagnoses. Med Educ
+2008;42:468-75, doi:10.1111/j.1365-2923.2008.03030.x.
+22. Ilgen JS, Bowen JL, Yarris LM, et al. Adjusting our lens: can
+developmental differences in diagnostic reasoning be har-
+nessed to improve health professional and trainee assessment?
+Acad Emerg Med2011;18 Suppl 2:S79-86, doi:10.1111/j.1553-
+2712.2011.01182.x.
+23. Sherbino J, Dore KL, Wood TJ, et al. The relationship
+between response time and diagnostic accuracy. Acad Med
+2012;87:785-91.
+24. Norman GR, Brooks LR, Colle CL, et al. The benefit of
+diagnostic hypotheses in clinical reasoning: experimental
+study of an instructional intervention for forward and
+backward reasoning. Cogn Instruct 1999;17:433-48, doi:10.
+1207/S1532690XCI1704_3.
+25. Ark T, Brooks LR, Eva KW. Giving learners the best of
+both worlds: do clinical teachers need to guard against
+teaching pattern recognition to novices? Acad Med 2006;81:
+405-9, doi:10.1097/00001888-200604000-00017.
+26. Eva KW, Hatala RM, Leblanc VR, Brooks LR. Teaching
+from the clinical reasoning literature: combined reasoning
+strategies help novice diagnosticians overcome misleading
+information. Med Educ 2007;41:1152-8, doi:10.1111/j.1365-
+2923.2007.02923.x.
+27. Coderre S, Wright B, McLaughlin K. To think is good:
+querying an initial hypothesis reduces diagnostic error in
+medical students. Acad Med 2010;85:1125-9, doi:10.1097/
+ACM.0b013e3181e1b229.
+28. Eva KW, Cunnington JP. The difficulty with experience:
+does practice increase susceptibility to premature closure? J
+Contin Educ Health Prof 2006;26:192-8, doi:10.1002/chp.69.
+Sherbino et al
+40 2014;16(1) CJEM N JCMU
+https://doi.org/10.2310/8000.2013.130860 Published online by Cambridge University Press

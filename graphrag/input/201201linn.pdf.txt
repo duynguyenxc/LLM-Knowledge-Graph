@@ -1,0 +1,311 @@
+TITLE: 18  Reprinted from Australian Family Physician Vol. 41, No. 1/2 january/february 2012
+AUTHORS: 
+YEAR: None
+DOI: None
+
+CONTENT:
+18  RepRinted fRom AustRAliAn fAmily physiciAn Vol. 41, no. 1/2 jAnuARy/febRuARy 2012
+Child development
+Teaching in general practice
+Andrew Linn 
+Carole Khaw 
+Hugh Kildea 
+Anne Tonkin
+Clinical reasoning
+A guide to improving teaching and practice
+Background
+The process of clinical reasoning is undertaken by all 
+clinicians, often automatically, and is the cognitive process 
+that underlies diagnosis and management of a patient’s 
+presenting problem. The teaching of clinical reasoning can 
+pose a challenge to the clinical teacher.
+Objective
+This article reviews the process of clinical reasoning and 
+provides the teacher with a framework to teach clinical 
+reasoning to students and junior doctors.
+Discussion
+By considering clinical reasoning as a skill to be learnt rather 
+than a concept to be understood, a framework for teaching 
+this skill can be developed. The learner initially observes 
+a consultation by the teaching clinician, followed by the 
+teacher explaining the reasoning processes used including 
+hypothesising, hypothesis testing, re-analysis and differential 
+diagnosis. The student then comments on the reasoning of the 
+teacher in a subsequent consultation, followed by feedback 
+from the teacher on the student’s reasoning in a third 
+consultation.
+Keywords
+education, medical; clinical competence; models, educational; 
+general practice
+ 
+Clinical reasoning is seemingly as difficult to define as 
+it is to teach. Clinicians generally ‘know it when they 
+see it’, but rarely stop to consider what is meant by 
+it, and more importantly, how to teach it to the next 
+generation of clinicians. A definition of clinical reasoning 
+includes an ability to integrate and apply different types 
+of knowledge, to weigh evidence, critically think about 
+arguments and to reflect upon the process used to arrive 
+at a diagnosis.1 Clinical reasoning therefore requires not 
+only an accumulation of knowledge but also a level of 
+experience, which is generally what sets apart a practising 
+clinician from a medical student or junior doctor. There is 
+also a degree of automation
+2–4 that occurs when clinicians 
+consult, which to the observing student is difficult to grasp 
+and can be a barrier to learning.
+Various theories have been proposed relating to how a clinician 
+reasons through a clinical consultation and how ‘expert’ clinicians 
+reason differently to novice learners. the evolution of these theories 
+are described well by elstein,
+5 with the most recent being a unified 
+‘dual theory’ of clinical reasoning,4 which suggests that clinicians 
+use a combination of intuition and analysis in their consultations. the 
+general practitioner who sees several patients with upper respiratory 
+tract infections every day would very quickly make this diagnosis in 
+another patient (experiential/intuition), however if a more unfamiliar 
+or unusual patient problem is encountered they may require more 
+detailed questioning and analysis of the problem (analysis). novice 
+learners, such as medical students, have limited clinical experience 
+and therefore need to approach most consultations in a more analytical 
+(‘hypothetico-deductive’) way,3,4 and a teaching approach using 
+this framework is proposed to assist in the development of clinical 
+reasoning ability.
+Understanding the clinical reasoning 
+process
+the clinical consultation is the practical embodiment of the clinical 
+reasoning process by which data are gathered, considered, challenged 
+and integrated to form a diagnosis that can lead to appropriate 
+management. the main components of a clinical consultation, when 
+considered in this construct, include:
+•	 a	thorough	but	directed	clinical	history,	with	initial	hypothesis 	
+RepRinted fRom AustRAliAn fAmily physiciAn Vol. 41, no. 1/2 jAnuARy/febRuARy 2012   19
+may wish to encourage students to undertake some basic readings on 
+clinical reasoning theory, and to do so themselves. 3–5
+frameworks for teaching a clinical skill have been devised, 9–11 
+including the peyton model, which uses the four steps of 
+demonstration, deconstruction, comprehension and performance. 
+An adaptation of this can be used as a model to teaching the skill of 
+clinical reasoning across three consultations.
+Consultation 1: Demonstration and 
+deconstruction
+the clinician demonstrates a clinical consultation at normal speed as 
+they would in regular practice, taking care to clearly consider a range 
+of hypotheses and differential diagnoses in the consultation.
+following the consultation, the clinician then deconstructs 
+the consultation with the student. this is to assist the student to 
+understand what the clinician was thinking and how they were 
+reasoning. A deconstructed consultation focusing on the clinical 
+reasoning pathway is presented in Figure 1.
+generation and subsequent testing through specific questioning
+•	 selection	of	a	primary	diagnosis	and	differential	diagnosis	in	order 	
+of likelihood
+•	 physical	examination	directed	at	gathering	further	data	necessary 	
+to confirm or refute the hypotheses
+•	 thoughtful	and	critical	selection	of	investigations	to	gather 	
+additional data
+•	 implementation	of	a	targeted	and	rationalised	management	plan.
+the other more hidden aspect of this process is the weighting of 
+evidence as provided by a patient:
+•	 Is	this	piece	of	data	important	or	irrelevant?
+•	 Does	this	piece	of	data	make	the	hypothesis	more	or	less	likely?
+•	 How	does	the	data	interrelate	with	the	other	data	already	gathered?
+•	 Which	data	is	the	most	critical	(both	positive	and	negative)?
+this basic model also informs the theory behind the problem-based 
+learning (or case-based learning) approach to teaching medical 
+students.
+6,7 the majority of academic institutions in Australia are 
+utilising these teaching methods as they not only contribute to 
+knowledge development, but also encourage the early development of 
+diagnostic and communication skills, cultural sensitivity and tolerance 
+of uncertainty in clinical practice.
+7
+Teaching clinical reasoning in the 
+consulting room
+the process of integrating knowledge and applying it to patient care 
+is complex and challenging for students to learn, but is ideally taught 
+in a clinical context such as the consulting room. clinical reasoning 
+should not be considered as something tacit that students simply 
+‘pick up as they go along’, and clinical teachers can greatly enhance 
+students’ ability to reason.
+clinical reasoning is a skill to be learnt, not unlike driving a car. 
+Knowing about the mechanics and understanding the functions of a 
+car is quite different to driving one across town in peak hour traffic. 
+so too, medical students are armed with knowledge helpful to patient 
+diagnosis. but they can find it challenging to know how to navigate 
+the information during a patient interaction. junior doctors similarly 
+are developing these skills and would benefit from clear guidance on 
+the reasoning process.
+A proposed strategy for teaching clinical reasoning is therefore 
+to teach it within a skill framework in the clinical consultation room. 
+this has been used with success by the authors in teaching medical 
+students how to reason. A similar strategy has been described 
+by Kassirer,
+8 designed for larger groups of students, however this 
+approach used with a single student would remain beneficial, even 
+potentially enhanced. the idea of a ‘coach’ to assist the student 
+during an evolving consultation is highlighted as essential to monitor 
+the student’s questions and responses and commenting on their 
+relevance and accuracy with instant feedback during the consultation. 
+there are also arguments for students having a basic understanding 
+of the theoretical concepts behind clinical reasoning to improve 
+understanding of what they are learning and why. 8 clinical teachers 
+Figure 1. Flowchart of a teaching consultation with a 
+focus on clinical reasoning
+Presenting complaint
+Allow the patient to describe their presenting 
+symptom(s)
+Refine the diagnosis
+Primary hypothesis and a differential diagnosis
+Consider three or more hypotheses
+Consider 
+the patient’s 
+presenting 
+symptom(s) 
+and basic 
+demographics 
+(age, gender)
+What are the 
+key features of 
+each of these 
+hypotheses?
+What are the 
+distinguishing 
+features 
+of these 
+hypotheses?
+Continue with history taking
+Explain why 
+each question 
+was asked 
+(relating to the 
+hypotheses)
+Does the new 
+data help or 
+hinder the 
+hypotheses?
+Re-prioritise 
+the hypotheses 
+with each 
+new piece of 
+information
+Physical examination
+Consider what findings 
+are expected given the 
+hypothesis and look for 
+them
+Relevant positives and 
+negatives should refine 
+the hypothesis
+Relevant investigation
+Consider diagnostic 
+testing if required
+Will the investigation 
+confirm or alter your 
+hypotheses? If not, is it 
+necessary?
+Clinical reasoning – a guide to improving teaching and practiceFOCUS
+20  RepRinted fRom AustRAliAn fAmily physiciAn Vol. 41, no. 1/2 jAnuARy/febRuARy 2012
+considered early.
+the benefits of reflecting upon and improving one’s own reasoning 
+may include:
+•	 improving	time	to	diagnosis
+•		 avoiding	assumptions
+•	 reducing	unnecessary	investigation	and	the	costs	these	incur
+•	 improving	patient	satisfaction	and	being	branded	with	the	  
+‘good doctor’ label.
+Key points
+•		 The	process	of	clinical	reasoning	is	critical	to	making	a	timely	and	
+accurate diagnosis in a clinical consultation.
+•		 Clinical	reasoning	can	best	be	taught	as	a	skill	within	a	skill-teaching	
+framework.
+•		 Teaching	clinical	reasoning	encourages	personal	reflection	and	
+refinement of the clinician’s own clinical reasoning skills to improve 
+patient outcomes.
+Authors 
+Andrew linn mbbs, dch, fRAcGp , is lecturer in clinical education, 
+medicine learning and teaching unit, the university of Adelaide, south 
+Australia. andrew.linn@adelaide.edu.au
+carole Khaw mbbs, dppf(uK), ibclc, fRAcGp , is lecturer in clinical skills, 
+medicine learning and teaching unit, the university of Adelaide, south 
+Australia
+hugh Kildea mbbs, fRAcGp , dip(obst)RcoG, is clinical skills coordinator 
+year 1&2, medicine learning and teaching unit, the university of Adelaide, 
+south Australia
+Anne tonkin phd, med, fRAcp, is director, medicine learning and teaching 
+unit, the university of Adelaide, south Australia.
+conflict of interest: none declared.
+References
+1. Anderson Kj. factors affecting the development of undergraduate medical stu-
+dents’ clinical reasoning ability. phd thesis. the university of Adelaide, 2006;1–4.
+2. lesgold A. context-specific requirements for models of expertise. in: evans 
+dA, patel Vl, editors. cognitive science in medicine: biomedical modeling. 
+cambridge, mA: mit press, 1989.
+3. harasym ph, t sai tc, hemmati p. current trends in developing medical students’ 
+critical thinking abilities. Kaosiung journal of medical sciences 2008;24:341–55.
+4. croskerry p . A universal model of diagnostic reasoning. Acad med 2009;84:1022–8.
+5. elstein As. thinking about diagnostic thinking: a 30-year perspective. Adv health 
+sci educ theory pract 2009;14:7–18.
+6. barrows hs, t amblyn Rm. problem-based learning – an approach to medical 
+education. new york: springer publishing company, 1980.
+7.	 Koh	GCH,	Khoo	HE,	Wong	ML,	et	al.	The	effects	of	problem-based	learning	
+during medical school on physician competency: a systematic review. cmAj 
+2008;178:34–41.
+8. Kassirer jp. teaching clinical reasoning: cased-based and coached. Acad med 
+2010;85:1118–24.
+9.	 Walker	M,	Peyton	JWR.	Teaching	in	theatre.	In:	Peyton	JWR,	editor.	Teaching	
+and learning in medical practice. Rickmansworth, uK: manticore europe limited, 
+1998;171–80.
+10. lake fR, hamdorf jm. t eaching on the run tips 5: teaching a skill. med j Aust 
+2004;181:327–8.
+11. George jh, doto fX. A simple five-step method for teaching clinical skills. fam 
+med 2001;33:577–8.
+Consultation 2: Comprehension
+following the demonstration and deconstruction phase, the next 
+consultation should again be performed by the teaching clinician, 
+but with the student actively tracking the consultation and outlining 
+the clinical reasoning being demonstrated. this can follow a similar 
+structure to that outlined in Figure 1, with the teacher pausing to allow 
+the student to explain what is happening. for example:
+•	 After	the	patient’s	presenting	complaint,	the	clinician	pauses	to	allow	
+the student to list three or more hypotheses (differential diagnoses)
+•	 The	student	then	briefly	outlines	these	conditions,	in	particular	the	
+key features and distinguishing features of each, and the clinician 
+then proceeds to enquire about these features to the patient 
+(including any others that are important but not considered by the 
+student)
+•	 The	clinician	may	pause	after	certain	critical	questions	to	ask	the	
+student	‘Why	did	I	ask	that?’	or	after	a	patient	response	to	ask	‘How	
+does	that	affect	the	hypotheses?’
+•	 Continue	working	through	the	consultation	as	above,	and	allow	
+the student to determine the primary hypothesis and differential 
+diagnosis following the history taking
+•	 Ask	the	student	which	physical	examination	findings	would	be	
+expected (positive and negative) given these hypotheses, and 
+examine for them
+•	 Ask	the	student	which	definitive	or	helpful	investigations	would	be	
+warranted following these findings, and to explain what the results 
+would mean.
+Consultation 3: Performance
+the student should now be familiar with how the clinician reasons 
+through a clinical consultation. in the third consultation, the student 
+follows the model outlined in the first and second consultations 
+(Figure 1) by performing the history, physical examination and directing 
+investigations, explaining to the clinical teacher their reasoning as they 
+proceed. if the student’s reasoning is unclear, the clinical teacher can 
+interject	with	questions	such	as	‘Why	did	you	ask	that?’	or	‘How	does	
+that	information	help	you?’	to	keep	the	student	on	track.
+Clinical reasoning and impact on 
+practice
+teaching clinical reasoning also provides an excellent opportunity 
+for clinicians to consider and review their own clinical reasoning 
+pathways. Automation of clinical reasoning allows clinicians to 
+undertake consultations in a timely and streamlined fashion, but 
+does so at the risk of missing critical information, and therefore the 
+diagnosis, if care is not taken.3,5
+A different situation resulting in the same risk can arise for clinicians 
+seeing a long-term patient and failing to consider alternate diagnoses 
+other than those previously made in the patient. A diagnosis that could 
+have been made with a careful history and physical examination in one 
+consultation may end up taking two or three consultations and several 
+unnecessary investigations to reach if differential diagnoses are not 

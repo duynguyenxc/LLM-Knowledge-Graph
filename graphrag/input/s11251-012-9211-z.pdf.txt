@@ -1,0 +1,602 @@
+TITLE: What and how advanced medical students learn
+AUTHORS: H. P. A. Boshuizen, M. W. J. van de Wiel, H. G. Schmidt
+YEAR: 2012
+DOI: 10.1007/s11251-012-9211-z
+
+CONTENT:
+What and how advanced medical students learn
+from reasoning through multiple cases
+H. P. A. Boshuizen • M. W. J. van de Wiel • H. G. Schmidt
+Received: 14 February 2012 / Accepted: 15 March 2012 / Published online: 21 April 2012
+/C211 Springer Science+Business Media B.V. 2012
+Abstract The study reported in this article concerns the questions what and how fourth-
+year medical students can learn from a series of cases that have a similar underlying
+problem. This question is crucial in the theoretical sense as it looks at mechanisms of
+updating and improving knowledge structures, which are conjectured to consist of ‘illness
+scripts’, which integrate knowledge about enabling conditions for a disease, the underlying
+fault, and the consequences or signs and symptoms of the disease. It was found that much
+learning was implicit, whilst students explicitly paid attention to variations in enabling
+conditions and consequences, which led to improvement of these knowledge components.
+Integration of biomedical knowledge into the fault component was, however, hampered by
+lack of knowledge and by misconceptions that students were unable to debug in the
+absence of learning resources or detailed feedback. The practical importance of this study
+Electronic supplementary material The online version of this article (doi: 10.1007/s11251-012-9211-z)
+contains supplementary material, which is available to authorized users.
+To be included in Instructional Science, special issue: Collaborating with digital tools and peers in medical
+education. Cases and simulations as interventions in learning. Editors: L. Helle and R. Sa ¨ljo¨
+H. P. A. Boshuizen ( &)
+CELSTEC, Open University in The Netherlands, P. O. box 2910, 6401 DL, Heerlen, The Netherlands
+e-mail: els.boshuizen@ou.nl
+H. P. A. Boshuizen /C1M. W. J. van de Wiel /C1H. G. Schmidt
+Faculty of Health, Medicine and Life Sciences, Maastricht University, P. O. box 616, 6200 MD,
+Maastricht, The Netherlands
+e-mail: m.vandewiel@maastrichtuniversity.nl
+H. G. Schmidt
+e-mail: schmidt@fsw.eur.nl
+M. W. J. van de Wiel
+Faculty of Psychology, Maastricht University, P. O. box 616, 6200 MD, Maastricht, The Netherlands
+H. G. Schmidt
+Faculty of Social Sciences, Erasmus University, P. O. box 1738, 3000 DR, Rotterdam, The Netherlands
+123
+Instr Sci (2012) 40:755–768
+DOI 10.1007/s11251-012-9211-z
+stems from its close parallels to the learning situation in clinical practice, where patients
+(or cases) are the most important learning resources, whilst feedback on results is often
+minimal. Implications and possible solutions for clinical teaching are discussed.
+Keywords Learning from cases /C1Knowledge restructuring /C1Knowledge integration /C1
+Illness scripts /C1Misconceptions
+Learning medicine
+One of the things you learn at a very young age is that certain conditions in your envi-
+ronment or in your own behaviour can lead to pain and other discomfort. This knowledge is
+learned from lessons of the format \do/don’t do this—or else—you’ll get ill[. Sometimes
+these lessons are reinforced by the experience warned for, which in turn can then be
+strengthened by the ﬁnal part of the lesson \I told you![. The following are examples of
+such lessons: ‘‘Don’t eat raw meat, or else you’ll get food poisoning’’; ‘‘put on your coat,
+or else you’ll catch a cold’’ and ‘‘wash your hands, or else you’ll catch the ﬂu.’’ In answer
+to children’s ceaseless questions ‘Why?’ and ‘What is that?’, these lessons can soon
+become rather complex. The ﬁrst author remembers that her aunt once forbade her to lick
+the bowl clean in which this aunt had prepared cake dough, a treat otherwise, but now it
+had been made with duck eggs, two large, greenish eggs with big, very yellow yolks. Her
+question ‘Why?’ received the answer that it might give her typhoid fever, a disease—she
+was told—that had almost killed her mother when she was a young girl.
+Such lessons result in knowledge structures that link enabling conditions (entities,
+events, situations that can threaten your health) to consequences (pain, fever, and worse),
+and the behaviours needed for prevention or cure (take medicine, get a bandage, bed rest,
+chicken soup, etc.). These elements are held together with stories about ‘How’ that can
+happen, and that teach children about the faults, which are the underlying mechanisms of
+genetic conditions, germs, defence, healing, etc. These knowledge structures can be seen as
+the rudimentary forms of more generic scripts that develop with experience, with slots that
+have default values and can be instantiated with the speciﬁc value of a certain case,
+internally linked by a temporal and causal structure (Schank and Abelson 1977). The
+scripts have been called ‘illness scripts’ by Feltovich and Barrows ( 1984). Illness scripts
+consist of enabling conditions for a certain disease, the consequences of that disease, and
+the biomedical fault that explains how the enabling conditions can lead to consequences.
+Physicians’ clinical experience has resulted in very extended, detailed, and differentiated
+illness scripts. The scripts are organised in memory based on their similarities and dif-
+ferences, and on levels of abstraction and generality. Activated and instantiated illness
+scripts generate a diagnosis if the case ﬁndings have acceptable slot values. Otherwise,
+related scripts are activated or a temporary mental model is created, in which the fault
+mechanism is provisionally adapted based on other knowledge and case ﬁndings (Feltovich
+and Barrows 1984; Lesgold et al. 1988).
+The study of medicine is very much the study of faults, especially in the ﬁrst years of
+traditional curricula when the biomedical topics are taught. Later the clinical courses
+follow that describe the appearance, epidemiology, pathophysiology, course, treatment,
+and management of diseases. In practice, both kinds of knowledge are needed, which
+requires that they be integrated. How important biomedical knowledge is in practice and
+when this integration takes place have been much debated in the medical education lit-
+erature. Many practitioners stated and still state that the medical curriculum was
+756 H. P. A. Boshuizen et al.
+123
+overloaded with biomedical knowledge and that it was hardly used in practice (see, for
+instance, Bordage 1987). Patel et al. (Patel et al. 1989) argued that biomedical knowledge
+and clinical knowledge were two worlds apart. Clinical knowledge would be used in
+clinical reasoning, whilst biomedical knowledge would be used in case explanation. Still
+others (Schmidt and Boshuizen 1993) claimed that with higher levels of expertise bio-
+medical knowledge and clinical knowledge would become integrated, and that biomedical
+knowledge was used when needed, in diagnosis as well as in explanation. Reorganisation
+of biomedical knowledge is needed to integrate it in the fault part of illness scripts.
+Knowledge restructuring
+Two important ﬁndings provided the grounds for the conclusion that higher levels of
+expertise are associated with higher levels of integration (Schmidt and Boshuizen 1993):
+First, novices and experts used hardly any biomedical knowledge in diagnosis and case
+explanation, whilst intermediates did so to a large extent. However, comparison of the case
+explanations by students and experts with a model explanation revealed that the percentage
+of concepts that were identical increased sharply with higher expertise levels. Furthermore,
+a content analysis of the experts’ explanation revealed that the concepts used were at an
+intermediary level of detail, between basic biomedical knowledge and clinical concepts,
+with a high explanatory power regarding the case ﬁndings. Examples are ‘sepsis’, ‘micro-
+emboli’, and ‘aortic insufﬁciency’. Novices and intermediates on the other hand used very
+detailed concepts, for instance explaining the speciﬁc temperature pattern included in the
+expert concept ‘sepsis’. Second, students’ performance was largely affected by reducing
+the case processing time in the experiment, whilst experienced physicians were hardly
+inﬂuenced. Students needed the whole 3 min and 30 s to reason through the case step-by-
+step activating their detail-level knowledge, and failed this completely when they were
+given only 30 s. Experts were hardly affected.
+Based on these ﬁndings and on what is known about the way medical students were
+educated, Schmidt and Boshuizen (1993) theorised that initially students build networks of
+thousands of concepts. Through repeated use in solving clinical cases, these networks
+become validated and connected whilst links are strengthened, and the prominence of
+certain concepts and groups of concepts changes. In this process, certain higher-level
+concepts, which Schmidt and Boshuizen called ‘encapsulating’ concepts, such as the ones
+given above, come to stand for the entire detailed networks of clinical and biomedical
+concepts.
+This assumption that knowledge restructuring is vital in medical expertise development
+is further supported by the ﬁndings of Woods and colleagues (Woods 2007; Woods et al.
+2005), who showed that this kind of integrated biomedical knowledge made clinical
+knowledge more robust and improved clinical reasoning, whilst Rikers et al. ( 2005)
+showed that experts’ biomedical knowledge is always co-activated with clinical knowledge
+even in routine situations. Finally, researchers have found that problem-oriented knowl-
+edge structures had a positive effect on diagnostic outcomes compared with knowledge
+organisation according to generic principles (Coderre et al. 2009; Mclaughlin et al. 2010).
+Together these studies suggest that continued and repeated experience with classes of
+similar cases may result in the integration of biomedical knowledge in clinical knowledge
+as fault knowledge in illness scripts, which in turn has a positive outcome on diagnostic
+problem solving. Figure 1 demonstrates how biomedical knowledge and clinical knowl-
+edge are linked in an illness script.
+Learning from multiple cases 757
+123
+Implications for instruction and research question
+In medical education, the development of such problem-oriented knowledge structures is
+an important reason for teaching with clinical cases, as is done in problem-based curricula
+(Boshuizen 2009). However, most curricula struggle with time available to cover so many
+diseases and basic science topics that no time is spent on the study of sets of similar or
+related cases to explore variations in the different elements of the illness scripts. Therefore,
+the further development and differentiation of their illness scripts are left to the epide-
+miological characteristics of the practices students will participate in later on in their
+internships.
+We consider the underlying assumption questionable that further illness script devel-
+opment will take place automatically once students enter their internships. One reason is
+that Prince et al. ( 2000) showed that, at least in the initial stages of learning in practice,
+energy and attention go to very different practical aspects of practice. Furthermore, no
+empirical data about the spontaneous learning processes when students meet multiple
+cases with similar faults exist; hence, we do not have knowledge either about which
+learning processes can be left to the students’ own devices and which processes may
+beneﬁt from more focussed educational measures. The present study aims to ﬁll in blanks
+regarding elements and processes of learning from multiple cases and its outcomes.
+Therefore, we asked medical students who are about to enter their internships to reason
+through a set of cases with the same underlying problem, gathering information about
+their reasoning and knowledge development with think-aloud protocols, case explanations,
+and learner reports.
+Fig. 1 Example of an illness script of acute bacterial endocarditis for the patient category IV-drug users.
+Note: * Concepts that represent enabling conditions (yellow), ** concepts that represent the fault (blue and
+pink), other concepts represent the consequences of the fault, i.e., the signs and symptoms of the disease.
+Note that some fault concepts have a more biomedical ﬂavour than others; e.g., aorta insufﬁciency or
+vegetation on valve. Some are closer to the perceptual and clinical level of the signs and symptoms; e.g.,
+fever reaction. (Color ﬁgure online)
+758 H. P. A. Boshuizen et al.
+123
+Method
+Participants
+Thirty-one 4th-year undergraduate medical students of a medical school with a problem-
+based learning (PBL) curriculum participated. Data were collected at the end of the academic
+year, which means that the students had almost completed the preclinical part of the cur-
+riculum and were about to enter their internships. In medical school, the students had worked
+with clinical cases in different settings: paper cases in PBL sessions, simulated patients in the
+skills lab, and early experience with real patients in the community and in hospitals. The
+participants were randomly assigned to two groups who received different sets of endocri-
+nological problems. All students repeatedly studied the basic mechanisms and clinical
+consequences of the endocrinological problems in prior training. Due to no shows and
+incomplete data sets, one group consisted of 14 students and the other of 17 students.
+Materials
+We developed two series of ﬁve cases with the same underlying pathophysiological pro-
+cess but with different presentations and causes. One series consisted of polycystic ovaries
+(PCO) cases and the other series of hyperprolactinaemia (HPA) cases. The core of both
+disorders is an endocrine dysfunction in women leading to menstrual and fertility prob-
+lems. A study by Dawson-Saunders et al. ( 1990) with expert clinical and biomedical
+teachers had earlier indicated that endocrine feedback systems are very important (top 3 of
+27) but not difﬁcult (easiest 3 of 27). A practice case and three ﬁller cases concerning other
+menstrual problems were developed as well. All cases were based on real patients and
+written in cooperation with a gynaecologist and an endocrinologist. The cases were
+comparable in length and presented in a standard medical order successively describing
+history taking, physical examination, lab ﬁndings, and additional examinations.
+Procedure
+The students were told that they would be presented with a series of cases and that their task
+was to diagnose and explain each case and to learn as much as they could from all these cases.
+No suggestions were given as to how the students could approach their learning tasks. Cases
+were presented on a computer screen, and were segmented into meaningful sections con-
+sisting of a couple of sentences that represented standard units of history taking, physical
+examination, lab ﬁndings, and additional examinations. A mouse click brought on the next
+unit. Students processed the cases whilst thinking aloud. The instruction was to express
+everything that came up in their mind whilst going through a case. Consecutively, the par-
+ticipants gave their diagnoses by typing them directly into a window in the presentation
+programme and provided a pathophysiological explanation on paper. This format was chosen
+to enable the use of graphical representations and reﬂection during explanation. After the
+students had completed a case, the ofﬁcial diagnosis was given, as they would have received
+similar feedback if they had encountered the patient as clerks in the hospital.
+After the instructions, a practice case was used to make the students comfortable with
+the procedure. The three ﬁller cases were interspersed as numbers 3, 5, and 7 to ensure
+attentive case processing.
+Learning from multiple cases 759
+123
+Finally, after all cases had been processed, the students were reminded of their task to
+learn from the cases and to tell what they knew now about PCO or HPA (learner reports).
+The students were probed with the concepts that are neutral to illness script categories,
+generally used as headers in medical textbooks, and well known to the students: Deﬁnition,
+epidemiology, pathophysiology, symptoms, physical examination, further examination,
+differential diagnosis, and therapy. Thinking-aloud, explanation, and the learner reports
+were audio-recorded and transcribed for further analysis.
+Analysis
+Progress of knowledge use
+The progress of knowledge use over the cases up to the learner reports was charted by
+identifying speciﬁc concepts in the protocols. These concepts were based on a list of
+relevant encapsulating concepts for the case series, which together explain the fault in the
+cases (see Appendix 1). Similar to the examples given above, these concepts differ in depth
+and explanatory power. Two concepts in both series are directly linked to observable
+consequences; those concepts are termed superﬁcial here. Another two concepts in both
+series are also directly linked to consequences but are less observable. They are termed
+intermediate here. The rest of the lists consist of concepts describing biomedical processes
+and principles that are indirectly linked to enabling conditions and consequences. They are
+described as deep (biomedical) concepts. The PCO cases are explained by nine deep
+concepts, the HPA cases by ten. These lists were developed in cooperation with four
+domain experts. Furthermore, development of misconceptions, reminders of earlier cases,
+and language use (professional versus everyday language) were investigated.
+Elaborate reasoning about the cases was seen during case processing (14 participants)
+and afterward during the pathophysiological explanation (12 participants), whilst 4 of them
+did so in both tasks. Therefore, these documents were analysed in combination. Outcomes
+were compared with the learner reports.
+Learning from the cases
+The analysis of the learning process as expressed in the think-aloud protocols, the path-
+ophysiological explanations, and the learner reports were developed in an iterative way.
+Coding categories and scoring criteria were developed by going through a subset of cases
+repeatedly until no changes were needed between cycles. The coding categories regarded
+the phase in the learning process where most thinking took place (thinking aloud,
+explaining the case, or in the learner report), occurrence of reminders of earlier cases,
+biomedical reasoning, improvement over cases, remediation of misconceptions over cases
+as well as in the learning reports, and language use. Interrater agreement over another
+subset of 10 % revealed an average agreement of 73 %.
+Content analysis of the learner reports
+The third analysis regarded the results of knowledge development as expressed in the
+learner reports. We took a model text description of that disorder, derived from medical
+textbooks and checked by two domain experts as a basis for comparison. The model text
+was segmented into meaningful wholes and classiﬁed into the same categories of clinical
+760 H. P. A. Boshuizen et al.
+123
+texts that were used as probes. The segments were complex statements consisting of
+several propositions. An example is ‘affected are females in the fertile stage of life’. The
+numbers of segments per category were identical in the two cases. The following cate-
+gories were added, as the learner reports happened to include statements that did not ﬁt the
+standard categories: normal physiology (generic knowledge), inferences, and elaborations.
+Utterances were mapped on these segments and coded as complete or partial ﬁts. Utter-
+ances were classiﬁed as inferences when they could be described as conclusions students
+drew within the relevant knowledge domain; they were classiﬁed as elaborations when
+they were additions based on other related knowledge ﬁelds. Furthermore, the number of
+metacognitive statements referring to knowledge monitoring processes (e.g., ‘I don’t know
+if …’) were counted. Inferences, elaborations, and reasoning based on normal physiology
+were categorised separately and taken as indicators for active knowledge construction and
+reconstruction. Deﬁnition had three segments, epidemiology two, pathophysiology 21,
+symptoms 14, physical examination six, further examination ﬁve, differential diagnosis
+three, and therapy had seven segments. Scores in the pathophysiology category represent
+the use of problem-oriented knowledge, the faults in illness scripts. Epidemiology repre-
+sents the illness script category enabling conditions; symptoms and (additional) physical
+examination regard consequences. Two independent raters coded the ﬁrst 10 learner
+reports. The raters compared and discussed differences until they came to a full agreement.
+The remaining learner reports were coded by one rater. Quantitative learner report mea-
+sures were analysed with a multivariate analysis of variance (MANOVA) with repeated
+measures.
+Results
+Progress of knowledge use
+Most students used more explicit, detailed reasoning in the ﬁrst case than in later cases in
+the series. This pattern was more pronounced in the PCO group. Many students diligently
+activated and sometimes painfully reconstructed their knowledge (e.g., participant 436, see
+Table A in Online Appendix) when dealing with the ﬁrst case.
+Use of speciﬁc fault concepts
+The analyses of speciﬁc fault concepts (see Appendix 1) that were used in diagnosing and
+explaining the cases and in the learner reports revealed that relatively most of the fault
+concepts the students used were superﬁcial, followed by the intermediate concepts, and
+then followed by the deep concepts (Table 1). Three values stood out in this pattern: the
+relatively high number and proportion of deep concepts in the HPA protocols, the overall
+small proportion of intermediate concepts in the HPA learner reports, and the high pro-
+portion of intermediate concepts in the PCO protocols. No general trend was discernable in
+the emergence or disappearance of deep concepts. In the intermediate concepts we saw,
+however, that the concept of ‘endometrial proliferation’, which was most prominent in the
+ﬁrst case presented, was followed by ‘anovulation’ in the later cases of the series, indi-
+cating that the students extended their case representation over multiple cases. The most
+explicit examples are participants 415, 416, and 428 (see Table C in Online Appendix).
+Learning from multiple cases 761
+123
+Learning from the cases
+Of the 31 participants, only 15 demonstrated in their dealings with the cases that they
+learned from solving the cases. These participants became less uncertain, used more
+speciﬁc language, gradually came to focus on the essential aspects of the biomedical
+process, or showed more complete pathophysiological explanations (see Tables B and D
+in Online Appendix). The following examples illustrate what students learned. One student
+evaluated his prior knowledge in light of the cases dealt with: ‘‘It concerns a certain
+hormonal disorder, in which I thought to have learned from literature that LH is always
+high, oestrogen high and FSH low … but the cases show that it is sometimes different’’
+(participant 422). Another concluded in the learner report that she had learned something
+new: ‘‘I did not know it were so many [follicles]’’ (p 413). The other 16 students may have
+learned but did not show this in their approach to the case, or in their learning reports.
+Learning from multiple cases can be assumed to be most effective when students have
+well-developed validated knowledge. The think-aloud protocols, explanations, and learner
+reports showed that the knowledge of the majority of the participants in this study did not
+really meet this criterion (Table 2 and see Tables A and C in Online Appendix). No
+participant had all of the relevant knowledge available; 7 had very poor prior knowledge.
+The other 24 had basic relevant knowledge that was, however, incomplete and error-prone.
+Fourteen engaged in active biomedical reasoning aimed at improving errors or uncer-
+tainties the students had recognised. This active debugging in the HPA series was mostly
+done within a single case; in the PCO series, active debugging was extended over cases.
+Six participants appeared able to—partially—remediate the misconceptions they had
+expressed, whereas 2 participants chose to further ignore the errors they noticed. The
+remaining 14 participants were either not aware that they made errors of reasoning or were
+incapable of solving them, as the participants made errors persistently throughout the case
+series. The most common and persistent misconception was that excessive amounts of
+oestrogens are converted into androgens in fat cells leading to an androgenic appearance in
+affected females, whilst it happens to be the other way round.
+Most misconceptions regarded the interactions between the different hormones
+(n = 18). Most prominent in the HPA cases were lack of knowledge ( n = 8) and mis-
+conceptions about the production or the role of GnRH (a releasing hormone produced in
+the hypothalamus) ( n = 3). In the PCO cases, the participants who mentioned peripheral
+hormone conversion all showed clear misconceptions about the process ( n = 5). Mostly
+Table 1 Total number of relevant encapsulating concepts per case series in diagnosing and explaining the
+cases (think aloud and pathofysiological explanation protocols) and in the learner reports for each of the two
+case series groups (weighed mean use per concept per group and participant in brackets)
+HPA
+N = 14
+PCO
+N = 17
+Diagnosis and explanation Learner report Diagnosis and explanation Learner report
+Superﬁciala 26 (.93) 15 (.54) 34 (1) 31 (.91)
+Intermediatea 11 (.39) 2 (.07) 23 (.68) 11 (.32)
+Deepb 46 (.33) 17 (.12) 31 (.20) 17 (.11)
+a 2 concepts
+b 10 and 9 concepts, respectively
+762 H. P. A. Boshuizen et al.
+123
+such expressions were accompanied by expressions of doubt. Misconceptions were never
+rectiﬁed in the learner reports; the misconceptions were merely left out of the report.
+Many students ( n = 25) stated in their think-aloud protocols that they had been
+reminded of a previous case in the series. Sometimes the students explicitly compared the
+ﬁndings. For instance, participant 431 started her learner report with ‘‘From the different
+cases I have seen how HPA can manifest itself’’, whilst participant 413 explicitly compared
+the size of the ovaries and numbers of cysts in the different cases. Some students distrusted
+the similarities due to the artiﬁcial situation. Half of the students ( n = 15) stated in their
+learner reports that they had learned from the variation in the cases. Several participants in
+the PCO group ( n = 6 out of 8 who referred to the cases) emphasised the variation in
+symptoms that had struck them. Half of the participants in the HPA group ( n = 7) also
+attended to the variations in pathophysiology. One student explicitly reported on what she
+had incorrectly thought before (that ‘‘there was no ovulation because of a lacking pro-
+duction of oestrogens’’) but now knew that there can be a ‘‘rather high oestrogen level and
+yet no ovulation’’ (participant 412). No students clearly expressed that they had learned
+from the reasoning process itself, although one student stated after he had explained the
+third case: ‘‘Two more PCO cases and I know the clinical picture of PCO again’’ (par-
+ticipant 422).
+Knowledge used in the learner reports
+The outcomes of the content analysis of the learner reports show that the statements about
+illness script categories mainly regard the consequences (symptoms and additional physical
+examination) and the fault (pathophysiology). The number of enabling conditions state-
+ments is low.
+Results for the learner reports showed that the students who had worked on the PCO
+series were more extensive in their reports by using more utterances than the students who
+had worked on the HPA cases [ F(1,29) = 15.12, MSe = 2.17; p = .001, partial g
+2 = .34,
+OP = .96; means 13.21 for the PCO group and 6.42 for the HPA group].
+The signiﬁcant interaction effect [ F(4.853,140.747) = 4.57; MSe = 2.12, p = .001,
+partial g2 = .14, OP = .97] was especially due to the categories (see Fig. 2) normal
+physiology, inferences and elaborations (PCO [ HPA), indicating that the group who had
+worked on the PCO series put more reasoning effort into biomedical reasoning to ﬁll gaps
+in their fault knowledge. The fact that the HPA group scored higher on pathophysiology
+suggested that this group’s knowledge better ﬁtted the cases presented. The pathophysi-
+ology category had the highest overall mean. Furthermore, the students in the PCO group
+tended to generate more metacognitive utterances (5.24 vs. 3.64), but this difference
+was not signiﬁcant. Of the four categories that were taken as indicators for illness
+Table 2 Quality of the students’
+knowledge, ways of reasoning
+and dealing with errors as indi-
+cated by the number of partici-
+pants per category
+HPAa PCOb
+N = 14 N = 17
+Poor prior knowledge 3 4
+Incomplete and error-prone knowledge 11 13
+Active reasoning, aimed at improvement 5 9
+Remediation of errors 3 3
+Ignores noticed error – 2
+Persistent errors 8 5
+Learning from multiple cases 763
+123
+script categories (epidemiology, symptoms, physical examination, and additional physical
+examination), only the latter two showed signiﬁcant differences ( p\ .05; PCO [ HPA).
+Discussion
+This study departed from the observation that research and theory on illness script con-
+struction by medical students emphasises the importance of the integration of—separately
+taught—biomedical fault knowledge. This process requires restructuring of biomedical
+knowledge, which is assumed to take place as a function of the application of such
+knowledge on clinical problems. Within the limits of preclinical education, these processes
+are supervised, for instance, in tutorial groups in PBL, but in clinical teaching settings,
+teachers focus different things, e.g., differential diagnosis and treatment, whilst the stu-
+dents’ main task is to take patients’ full history and examination and report that in the
+patients’ records. Whilst in preclinical settings, the curriculum and teachers deﬁne which
+cases are presented; in the clinical settings, it is the epidemiology of the time of the year
+and speciﬁc hospital or outpatient clinic. Furthermore, feedback on the results is often
+delayed, if indeed the doctor or student ever receives that feedback. This makes the clinic a
+reduced learning setting. In this context, we situated our concern about what medical
+students learn spontaneously from reasoning through a series of cases that have a similar
+underlying biomedical problem and where only reduced feedback is provided. More
+speciﬁcally, we wanted to know how knowledge about the constituent parts of illness
+scripts (enabling conditions, fault, and consequences) develop, where we left the possi-
+bility open that different parts do not develop in the same way.
+The results can be summarised as follows:
+(1) Students did learn from processing multiple cases even when the feedback is
+restricted to the diagnosis. They built up representations faster, became more secure,
+Fig. 2 Elements of learner reports of students who had either worked on the PCO series or on the HPA
+series
+764 H. P. A. Boshuizen et al.
+123
+used more speciﬁc language, and tested their knowledge against case information.
+Yet half of the students did not show this kind of learning.
+(2) Most students learned from the variations in enabling conditions and consequences
+components of the cases. Some students compared prior knowledge with case
+ﬁndings, some actively compared cases, drawing conclusions about enabling
+conditions and consequences, whilst others seemed to learn implicitly. No student
+made errors in their conclusions.
+(3) Learning from a series of cases appeared to have less positive outcomes regarding the
+fault component of illness scripts. Many students had poor knowledge, including
+misconceptions. Some tried, and one even succeeded in debugging these miscon-
+ceptions, but the results of these enterprises never made it to the learner reports. Since
+one of the probes for the learner report invited students to report on what they knew
+now about the pathophysiology of the disease, this ﬁnding seems to indicate that the
+students’ knowledge did not really improve. Other indicators for this lack of learning
+or improving problem-oriented knowledge were (a) relative lack of use of deep
+encapsulating concepts especially regarding endocrine regulation and (b) application
+of generic biomedical knowledge and the emergence of elaborations and inferences in
+the learner reports. These ﬁndings suggest that knowledge construction and
+reconstruction were still in progress and were hampered by a lack of knowledge
+and by deep misconceptions.
+In summary, we may conclude that there is much implicit learning, which may lead to
+faster recognition, strengthening of the links between concepts, and tuning of knowledge to
+practical conditions (Anderson 1982). As many students did not show any explicit learning
+processes, this result raises doubts about the students’ ability to take full advantage of
+learning from cases. Furthermore, explicit learning anchored by given case ﬁndings con-
+sisted of two types: comparison of case ﬁndings with prior knowledge and explicit com-
+parison of cases. Both processes had positive outcomes, but in the current setting, this
+learning is very dependent on whether the students’ attention is also drawn to co- and
+invariation between cases (Marton and Pang 2006). Finally, explicit case explanations
+based on deep concepts resulted in knowledge construction and debugging processes that
+are considered to be conducive to knowledge network validation and (re)structuring, but
+students were unable to complete these processes unsupported. We may conclude from
+these analyses that students may learn patterns of and variations in enabling conditions and
+consequences from this kind of learning situation but that unsupported case analyses are in
+no way sufﬁcient for integrating biomedical knowledge in illness scripts.
+Before answering the question which learning processes can be left to their own devices
+and what the implications for teaching are, we must mention that the teaching hospital,
+despite the term, is primarily a workplace where patients come ﬁrst, and where medical
+students work and learn. Yet in this environment, patients are the ﬁrst learning resources,
+apart from the medical and nursing staff and reference materials such as books and
+databases (Dornan et al. 2008). In this context, we tend to conclude that students are well
+able to learn the patterns and variations of enabling conditions and consequences inde-
+pendently. However, learning can become more fruitful if students are supported to build a
+case-base they can reﬂect on in a systematic way. Modern technology such as personal
+digital assistants become rapidly integrated in student learning in the clinic (Garrett and
+Jackson 2006; Ranson et al. 2007; Tempelhof 2009) as a resource or as an access point to
+the students’ portfolio where they can upload case information and reﬂections. Buckley
+et al. (2009) concluded in their review study that the higher-quality studies found suggested
+Learning from multiple cases 765
+123
+that learning portfolios help medical students improve the integration of theory with
+practice, and lead to greater self-awareness and reﬂection. Integration with the hospital
+information and communication technologies-systems might be very worthwhile for
+learning but is hindered by system safety measures and by patient privacy considerations.
+The present results do not tell whether students will use resource information to debug a
+misconception in biomedical knowledge, which is a required condition for integration. As
+one—both teacher and student—is aware of poor knowledge and misconceptions only
+during problem-solving, and since debugging is an effortful enterprise, it is doubtful
+whether opportunities for impromptu case-based teaching events in the clinical practice
+(e.g., in outpatient clinics, or grand rounds) are sufﬁcient. On top of that, active knowledge
+debugging and integration should also take place off-line, outside the situation where the
+problem was detected. Kassirer ( 2010) suggested a potentially powerful case conference
+method, in which a maximum of 30 students, clerks, or interns participate. Participants
+bring in their own cases. This is where the method might integrate with portfolio work. A
+coach who is unfamiliar with the cases best supports the group in case analysis. The main
+goal of these conferences is optimising clinical reasoning, but an important rule in the
+reasoning process is ‘‘Working diagnoses, that is, hypotheses used for prognostic or
+therapeutic recommendations, are evoked only after they are assessed for their adequacy in
+explaining all positive, negative, and normal clinical ﬁndings, and for their pathophysio-
+logic reliability—namely, a check on the reasonableness of causal linkages between
+clinical events’’ (Kassirer 2010, p. 1119). The role of the coach is that all participants are
+active and to prevent cognitive errors from being made. Though Kassirer himself focused
+on clinical reasoning skill, cognitive restructuring should be a by-product of the process.
+The focus of this study was theory development, that is, to ﬁnd out what students can
+learn spontaneously from multiple cases. The outcomes were to a large extent inﬂuenced
+by the speciﬁc case mixes. If medical educators were right that the topics at hand were
+important and relatively easy, it is hard to say what will happen with more difﬁcult topics.
+The instructional conclusions based on these outcomes regarded the clinical period in
+which further learning should take place. Findings at the point of transition from one
+learning environment to the next, or from theory to practice, always generate the question
+whether education in the previous period should not have provided for this problem. Apart
+from a policy issue, this issue also concerns pedagogical content knowledge. Prevention of
+misconceptions is not a big issue in medical education literature. Feltovich et al. ( 1997)
+warned against simpliﬁcation in such complex domains and instead advised multiple
+perspectives and metaphors to make students appreciate the full complexity of the bio-
+medical domain.
+The strength of the present study is that it investigated unsupported, spontaneous
+learning, which allowed us to draw conclusions about the learning processes and outcomes.
+Some of these conclusions were based on what was present in the protocols; others were
+based on what was not present. Though the latter conclusions play a small role in the
+implications formulated, especially conclusions about implicit learning and not learning
+should be further investigated with other methods.
+Appendix
+See Table 3.
+766 H. P. A. Boshuizen et al.
+123
+References
+Anderson, J. R. (1982). Acquisition of cognitive skill. Psychological Review, 89 (4), 369–406.
+Bordage, G. (1987). The curriculum: Overloaded and too general? Medical Education, 21 , 183–188.
+Boshuizen, H. P. A. (2009). Teaching for expertise: Problem-based methods in medicine and other pro-
+fessional domains. In K. A. Ericsson (Ed.), The development of professional performance: Approaches
+to objective measurement and designed learning environments (pp. 379–404). New York, NY:
+Cambridge University Press.
+Buckley, S., Coleman, J., Davison, I., Khan, K. S., Zamora, J., Malick, S., et al. (2009). The educational
+effects of portfolios on undergraduate student learning: A best evidence medical education (BEME)
+systematic review. BEME Guide No. 11. Medical Teacher, 31 (4), 282–298.
+Coderre, S., Jenkins, D., & Mclaughlin, K. (2009). Qualitative differences in knowledge structure are
+associated with diagnostic performance in medical students. Advances in Health Sciences Education,
+14, 677–684.
+Dawson-Saunders, B., Feltovich, P. F., Coulson, R. L., & Steward, D. E. (1990). A survey of medical school
+teachers to identify basic biomedical concepts medical students should understand. Academic Medi-
+cine, 7, 448–454.
+Dornan, T. J., Scherpbier, A. J. J. A., & Spencer, J. (2008). Learning medicine: A continuum from theory to
+practice. In J. M. Spector, M. D. Merrill, J. van Merrie ¨nboer, & M. P. Driscoll (Eds.), Handbook of
+research on educational communications and technologies (3rd ed., pp. 556–566). New York:
+Erlbaum.
+Feltovich, J. P., & Barrows, H. S. (1984). Issues of generality in medical problem solving. In H. G. Schmidt
+& M. L. De Volder (Eds.), Tutorials in problem-based learning (pp. 128–142). Assen: Van Gorcum.
+Feltovich, P. J., Spiro, R. J., & Coulson, R. L. (1997). Issues of expert ﬂexibility in contexts characterized by
+complexity and change. In P. J. Feltovich, K. M. Ford, & R. R. Hoffman (Eds.), Expertise in context
+(pp. 125–146). Menlo Park, CA: AAAI Press/MIT Press.
+Garrett, B. M., & Jackson, C. (2006). A mobile clinical e-portfolio for nursing and medical students, using
+wireless personal digital assistants (PDAs). Nurse Education Today, 26 , 647–654.
+Kassirer, J. P. (2010). Teaching clinical reasoning: Case-based and coached. Academic Medicine, 85 ,
+1118–1124.
+Table 3 Relevant fault concepts for the HPA and PCO cases
+HPA PCO
+Superﬁcial concepts Superﬁcial concepts
+Galactorrhea Hirsutisme
+Irregular cycles with withdrawal bleedings Irregular cycles with withdrawal bleedings
+Intermediate concepts Intermediate concepts
+Endometrium proliferation Endometrium proliferation
+Anovulation Anovulation
+Deep concepts Deep concepts
+Hypothalamic-pituitary-end organ axes Hypothalamic-pituitary-end organ axes
+Compression (damage) Follicles; functional - hormonal secretion and receptors
+Hypothyrodism Hyper-oestrogenic environment
+Hypogonadism Hyper-androgenic (ovaries)
+Dopamine antagonist Vicious circle
+Negative feedback of prolactin on GnRH Feedback oestrogens on LH and FSH
+Negative feedback of T3 and T4 on TSH Peripheral conversion of andosteendiol into oestrogen
+Disconnection Inhibition
+Inhibition Stimulation
+Stimulation
+Learning from multiple cases 767
+123
+Lesgold, A., Rubinson, H., Feltovich, P., Glaser, R., Klopfer, D., & Wang, Y. (1988). Expertise in a complex
+skill: Diagnosing X-ray pictures. In M. T. H. Chi, R. Glaser, & M. Farr (Eds.), The nature of expertise
+(pp. 311–342). Hillsdale, NJ: Erlbaum.
+Marton, F., & Pang, M. F. (2006). On some necessary conditions of learning. The Journal of the Learning
+Sciences, 15(2), 193–220.
+Mclaughlin, K., Novac, K., Rikers, R., & Schmidt, H. (2010). Does applying biomedical knowledge improve
+diagnostic performance when solving electrolyte problems? Canadian Medical Education Journal,
+1(1), e4–e9.
+Patel, V. L., Evans, D. A., & Groen, G. J. (1989). Biomedical knowledge and clinical reasoning. In
+D. A. Evans & V. L. Patel (Eds.), Cognitive science in medicine: Biomedical modeling (pp. 53–112).
+Cambridge, MA: MIT Press.
+Prince, K. J. A. H., Van de Wiel, M. W. J., Scherpbier, A. J. J. A., Van der Vleuten, C. P. M., & Boshuizen,
+H. P. A. (2000). A qualitative analysis of the transition from theory to practice in undergraduate
+training in a PBL-medical school. Advances in Health Sciences Education, 5 (2), 105–116.
+Ranson, S. L., Boothby, J., Mazmanian, P. E., & Alvanzo, A. (2007). Use of personal digital assistants
+(PDAs) in reﬂection on learning and practice. Journal of Continuing Education in the Health Pro-
+fessions, 27(4), 227–233.
+Rikers, R. M. J. P., Loyens, S., te Winkel, W., Schmidt, H. G., & Sins, P. H. M. (2005). The role of
+biomedical knowledge in clinical reasoning: A lexical decision study. Academic Medicine, 80 (10),
+945–949.
+Schank, R., & Abelson, R. (1977). Scripts, plans, goals and understanding: An inquiry into human
+knowledge structure. Hillsdale, NJ: Erlbaum.
+Schmidt, H. G., & Boshuizen, H. P. A. (1993). On the origin of intermediate effects in clinical case recall.
+Memory and Cognition, 21 , 338–351.
+Tempelhof, M. W. (2009). Personal digital assistants: A review of current and potential utilization among
+medical residents. Teaching and Learning in Medicine, 21 (2), 100–104.
+Woods, N. N. (2007). Science is fundamental: The role of biomedical knowledge in clinical reasoning.
+Medical Education, 41 , 1173–1177.
+Woods, N. N., Brooks, L. R., & Norman, G. R. (2005). The value of basic science in clinical diagnosis:
+Creating coherence among signs and symptoms. Medical Education, 39 , 107–112.
+768 H. P. A. Boshuizen et al.
+123

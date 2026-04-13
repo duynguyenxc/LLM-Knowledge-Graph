@@ -1,0 +1,894 @@
+TITLE: Preparing medical students for clinical decision making: A pilot study exploring how students make decisions and the perceived impact of a clinical decision making teaching intervention
+AUTHORS: Calum A. McGregor, Catherine Paton, Calum Thomson, Madawa Chandratilake, Hazel Scott
+YEAR: 2012
+DOI: 10.3109/0142159x.2012.670323
+
+CONTENT:
+2012; 34: e508–e517
+WEB PAPER
+Preparing medical students for clinical decision
+making: A pilot study exploring how students
+make decisions and the perceived impact of a
+clinical decision making teaching intervention
+CALUM A. MCGREGOR, CATHERINE PATON, CALUM THOMSON, MADAWA CHANDRATILAKE &
+HAZEL SCOTT
+NHS Lanarkshire Medical Education Training Centre, UK
+Abstract
+Background: Junior doctors are frequently faced with making difficult clinical decisions and previous studies have shown that
+they are unprepared for some aspects of clinical decision making.
+Aim: To explore medical students’ feelings and strategies when responsible for making clinical decisions and to obtain students’
+views of the effectiveness of a clinical decision making teaching intervention.
+Methods: A teaching intervention was developed, consisting of a clinical decision making tool, a tutorial and scenarios within a
+simulated ward environment. A total of 23 volunteer students participated in individual interviews immediately after their simulator
+sessions. The qualitative data from the interviews were analysed to identify emerging themes.
+Results: Despite extended shadowing programmes, students feel unprepared for clinical decision making as FY1s, and lack
+effective decision making strategies. Experiencing complex decision making scenarios through individually orientated simulation
+results in students being subjectively more prepared for work as FY1s.
+Conclusion: Students continue to feel unprepared for the responsibility of clinical decision making. A teaching intervention,
+including simulated individual clinical scenarios, later in undergraduate training, appeared to be useful in improving medical
+students’ decision making, specifically in relation to making a diagnosis, prioritising, asking for help and multi-tasking, but further
+work is required.
+Introduction
+Clinical decision making, or clinical reasoning, has been
+described as being a foundation of effective clinical education
+(Dent & Harden 2009) and is a significant aspect of physician
+competence (Norman 2005). Examining how clinicians make
+decisions can be difficult (Eva 2005), but a large clinical
+decision making literature base does exist. According to the
+literature, diagnostic errors are a significant problem (Berner &
+Graber 2008), and despite rapid advances in medical science,
+the detection of incorrect diagnoses at autopsy has not
+changed over the past 100 years (Lundberg 1998).
+Graber (2005) found that cognitive errors were the most
+common causes of diagnostic errors, and descriptions of how
+these cognitive errors can occur have been previously outlined
+(Croskerry 2003; Graber 2005; Croskerry 2009).
+Interestingly, the vast majority of the literature on teaching
+clinical decision making has focused on making a correct
+diagnosis. While this is certainly a very important aspect, there
+are other aspects to clinical decision making (Lake 2005).
+These include clinical prioritisation and recognising limitations
+and asking for help. A literature search revealed no real
+information on how medical graduates prioritise. The previous
+literature on requesting senior assistance found it to be
+complex, with one study concluding that it was too complex
+to teach (Stewart 2008).
+This is particularly relevant to final year medical students,
+as previous studies have shown that they are unprepared for
+prioritising (Tallentire et al. 2011), and asking for help (Illing
+et al. 2008). Nevertheless, GMC (2009) guidelines expect that
+medical educators will include these components in under-
+graduate curricula, and that medical graduates are competent
+Practice points
+. Current FY1 shadowing programmes do not fully
+prepare undergraduates for decision making in a clinical
+environment.
+. Prioritisation teaching interventions are required.
+. Perplexity faced by junior doctors in making clinical
+decisions could possibly be minimised by providing
+structured cognitive frameworks.
+. Simulated individual multi-tasking experiences have the
+potential to make students more prepared for work.
+. Such interventions are welcomed by students.
+Correspondence: C.A. McGregor, NHS Lanarkshire Medical Education and Training Centre, Kirklands Hospital, Fallside Road, Bothwell, UK.
+G71 8BB. Tel: 01698 855528; fax: 0141 2111801; email: calum.mcgregor@nhs.net
+e508 ISSN 0142–159X print/ISSN 1466–187X online/12/070508–10 /C2232012 Informa UK Ltd.
+DOI: 10.3109/0142159X.2012.670323
+in making diagnoses, prioritising and knowing when to
+seek help.
+Various strategies have been introduced to improve clinical
+decision making (Croskerry 2003), based on dual process
+theory and cognitive biases. These include encouraging
+metacognition (Croskerry 2003), cognitive autopsies
+(Croskerry 2005; Sullivan 2009), encouraging an analytical
+approach through de-biasing strategies (Croskerry 2003), and
+encouraging both an analytical and non-analytical approach
+(Norman 2009; Norman & Eva 2010). However, while these
+approaches have shown benefits in performing a single task
+(Eva et al. 2007); the impact of such strategies in a clinical
+setting that requires multiple and interconnected decisions to
+be made is uncertain.
+To develop students’ skills in making decisions in relation
+to making diagnosis, prioritisation and asking for help, a
+tripartite teaching intervention was developed. Analytical, non-
+analytical and combined approaches to decision making were
+incorporated in the intervention.
+Component 1
+Using a structured approach has previously been shown to be
+helpful in a number of areas relevant to clinical decision
+making, e.g. the airway, breathing, circulation, disability,
+exposure (ABCDE) approach to clinical examination (Jevon
+2010), the situation-background-assessment-recommendation
+(SBAR) approach to communication and handover
+(Featherstone 2005) and the COVER ABCD – A SWIFT
+CHECK for anaesthetic emergencies (Runciman et al. 2005).
+Therefore, a decision making tool (AM I HERO NOW) was
+introduced to students, to be used when faced with making a
+decision (Figure 1). The tool was designed to be a memorable
+mnemonic, incorporating multiple aspects of clinical decision
+making, with the aim of prompting students to avoid certain
+recognised cognitive dispositions to respond, such as prema-
+ture closure (Croskerry 2003).
+Component 2
+A tutorial session was introduced providing a theoretical
+understanding of the process of clinical decision making. The
+tutorial covered cognitive theory (dual process theory and
+cognitive and affective biases), prioritisation and when to ask
+for help, and included interactive cases scenarios.
+Component 3
+As a part of this intervention, students were introduced to a
+simulated ward environment, where they dealt with three
+scenarios addressing: making a diagnosis, specifically over-
+coming the suggestion of an incorrect diagnosis, which is
+known to be a legitimate instructional technique (Eva et al.
+2007); prioritisation; and recognising limitations and asking for
+help.
+This article illustrates how medical students make decisions
+and examines the effectiveness of this tripartite teaching
+intervention in its pilot run.
+AM I
+Am I trained to make this 
+decision?
+Am I in possession of the 
+knowledge, skills and 
+competencies required?
+Am I adversely affected by 
+the patient (e.g. alcohol, 
+smell etc.) or circumstances 
+(time, stress, sleep 
+deprivation, other clinicians 
+involved)?
+Am I the person who should 
+be responsible for this 
+decision?
+HERO
+Have I enough information to be 
+making this diagnosis/decision?
+History
+Examination 
+Results 
+Other possible causes; other 
+possible options? – could it be 
+something else, could we do 
+something else?
+NOW?
+Is there anything happening now that is 
+impacting on this decision? 
+Have I considered the impact of this 
+diagnosis / decision on:
+Number one patient -
+Is ITU appropriate? Is NFR/ 
+advance directive in place? Will 
+they be upset, have they sufficient 
+support, will I need to arrange 
+follow-up?
+Others -
+Family is there someone else who 
+should be involved? 
+Staff – is someone identified to 
+undertake it; have they the 
+necessary knowledge, skill and 
+time
+Which is the priority action – how will 
+this decision affect the treatment given to 
+other patients?
+Figure 1. ‘AM I HERO NOW’ tool.
+Preparing students for decision making
+e509
+Methodology
+This study, which was considered as an educational project,
+was granted an ethics waiver by the NHS Research Ethics
+Service.
+Study approach
+This was a qualitative study exploring clinical decision making
+and students’ views of the effectiveness of a teaching interven-
+tion using data obtained from interviewing medical students.
+Study population and sampling
+The sample was drawn from the population of 36 final year
+medical students undertaking a 6-week ‘Preparation for
+Practice’ block in the Lanarkshire region. The prospective
+participants had all completed their final university examina-
+tions, and this was their last undergraduate placement before
+they graduated and started working as junior doctors.
+All 36 students were e-mailed by the researcher to explain
+the clinical decision making teaching programme, and to ask
+for volunteers to participate in interviews which would take
+place immediately after their simulated ward session. For those
+who agreed, formal written consent was obtained on the day
+of their simulator session, prior to the event. The consent also
+included permission to digitally record the interviews, and the
+volunteers were assured of confidentiality and anonymity of
+the data.
+The final sample consisted of 23 volunteer students (64% of
+the original population of 36); 12 males and 11 females.
+The students were randomly allocated into three groups –
+one group received no decision making teaching prior to the
+simulation session, one group were given the clinical decision
+making tool prior to the simulation session and one group
+were given both the tool and the tutorial prior to the simulation
+session (Figure 2).
+Data collection
+Data were collected using real time observation of student
+performance and semi-structured interviews.
+During the simulator, each student was followed and
+observed by a senior doctor. The observer completed three
+objective structured clinical examination style checklists
+(Appendix) consisting of 20 points relating to the student’s
+performance in each of the three decision making scenarios
+outlined above.
+The observers consisted of senior medical staff – three
+clinical teaching fellows and two staff grade doctors with an
+interest in medical education.
+Within 30 min of completing their simulator session, each
+student was interviewed by the researcher (Calum McGregor).
+The interviews started off with open-ended questions about
+how the students experienced the simulation, which were
+followed by specific questions on the following areas:
+. Students’ thoughts on the tool and tutorial.
+. Students’ thoughts on existing tools (SBAR and ABCDE).
+. Students’ thoughts on the simulator session.
+. What did students do when faced with decisions to make in
+the three scenarios outlined above – i.e. making a diagnosis,
+prioritising and deciding when to call for help? Why did
+they do that? How did they feel?
+. What strategies did students use for decision making in the
+scenarios?
+. What decision making training had they had prior to this
+event?
+The researcher received each student’s checklists prior to their
+interview, thus enabling the researcher to see what courses of
+action the student had taken in each scenario, and therefore
+direct questions accordingly during the interviews.
+The interviews lasted from 14 to 50 min. All interviews were
+digitally recorded, transcribed and given a unique coding
+number.
+Data analysis
+Qualitative data analysis was conducted manually using a
+constant comparison approach. Each transcript was read
+sentence by sentence, and reread by an independent
+researcher, to identify areas of meaning. These sections of
+meaning were coded and compared with codes in other
+transcripts.
+Results
+How do medical students feel, and what strategies do they use,
+when making clinical decisions with regards to diagnosis,
+prioritisation and asking for help?
+Figure 2. Participant Groups.
+C. A. McGregor et al.
+e510
+Diagnosis
+When faced with diagnosing unwell patients, most students
+used the ABCDE approach for the initial assessment. The
+students were familiar with this approach, having been taught
+it repeatedly during their time in medical school.
+SC1 – ABCDE is really good. I think it’s good if you have
+no idea what is going on, it gives you something to start off
+with
+SB6 – I started my systematic approach so like that kind of
+gave me time to think about things, by going through ABC.
+SB5 – ABCDE gives you something useful to do as soon as you
+get there.
+Having a structured approach was re-assuring for students,
+and helped to alleviate their concerns that they would miss
+something important.
+SA2 – It’s reassuring cause it kind of covers your back, almost
+like a proforma you go through and if you do everything you
+are not going to miss anything
+Once students had completed their ABCDE assessments,
+many of them struggled with what to do next, particularly if
+they had not made a diagnosis by this point. There was a
+contrast between their slick, structured ABCDE assessment and
+what followed after it.
+SA2 – I didn’t know what to do after the ABCD. Everything
+kind of goes out your head
+Students were comfortable taking histories and performing
+ABCDE assessments. However, when faced with a confused
+patient who was unable to provide a history, students
+struggled to know how to obtain useful information, and
+struggled to produce a differential diagnosis.
+SA2 – I was just kind of oh no what do I do? In terms of
+producing a differential I am not used to doing that at all
+really
+Prioritisation
+Having to make decisions on how to prioritise was completely
+new to the students, and they had not received previous
+training on prioritisation. Importantly, the students recognised
+that the simulator exercise was the first time that they had been
+asked to make these types of decisions.
+SC2 – I’ve never really been left to make decisions and
+prioritise things.
+SC2 – I am glad I had a chance to be exposed to that before I
+am put in the real situation. It’s something I had never really
+done.
+Some indicated frustration that despite having completing
+their medical training, they had never had this opportunity
+before.
+SA2 – When you are a medical student you are kind of
+cocooned, wrapped up in cotton wool
+During their simulation session, the students were faced
+with multiple tasks and acutely unwell patients, and therefore
+had to prioritise. Students found this stressful.
+SA3 – It was stressful. When you have a sick patient and then
+the page goes off, that was stressful.
+When given patients to prioritise between, some students
+struggled to know what to ask over the phone, and lacked
+strategies for prioritising effectively.
+SE3 – I didn’t ask for any details over the phone.
+SA4 – I didn’t get a sense of how unwell he was.
+In addition, as some students did not ask for information
+over the phone, they were making judgements on prioritising
+patients based on very limited amounts of information.
+SE3 – I don’t think I asked for any info over the phone, I maybe
+should have asked for a bit more.
+Some strategies used for prioritising by the students were
+subjective or inadequate. Examples of inadequate prioritisa-
+tion strategies included avoiding patients where students were
+unsure of the diagnosis, and attending requests to see patients
+in a strict chronological order rather than based on clinical
+need.
+SD2 – I saw them first because I kind of knew what to do with
+them.
+SC1 – I saw whoever paged me first.
+The students’ difficulties in prioritising were exacerbated by
+the fact that they had never been paged before, and were
+unfamiliar with pagers.
+SE1 – I thought I could ignore the pager if I was doing
+something else, I’m sure they will page someone else.
+Recognising limitations and asking for help
+Students were good at recognising their limitations when they
+encountered something that they could not do, and when they
+did not know what to do next, and were not afraid to ask for
+help in those situations.
+SC1 – I asked my senior because I felt that I had done
+everything in my power. I was starting to feel out of my depth.
+However, the students did not ask for help when they had
+two acutely unwell patients to see at the same time, or when
+they had multiple tasks to do. This problem was exacerbated
+by students being unfamiliar with the roles of other members
+of the on-call team.
+SA5 – I never really thought that this would be an excellent
+point to ask for help. I didn’t know the role of a senior – I
+thought they were just there in case things really took a turn
+for the worst.
+During the simulator session, the SBAR tool was written
+down next to the phones. Making it readily available increased
+Preparing students for decision making
+e511
+the use of SBAR. The students felt more comfortable using the
+structured, SBAR approach when it came to actually speaking
+to their senior on the phone.
+SB2 – The SBAR structure was really useful. It took a bit of the
+fear away definitely
+SC6 – I didn’t use SBAR first time round, I just made a
+panicked phone-call, but 2nd time round SBAR was on the
+wall beside the phone so I just thought I will go through that
+and it worked.
+When students did not use the SBAR tool, some ran into
+problems and started feeling stressed.
+SE6 – I wish I had used SBAR. I felt a bit flustered without it.
+I sort of forgot.
+Did the clinical decision making teaching intervention
+(decision making tool, tutorial and simulator session) have any
+effect on students’ clinical decision making?
+Decision making tool
+Despite being unsure of what to do after completing their
+ABCDE assessment, the students did not use the ‘AM I
+HERO NOW’ decision making tool. There were three main
+reasons why the students did not use it; they felt it would take
+too long to use, it was too complex and they were unfamiliar
+with it.
+SC1 – You don’t have time to sit there and think about every
+single question on that piece of paper.
+SD3 – I thought there was a lot of information on it. Maybe a
+bit too much.
+SB5 – I had never used it before. When I went in, the aide
+memoire went out the window.
+Despite not using it in the simulated ward session, students
+appreciated that using a tool such as ‘AM I HERO NOW’ for
+decision making could be useful. They liked the idea of having
+a structure to use when faced with a difficult decision, in the
+same way that they used ABCDE for assessment and SBAR for
+referrals to their seniors. The experience of not using a
+decision making tool appeared to increase its perceived value
+to the students.
+SD1 – Having come out actually I would have done the HERO
+bit especially, I think it would have been good. I think it would
+have been pretty useful.
+Tutorial
+The interviews revealed that the tutorial group were
+able to identify some of the concepts from the tutorial within
+the simulator session, but there was no discernable difference
+in the way they described their approaches to decision
+making.
+SD4 – The tutorial was useful. It was stuff I’d never heard
+of, and the ways you are influenced into decisions with
+stuff I had never heard of, but having it pointed out to
+you is probably a good thing even if you don’t take much
+else from it. Just someone saying be aware of it is quite
+useful.
+SE2 – I thought it was useful, I thought it was quite interesting.
+I suppose the nurse saying the patient is having a stroke would
+be one of the things from the tutorial.
+However, some students did not see the relevance of being
+taught clinical decision making theory such as dual process
+theory and cognitive dispositions to respond.
+SE4 – I remember the type 1 and type 2 stuff. I got it, I
+understood it but I don’t think I found it relevant to me.
+SE5 – The clinical based stuff you were talking about was
+good, but the sort of theory behind it, I don’t know if it would
+benefit me that much.
+Simulator session
+The students found the simulator session more useful than the
+tutorial and the decision making tool.
+SE2 – You get more out of doing the practical stuff. I
+don’t think there is a substitute for doing that. There is a
+difference between knowing what to do and actually putting it
+into practice.
+Evidence of learning
+It was evident from the interviews that the students had
+learned from the mistakes they had made during the simulator
+session across the domains of diagnosis, prioritisation and
+when to ask for help.
+Diagnosis
+The simulation session helped students to understand the
+importance of making sure that they have enough information
+to arrive at a diagnosis, and to consider other possibilities.
+SE5 – The nurse said she thought the patient had had a stroke
+so I just took that as being gospel. I think today highlighted the
+need for taking a more open approach.
+Prioritisation
+During the interviews students were able to identify weak-
+nesses in the prioritisation strategies they used in the simulator
+session.
+SD3 – I should probably gather more information before I
+decide who needs to be seen. I didn’t ask for observations or
+anything which I should have
+Students indicated that they had learned how to prioritise
+more objectively.
+SA1 – I’d want to know their routine observations over the
+phone.
+C. A. McGregor et al.
+e512
+Recognising limitations and asking for help
+After the simulator session, the students had a better under-
+standing of when to ask for help.
+SA3 – I should have phoned someone else to come and help me
+instead of finishing with what I was dealing with and then
+going to the other one.
+The students felt more prepared for work after the
+simulator session.
+SE6 – Today put you in the role as the FY1 rather than just
+shadowing an FY1. You are actually making the decisions on
+the run, rather than asking someone else to make the decisions
+for you. It’s good to do it in a simulated environment before
+you do it for real.
+Other findings
+Students’ behaviours suggested that they are unprepared for
+complex decision making.
+There were a number of areas where students found
+difficulty with decision making, especially in making decisions
+alone regarding diagnosis, prioritisation and asking for help,
+and in making simultaneous decisions.
+Simultaneous decision making (multi-tasking)
+During the simulator session, many students did not write
+down the tasks they were asked to do. They had not
+considered that they might not remember them all, and
+therefore they forgot about a number of the tasks.
+SC6 – The phone went and she was still asking me what I
+thought and I was like, ‘one of you give me a break for a
+minute while I try to think clearly.’ I didn’t write down
+what the person was saying to me over the phone, so then
+I forgot what they had said. Then I was getting frustrated,
+‘Did you actually speak to me? Oh $*@* I forgot
+about that!’
+Furthermore, if the students were distracted or interrupted
+while performing a task, they tended to lose their focus and
+abandon their structured approach.
+SA3 – When I was going to the patient I was paged, so I
+forgot to finish the ABCDE. I didn’t really assess the patient
+properly.
+The students put these errors down to the fact that they
+have never been in that situation before.
+SA2 – On Preparation for Practice I have my FY1 and she
+makes all the decisions and I just follow her around
+Students felt that shadowing FY1s had not fully prepared
+them for making decisions as FY1s.
+SE6 – We’ve been shadowing FY1s but they are the ones
+making decisions and they are the ones who are stressed out.
+Group comparison
+There were no clear differences between the three groups. In
+addition, the number of students involved in the study was too
+small to make any significant comment on whether or not the
+tutorial helped the students to overcome the cognitive bias in
+the first scenario, i.e. the suggestion of an incorrect diagnosis.
+Discussion
+The key findings of this study are discussed in two sections;
+students’ decision-making and the teaching intervention.
+Students’ decision making
+Medical students lack effective prioritisation strategies, and
+described current prioritisation teaching as being extremely
+limited. In addition, students’ behaviours in simulator scenarios
+suggest they are unprepared for complex decision making
+such as prioritisation and multi-tasking. Current FY1 shadow-
+ing programmes including group-based simulations do not
+appear to fully prepare undergraduates for work as an FY1,
+particularly with regards to their individual ownership of
+complex clinical decisions. However, experiencing complex,
+individual decision making situations through simulation has
+the potential to make students more prepared for work as
+FY1s.
+Students had little, if any, experience of making a number
+of decisions that they will be expected to make when they start
+work, despite the introduction of a prolonged FY1 shadowing
+programme. Shadowing programmes have a number of
+benefits; resulting in students feeling more prepared for
+work (Cave et al. 2009), gaining familiarity with their work
+environment (Jones et al. 2006) and improving their confi-
+dence with prescribing medications (Medical Education
+England 2010). However, FY1 shadowing may be limited in
+terms of providing students with meaningful exposure to the
+responsibility for decision making, and in preparing them for
+dealing with the multiple tasks that they will be asked to do as
+FY1s.
+The students had not previously experienced situations
+where they had been asked to prioritise between patients,
+which they will have to do when they start work. This is
+consistent with previous research which showed that students
+are not prepared for practice in the areas of prioritisation
+(Tallentire et al. 2011) and knowing when to request help
+(Illing et al. 2008).
+The lack of literature and discussion around prioritisation is
+not unique to medicine. Lake (2005) found that, ‘effective
+nursing prioritisation of the patient need for care is integral to
+daily nursing practice but there is no formal acknowledgement
+or study of this concept’.
+The results from this study suggest that prioritisation
+teaching interventions need not be complex, and improve-
+ments in students’ prioritisation strategies may be achievable
+using a simulator. Simple measures, such as teaching medical
+students to ask for a patient’s observations over the phone, or
+telling students to keep a list of tasks to be done, may turn out
+to be effective. More work is required in this area.
+Preparing students for decision making
+e513
+The students’ difficulties when distracted from a task by an
+interruption, or when given multiple tasks to do, are perhaps
+natural and understandable. However, these are situations that
+they will frequently encounter when they start work as FY1s,
+and yet the students rarely, if ever, encounter these situations
+during current undergraduate programmes.
+Recent studies have demonstrated why doctors need to
+multi-task. Tipping et al. (2010) found that for 16% of hospital
+doctors’ time, more than one event was occurring simulta-
+neously (i.e. multi-tasking). In addition, Weigl et al. (2011)
+found that the frequency of hospital doctors’ workflow
+interruptions was high. Telephones and bleepers were the
+most frequently recorded type of workflow interruption.
+A recent paper by Eva (2009) has suggested that in the
+domain of clinical decision making, mistakes are necessary
+evils when trying to induce learning. In our study, it was
+evident from the interviews that students were making such
+mistakes in a safe, simulated environment. Individual simula-
+tion exercises such as the one in this study may enable medical
+students to improve their decision making without jeopardis-
+ing the care of real patients.
+Teaching intervention
+The tool. Medical students perceive a benefit from using the
+structured approaches ABCDE and SBAR when assessing
+patients and asking for help, respectively. Furthermore, the
+concept of a clinical decision making tool which encourages a
+structured approach to decision making is welcomed by
+students. Students found that existing tools, with which they
+were familiar, were very useful and helped to reduce their
+stress levels. It has been shown that high levels of stress can
+interfere with cognitive functions (Bourne & Yaroush 2003),
+therefore if a decision making tool could be applied, this could
+be very beneficial.
+However, the ‘AM I HERO NOW’ tool, although introduced,
+was not actually used by students as a decision making tool
+during their simulated practice in this study.
+With hindsight, students viewed a structure or tool for
+decision making as potentially useful. It is therefore possible
+that the ‘AM I HERO NOW’ tool would have been used by the
+participants if it had been introduced, taught and demonstrated
+to students at an earlier stage in their curriculum, using a more
+interactive format, similar to the way the ABCDE approach or
+SBAR is taught. A main reason for not using ‘AM I HERO NOW’
+appeared to be lack of familiarity and so the concept of a
+decision making tool may yet be worthwhile.
+The tutorial. The impact of teaching decision making cog-
+nitive theory using this study’s model is not clear.
+Students could remember concepts from the tutorial when
+interviewed, and some did spot the cognitive bias which had
+been included, i.e. the incorrect diagnosis in the confused
+patient scenario. Whether these findings constitute a measur-
+able, beneficial impact on the students’ approach to decision
+making is difficult to know, as some of the students in the
+other group were able to overcome the suggested incorrect
+diagnosis without having the tutorial.
+A significant difficulty with delivering a tutorial is the
+uncertainty from the literature on how students should be
+taught to make clinical decisions. Some authors encourage
+raising awareness of cognitive dispositions to respond (CDRs)
+(Croskerry 2005) and adopting metacognitive, analytical
+approaches to problems (Elstein & Schwarz 2002), while
+others (Norman 2009; Norman & Eva 2010) specifically
+encourage teaching both analytical and non-analytical
+approaches. Future studies may give conclusive answers to
+the question of which approach works best for junior doctors,
+but this remains a very complex area.
+The simulation session. The students were overwhelmingly
+positive about the individual simulation session, and showed
+evidence of quickly adapting and learning how to prioritise
+and make referrals. The students gained confidence from the
+simulation and felt that they were more prepared for working
+as FY1s afterwards. Specifically, they acknowledged an
+improved understanding, as compared with any learning to
+date, of their personal responsibility for decision making.
+However, it remains to be seen whether these findings
+translate into better judgements regarding when to ask for help
+once the students start work, especially given the number of
+influences involved in making clinical decisions (Stewart
+2008). The students felt that the simulator session was more
+beneficial than the tutorial or the decision-making tool.
+Limitations
+In this study, the researcher that conducted the interviews also
+delivered the tutorial and the tool to the students. The
+participants may have therefore been biased towards giving
+answers that they perceived the researcher wished to hear.
+However, triangulation of interview data with real time
+observation during the simulator may have reduced this bias.
+There may have been a selection bias, as only volunteers
+from a group of final year medical students from a single
+medical school took part in the study. However, we conducted
+this as a pilot study and future research will determine the
+generalisability of the findings. Although the number of
+participants is acceptable for a pilot study of qualitative
+nature, the credibility may have been increased with larger
+number of participants. In this study, students’ perceptions of
+the teaching intervention were explored to assess its effec-
+tiveness. While this has yielded findings of note, an additional
+objective means of assessing students’ performance, if avail-
+able and applicable to this setting, would have given more
+reliable findings.
+In this study, we assumed that all participating students had
+the same level of knowledge. However, lack of knowledge of
+a particular topic may have influenced individual students’
+clinical decision making.
+Future work
+The research team are now exploring the practicalities
+involved in extending this study to a much larger cohort in
+2012 and in obtaining longitudinal evaluation of benefit from
+the initial study group. Using a larger cohort would enable a
+C. A. McGregor et al.
+e514
+more meaningful statistical comparison of quantitative data
+which would minimise some of the limitations of this pilot
+study outlined above.
+Conclusions
+In this pilot study, we have demonstrated that medical students
+remain not fully prepared for working as junior doctors.
+Awareness of, and preparedness for, the doctor’s personal
+responsibility for decision-making were key components that
+were lacking. Students need further guidance on how to make
+key clinical decisions as junior doctors, especially in relation to
+making a diagnosis, prioritisation, and asking for help.
+Although clinical decision making is a complex process,
+certain ‘teaching’ interventions, such as using structured
+approaches and individual simulation sessions can be effec-
+tive. However, further studies are necessary to examine the
+impact of these educational interventions on day-to-day
+clinical practice.
+Declaration of interest: The authors report no declarations
+of interest.
+Notes on contributors
+CALUM A MCGREGOR, MBChB, MRCP (UK), MMed, is an ST6 in Acute
+Medicine in the West of Scotland, currently based at Glasgow’s Western
+Infirmary. When this project took place, he was a Clinical Teaching Fellow
+with NHS Lanarkshire’s Department of Medical Education, and has recently
+completed a Masters Degree in Medical Education from the University of
+Dundee.
+CATHERINE PATON, BA Health Studies, is a clinical skills consultant, based
+at NHS Lanarkshire’s Medical Education Training Centre in Bothwell, and
+has extensive experience of resuscitation and clinical skills training.
+CALUM THOMSON, RGN, RMN, BSc Advanced Nursing, was appointed
+professional lead for Clinical Practice Development with NHS National
+Services Scotland in 2010. Prior to this, he worked for NHS Lanarkshire’s
+Department of Medical Education, and has extensive experience of
+resuscitation and clinical skills training.
+MADAWA CHANDRATILAKE, is a research officer at the University of
+Dundee’s Centre for Medical Education, and his research interests include
+professionalism and assessment.
+HAZEL SCOTT, MD FRCP, is a consultant respiratory physician with NHS
+Lanarkshire and is director of Deanery Development/associate postgrad-
+uate dean in the West of Scotland Deanery. Prior to this appointment,
+Professor Scott was director of NHS Lanarkshire’s Department of Medical
+Education.
+References
+Berner ES, Graber ML. 2008. Overconfidence as a cause of diagnostic error
+in medicine. Am J Med 121(5S):2–23.
+Bourne LE, Yaroush RA. 2003. Stress and cognition: A cognitive
+psychological perspective. Washington, DC: National Aeronautics
+and Space Administration [Published 2010 April 19]. Available from:
+http://humansystems.arc.nasa.gov/eas/download/non_EAS/Stress_and_
+Cognition.pdf
+Cave J, Woolf K, Jones A, Dacre J. 2009. Easing the transition from student
+to doctor: How can medical schools help prepare their graduates for
+starting work? Med Teach 31(5):403–408.
+Croskerry P. 2003. The importance of cognitive errors in diagnosis and
+strategies to minimize them. Acad Med 78:77–78.
+Croskerry P. 2005. Diagnostic failure: A cognitive and affective approach.
+In: Henriksen K, Battles JB, Marks ES, Lewin DI, editors. Advances in
+patient safety: From research to implementation. Rockville, MD: Agency
+for Health Care Research and Quality. Ch. 5: 252.
+Croskerry P. 2009. Clinical cognition and diagnostic error: Applications of a
+dual process model of reasoning. Adv Health Sci Educ 14(1):27–35.
+Dent JA, Harden RM. 2009. A practical guide for medical teachers. 3rd ed.
+Edinburgh: Elsevier Health Sciences.
+Elstein AS, Schwarz A. 2002. Clinical problem-solving and diagnostic
+decision-making: A selective review of the cognitive literature. BMJ
+324:729–732.
+Eva KW. 2005. What every teacher needs to know about clinical reasoning.
+Med Educ 39:98–106.
+Eva KW. 2009. Diagnostic error in medical education: Where wrongs can
+make rights. Adv Health Sci Educ 14:71–81.
+Eva KW, Hatala RM, LeBlanc VR, Brooks LR. 2007. Teaching from the
+clinical reasoning literature: Combined reasoning strategies help novice
+diagnosticians overcome misleading information. Med Educ
+41(12):1152–1158.
+Featherstone DE. 2005. Interview with Frances A. Griffen, Institute for
+Healthcare Improvement. Interview by Diane E. Featherston. J Nurs
+Care Qual 20(4):369–372.
+GMC. 2009. Tomorrow’s doctors: Outcomes and standards for under-
+graduate medical education. London: General Medical Council.
+Graber ML. 2005. Diagnostic error in internal medicine. Arch Intern Med
+165:1493–1499.
+Illing J, Morrow G, Kergon C, Burford B, Spencer J, Peile E, Davies C,
+Baldouf B, Allen M, Johnson N, et al. 2008. How prepared are medical
+graduates to begin practice? A comparison of three diverse UK medical
+schools. Final Report for the GMC Education Committee. General
+Medical Council/Northern Deanery.
+Jevon P. 2010. Assessment of critically ill patients: The ABCDE approach. Br
+J Healthcare Assist 4(8):404–407.
+Jones A, Willis SC, McArdle PJ, O’Neill PA. 2006. Learning the house officer
+role: Reflections on the value of shadowing a PRHO. Med Teach
+28(3):291–293.
+Lake SE. 2005. Nursing prioritisation of the patient need for care: Tacit
+knowledge of clinical decision making in nursing. [Published 2010
+November 23]. Available from: http://researcharchive.vuw.ac.nz/bit-
+stream/handle/10063/22/thesis.pdf?sequence=6
+Lundberg GD. 1998. Low tech autopsies in the era of high tech medicine:
+Continued value for quality assurance and patient safety. J Am Med
+Assoc 280:1273–1274.
+Medical Education England 2010. Survey of shadowing completed by the
+appointees to the foundation programme, undertaking shadowing at
+the Royal Free Hospital. London: Medical Education England.
+Norman G. 2005. Research in clinical reasoning: Past history and current
+trends. Med Educ 39(4):418–427.
+Norman G. 2009. Dual processing and diagnostic errors. Adv Health Sci
+Educ 14:37–39.
+Norman GR, Eva KW. 2010. Diagnostic error and clinical reasoning. Med
+Educ 44:94–100.
+Runciman WB, Kluger MT, Morris RW, Paix AD, Watterson LM, Webb RK.
+2005. Crisis management during anaesthesia: The development
+of an anaesthetic crisis management manual. Qual Saf Health Care
+14(3):e1.
+Stewart J. 2008. To call or not to call: A judgement of risk by pre-registration
+house officers. Med Educ 42(9):938–944.
+Sullivan DJ. 2009. How physicians think: The cognitive autopsy. James D
+Mills Jr. memorial lecture. (Online) [Published 2010 March 14].
+Available from: http://www.hornlakeprofessionalbuilding.com/data/
+papers/WE-207.pdf
+Tallentire VR, Smith SE, Wylde K, Cameron HS. 2011. Are medical
+graduates ready to face the challenges of foundation training? Postgrad
+Med J 87(1031):590–595.
+Tipping MD, Forth VE, O’Leary KJ, Malkenson DM, Magill DB, Englert K,
+Williams MV. 2010. Where did they go? A time motion study of
+hospitalists. J Hosp Med 5(6):323–328.
+Weigl M, Muller A, Zupanc A, Glaser J, Angerer P. 2011. Hospital doctors’
+workflow interruptions and activities: An observation study. BMJ Qual
+Saf 20(6):491–497.
+Preparing students for decision making
+e515
+Appendix
+Checklists for simulator session
+STUDENT NAME
+Assessment and T reatment of Chest Pain Scenario
+Record if done
+1) Introduces self to patient. Check/Assess the airway (A)
+Notes Patient able to talk therefore airway patent.
+Assesses for tracheal deviation
+Asks patient to report if in pain. (Central Chest pain radiating to L arm) Explain actions and treatment.
+2) Check/Assess breathing (B)
+Checks Respiratory rate
+Checks if Breathing symmetrical
+Assesses air entry – Bilateral air entry. No abnormal sounds
+Checks for Cyanosis
+Commences High Flow 02 via non-rebreathing mask as no history of Type II respiratory failure – info given to students
+Requests/attaches SPO2
+3) Check/Assess circulation (C)
+Looks for Diaphoretic?
+Checks Capillary Refill Time
+Checks Pulse Rate
+Monitoring Attach/request cardiac monitoring heart rate
+Checks BP, attach request blood pressure cuff
+Listens to heart sounds
+Requests/Explains need for 12 lead ECG
+4) Diagnosis, Treatment and Management
+Inserts IV access
+Correctly interprets information from history, exam and ECG findings – i.e. diagnoses acute coronary syndrome *
+Initiates treatment for ACS MONA (Morphine, Oxygen, Nitrate, Aspirin) *
+Recognises limitations and asks for help *
+Marker’s Signature _________________________________
+Marker’s Name ( print)_______________________________
+STUDENT NAME
+Confused Patient Scenario
+Record if done
+1) Introduces self to patient. Check/Assess the airway (A)
+Notes Patient able to communicate, therefore airway patent.
+2) Check/Assess breathing (B)
+Checks respiratory rate
+Checks if breathing symmetrical?
+Assesses air entry
+Requests/Attaches Sats
+Commences O2 where necessary
+3) Check/Assess circulation (C)
+Checks Capillary Refill Time
+Checks Pulse Rate
+Checks BP
+4) Disability D
+Notes GCS
+Undertakes Neuro Exam
+5) Diagnostic Sieve before diagnosis
+Considers alternatives - Looks for rash *
+Considers alternatives – Looks for evidence of head injury *
+Looks at drug chart *
+Attempts to obtain more info (notes/nursing staff) to ascertain patient’s normal level of functioning *
+Asks for BM without prompting *
+6) Diagnosis and Management
+Treats BM appropriately *
+Thinks about measures to prevent further hypo after correction (regular BMs, reduce insulin, long-acting carbohydrate etc.) *
+Marker’s Signature _________________________________
+Marker’s Name ( print)_______________________________
+* represented the actions most relevant to clinical decision making
+C. A. McGregor et al.
+e516
+STUDENT NAME
+Prioritisation Scenario Hypotensive Man
+Record if done
+1) Introduces self to patient. Check/Assess the airway (A)
+Notes Patient able to talk so airway patent.
+Assesses for tracheal deviation as potentially fatal sign
+2) Check/Assess breathing (B)
+Checks Respiratory rate
+Checks Breathing symmetrical?
+Assesses air entry
+Commences High Flow 02 via non-rebreather mask as no history of Type II respiratory failure
+Requests/attaches SPO2
+3) Check/Assess circulation (C)
+Checks Capillary Refill Time
+Checks Pulse Rate
+Checks BP
+Listens to heart sounds
+Checks for peripheral oedema
+Looks for signs of haemorrhage around bed *
+4) Disability D
+Comments on GCS or AVPU
+5) Management
+Correctly identifies hypotensive patient as high priority *
+Correctly prioritises urgent nature of situation and attends patient *
+Asks for/looks at fluid balance chart *
+Asks for/looks at drug chart *
+Send bloods for FBC, U and Es etc
+Asks for ECG *
+Inserts IV access if not already obtained
+Gives fluid challenge quickly *
+Re-assesses patient post fluid challenge*
+Marker’s Signature _________________________________
+Marker’s Name ( print)_______________________________
+* represented the actions most relevant to clinical decision making
+Preparing students for decision making
+e517
+Copyright of Medical Teacher is the property of Taylor & Francis Ltd and its content may not be copied or
+emailed to multiple sites or posted to a listserv without the copyright holder's express written permission.
+However, users may print, download, or email articles for individual use.

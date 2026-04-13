@@ -1,0 +1,978 @@
+TITLE: Test&#x2010;enhanced learning of clinical reasoning: a crossover randomised trial
+AUTHORS: Tobias Raupach, Jil C Andresen, Katharina Meyer, Lisa Strobel, Michael Koziolek, Wolfram Jung, Jamie Brown, Sven Anders
+YEAR: 2016
+DOI: 10.1111/medu.13069
+
+CONTENT:
+Test-enhanced learning of clinical reasoning: a crossover
+randomised trial
+Tobias Raupach, 1,2 Jil C Andresen, 1 Katharina Meyer, 1 Lisa Strobel, 1 Michael Koziolek, 3
+Wolfram Jung, 4 Jamie Brown 2 & Sven Anders 5
+CONTEXT Clinical reasoning is an essential skill,
+the foundations of which should be acquired during
+undergraduate medical education. Student perfor-
+mance in clinical reasoning can be assessed using
+key feature examinations. However, within a para-
+digm of test-enhanced learning, such examinations
+may also be used to enhance long-term retention
+of procedural knowledge relevant to clinical
+reasoning.
+OBJECTIVES This study tested the hypothesis that
+repeated testing with key feature questions is more
+effective than repeated case-based learning in fos-
+tering clinical reasoning.
+METHODS In this randomised crossover trial,
+Year 4 medical students attended 10 weekly com-
+puter-based seminars during which patient case
+histories covering general medical conditions were
+displayed. The presentation format was switched
+between groups every week. In the control condi-
+tion, students studied long case narratives. The
+intervention condition used the same content but
+augmented case presentation with a sequence of
+key feature questions. Using a within-subjects
+design, student performance on intervention and
+control items was assessed at 13 weeks (exit
+examination) and 9 months (retention test) after
+the ﬁrst day of term.
+RESULTS A total of 87 of 124 eligible students
+provided complete data for the longitudinal
+analysis (response rate: 70.2%). In the retention
+test, mean /C6standard deviation student scores on
+intervention items were signiﬁcantly higher than
+those on control items (56.0 /C625.8% versus
+48.8 /C624.7%; p < 0.001). The results remained
+unchanged after accounting for exposure time in a
+linear regression analysis that also adjusted for sex
+and general student performance levels.
+CONCLUSIONS This is the ﬁrst study to
+demonstrate an effect of test-enhanced learning on
+clinical reasoning as assessed with key feature
+questions. In this randomised trial, repeated testing
+was more effective than repeated case-based
+learning alone. Curricular implementation of
+longitudinal key feature testing may considerably
+enhance student learning outcomes in relevant
+aspects of clinical medicine.
+Medical Education 2016: 50: 711 –720
+doi:10.1111/medu.13069
+Discuss ideas arising from the article at
+www.mededuc.com discuss
+1Department of Cardiology and Pneumology, Go ¨ttingen University
+Medical Centre, Go¨ttingen, Germany
+2Health Behaviour Research Centre, University College London,
+London, UK
+3Department of Nephrology and Rheumatology, Go ¨ttingen
+University Medical Centre, Go ¨ttingen, Germany
+4Department of Haematology and Oncology, Go ¨ttingen University
+Medical Centre, Go¨ttingen, Germany
+5Department of Legal Medicine, University Medical Centre
+Hamburg-Eppendorf, Hamburg, Germany
+Correspondence: Tobias Raupach, Department of Cardiology and
+Pneumology, University Hospital Go¨ttingen, Robert-Koch-Strasse
+40, D-37075, Go¨ttingen, Germany. Tel: 0049551398922;
+E-mail: raupach@med.uni-goettingen.de
+711ª 2016 John Wiley & Sons Ltd. MEDICAL EDUCATION 2016; 50: 711–720
+assessment for learning
+INTRODUCTION
+The overall aim of undergraduate medical educa-
+tion is to equip future physicians with a solid knowl-
+edge base and the essential skills required to
+manage their future patients. Amongst the higher-
+order cognitive functions that must be mastered is
+the act of applying knowledge to new clinical situa-
+tions in order to make informed choices about diag-
+nostic procedures and therapeutic options. These
+functions are usually described as ‘clinical reason-
+ing’ or ‘clinical cognition’ and they encompass a
+range of strategies used to generate and test
+hypotheses about a disease or mechanism underly-
+ing a given patient’s presenting complaint, as well
+as to arrive at decisions based on judgements of the
+prognostic signiﬁcance of diagnostic tests.
+1 At least
+two processes are involved in clinical reasoning, of
+which the ﬁrst is intuitive (e.g. pattern recognition
+from ﬁrst impressions) and the second is analytic in
+nature.
+2 It has been proposed that easier cases can
+readily be solved by applying intuitive strategies,
+whereas more complex cases require more in-depth
+processing.
+3 Clinical reasoning hinges on the avail-
+ability of a solid knowledge base, deliberate practice
+and metacognitive processes (e.g. reﬂective cop-
+ing
+4).
+The most popular teaching formats aimed at foster-
+ing clinical reasoning are small-group sessions (e.g.
+in problem-based or case-based learning
+5,6) and
+clinical rotations. However, as clinical teachers are
+required to facilitate small-group teaching, this
+instructional format is resource-intensive. In addi-
+tion, the group format is not well suited to students
+who learn at different speeds and is prone to the
+domination of discussions by particular students,
+which possibly hampers learning outcomes in
+others.
+7 These problems should not occur during
+clinical attachments in which one-to-one teaching is
+available from experienced clinicians. 8 However, the
+content for this format cannot be standardised to
+the same extent as in formal teaching sessions.
+Learning opportunities on medical wards depend
+on the types of patients treated on these wards. In
+consequence, students may be less likely to encoun-
+ter patients with speciﬁc diseases (including some
+for which swift decision making is crucial), thus lim-
+iting the range of content covered during clinical
+attachments.
+One way to standardise the content covered and
+provide equal learning opportunities to all students
+is to use computer-assisted case-based learning.
+9
+Despite being more effective than no teaching at
+all, computer-based learning is in itself not generally
+superior to more traditional instructional formats.
+10
+In order to be effective, computer-based teaching
+interventions should be informed by theory. One
+recent advance in educational psychology refers to
+test-enhanced learning. Although it has been known
+for some time that summative assessments drive stu-
+dent learning behaviour,
+11 the ﬁrst studies assessing
+the impact of formative assessments on learning pro-
+cesses in medicine were only published in 2008 12
+(see Roediger and Karpicke 13 for a thorough discus-
+sion of the principles underlying test-enhanced
+learning). These trials tended to focus on rote
+memory
+14 rather than complex cognitive functions,
+and some included short follow-up periods (e.g.
+1 week 15). Although some studies used sophisticated
+testing methods, 16 others relied on multiple-choice
+questions,17 which have been shown to be less effec-
+tive in this scenario 13 and potentially even detrimen-
+tal to student learning outcomes. 18 Current research
+on test-enhanced learning addresses mechanisms
+underlying the observed effects. For example, supe-
+rior performance in a ﬁnal test could either be the
+result of effortful retrieval during preceding tests
+(‘depth of processing hypothesis’
+19) or may simply
+reﬂect a training effect if the format of these tests is
+similar and thus evokes identical cognitive processes
+(‘transfer-appropriate hypothesis’
+20). In a recent
+study comparing these hypotheses, McConnell
+et al.
+21 found that student performance was better
+when more demanding test formats such as short-
+answer questions and context-rich multiple-choice
+questions (as opposed to context-free questions)
+were used during the training phase. However, the
+effect seen in the ﬁnal test was limited to questions
+that were identical to those seen during the train-
+ing. From a practical perspective, medical educators
+need to know how repeated testing can be used
+both effectively and efﬁciently.
+Given the potential lack of exposure to some rele-
+vant aspects of clinical medicine during small-group
+and face-to-face teaching, as well as the opportuni-
+ties arising from the concept of test-enhanced learn-
+ing, the present trial combined computer-based
+learning with key feature questions to assess whether
+repeated testing is more effective than repeated
+case-based learning in fostering clinical reasoning.
+22
+We hypothesised that undergraduate medical stu-
+dents answering key feature questions would retain
+more procedural knowledge over a 6 month period
+than students exposed to the same content without
+being prompted to answer key feature questions.
+The effect – if present – was expected to be attribu-
+712 ª 2016 John Wiley & Sons Ltd. MEDICAL EDUCATION 2016; 50: 711–720
+T Raupach et al
+table to an enhanced ability to access the relevant
+knowledge rather than a mere training effect
+regarding the handling of key feature questions.
+METHODS
+Study design
+This was a randomised, controlled, non-blinded
+crossover trial involving Year 4 undergraduate medi-
+cal students. At the institution at which the study
+was conducted, undergraduate medical education is
+divided into two parts. During the ﬁrst 2 years, basic
+sciences, as well as anatomy, biochemistry, physiol-
+ogy and medical psychology, are taught. After pass-
+ing a high-stakes examination, students progress to
+the clinical phase of the curriculum. This phase is
+made up of 21 modules, each of which lasts 2 –
+7 weeks. Modules in the ﬁrst year of the second
+phase are devoted to practical skills training, micro-
+biology, pharmacology and radiology, whereas mod-
+ules in the second and third years focus on signs
+and symptoms of speciﬁc diseases and approaches
+to treatment. In this study, Year 4 students enrolled
+in three consecutive teaching modules (cardiology
+and pulmonology, nephrology and rheumatology,
+haematology and oncology) in the winter term of
+2013–2014 were eligible for study participation. Fol-
+lowing an entry examination in the ﬁrst week of
+term, students were stratiﬁed by sex and perfor-
+mance levels and randomised to one of two groups.
+Students in both groups attended weekly computer-
+assisted learning sessions (‘e-seminars’; maximum
+duration: 45 minutes) during which they were pre-
+sented with four patient case histories related to
+teaching content of the previous week (Table 1).
+Case content was identical for all students, but the
+format varied each week between the ‘study-only
+cases’ and the ‘test cases’ in that the latter also
+involved prompts to answer ﬁve key feature ques-
+tions per case. These questions are referred to as
+‘items’; all analyses were performed at the item level
+(and not at the level of complete cases). Group A
+began with test cases (Fig. 1, black stripes) and
+Group B began with study-only cases (Fig. 1, grey
+Table 1 Teaching and e-seminar content
+Week
+Content covered E-seminar format
+Formal teaching E-seminars Group A Group B
+1 Coronary artery disease All (entry examination) T T
+2 Heart failure Coronary artery disease T S
+3 Valvular disease Heart failure S T
+4 Arrhythmias Valvular disease, coronary artery disease T S
+5 Respiratory disease Arrhythmias, heart failure S T
+6 Peripheral artery disease,
+pulmonary embolism,
+myocarditis, pericarditis
+Respiratory disease, valvular disease, coronary artery
+disease
+TS
+7 Nephrotic syndrome Peripheral artery disease, pulmonary embolism,
+myocarditis, pericarditis, arrhythmias, heart failure
+ST
+8 Electrolyte homeostasis Nephrotic syndrome, respiratory disease, valvular
+disease
+TS
+9 Renal failure Electrolyte homeostasis, peripheral artery disease,
+pulmonary embolism, myocarditis, pericarditis,
+arrhythmias
+ST
+10 Anaemia Renal failure, nephrotic syndrome, respiratory disease T S
+11 Lymphoma Anaemia, electrolyte homeostasis, peripheral artery
+disease, pulmonary embolism, myocarditis, pericarditis
+ST
+12 Solid tumours All (exit examination) T T
+T = test cases (cases contained key feature questions); S = study-only cases (cases did not contain key feature questions).
+713ª 2016 John Wiley & Sons Ltd. MEDICAL EDUCATION 2016; 50: 711–720
+Test-enhanced clinical reasoning
+stripes). The presentation format was then alter-
+nated systematically for each group across 10 ses-
+sions. Study-only cases yielded exactly the same
+information as test cases; the only difference
+between them was the presence of ﬁve questions
+(‘items’) in each of the latter. Thus, each student
+answered a total of 100 items during the ﬁve inter-
+vention e-seminars to which he or she was assigned.
+Of these, 15 occurred in two e-seminars, which
+allowed for repeated testing of these ‘intervention
+items’. As content was mutually exclusive for the
+two groups, intervention items for group A were
+never presented as questions in group B (and vice
+versa). Thus, by default, intervention items in group
+A served as control items in group B. Any student –
+regardless of group assignment – was exposed to 15
+intervention items in two e-seminars and to 15 con-
+trol items in two different e-seminars. The content
+of these 30 items had been pre-speciﬁed based on
+item characteristics obtained in a pilot phase in the
+preceding term. They were compiled into four cases
+containing six or nine key features each (with ran-
+dom allocation of items to cases); the diseases cov-
+ered are presented in Table 2. In order to ensure
+comparability, the same cases were used in the entry
+and exit examinations, as well as the retention test,
+but they differed from the cases presented in e-semi-
+nars occurring between the entry and exit examina-
+tions. All examinations were formative in nature
+(i.e. no incentive to achieve high scores was pro-
+vided as this may have confounded results
+11).
+Detailed feedback was created for each item; stu-
+dents were able to access this feedback by clicking
+on a speciﬁc button. The same information pro-
+vided in the feedback to speciﬁc questions was also
+provided as ‘background information’ in the control
+condition. Feedback for intervention items con-
+tained all options from the key feature long menu
+that were considered ‘correct’. It also contained
+explanations of why some distractor options antici-
+pated to be chosen by students were deemed ‘incor-
+rect’. The presentation of the information differed
+between groups in that feedback for intervention
+items was tailored to the question, whereas all rele-
+vant information was included in the ‘background
+information’ without highlighting those aspects that
+were tested in the intervention group. Content cov-
+ered in e-seminars was not repeated during formal
+teaching and thus any increase in knowledge from
+the ﬁrst intervention e-seminar to the exit examina-
+tion will reﬂect exposure to the content during the
+e-seminar or self-study.
+Student enrolment, data collection and analysis
+Four weeks before the start of the winter term of
+2013–2014, students were informed about the study
+by e-mail. On the ﬁrst day of term, they were invited
+to provide written consent to participate in the study.
+Consenting students were then followed up over a
+total of 9 months. All three examinations, as well as
+all 10 e-seminars, were held in the institution’s
+20/01/14: exit exam (four patient cases, 30 key features)
+10 e-seminarsContamination:
+n = 4
+Contamination:
+n = 8
+124 students
+23/10/13: entry exam (four patient cases, 30 key features)
+Group B
+(n = 59)
+Group A
+(n = 61)
+Stratification (sex, performance 
+levels) and randomisation
+No consent:
+n = 4
+87 students
+14/07/14: retention test (four patient cases, 30 key features)
+103 students
+No data:
+n = 2
+No data:
+n = 8
+No data:
+n = 2
+No data:
+n = 1
+No data:
+n = 8
+Figure 1 Flow of participants through the study. Black stripes = test cases; grey stripes = study-only cases. Contamination
+occurred when students were erroneously exposed to the wrong presentation format (by reporting to the computer room
+assigned to the other group) at least once
+714 ª 2016 John Wiley & Sons Ltd. MEDICAL EDUCATION 2016; 50: 711–720
+T Raupach et al
+e-learning resource centre. Each student was
+assigned to one of the two computer rooms at the
+resource centre, and the presentation format (test
+cases or study-only cases) was switched for each room
+on a weekly basis. Data for students not reporting to
+the same room for every e-seminar were excluded
+from the analysis as these students received a higher
+or lower dose of the intervention, thus contaminat-
+ing results. Examinations and e-seminars were sched-
+uled to last no longer than 45 minutes within which
+students were free to complete sessions at their own
+pace. Individual login times were recorded.
+Table 2 Proportions of correct answers for the 30 key feature items in the exit examination and retention test
+Disease Key features
+Exit examination Retention test
+Condition Condition
+T (%) S (%) T (%) S (%)
+Pulmonary embolism Diagnosis of pulmonary embolism 59.5 48.9 57.1 64.4
+Wells score before D-dimer testing 76.2 60.0 76.2 51.1 *
+Thorax CT scan to conﬁrm PE 42.9 55.6 26.2 44.4
+Right ventricular strain for risk stratiﬁcation 45.2 22.2 * 42.9 24.4
+Fibrinolysis for unstable pulmonary embolism 59.5 51.1 54.8 37.8
+Arterial hypertension Diagnosis of secondary hypertension 40.5 20.0 * 35.7 24.4
+Diagnosis of diastolic dysfunction 21.4 20.0 23.8 17.8
+Diagnosis of ACE inhibitor cough 88.1 82.2 73.8 86.7
+Hyponatraemia Hospital admission for hyponatraemia 31.0 6.7 * 35.7 26.7
+Thiazide diuretics as cause of hyponatraemia 78.6 60.0 59.5 60.0
+Diagnosis of central pontine myelinolysis 40.5 17.8 * 31.0 15.6
+Atrial ﬁbrillation Orthostatic challenge after syncope 54.8 46.7 61.9 55.6
+ECG diagnosis of tachyarrhythmia 66.7 66.7 64.3 62.2
+CHA
+2DS2-VASc score for anticoagulation 38.1 33.3 64.3 46.7
+Brain CT scan for suspected stroke 71.1 53.3 54.8 71.1
+Lupus erythematodes Diagnosis of nephrotic syndrome 75.6 59.5 62.2 57.1
+Diagnosis of systemic lupus erythematodes 71.1 59.5 75.6 64.3
+Renal biopsy to conﬁrm lupus nephritis 71.1 59.5 71.1 69.0
+Immunosuppressive treatment for lupus nephritis 71.1 64.3 71.1 73.8
+COPD Diagnosis of COPD 66.7 76.2 75.6 71.4
+Conﬁrmation of COPD by FEV 1/VC < 70% 68.9 35.7 * 51.1 28.6 *
+ABG analysis for suspected CO 2 intoxication 42.2 14.3 * 48.9 21.4 *
+Treatment of CO 2 intoxication by NIV 55.6 45.2 53.3 42.9
+Pneumonia Diagnosis of pneumonia in a chest X-ray 71.1 64.3 60.0 57.1
+CRB-65 score for hospital admission 53.3 28.6 * 42.2 21.4 *
+Hyperthyroidism Diagnosis of hyperthyroidism from lab results 86.7 71.4 82.2 81.0
+Stopping amiodarone in a patient with hyperthyroidism 57.8 40.5 51.1 40.5
+Pulmonary ﬁbrosis Diagnosis of pulmonary ﬁbrosis 53.3 38.1 44.4 42.9
+Amiodarone as cause of pulmonary ﬁbrosis 57.8 54.8 75.6 71.4
+Indication for long-term oxygen therapy 57.8 50.0 48.9 35.7
+* p < 0.05 in a chi-squared test comparing retesting and restudying. ABG = arterial blood gases; ACE = angiotensin-converting enzyme;
+CO2 = carbon dioxide; COPD = chronic obstructive pulmonary disease; CRB = confusion/respiratory rate/blood pressure; CT = computed
+tomography; ECG = electrocardiogram; FEV 1 = forced expiratory volume in 1 second; NIV = non-invasive ventilation ; PE = pulmonary
+embolism; S = study-only cases (cases did not contain key feature questions); T = test cases (cases contained key feature questions);
+VC = vital capacity.
+715ª 2016 John Wiley & Sons Ltd. MEDICAL EDUCATION 2016; 50: 711–720
+Test-enhanced clinical reasoning
+The primary outcome for this study was the within-
+subject difference in percentage scores in interven-
+tion versus control items in the retention test at
+6 months after the last e-seminar (paired t-test).
+Pearson correlations were calculated to assess the
+moderating effect of exposure time to study and test
+material on retention test performance. In addition,
+linear regression analyses were run using the differ-
+ence between scores on test and study-only items in
+the exit and retention tests as the dependent vari-
+ables, and the difference in mean time spent on test
+and study-only cases, respectively, as the indepen-
+dent variable, adjusting for student sex and percent-
+age scores in summative end-of-module
+examinations as a surrogate parameter for overall
+performance levels. Secondary outcomes included
+student performance in the exit examination and
+the proportion of correct answers on individual
+items in both examinations.
+Statistical analysis was performed using IBM SPSS
+Statistics for Windows Version 22.0 (IBM Corp.,
+Armonk, NY, USA). Data are presented as the
+mean /C6standard deviation (SD) or as numbers and
+percentages unless otherwise stated. A p-value of
+< 0.05 was considered to indicate statistical signiﬁ-
+cance. This study was approved by the local ethics
+committee (application no. 2/10/13).
+RESULTS
+Student characteristics
+The ﬂow of participants through the study is dis-
+played in Fig. 1. Of the 124 students eligible for
+study participation, four did not provide written
+consent. Following the exclusion of students for rea-
+sons of missing data or contamination (see above),
+complete data were available for 87 students (longi-
+tudinal sample; effective response rate: 70.2%). The
+mean /C6SD age of the study participants was
+25.0 /C62.9 years and 58.6% ( n = 51) were female.
+There were no signiﬁcant differences regarding age,
+sex distribution and previous examination scores
+between students in the longitudinal sample and
+the 33 students excluded from the analysis (data
+not shown).
+Descriptive analysis of e-seminars and examinations
+Attendance at e-seminars was high: no student
+missed more than two seminars. Mean login time at
+e-seminars was 17.46 /C64.44 minutes, and students
+spent signiﬁcantly more time on test items than on
+study-only items (21.47 /C65.27 minutes versus
+13.30 /C65.24 minutes per seminar; p < 0.001). The
+percentage of points scored on test items ranged
+from 38.6% to 65.6%, reﬂecting the absence of a
+ﬂoor or ceiling effect. The internal consistency of
+e-seminars (test items) tended to increase over the
+course of the study with the ﬁnal four sets of test
+seminars (20 items each) all yielding Cronbach’s
+a-values of > 0.8. Cronbach’s a-values for the entry,
+exit and retention examinations were 0.663, 0.905
+and 0.895, respectively.
+Learning outcome
+Mean /C6SD scores in the entry, exit and retention
+examinations were 22.6 /C611.3%, 53.0 /C624.4% and
+52.4 /C623.4%, respectively. Figure 2 shows superior
+performance on test items compared with study-only
+items by the primary measure of long-term reten-
+tion. Mean /C6SD scores for test items and study-only
+items were 56.0 /C625.8% and 48.8 /C624.7%, respec-
+tively (p < 0.001). The difference between the two
+scores was slightly larger on the secondary measure
+of exit examination performance (59.3 /C627.7% ver-
+sus 46.7 /C624.8%; p < 0.001). There was a signiﬁ-
+cant correlation between extra time spent on test
+items and the difference between performance on
+test and study-only items in the retention test
+(r = 0.273, p = 0.011), but not in the exit examina-
+tion ( r = 0.038, p = 0.724). After adjusting for stu-
+dent sex and performance in summative end-of-
+course examinations, the main effect of the inter-
+vention on examination performance remained sig-
+niﬁcant for both the retention test (intercept: -7.03,
+95% conﬁdence interval [CI] -12.03 to -2.03;
+p = 0.006) and the exit examination (intercept:
+-8.40, 95% CI -13.71 to -3.09; p = 0.002).
+Student performance on individual items in the exit
+and retention tests is given as a function of prior
+exposure (repeated testing versus repeated study) in
+Table 2. Performance trajectories (Fig. 3) indicate
+that once an intervention item had been answered
+correctly, another correct answer was provided on a
+subsequent test in 72.0% of cases. More importantly,
+33.3% of students who failed to provide a correct
+answer in one test went on to submit a correct answer
+in a subsequent test of the same item, thus suggesting
+a learning effect elicited by the feedback provided.
+DISCUSSION
+To our knowledge, this is the ﬁrst study using
+repeated key feature examinations in a test-
+716 ª 2016 John Wiley & Sons Ltd. MEDICAL EDUCATION 2016; 50: 711–720
+T Raupach et al
+enhanced learning paradigm. It is also the ﬁrst
+study to speciﬁcally address clinical reasoning in
+undergraduate medical students. After 6 months, we
+found a sustained effect of repeated testing that was
+robust even when additional exposure time to the
+material in testing sessions was accounted for. The
+key feature examinations used in our study covered
+a wide range of diseases. Students who had been
+repeatedly tested outperformed students who had
+repeatedly studied the same material on tasks such
+as diagnosing pneumonia on a chest X-ray, detect-
+ing bronchial obstruction in a lung function test
+and calculating the Wells score before ordering a D-
+dimer test in suspected pulmonary embolism, all of
+which are highly relevant to clinical practice. Once
+established, key feature testing appears to be a time-
+efﬁcient way of enhancing retention of clinical rea-
+soning. For some learning objectives, it may thus be
+an intriguing alternative to more resource-intensive
+teaching formats.
+0
+10
+20
+30
+40
+50
+60
+70
+Score, %
+1 5 10 15 20 25 30 35 40
+Time, weeks
+Exit 
+examination
+Retention
+test
+Entry
+examination
+**
+Repeated testing
+Repeated study
+Figure 2 Learning outcomes. Student performance in the entry and exit examinations and the retention test for test items
+(black line) and study-only (grey line) items, respectively. Error bars indicate standard errors of the mean. *p < 0.001 in a
+paired t-test comparing student performance on intervention and control items
+Intervention items
+First test Second test Exit exam Retention test
+84.0% correct
+16.0% incorrect
+55.7% correct
+44.3% incorrect
+62.4% correct
+37.6% incorrect
+40.9% correct
+59.1% incorrect
+73.5% correct
+26.5% incorrect
+35.0% correct
+65.0% incorrect
+54.2% correct
+45.8% incorrect
+19.6% correct
+80.4% incorrect
+84.2% correct
+15.8% incorrect
+58.8% correct
+41.2% incorrect
+73.9% correct
+26.1% incorrect
+31.9% correct
+68.1% incorrect
+63.1% correct
+36.9% incorrect
+27.1% correct
+72.9% incorrect
+52.0% correct
+48.0% incorrect
+Figure 3 Performance trajectories showing the proportions of intervention items answered correctly as a function of prior
+performance on identical items. Proportions of each category are connected by arrows from the preceding test
+717ª 2016 John Wiley & Sons Ltd. MEDICAL EDUCATION 2016; 50: 711–720
+Test-enhanced clinical reasoning
+Comparison with previous research
+Previous studies on the effectiveness of test-
+enhanced learning in medical education differ with
+regard to study design (observational
+23 or ran-
+domised24), study population (medical, 25 dental15
+and nursing 17 students), career level (from incom-
+ing students 23 to residents 26), sample size (21 23 to
+13827), learning objectives (from factual knowl-
+edge14 to clinical applications 26), testing format
+(from multiple-choice questions 17 to essays 25 and
+simulated patient encounters 16), number of inter-
+ventions (one, 14 three26 or four 25), and length of
+follow-up (1 week 17 to 6 months 16). Although this
+huge variation limits the extent to which our results
+can be compared with those of earlier studies, there
+are some similarities between the present study and
+recent reports by Larsen and colleagues,
+16,25,26,28 who
+studied test-enhanced learning in neurology. In one
+randomised crossover study, 40 neurology residents
+who had received teaching on myasthenia gravis
+and status epilepticus subsequently participated in
+three testing or studying sessions over a period of
+4 weeks. Six months later, performance on short-
+answer questions was better on items that had been
+repeatedly tested (scores: 39% versus 26%). In
+another crossover trial conducted by the same
+group,
+25 47 Year 1 medical students received teach-
+ing on seizures, optic neuritis, myasthenia gravis
+and migraine. In a retention test taken 6 months
+later, repeated testing was associated with signiﬁ-
+cantly higher percentage scores than repeated study
+(40% versus 20%).
+25 Similar results were obtained
+in a more recent trial involving sophisticated meth-
+ods, in which the authors used simulated patients
+for intervention sessions and the ﬁnal retention
+test.
+16 Although this approach demonstrates that
+the effects elicited by test-enhanced learning may
+translate into clinical practice, it also raises the
+issue of resource allocation within medical educa-
+tion.
+28 Repeated testing with simulated patients is
+time-consuming and requires considerable staff
+numbers. Given the economies of scale associated
+with e-learning interventions
+29 and the educational
+rationale for using key feature questions to foster
+complex cognitive functions,
+12 our study con-
+tributes to the growing body of literature on how
+e-learning can be used efﬁciently to improve
+student learning outcomes.
+30 Repeated key feature
+examinations can create learning opportunities that
+otherwise might not be available to all students
+(e.g. performing an arterial blood gas analysis in a
+case of suspected carbon dioxide intoxication
+[Table 2]).
+At ﬁrst glance, the overall performance in the reten-
+tion test, which resulted in a mean score of just over
+50%, is disappointing. However, the percentage
+scores achieved for intervention and control items
+compare favourably with those in earlier studies.
+25,26
+The results are likely to reﬂect the fact that the
+retention test was formative in nature. As these
+assessments did not generate credit points, students
+did not revise for them, which avoided any potential
+confounding imposed by the impact of examina-
+tion consequences on learning behaviour.
+Accordingly, our data are likely to reﬂect the true
+effect of repeated testing on the ability to access the
+knowledge needed to solve the clinical problems
+presented.
+One unexpected ﬁnding of the present study was
+the absence of a substantial decline in examination
+performance over a period of 6 months. Few studies
+on test-enhanced learning in medical education
+have speciﬁcally reported on retention, but those
+that have done suggest a considerable decrease in
+performance levels over the course of
+6 months.
+14,16,25,26 As in most other studies, 14,17,26
+the exit examination and retention test were identi-
+cal. Consequently, one potential explanation for the
+lack of a performance loss is that students may sim-
+ply have remembered the cases, questions and
+answers. This is unlikely because the students were
+not reminded of the content over the period of
+6 months. The magnitude of this effect would be
+expected to be similar for intervention and control
+items, and even if this effect did have an impact on
+our results, it was too weak to mask the sustained
+advantage of testing over studying. An alternative
+explanation for the excellent retention observed in
+this study is that students applied their knowledge
+in consecutive clinical attachments. This – and the
+fact that repeated study appeared to elicit superior
+retention in some items (see Table 2) – highlights
+the need for a multifaceted approach to teaching
+that blends traditional teaching formats with innova-
+tive concepts.
+Strengths and limitations of the study
+This study was designed according to current rec-
+ommendations for this type of research.
+12 We used
+a production test format rather than a recognition
+test format to assess clinical reasoning. Testing was
+spaced across weeks and students were given imme-
+diate educational feedback on their answers. The
+response rate was acceptable and there was no evi-
+dence of selection bias threatening the validity of
+718 ª 2016 John Wiley & Sons Ltd. MEDICAL EDUCATION 2016; 50: 711–720
+T Raupach et al
+the ﬁndings. The internal consistency of the exit
+and retention tests was excellent. This study was
+not designed to address the cognitive mechanisms
+underlying the observed effect. However, our
+results are in line with the hypothesis that repeated
+testing with key feature questions enhances knowl-
+edge retention. Given the crossover design and the
+within-subjects comparison of intervention and con-
+trol items, our data suggest that the observed score
+difference can be attributed to an effect of
+repeated testing on the storage and retrieval of
+knowledge rather than an effect of training in how
+to answer key feature questions. The latter is unli-
+kely because all students received the same ‘dose’
+of key feature training. Unlike another recent
+study,
+21 we found an overall effect of repeated test-
+ing despite the considerable differences between
+the cases presented in the exit examination and
+the cases presented during e-seminars, although
+both sets targeted identical learning objectives. We
+cannot comment on the cognitive processes under-
+lying clinical reasoning that were primarily invoked
+by our intervention. It may be hypothesised that
+the cases were easy enough to be solved using an
+intuitive strategy, thus requiring less higher-order
+metacognitive activity.
+1 This hypothesis should be
+tested in future trials.
+Despite these strengths, the generalisability of our
+ﬁndings is limited by the monocentric nature of
+the study. As this study was meant to shed light on
+the real-world effectiveness of test-enhanced learn-
+ing, some potential confounding factors were not
+experimentally controlled. Most importantly, we
+did not collect data on independent student learn-
+ing. Test cases might have stimulated self-study out-
+side the e-learning resource centre to a greater
+extent than study-only cases, thus magnifying the
+observed effect. Unlike laboratory studies on test-
+enhanced learning, we did not attempt to control
+time-on-task during e-seminars but allowed students
+to terminate their sessions at their own conve-
+nience. However, login times were recorded and
+included in our analysis. There was weak evidence
+of an association between extra time-on-task in test
+sessions and better learning outcomes on test
+items, but the effect of the intervention persisted
+when this was controlled for in the analysis. Finally,
+this study did not assess whether repeated testing
+with key feature questions impacts on student per-
+formance in the clinical setting. Although one
+study suggests such a link,
+16 more research is
+needed to establish a causal relationship between
+repeated testing and more favourable patient out-
+comes.
+CONCLUSIONS
+For the ﬁrst time, this study demonstrates that
+repeated case-based learning augmented with forma-
+tive key feature questions is more effective than
+case-based learning alone in fostering clinical rea-
+soning in undergraduate medical students. The
+effect was sustained over 6 months and cannot be
+explained by differences in exposure time between
+the two presentation formats. Repeated testing
+using key feature questions appears to be a time-efﬁ-
+cient way of enhancing retention of procedural
+knowledge in undergraduate medical education.
+Contributors: TR conceived the study, developed its design,
+drafted key feature cases, analysed the data and wrote the
+manuscript. JCA implemented all key feature examinations
+on the learning platform and contributed to data analysis
+and the writing of the paper. KM supervised all key feature
+examinations in the e-learning resource centre, was respon-
+sible for data handling and prepared the statistical analysis.
+She also contributed to the writing of the Methods and Dis-
+cussion sections. LS wrote all study-only cases and drafted
+feedback narratives for all 200 key feature questions. She
+also contributed to the writing of the Methods and Discus-
+sion sections. MK drafted all key feature cases related to
+nephrology and rheumatology and revised these cases fol-
+lowing the pilot phase in the preceding term. He con-
+tributed to the writing of the Results and Discussion
+sections. WJ helped to write all key feature cases related to
+haematology and oncology and revised these cases follow-
+ing the pilot phase. He contributed to the writing of the
+Results section. JB designed major aspects of the statistical
+analysis plan, helped analyse the data, and contributed to
+the Introduction, Results and Discussion sections. SA was
+involved in the study at the design stage, speciﬁcally con-
+tributed to the design of the three major examinations (en-
+try, exit, retention), and contributed to the Introduction
+and Discussion sections. All authors contributed to the criti-
+cal revision of the paper and approved the ﬁnal manuscript
+for submission.
+Acknowledgements: the authors would like to thank all of
+the medical students who devoted their time to this study.
+Funding: this study was funded by a Fellowship for Innova-
+tions in University Teaching issued by the Stifterverband
+f€ur die Deutsche Wissenschaft (project no. H120 5228 5008
+23472). JB is funded by a fellowship from the Study for the
+Society of Addiction.
+Conﬂicts of interest: none.
+Ethical approval: this study was approved by the Go¨ttingen
+University Medical Centre Ethics Committee (no. 2/10/13).
+REFERENCES
+1 Kassirer JP. Teaching clinical reasoning: case-based
+and coached. Acad Med 2010;85 (7):1118–24.
+719ª 2016 John Wiley & Sons Ltd. MEDICAL EDUCATION 2016; 50: 711–720
+Test-enhanced clinical reasoning
+2 Croskerry P. A universal model of diagnostic
+reasoning. Acad Med 2009;84 (8):1022–8.
+3 Elstein AS, Schwartz A. Clinical problem solving and
+diagnostic decision making: selective review of the
+cognitive literature. BMJ 2002;324 (7339):729–32.
+4 Dunphy BC, Cantwell R, Bourke S, Fleming M, Smith B,
+Joseph KS, Dunphy SL. Cognitive elements in clinical
+decision-making: toward a cognitive model for medical
+education and understanding clinical reasoning. Adv
+Health Sci Educ Theory Pract 2010;15 (2):229–50.
+5 Srinivasan M, Wilkes M, Stevenson F, Nguyen T,
+Slavin S. Comparing problem-based learning with
+case-based learning: effects of a major curricular shift
+at two institutions. Acad Med 2007;82 (1):74–82.
+6 Dequeker J, Jaspaert R. Teaching problem-solving and
+clinical reasoning: 20 years experience with video-
+supported small-group learning. Med Educ 1998;32
+(4):384–9.
+7 Jaques D. Teaching small groups. BMJ 2003;326
+(7387):492–4.
+8 Gordon J. ABC of learning and teaching in medicine:
+one to one teaching and feedback. BMJ 2003;326
+(7388):543–5.
+9 Wahlgren CF, Edelbring S, Fors U, Hindbeck H,
+Stahle M. Evaluation of an interactive case simulation
+system in dermatology and venereology for medical
+students. BMC Med Educ 2006;6:40.
+10 Cook DA, Levinson AJ, Garside S, Dupras DM, Erwin
+PJ, Montori VM. Internet-based learning in the health
+professions: a meta-analysis. JAMA 2008;300
+(10):1181–96.
+11 Raupach T, Brown J, Anders S, Hasenfuss G,
+Harendza S. Summative assessments are more
+powerful drivers of student learning than resource
+intensive teaching formats. BMC Med 2013;11:61.
+12 Larsen DP, Butler AC, Roediger HL III. Test-
+enhanced learning in medical education. Med Educ
+2008;42 (10):959–66.
+13 Roediger HL, Karpicke JD. The power of testing memory
+– basic research and implications for educational
+practice. Perspect Psychol Sci2006;1 (3):181–210.
+14 Schmidmaier R, Ebersbach R, Schiller M, Hege I,
+Holzer M, Fischer MR. Using electronic ﬂashcards to
+promote learning in medical students: retesting
+versus restudying. Med Educ 2011;45 (11):1101–10.
+15 Baghdady M, Carnahan H, Lam EWN, Woods NN.
+Test-enhanced learning and its effect on
+comprehension and diagnostic accuracy. Med Educ
+2014;48 (2):181–8.
+16 Larsen DP, Butler AC, Lawson AL, Roediger HL III.
+The importance of seeing the patient: test-enhanced
+learning with standardised patients and written tests
+improves clinical application of knowledge. Adv
+Health Sci Educ Theory Pract 2013;18 (3):409–25.
+17 Dobson JL, Linderholm T. Self-testing promotes
+superior retention of anatomy and physiology
+information. Adv Health Sci Educ Theory Pract 2015;20
+(1):149–61.
+18 Roediger HL III, Marsh EJ. The positive and negative
+consequences of multiple-choice testing. J Exp Psychol
+Learn Mem Cogn 2005;31 (5):1155–9.
+19 Wheeler MA, Ewers M, Buonanno JF. Different rates
+of forgetting following study versus test trials. Memory
+2003;11 (6):571–80.
+20 Morris CD, Bransford JD, Franks JJ. Levels of
+processing versus transfer appropriate processing. J
+Verb Learn Verb Behav 1977;16 (4):519–33.
+21 McConnell MM, St-Onge C, Young ME. The beneﬁts
+of testing for learning on later performance. Adv
+Health Sci Educ Theory Pract 2015;20 (2):305–20.
+22 Karpicke JD, Roediger HL III. The critical
+importance of retrieval for learning. Science 2008;319
+(5865):966–8.
+23 Logan JM, Thompson AJ, Marshak DW. Testing to
+enhance retention in human anatomy. Anat Sci Educ
+2011;4 (5):243–8.
+24 Kromann CB, Jensen ML, Ringsted C. The effect
+of testing on skills learning. Med Educ 2009;43
+(1):21–7.
+25 Larsen DP, Butler AC, Roediger HL III. Comparative
+effects of test-enhanced learning and self-explanation
+on long-term retention. Med Educ 2013;
+47 (7):674–82.
+26 Larsen DP, Butler AC, Roediger HL III. Repeated
+testing improves long-term retention relative to
+repeated study: a randomised controlled trial. Med
+Educ 2009;43 (12):1174–81.
+27 Kromann CB, Jensen ML, Ringsted C. Test-enhanced
+learning may be a gender-related phenomenon
+explained by changes in cortisol level. Med Educ
+2011;45 (2):192–9.
+28 Cantillon P. Do not adjust your set: the beneﬁts and
+challenges of test-enhanced learning. Med Educ
+2008;42 (10):954–6.
+29 Greenhalgh T. Computer assisted learning in
+undergraduate medical education. BMJ 2001;322
+(7277):40–4.
+30 Cook DA. The failure of e-learning research to
+inform educational practice, and what we can do
+about it. Med Teach 2009;31 (2):158–62.
+Received 4 September 2015; editorial comments to author 25
+November 2015, 29 February 2016; accepted for publication 1
+March 2016
+720 ª 2016 John Wiley & Sons Ltd. MEDICAL EDUCATION 2016; 50: 711–720
+T Raupach et al
+Copyright
+of
+Medical
+Education
+is
+the
+property
+of
+Wiley-
+Blackwell
+and
+its
+content
+may
+not
+be
+copied
+or
+emailed
+to
+multiple
+sites
+or
+posted
+to
+a
+listserv
+without
+the
+copyright
+holder's
+express
+written
+permission.
+However,
+users
+may
+print,
+download,
+or
+email
+articles
+for
+individual
+use.

@@ -1,0 +1,606 @@
+TITLE: How we created virtual patient cases for primary care-based learning
+AUTHORS: E. C. Adams, C. J. Rodgers, R. Harrington, M. D. B. Young, V. K. Sieber
+YEAR: 2011
+DOI: 10.3109/0142159x.2011.544796
+
+CONTENT:
+2011; 33: 273–278
+HOW WE ...
+How we created virtual patient cases for
+primary care-based learning
+E. C. ADAMS 1, C. J. RODGERS 1, R. HARRINGTON 1, M. D. B. YOUNG 2 & V. K. SIEBER 3
+1John Radcliffe Hospital, UK, 2University of Oxford, UK, 3University of Surrey, UK
+Introduction
+Virtual patient (VP) cases have been defined as ‘interactive
+computer simulations of real-life clinical scenarios for the
+purpose of medical training, education or assessment’ (Ellaway
+et al. 2006). VP cases are particularly valuable for the
+construction of clinical reasoning skills, which are notoriously
+challenging to teach (Balla & Edwards 1986).
+We present our preliminary experiences and early appli-
+cation of a selection of video-enriched VP cases designed to
+meet some of the specific pedagogical challenges of under-
+graduate education in primary care. The VP cases give
+students opportunities to practise and refine unique clinical
+reasoning skills typically deployed by general practitioners
+(GPs) (Balla & Edwards 1986).
+Tailored VP cases have been created for a variety of
+specialties ranging from geriatrics to paediatrics (Orton &
+Mulhausen 2008; Gill et al. 2010). Clinical reasoning differs
+between medical specialities; in particular, GPs draw on
+unique strategies (Heneghan et al. 2009), which may not be
+explicitly taught. VP cases can be used to multiply patient
+encounters providing a bank of verbal and non-verbal
+experiences (Cook & Triola 2009) which may accelerate
+acquisition of targeted clinical reasoning skills. VP scenarios
+are currently used in some areas of primary care education,
+such as maintenance of certification examinations (American
+Board of Family Medicine) (Sumner & Hagen 2008) and to
+quantify variability in primary care physician decision making
+(e.g. assessing qualified GPs in the treatment of depression in
+standardised VPs) (Hooper et al. 2008).
+Diagnostic strategies employed by GPs have recently been
+defined (Heneghan et al. 2009), providing some clear learning
+outcomes to instruct VP case design. Little is reported in the
+literature about how GPs acquire their clinical reasoning skills,
+but experience is likely to have an important role (Heneghan
+et al. 2009). During the consultation, GPs generate prompt
+diagnostic hypotheses (Elstein et al. 1972). Fast hypothesis
+generation often depends on prior experience allowing ‘ spot
+diagnosis’o r‘ pattern recognition ’. We chose to use real
+patient videos as the basis of our VP cases to provide a virtual
+‘prior experience’ to enable these strategies. Genuine patient
+videos also offer experience in the interpretation of patient
+narrative such as a ‘ classic history’ or patients ‘ self-reporting’o f
+a diagnosis which GPs also draw on to make diagnoses
+(Heneghan et al. 2009).
+Video enrichment of VP cases has previously been shown
+to be beneficial. One study found that users develop enhanced
+cognitive and meta-cognitive processing when using video-
+enriched cases compared to text alone (Balslev et al. 2010).
+The advantages of using video cases to educate non-experts in
+diagnostic strategies for paediatrics were recently highlighted;
+patient video cases were found to ‘ strongly stimulate clinical
+diagnostic reasoning processes ’ (Balslev et al. 2010).
+GPs use further strategies such as ‘ restricted rule-outs ’ and
+‘ probabilistic reasoning ’ to refine their initial diagnosis
+(Heneghan et al. 2009). The strategy of ‘ restricted rule-outs ’
+involves synthesising a short list of serious diagnoses which
+must be excluded. Key questions then elicit symptoms
+suggestive of these diagnoses ( red flags ). For ‘ probabilistic
+reasoning’, clinicians estimate a pre-test probability of a
+patient having a particular pathology and then adjust this
+probability in the light of test results. Diagnostic decision tree
+software can be used to create VP cases that give virtual
+experience of these real-time clinical reasoning techniques.
+Follow-up of and reflection on patients is a powerful
+discipline for the learning and construction of clinical
+reasoning skills (Kassirer 2010), but this is limited by short
+Practice points
+. The unique diagnostic approaches used by GPs tend not
+to be explicitly taught to medical students.
+. VP cases can be tailored using decision-making software
+to give students experience of primary care specific
+clinical reasoning skills.
+. Collection, over time, of patient videos provides a
+valuable resource for enrichment of VP cases and should
+be encouraged.
+. Our suggested ‘toolkit for success’ can be used as a
+starting point for developing projects which use patient
+videos.
+Correspondence: C.J. Rodgers, Medical Sciences Office, John Radcliffe Hospital, Headington, Oxford, OX3 9DU, UK. Tel: 01865 221689; fax: 01865
+750 750; email: caroline@rodgers.org.uk
+ISSN 0142–159X print/ISSN 1466–187X online/11/040273–6 /C2232011 Informa UK Ltd. 273
+DOI: 10.3109/0142159X.2011.544796
+student rotations. VP cases can be used to compress time,
+allowing students to observe strategies such as ‘ test of time ’o r
+‘ test of treatment ’ which GPs may use to define their diagnosis
+(Heneghan et al. 2009). This compression of time also allows
+the evolution of chronic disease, longitudinal management and
+treatment effects to be illustrated.
+On the basis of our preliminary experience and early
+application of a series of VP cases, we outline our methods for
+designing and utilising video enriched VP cases and describe
+how we tailored the cases to promote the acquisition of
+primary care specific clinical reasoning skills.
+How we created the VP cases
+VP case selection
+We identified key core curriculum topics from the University of
+Oxford’s undergraduate primary care syllabus and selected
+dyspepsia, low back pain, dysuria and cardiovascular disease
+for VP case development. In addition to their core nature,
+these topics were also selected for their amenability for the
+inclusion of the clinical reasoning strategies outlined above.
+We do not see this as a comprehensive case list, but rather as a
+series for pilot study, proof of concept and proof of value.
+VP case design
+Undergraduate primary care rotations are often short. This
+means that students are unlikely to observe consultations or
+meet patients suffering from all of the core curricular presen-
+tations to primary care. The aim of our video enriched VP
+cases is to simulate GP consultations revolving around these
+core presentations, giving students the opportunity to be active
+participants in the consultations in a virtual way. Table 1 shows
+how the various primary care specific diagnostic strategies
+have guided VP case design.
+The VP cases are principally intended for self-directed
+learning, but could also be used as a teaching tool in a small
+group or lecture setting. On average, each VP case has
+10 questions, comprised of a mixture of true/false questions
+and multiple best answer questions. The VP cases are linear in
+design meaning that all students will attempt all questions, but
+there are optional extra activities e.g. considering a clip of a
+patient describing their attempts to quit smoking in the
+cardiovascular disease prevention case. Participants also
+have the autonomy to repeat video clips or skip them
+according to their preferences. The average time taken for a
+student to complete a case is approximately 10 min.
+An outline ( prototype) for each case was drawn up to
+include essential content from the syllabus and key elements
+to a consultation on this topic. Quandary (http://
+www.halfbakedsoftware.com/) was chosen from among alter-
+native systems for creating and delivering the decision-making
+scenarios (e.g. Labyrinth – http://labyrinth.mvm.ed.ac.uk/ and
+SBL Interactive – http://www.sblinteractive.org/) because of
+its usability and the ease with which it could be customised to
+create cases. Importantly, it allows a decision tree to be
+constructed with multiple ways of reaching the same result,
+with penalties applied for wrong answers.
+VP video collection and edition
+We utilised recordings from the patient video library of a GP
+educator (RH) and also made new recordings to fill content
+gaps, with the advantage that we could pre-plan questions to
+elicit content-specific responses related to our prototype
+decision trees. Valid consent was obtained from all patients
+to use their video for educational purposes within the
+university virtual learning environment.
+Videos were edited (Apple iMovie) and compressed as
+Flash video, to an appropriate bit rate for web delivery.
+The appropriate size varies according to the web delivery
+system used, but most clips were 1–3 MB with a maximum size
+of 10 MB.
+VP case review
+Before VP case upload, a review process was undertaken; an
+independent GP educator reviewed the cases for content
+accuracy and appropriateness. A member of the university
+learning technologies team reviewed the technological
+aspects. Given that the VP cases were intended for
+self-directed student learning, we asked four students to
+individually attempt the cases to ensure usability before
+uploading the cases to the virtual learning environment.
+Feedback on the VPs
+Feedback was collected on the accessibility, popularity and
+any perceived disadvantages of each VP case. A free text box
+(to allow open ended responses) formed the final page of each
+case. In addition to qualitative feedback, quantitative data
+were collected on the proportion of students reaching the
+feedback page (meaning they finished the case) and the
+number of attempts made at each case per student.
+What’s next ... ?
+In the light of our experiences, we highlight a number of
+challenges and future directions for the development of
+primary care VPs.
+Content for VPs
+We can speculate intuitively that certain topics, particularly
+with distinctive visual cues or classic patient narratives, would
+gain more value from patient video enrichment. Common
+presenting complaints should be prioritised along with rarer
+cases which are easily missed without prior experience. There
+is an unanswered question relating to when video recording of
+a consultation becomes inappropriate (e.g. recording acutely
+unwell patients and sensitive topic areas such as sexual and
+mental health issues), good guidance can be found at
+http://www.cherri.mvm.ed.ac.uk/cherri.pdf
+Quality and availability of patient videos is a limiting factor.
+We want to encourage GPs to collect patient videos for
+educational purposes. A bank of patient video clips built up
+over time, associated with appropriate consent (see below),
+could be an invaluable resource to enable similar projects.
+E. C. Adams et al.
+274
+Table 1. Distribution of diagnostic strategies across the four VP scenarios.
+Diagnostic strategy VP topic
+Cardiovascular Dyspepsia
+Urinary tract
+infection Low back pain
+Spot diagnosis Video clip of patient
+with hypothyroidism;
+overweight, dry skin,
+wearing many layers
+of clothing, hoarse
+voice, slow relaxing
+reflexes
+Video clip of patient
+experiencing dys-
+peptic symptoms
+and captured
+belching
+Male working in manual
+labour
+Pattern recognition Video clip of patient
+with hyperthyroidism
+following amiodar-
+one treatment; hot
+flushes, palpitations,
+anxiety, weight loss
+Video of patient
+describing oesopha-
+geal pain as
+opposed to cardiac
+pain
+Patient describing typi-
+cal UTI symptoms:
+‘when I go to the
+toilet it really really
+hurts, like a sharp
+pain in my bladder.
+Its very strong col-
+ouring. When I’m
+working I have to go
+to the toilet about a
+million times a day,
+which is really
+annoying’
+Question relating to
+pattern of sinister
+back pains e.g.
+cauda equina syn-
+drome, lateral disc
+prolapse/root lesion,
+malignant back pain
+Patient self-report Video clip of patient
+self-reporting ‘ I
+thought I was having
+a heart attack ’
+Patient describing that
+they were previously
+diagnosed with a
+duodenal ulcer
+Video clip of patient
+self-reporting ‘ I have
+got one of my urine
+infections’
+Patient asked ‘what do
+you think might be
+causing the back
+pain’
+Patient responds ‘my
+mum had a slipped
+disc, so I was wor-
+ried it might be a
+hereditary thing’
+Classic presenting complaint Video clip of patient
+describing myocar-
+dial infarction symp-
+toms; chest pain,
+crushing, sweating,
+sense of impending
+doom. ‘I knew
+something wasn’t
+right’
+Patient describing pro-
+gressive dysphagia
+first noticed with
+liquid and now with
+solids
+Video clips of two dif-
+ferent females
+describing urinary
+symptoms.
+Distinguish which
+patient has the more
+typical symptoms for
+a UTI
+Patient report ‘I was at
+work. I just couldn’t
+move. It was very
+tight.’ ‘24/7 I’ve got
+an ache’ ‘its really
+difficult to sit down
+for any length of
+time’
+Restricted rule outs Chest pain; key ques-
+tions in the history to
+rule out ‘do not
+miss’ differentials.
+Investigations to rule
+out MI e.g. 12 h
+troponin, ECG
+Model questions to rule
+out sinister causes
+of dysphagia e.g.
+odynophagia, pro-
+gressive nature,
+worse with solids
+than liquids, con-
+stant vs. intermittent
+Model sexual history for
+UTI to rule out sex-
+ually transmitted
+infection
+Investigations in back
+pain e.g. bone pro-
+file, myeloma
+screen, indications
+for MRI to exclude
+disc prolapse
+Red flags Red flags for cardiac
+chest pain; exer-
+tional, radiating,
+associated with
+nausea, patient
+reports sense of
+impending doom
+Dyspepsia as a red flag
+for malignancy:
+decisions over who
+should be referred
+for endoscopy (NICE
+guidelines)
+Recognition of symp-
+toms are not con-
+sistent with a simple
+UTI e.g. flank pain,
+change in vaginal
+discharge, halluci-
+nations, prolonged
+symptoms, recur-
+rent UTI
+Red flags for sinister
+low back pain; e.g.
+sphincter distur-
+bance, night pain,
+leg weakness, pre-
+vious diagnosis of
+malignancy.
+Video clip model ques-
+tions to exclude
+cauda equina
+syndrome
+Probabilistic reasoning ECG showing inferior
+ST elevation
+Myocardial infarction
+to confirm diagnosis
+Effect of risk factors on
+pre-test probability.
+Identify risk factors
+e.g. smoking, caf-
+feine consumption,
+medications,
+corticosteroids
+Effect of positive or
+negative urinary dip-
+stick on probability
+of UTI
+Examination in low back
+pain and how this
+effects likelihood of
+mechanical back
+pain e.g. weakness,
+sensory distur-
+bance, abnormal
+reflexes
+(continued )
+Virtual patient cases for education in primary care
+275
+Content accuracy is another challenge. Concern exists that
+e-learning resources lack adequate peer-review (Ruiz et al.
+2007). We recommend using two separate reviewers to
+analyse the content and the technological/usability aspects.
+Previous authors have recommended developing training and
+guidelines for reviewers (Ruiz et al. 2007), but this is ambitious
+for a small project. Instead generic guidelines such as those
+produced by eVIP (http://www.virtualpatients.eu/) can be
+used in order to standardise quality.
+Consent for VPs
+A perceived advantage of VPs is their suitability for sharing via
+the internet (e.g. Jorum/Open Jorum – http://www.jorum.
+ac.uk/, Merlot-http://www.merlot.org/merlot/index.htm,
+http://www.virtualpatients.eu/). This pilot project has raised
+important questions relating to consent for internet access to
+genuine patient videos.
+VP cases are labour intensive to design, and, as such,
+we envisage the potential for sharing resources across educa-
+tional institutions, but this is dependent on authors acquiring
+robust consent. The Common Healthcare Educational
+Recordings Reusability Infrastructure – Practice,
+Interoperability and Ethics (CHERRI) project carried out a
+survey on current practice in sharing clinical recordings and
+explored the medico-legal context (http://www.cherri.mvm.e-
+d.ac.uk/cherri.pdf). They went on to develop a common
+consent and licensing model for clinical recordings, which
+they hope will be widely adopted and is a fail proof approach
+for future video enriched VP case authors. In addition, the
+results of the MEDEV open educational resources project will
+be very helpful in this regard (http://www.medev.ac.uk/oer/).
+Evaluation of VPs
+During this pilot project, we collected data from three cohorts
+of students on the 6-week primary care rotation.
+Approximately one-third of students of all potential students
+used the cases, giving a total of 82 students who used the
+cases. We received positive responses with comments, such as
+‘ I liked the real patients! ’, ‘ interactive with patient videos ’.
+Some commented that they found the scenarios useful for
+developing consulting skills e.g. ‘ Good tips e.g. asking if could
+be pregnant before prescribing ’, ‘ Videos were useful to pick-up
+how to phrase questions .’
+Patterns of student use give us some insight into how
+students were interacting with the VPs. Firstly, we observe that
+students are multiple users; the average number of attempts at
+each scenario per student is greater than 1, and consecutive
+attempts occur on different days. This suggests that students
+may be using the VPs in a formative manner. They can
+compare their scores on each attempt to map their progress
+and identify ongoing knowledge/application gaps. Secondly,
+we observed higher student usage towards the end of their
+primary care rotation, indicating that they are using the VP
+cases for revision purposes.
+Table 1. Continued.
+Diagnostic strategy VP topic
+Cardiovascular Dyspepsia
+Urinary tract
+infection Low back pain
+Test of treatment Patient treated with
+amiodarone and
+develops hyperthy-
+roidism; therefore
+need to change to
+alternative agent
+Knowledge of standard
+treatment regimens
+for Helicobacter
+pylori
+Video clip of patient
+‘well I’ve got a urine
+infection, but I have
+had two sets of tab-
+lets for two weeks
+and they haven’t
+worked’
+Patient then describes
+symptoms that are
+not consistent with
+UTI e.g. bloating,
+feeling sick, back
+pain. No urinary
+symptoms
+Video of patient
+describing his anal-
+gesic treatment
+pathway. 6/52 trial
+of analgesia
+Test of time NICE guidance – if
+symptoms persist
+for more than 6/52
+consider referral
+Video clip modelling
+safety netting for
+symptoms suggest-
+ing pyelonephritis
+Model explanation of
+the aetiology of
+mechanical back
+pain. Safety netting if
+symptoms evolve.
+Follow up if not
+improved in 6
+weeks.
+Follow up/referral to secondary care Patient describes
+coming into the GP
+surgery and then
+being sent straight
+to A þ E after an
+abnormal ECG in
+general practice
+Test of knowledge of
+NICE guidelines for
+referral to secondary
+care
+Recognition of a com-
+plicated UTI to be
+referred e.g. male,
+children, recurrent
+Indications for referral
+e.g. limb weakness,
+abnormal neurologi-
+cal examination,
+bony tenderness
+E. C. Adams et al.
+276
+Kirkpatrick defined four levels of evaluation for educational
+interventions with increasing value (Kirkpatrick & Kirkpatrick,
+2006). Our analysis of student attitudes equates to only level 1
+feedback. Important further work will involve developing tools
+for measuring the effect of these cases on student performance
+( particularly in clinical reasoning skills), student behaviour
+( particularly relating to diagnostic strategies used) and patient
+health and satisfaction. It is a priority for us to establish
+whether the theoretical benefits of VP cases for acquisition of
+primary care-related clinical reasoning skills can be observed.
+Conclusion
+We have shown how genuine patient video clips can be
+collected and integrated into decision-making software. We
+have used this approach to VP case design to create a learning
+resource for undergraduate primary care education with the
+aim of enhancing acquisition of primary care specific clinical
+reasoning skills. We also believe that this targeted approach
+to VP case design has wider application. By sharing our expe-
+riences, we hope to encourage others to undertake similar
+projects. By adopting an educated approach to consent and
+licensing, there is potential for generating a bank of
+peer-reviewed resources for early development of primary
+care specific clinical reasoning skills.
+A ‘toolkit for success’
+Drawing on our own experiences in this project, we have
+produced a ‘toolkit’ which describes the components of a good
+video library and the processes involved in turning them from
+library clip to VP case learning module. We intend this to be
+used as a brief practical guide for those interested in creating
+similar VP cases (Figure 1). Centred on a comprehensive video
+library and using appropriate technological tools, we believe
+the case can be made for developing VP cases tailored for
+primary care education.
+Figure 1. A ‘toolkit for success’ for those interested in creating similar VPs.
+Virtual patient cases for education in primary care
+277
+Declaration of interest: The authors report no conflicts of
+interest. The authors alone are responsible for the content and
+writing of the paper.
+Notes on contributors
+EMILY ADAMS, MA Oxon, BMBch, studied graduate-entry medicine at the
+University of Oxford after a Bachelor’s degree in Biological Sciences, Post
+Graduate Certificate in Education and is working as a secondary school
+teacher.
+CAROLINE RODGERS MChem, DPhil, BMBCh studied graduate-entry
+medicine at the University of Oxford after gaining a Master’s degree in
+Chemistry and a DPhil in Biological Inorganic Chemistry from the
+University of Oxford.
+RICHARD HARRINGTON BA, MBBS, DCH, DGM, DRCOG, MRCGP is an
+associate course director for the University of Oxford’s graduate-entry
+medicine course, a practising GP in Oxfordshire and has a first degree in
+Drama and English.
+DAMION YOUNG MSc, PhD is an educational technologist who leads
+Learning Technologies for the Medical Sciences Division at the University
+of Oxford.
+VIVIEN SIEBER BSc, PhD, MA is currently the Head of Learning and
+Research Support and Development, University of Surrey, Guildford.
+References
+Balla JI, Edwards HM. 1986. Some problems in teaching clinical decision-
+making. Med Educ 20:487–491.
+Balslev T, de Grave WS, Muijtjens AMM, Scherpbier AJJA. 2010. Enhancing
+diagnostic accuracy among nonexperts through use of video cases.
+Pediatrics 125:e570–e576.
+Cook DA, Triola MM. 2009. Virtual patients: A critical literature review and
+proposed next steps. Med Educ 43:303–311.
+Ellaway R, Candler C, Greene P, Smothers V. 2006. An architectural model
+for medBiquitous virtual patients. In: Group MVPW, Smothers V, editor.
+Baltimore.
+Elstein AS, Kagan N, Shulman LS, Jason H, Loupe MJ. 1972.
+Methods and theory in the study of medical inquiry. J Med Educ
+47:85–92.
+Gill P, Kitney L, Kozan D, Lewis M. 2010. Online learning in
+paediatrics: A student-led web-based learning modality. Clin Teach
+7:53–57.
+Heneghan C, Glasziou P, Thompson M, Rose P, Balla J, Lasserson D,
+Scott C, Perera R. 2009. Diagnostic strategies used in primary care.
+BMJ 338:b946.
+Hooper LM, Weinfurt KP, Cooper LA, Mensh J, Harless W, Kuhajada MC,
+Epstein SA. 2008. Virtual standardized patients: An interactive method
+to examine variation in depression care among primary care physicians.
+Prim Health Care Res Dev 1:257–268.
+Kassirer JP. 2010. Teaching clinical reasoning: Case-based and coached.
+Acad Med 85:1118–1124.
+Kirkpatrick DL, Kirkpatrick JD. 2006. Evaluating training programmes:
+The four levels. San Franscisco: Berrett-Koehler Publishers.
+Orton E, Mulhausen P. 2008. E-learning virtual patients for geriatric
+education. Gerontol Geriatr Educ 28:73–88.
+Ruiz JG, Candler C, Teasdale TA. 2007. Peer reviewing
+e-learning: Opportunities, challenges, and solutions. Acad Med
+82:503–507.
+Sumner W, Hagen MD. 2008. Value of information in virtual patients
+portraying pharyngitis. AMIA Annu Symp Proc 6:1150.
+E. C. Adams et al.
+278
+Copyright of Medical Teacher is the property of Taylor & Francis Ltd and its content may not be copied or
+emailed to multiple sites or posted to a listserv without the copyright holder's express written permission.
+However, users may print, download, or email articles for individual use.

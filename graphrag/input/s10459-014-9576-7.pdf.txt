@@ -1,0 +1,528 @@
+TITLE: Does medical students’ diagnostic performance improve by observing examples of self-explanation provided by peers or experts?
+AUTHORS: Martine Chamberland, Sílvia Mamede, Christina St-Onge, Jean Setrakian, Henk G. Schmidt
+YEAR: 2015
+DOI: 10.1007/s10459-014-9576-7
+
+CONTENT:
+Does medical students’ diagnostic performance improve
+by observing examples of self-explanation provided
+by peers or experts?
+Martine Chamberland • Sı´lvia Mamede • Christina St-Onge •
+Jean Setrakian • Henk G. Schmidt
+Received: 22 May 2014 / Accepted: 8 December 2014 / Published online: 16 December 2014
+/C211Springer Science+Business Media Dordrecht 2014
+Abstract Educational strategies that promote the development of clinical reasoning in
+students remain scarce. Generating self-explanations (SE) engages students in active
+learning and has shown to be an effective technique to improve clinical reasoning in clerks.
+Example-based learning has been shown to support the development of accurate knowl-
+edge representations. The purpose of this study was to investigate the effect of combining
+student’s SE and observation of peer’s or expert’s SE examples on diagnostic performance.
+Fifty-three third-year medical students were assigned to a peer SE example, an expert SE
+example or control (no example) group. All participants solved a set of the same four
+clinical cases (training cases), 1—after SE, 2—after listening to a peer or expert SE
+example or after a control task, and 3—1 week later. They solved a new set of four
+different cases (transfer cases) also 1 week later. For training cases, students improved
+signiﬁcantly their diagnostic performance overtime but the main effect of group was not
+signiﬁcant suggesting that students’ SE mainly drives the observed effect. On transfer
+cases, there was no difference between the three groups ( p [ .05). Educational implica-
+tions are discussed and further studies on different types of examples and additional
+strategies to help students actively process examples are proposed.
+Keywords Clerkship /C1Clinical reasoning /C1Example-based learning /C1Modeling /C1
+Self-explanations
+M. Chamberland ( &) /C1C. St-Onge /C1J. Setrakian
+Department of Medicine, Universite´ de Sherbrooke, 3001, 12e Avenue Nord, Sherbrooke,
+QC J1H 5N4, Canada
+e-mail: martine.chamberland@usherbrooke.ca
+S. Mamede
+Institute of Medical Education Research Rotterdam, Erasmus Medical Center, Erasmus University,
+Rotterdam, The Netherlands
+S. Mamede /C1H. G. Schmidt
+Department of Psychology, Erasmus University, Rotterdam, The Netherlands
+123
+Adv in Health Sci Educ (2015) 20:981–993
+DOI 10.1007/s10459-014-9576-7
+Introduction
+Over the past decades, research has successfully explored multiple facets of clinical rea-
+soning, an essential skill for physicians (Gruppen and Frohna2002; Norman 2005; Schmidt
+and Rikers 2007; Eva 2004; Mylopoulos and Regehr 2011). Authors agree that experts’
+knowledge base is extensive, includes several types of knowledge, and is organised in a
+way that makes it usable in daily problem solving (Schmidt and Rikers 2007; Charlin et al.
+2007; Bordage 2007). The development of clinical reasoning requires time, is critically
+dependent on exposure to multiple examples and on the repeated practice of solving
+clinical cases (Norman 2005; Schmidt and Rikers 2007; Kassirer 2010). Clinical exposure
+alone is insufﬁcient. To develop their knowledge base, medical students must be involved
+in the problem solving process with opportunities for elaboration and reﬂection on patient
+encounters (Schmidt and Rikers 2007; Eva 2004). While clinical rotations provide many
+opportunities for clinical reasoning and for observing peers’, colleagues’ and expert cli-
+nicians’ reasoning (Ajjawi and Higgs 2008; van de Wiel et al. 2011), further strategies are
+needed to engage students in deliberate clinical reasoning. Self-explanation (SE) appears to
+be a promising technique in this regard (Chamberland et al.2011). Another strategy, that of
+observing examples, has been largely used to support development of accurate knowledge
+representation in memory (van Gog and Rummel 2010; Rosen et al. 2010; Renkl 2011). In
+this paper, we explore the usefulness of combining SE and observation of colleagues’ SE
+as learning tools for clinical reasoning.
+Self-explanation is a learning technique wherein learners generate for themselves
+explanations about pieces of information in a text to be learned or a problem to be solved
+(Chi 1989, 2000, 2011) Through SE, students engage in knowledge elaboration, generation
+of inferences, integration of new information with prior knowledge, monitoring and con-
+sequent knowledge reconstruction or revision of mental representations (Chi 2000; Dun-
+losky et al. 2013). The positive effects of SE on learning have been shown in a variety of
+domains (Chi 2000; Dunlosky 2013) including, more recently, in Medicine (Chamberland
+et al. 2011; Larsen et al. 2013). In an experimental study, students who generated SE while
+solving clinical cases demonstrated better diagnostic performance 1 week later when tested
+on different, and more difﬁcult, cases than students who did not self-explain. The positive
+effect of SE was seen only on cases of a less familiar clinical topic (Chamberland et al.
+2011). Studies in other domains also ﬁnd greater beneﬁt with complex problems and
+application tasks differing from the initial learning task (Chi 2000; Wong et al. 2002).
+According to a subsequent related study, lack of familiarity seemed to act as a trigger for
+medical students to engage in more active thinking while self-explaining for diagnosing
+cases, as they reactivated more biomedical knowledge to make sense of the patients’
+ﬁndings, possibly creating new links between biomedical and clinical knowledge, thereby
+constructing a more coherent mental representation of diseases (Chamberland et al. 2013;
+Woods 2007).
+It is relevant for research and educational practice to explore conditions that maximise
+the effects of SE as a promising technique for developing medical students’ clinical rea-
+soning. Combining SE and examples or models of clinical reasoning may provide such a
+condition. Example-based learning (EBL) is the process of learning by studying examples
+or observing models performing a skill. The beneﬁts on learning while working with
+examples is mainly attributed to a lowered cognitive load imposed on students. By pro-
+viding guidance, examples relieve students of the need to search for every procedural step,
+allowing them to devote their cognitive capacity to studying and understanding the pro-
+posed solution, mainly through SE (van Gog and Rummel 2010; van Merrie¨nboer and
+982 M. Chamberland et al.
+123
+Sweller 2010; Renkl 2014). This in turn helps students construct appropriate knowledge
+representations of the skill, interrelating abstract principles and concrete examples to guide
+future performance of that skill (van Gog and Rummel 2010; Renkl 2011).
+Example-based learning has been successfully used for a variety of tasks, from highly to
+less structured, for a wide range of skills, from psychomotor to complex cognitive (van
+Gog and Rummel 2010). Initial research focused on well-structured domains (e.g.,
+Mathematics) and used mostly printed materials. Recent studies began to investigate more
+complex examples from less-structured domains (e.g., productive collaboration (Rummel
+et al. 2009); scientiﬁc argumentation (Schworm and Renkl 2007). Clinical reasoning
+represents a complex and less structured cognitive skill for which EBL could potentially be
+useful.
+For EBL to succeed, the skill to be learned must be observable by the learner. Learning
+complex cognitive tasks through observation of models requires the latter to externalize
+cognitive processes and knowledge activated while performing the skill. This can be done
+by thinking aloud or writing down the actions. SE may represent an alternative way for
+subjects to make explicit their ongoing clinical reasoning process and relevant knowledge
+representations. For optimal effectiveness of observing examples, learning design issues
+must also receive careful attention (van Gog and Rummel 2010; Rosen et al. 2010). The
+model-observer similarity appears to have a positive inﬂuence. A peer model’s knowledge,
+however limited and partial in its scheme, would be in its representation cognitively closer
+to the observer’s own and so would allow the latter to relate to it more easily A coping
+model in contrast to a mastery model may present errors but also strategies to overcome
+them which could be helpful for the observer (van Gog and Rummel 2010; Renkl 2014). In
+contrast, naturally performing experts have extensive knowledge, from which students
+could beneﬁt, but, on the other hand, having largely automatized their task, work at higher
+levels of abstraction. Thus, a novice observer may not be able to follow the expert rea-
+soning and learn from it. Still, it remains unclear which similarity features (e.g., compe-
+tence, background, sex, age) play a critical role in EBL and this issue needs further
+research. (van Gog and Rummel 2010; Renkl 2014). Another important consideration is the
+way in which examples are delivered in order to ensure that students engage cognitively
+and process the provided information while observing (van Gog and Rummel 2010; Renkl
+2014). Combining SE with the example appears crucial to optimize its effectiveness.
+(Renkl 2011; Renkl 2014). Students can also be given the opportunity for problem solving
+in addition to studying the example. Practice presumably allows students to note deﬁ-
+ciencies and help them focus later on relevant aspects of the example.
+Both SE and EBL have been shown to contribute to the development of knowledge
+representations. Clinical reasoning is a complex skill that relies on well-developed mental
+representations of diseases. The present study examined the added value for learning
+clinical reasoning of combining clerks’ SE with observation of SE examples. Moreover,
+since the beneﬁt of the model or example appears to depend of its expertise level relative to
+the student’s one, we investigated whether examples from peers or experts would lead to
+similar or different effects on diagnostic performance. We hypothesized that observing
+explicit examples would give additional opportunities for students to extend their under-
+standing and critically revise their own knowledge representations, and that this would
+translate into better diagnostic performance. We also hypothesized that because of their
+cognitive proximity; peer models would be at least as effective for learning as expert
+models.
+Self-explanation examples and clinical reasoning 983
+123
+Methods
+Design
+This mixed-design experiment comprised two phases. In the training phase, participants
+were assigned either to the peer-SE group, to the expert-SE group, or to the control group.
+They solved a set of 4 clinical cases twice: after having self-explained and then again after
+having listened to an example of SE from a peer or an expert (peer- or expert-SE groups),
+or without listening to any example (control group). In the assessment phase, 1 week later,
+all participants had to solve the same 4 cases again (training cases) and a new set of four
+more difﬁcult cases (transfer cases). Figure 1 summarizes the study design.
+Participants
+Participants were 53 third-year medical students from the Universite´ de Sherbrooke in
+Que´bec, Canada. The undergraduate program comprises 4 years, with 2 /C145years of PBL
+followed by 18 months of clerkship. Students in their ﬁrst 8 months of clerkship, in two
+consecutive cohorts (academic year 2011–12, and academic year 2012–13), were invited
+by email to participate in the study. Participation was voluntary, without ﬁnancial incen-
+tive. Written informed consent was obtained. Ethics approval was obtained from the
+Comite´ d’E´ thique de la Recherche, E ´ ducation et Sciences Sociales of Universite´ de
+Sherbrooke.
+To reach the required number of participants, we recruited them in two consecutive
+cohorts. In the ﬁrst cohort, 151 students were approached for the study. Forty students
+accepted and were randomly assigned to the peer or to the expert SE group for the training
+Fig. 1 Study design
+984 M. Chamberland et al.
+123
+phase. Thirty-seven completed the assessment phase (peer-SE group = 18; expert-SE
+group = 19). In the second cohort, 21 students were invited to participate. Eighteen stu-
+dents accepted the invitation and 16 completed the two phases of the study. These students
+were assigned to the control group ( n = 16).
+Materials
+Eight written clinical cases, all addressing the topic of jaundice were used for this study.
+Jaundice was a rather unfamiliar topic to the 3rd-year medical students involved (Cham-
+berland et al. 2011). The topic was broken down into four broad categories of diseases with
+different pathophysiological mechanisms: acute hepatitis, chronic liver disease, obstructive
+jaundice and hemolysis. A set of four cases, one per category, was used in the training
+phase (training cases). In the assessment phase, the training cases were again used as well
+as a second set of four different cases (transfer cases), one per category again, but with
+different diagnoses from the training cases (see ‘‘ Appendix 1’’).
+Case descriptions of approximately 300 words including chief complaint, background
+information, and ﬁndings from history, physical examination and laboratory tests were
+developed and used in a previous study (Chamberland et al. 2011).
+In the training phase, two versions of booklets, each with a different case order, were
+distributed alternately to the recruited students. Similarly, in the assessment phase, clinical
+cases were presented in a booklet using again two differently ordered versions. The
+training cases were presented ﬁrst, followed by the transfer cases with three intercalated
+ﬁller cases on unrelated clinical topics.
+As peer and expert SE examples, we used audio-recorded SE. To reﬂect the variety of
+examples possibly encountered in the clinical environment, SE examples from three different
+peers and three different experts in Internal Medicine, were prepared as follows. In individual
+sessions, clinical clerks and internists, not involved in the study, were ﬁrst introduced to SE,
+and then asked to self-explain on each of the four training cases. They were asked not to
+provide verbally their ﬁnal diagnosis at the end to avoid that students who would listen to the
+examples would hear the ﬁnal correct response. Experts were speciﬁcally instructed to self-
+explain at their level of expertise rather then think or talk as clinical teachers. All audiotapes
+were anonymous. Their speed was adjusted to create equally long (8 min) audio examples.
+Written consent was obtained from peers and experts.
+Expectably, there were notable differences between the peers’ and the experts’ SE
+examples. Experts generated very early a problem representation including key elements
+for one or a few likely diagnoses. Additional clinical data in the case were used mainly to
+conﬁrm early diagnoses or quickly rule out alternatives. Experts’ examples contained
+almost no explicit reference to underlying mechanisms, no errors, almost no ambiguities or
+hesitations, and very few paraphrases. In contrast, peers mainly analysed isolated clinical
+data, did not quickly recognize key elements and considered all along numerous and varied
+diagnoses. They referred to underlying mechanisms, made some erroneous interpretations,
+raised questions, expressed hesitations and used frequent paraphrases.
+Procedure
+Training phase
+A research assistant tested all participants individually. Students were ﬁrst provided with a
+general deﬁnition of SE and then listened to a 7-min audio example of SE on a clinical case
+Self-explanation examples and clinical reasoning 985
+123
+(mono-arthritis) not used in the study but with a similar format. Subsequently, they were
+asked to read each case, generate SE out loud for 8 min, and take 2 min to write down their
+responses to the following three questions:
+Q1. What is the most likely diagnosis?
+Q2. What are the two main arguments supporting this diagnosis?
+Q3. List two plausible alternative diagnoses.
+The ﬁrst question provided a measure of diagnostic accuracy; combination of the three
+questions was intended to provide a rough measure of the quality of the diagnostic rea-
+soning. We refer to this ﬁrst performance moment hereafter as ‘‘pre-intervention’’.
+Participants of the peer-SE and expert-SE groups were then instructed to listen to an
+8-min recording of either peer or expert SE, and thereafter to answer again the same three
+questions in 2 min. As to the control group, in an effort to prevent further SE on their part,
+students were invited to move to the next page of their booklet to solve a word puzzle for
+8 min and then answer again the three questions. We refer to this second performance
+hereafter moment as ‘‘post-intervention’’. This procedure was repeated for all four training
+cases. Each participant was exposed to a random sample from all of the three peers or the
+three experts to reﬂect the variety of examples in the real learning environment. Time was
+strictly controlled. The training phase lasted 1.5 h.
+Assessment phase
+One week later, participants were met individually for the assessment phase, which was
+identical for the three groups. Students had not been informed in the training phase about
+the tasks they would have to carry out during the assessment phase. Participants were ﬁrst
+asked to read the four cases used in the training phase (training cases), generate SEs, and
+answer again the three questions regarding their diagnosis. Second, participants were asked
+to solve in silence the four transfer cases with three ﬁller cases interpolated. Time to solve
+each case was not controlled but participants were allowed up to 2 h for the whole
+assessment phase. We refer to this third performance moment hereafter as ‘‘1-week later’’.
+At the end of the assessment phase, students completed a brief questionnaire about
+potentially relevant learning opportunities (i.e., current clinical rotation, individual study
+time, and teaching activities related to jaundice) during the week of the study. The different
+groups reported similar opportunities. Four research assistants ran all the sessions, after
+having gone through a standardization exercise, to ensure a uniform procedure.
+Data analysis
+A scoring grid, developed and validated in a previous study (Chamberland et al.2011), was
+used to evaluate students’ answers to each question. Each answer was scored as 0, if it was
+incorrect, 1, if partially correct, and 2, if entirely correct. Two scores were derived from
+participants’ answers: the diagnostic accuracy score (the score on question Q1) and the
+diagnostic performance score (the sum of scores on questions Q1, Q2 and Q3). For each
+participant, the scores of the four cases (either training or transfer cases) were summed.
+The scores were then expressed as a percentage of the maximum score (8, for the diag-
+nostic accuracy, and 24 for the diagnostic performance). One rater (MC) scored the
+responses of all students from all groups. In the previous study, two independent raters
+scored students’ responses. Inter-rater reliability, measured by intra-class correlations, had
+986 M. Chamberland et al.
+123
+ranged from 0.70 to 0.95 (Chamberland et al. 2011). Compared to students’ responses from
+the previous study, no new responses were provided by participants in the present study.
+Descriptive statistics were computed. To assess the comparability of the groups, two
+separate one-way ANOVAs were performed on the mean scores obtained for diagnostic
+accuracy and diagnostic performance before the intervention. For the training cases, two
+separate repeated-measure ANOVAs with group (peer SE, expert SE and control) as a
+between-subjects factor, and performance moment (three performance moments: before
+and after the intervention in the training phase and 1 week later in the assessment phase) as
+a within-subjects factor were performed on mean diagnostic accuracy scores and diagnostic
+performance scores. For transfer cases in the assessment phase, two separate one-way
+ANOVAs with group as a between-subjects factor were performed on mean diagnostic
+accuracy scores and diagnostic performance scores. Signiﬁcance was set at 0.05.
+Results
+Tables 1 and 2 present mean scores obtained, respectively, on diagnostic accuracy and
+diagnostic performance as a function of performance moment and experimental condition
+on training cases. No signiﬁcant differences between the groups were found before the
+intervention, either in diagnostic accuracy score ( F[2, 50] = 1.06, p = .354) or in diag-
+nostic performance score: ( F[2, 50] = 0.19, p = .828).
+For the diagnostic accuracy score, Mauchly’s test indicated that the assumption of
+sphericity had been violated, X
+2 (2) = 12.66, p = .002, therefore, the multivariate tests are
+reported ( [ = .82). The repeated-measure ANOVA revealed a signiﬁcant main effect of
+performance moment ( V = 0.37, F[2, 49] = 14.45, p \ .001). The main effect of group
+was not signiﬁcant ( F[2, 50] = 0.66, p = .520), but there was a signiﬁcant interaction
+effect ( V = 0.23, F[4, 100] = 3.30, p = .014). To better understand these primary ﬁnd-
+ings, post hoc analyses were conducted using paired t-tests within each group (with
+Bonferroni correction). The p-values are presented in Table 1. In both the peer- and the
+expert-SE groups, students’ diagnostic accuracy scores improved signiﬁcantly immediately
+after listening to the SE example ( p = .007, p \ .001 respectively), and then remained
+unchanged 1 week later ( p = .298, p = 1 respectively). The control group showed a
+borderline but delayed improvement, i.e., 1 week later ( p = .022). Three One-way
+ANOVAs on mean diagnostic accuracy scores at each performance moment were also
+conducted as post hoc analyses. A signiﬁcant difference between the groups was noted
+only immediately after the intervention ( F[2, 50] = 3.29, p = .045. This difference was
+observed between the expert SE group and the control group ( p = .041).
+For the diagnostic performance scores, Mauchly’s test also indicated that the assump-
+tion of sphericity had been violated ( X
+2 [2] = 12.44, p = .002) therefore, the multivariate
+tests are reported ( [ = .82). A signiﬁcant main effect of performance moment was
+observed (V = 0.46, F[2, 49] = 21.27, p \ .001). The main effect of group was not sig-
+niﬁcant ( F[2, 50] = 0.30, p = .744) and there was no signiﬁcant interaction effect
+(V = 0.12, F[4, 100] = 1.60, p = .179). Post hoc analyses using paired t-tests within each
+group are presented in Table 2. The diagnostic performance scores in the peer and the
+expert-SE groups improved signiﬁcantly immediately ( p = .002, p \ .001 respectively)
+and remained stable 1 week later ( p = .622, p = .607 respectively). For the control group,
+the immediate improvement was borderline signiﬁcant ( p = .021) and remained stable
+(p = .525).
+Self-explanation examples and clinical reasoning 987
+123
+Table 1 Mean diagnostic accuracy scores ( SD) as a function of performance moment for each group on training cases and p values for score differences between
+performance moments for each group
+Group (n) Pre a Postb One-weekc Pre versus post Pre versus one-week Post versus one-week
+Peer SE (18) 70.83 (16.61) 82.64 (9.72) 85.42 (9.82) .007 .004 .298
+Expert SE (19) 74.34 (13.48) 87.50 (9.32) 87.50 (9.32) .000 .003 1.000
+Control (16) 78.13 (13.31) 78.13 (13.31) 86.72 (13.28) 1.000 .022 .022
+a Pre-intervention
+b Post-intervention
+c 1-week-later intervention
+Signiﬁcance level p = .017
+988 M. Chamberland et al.
+123
+Table 2 Mean diagnostic Performance Scores ( SD) as a function of performance moment for each group on training cases and p values for score differences between
+performance moments for each group
+Group (n) Pre a Postb One-weekc Pre versus post Pre versus one-week Post versus one-week
+Peer SE (18) 60.88 (13.19) 70.37 (9.99) 71.53 (8.84) .002 .008 .622
+Expert SE (19) 60.09 (9.03) 70.61 (6.73) 69.74 (8.08) .000 .001 .607
+Control (16) 62.50 (12.64) 66.15 (13.25) 67.45 (8.90) .021 .047 .525
+a Pre-intervention
+b Post-intervention
+c 1-week-later intervention
+Signiﬁcance level p = .017
+Self-explanation examples and clinical reasoning 989
+123
+Table 3 presents mean diagnostic accuracy scores and mean diagnostic performance
+scores on transfer cases for each group. No signiﬁcant differences emerged between the
+groups either in diagnostic accuracy scores ( F[2, 50] = 0.49, p = .616) or in diagnostic
+performance scores ( F[2, 50] = 0.06, p = .941).
+Discussion
+The present study investigated the impact on students’ diagnostic performance of listening
+to peer or expert SE examples after having themselves self-explained while diagnosing
+clinical cases. We assessed the short term and long-term (1-week) effect on the training
+cases and the long-term effect on transfer cases. It was hypothesized that listening to SE
+examples would add to students’ SE and support their knowledge construction thus
+translating into better subsequent performance.
+The results showed that, for the training cases, students’ diagnostic accuracy and
+diagnostic performance improved signiﬁcantly across the study phases relative to their
+initial performance, whether or not it was followed by listening to SE models. A closer
+look at the changes over time within each group leads to interesting additional observa-
+tions. First, differences in the magnitude of improvement suggests that there was in fact
+some added value of being exposed to SE models. Combining SE models to students’ own
+SE led to signiﬁcant improvement, while the improvement with students’ SE alone was
+only borderline. Second, the time frame of the improvement differed. Combining SE
+models with students’ own SE led to an immediate improvement in diagnostic accuracy
+that was maintained after 1 week, while improvement of students’ SE alone was delayed,
+only showing up in the assessment phase. SE examples presumably provide some form of
+immediate feedback to students, which may explain why they improved already in the
+training phase. On the other hand, the delayed positive effect of students’ own SE noticed
+in the control group suggests that SE alone is useful for learning. However, since the
+underlying mechanisms presumably involve knowledge elaboration and restructuration,
+this may take time and may not be visible in immediate testing but showed up later, on the
+1-week measurement. This is in line with other studies on medical students’ clinical
+reasoning in which the effect of deep processing of the information either by elaboration or
+structured reﬂection requires time and may even lead to poorer performance initially,
+followed by signiﬁcant improvement later on (Mamede et al. 2012; Woods et al. 2007a,
+2007b). Third, the peer SE and the expert SE groups’ outcomes were identical. While SE
+models led to some additional improvement, the type of SE model (peer vs. expert) did not
+make any difference on students’ performance, that is, peers’ examples were as good as
+experts’ examples.
+Table 3 Mean diagnostic accuracy scores ( SD) and diagnostic performance scores ( SD) for each group on
+Transfer cases 1 week later
+Group Mean diagnostic
+accuracy scores
+Mean diagnostic
+performance scores
+Peer SE 56.25 (17.81) 58.56 (11.39)
+Expert SE 60.53 (21.76) 59.87 (13.41)
+Control 53.91 (20.78) 58.85 (10.74)
+990 M. Chamberland et al.
+123
+For transfer cases 1 week later, no added value of SE models was noted. For this task
+that reﬂects deeper learning than memorization and retention (Mayer, 2010), students’ SE
+alone was as effective as the combination with SE examples.
+Thus the added value of SE models was altogether subtle, only evidenced on training
+cases, and expert SE models were not more effective than peer SE models. Apparently,
+students’ own SE was in large part responsible for the overall improvement across all
+groups, adding further evidence to the positive inﬂuence of this learning technique in
+Medicine (Chamberland et al. 2011; Larsen et al. 2013; Chamberland et al. 2013).
+Why do SE models not add much to students’ performance? The explanation may lie in
+the nature of the examples used in this study. In the worked-example literature, examples
+are usually ideal ones, didactically designed and presenting only steps relevant to the task
+(van Gog and Rummel 2010). In contrast, in our study, we used natural ‘‘raw’’ examples of
+SE, as they might occur in clinical setting. We deliberately chose to use non-didactically
+designed examples of clinical reasoning to be able to transpose more easily the results of
+the study to the clinical settings relevant to clerkship. The level of expertise of the example
+may also play a role. We used examples from peers (third-year medical students), whose
+SE included irrelevant details and even uncorrected errors. Despite their cognitive prox-
+imity, participants at the exact same level may have little to learn from such examples. As
+to the expert SE examples, while it might be counter-intuitive that students would not learn
+from an expert’s ‘‘ﬂawless’’ clinical reasoning, experts behaving naturally may not be the
+best examples for novices (van Gog and Rummel 2010; Rosen et al. 2010). Experts use
+fast, largely non-analytic reasoning, tend to skip steps and to reason at a higher level of
+abstraction (Bordage 2007), which may be difﬁcult for students to relate to their own
+knowledge.
+Another possible explanation for the limited impact of SE models might be related to
+the degree of students’ cognitive involvement while listening to the examples. Participants
+were informed that they would listen to an example of SE from someone else and that they
+would have to solve the problem again. They were not given prompts or other speciﬁc tasks
+to ensure that they listened actively to the examples. They may have been passive, even
+though their prior SE on the same case was expected to act as a preparatory task that would
+help them to focus on the example that followed. Nevertheless, perhaps more is needed to
+keep students actively engaged with the example. In a recent article proposing an in-
+structionally oriented theory of example-based learning, Renkl ( 2014) emphasized the
+critical role of engaging students using SE while working with the example.
+Finally, clinical reasoning is a complex cognitive task, in contrast to more structured
+tasks and procedural skills for which models and examples have been more often used (van
+Gog and Rummel 2010; Rosen et al. 2010). Measuring an impact of observing examples
+may be a matter of dosing, meaning that examples may have to be multiple, varied,
+repeated and spaced over time.
+This study has limitations. Students in the control group were recruited consecutively
+and were not randomized in contrast to students in the peer- and expert-SE groups.
+However, all participants were at the same level of training from the same program. We
+used SE examples of peers (third year medical students) and experts, and the results may
+differ if examples of intermediate levels of expertise (e.g., residents) are tested.
+Finding ways of keeping students cognitively active during the clerkship, and designing
+activities that maximise learning from unplanned activities in clinical settings remain a
+challenge for clinical teachers and educators. While recent studies suggest an important
+role of observing colleagues for the development of clinical reasoning in the workplace
+(Ajjawi and Higgs 2008: van de Wiel et al. 2011), little is known on how to maximise
+Self-explanation examples and clinical reasoning 991
+123
+learning from these naturally occurring models. In fact, our ﬁndings advise cautious in
+subscribing to the widespread view that having students listening to expert clinicians
+reasoning aloud while solving clinical cases is beneﬁcial for their learning. SE seems to be
+a promising individual learning tool for clinical reasoning in clerkship. However, there
+seems to be limited value of adding SE examples, at least examples from peers or experts
+that are natural, without further instructions to students to actively process these examples.
+Even though this study showed partly negative ﬁndings, it has potentially important
+implications since medical students in the clerkship spend signiﬁcant amounts of time
+listening to examples of clinical reasoning from peers or experts that are even more
+implicit than the ones used in the present study. We should ﬁnd better ways to seize
+learning opportunities from observing others. Future studies should examine the impact of
+SE examples of other levels of expertise and investigate additional strategies that could
+help students actively process and use natural examples of clinical reasoning.
+Acknowledgments The authors are thankful to the students and clinicians who participated in the study.
+Funding for this project was received from the Fonds de de ´veloppement pe´dagogique 2011, Socie´te´ des
+Me´decins de l’Universite´ de Sherbrooke (SMUS) and the Socie ´te´ des Me´decins de l’Universite´ de Sher-
+brooke Research Chair in Medical Education held by Christina St-Onge.
+Appendix
+See Table 4.
+References
+Ajjawi, R., & Higgs, J. (2008). Learning to reason: A journey of professional socialisation. Advances in
+Health Sciences Education, 13 (2), 133–150.
+Bordage, G. (2007). Prototypes and semantic qualiﬁers: From past to present. Medical Education, 41 (12),
+1117–1121.
+Chamberland, M., Mamede, S., St-Onge, C., Rivard, M., Setrakian, J., Le´vesque, A., et al. (2013). Students’
+self-explanations while solving unfamiliar cases: the role of biomedical knowledge. Medical Educa-
+tion, 47(11), 1109–1116.
+Chamberland, M., St-Onge, C., Setrakian, J., Lanthier, L., Bergeron, L., Bourget, A., et al. (2011). The
+inﬂuence of medical students’ self-explanations on diagnostic performance. Medical Education, 45(7),
+688–695.
+Charlin, B., Boshuizen, H. P., Custers, E. J., & Feltovich, P. J. (2007). Scripts and clinical reasoning.
+Medical Education, 41 (12), 1178–1184.
+Chi, M. T. H. (2000). Self-explaining expository texts: the dual processes of generating inferences and
+repairing mental models. In R. Glaser (Ed.), Advances in instructional psychology (pp. 161–238).
+Mahwah, NJ: Lawrence Erlbaum Associates.
+Table 4 Template for clinical cases development
+Broad category of diseases Speciﬁc diagnosis
+Training cases Transfer cases
+Acute hepatitis Viral hepatitis B Viral hepatitis A
+Chronic liver disease Chronic alcoholism Hemochromatosis
+Obstructive jaundice Pancreatic tumor Choledocholithiasis
+Hemolysis Auto-immune, idiopathic Cold agglutinins, Mycoplasma infection
+992 M. Chamberland et al.
+123
+Chi, M. T. H., & Bassock, M. (1989). Learning from examples via self-explanations. In L. B. Resnick (Ed.),
+Knowing, learning, and instruction: essays in honor of robert glaser (pp. 251–282). Hillsdale, NJ:
+Lawrence Erlbaum Associates.
+Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). Improving students’
+learning with effective learning techniques: Promising directions from cognitive and educational
+psychology. Psychological Science in the Public Interest, 14 (1), 4–58.
+Eva, K. W. (2004). What every teacher needs to know about clinical reasoning. Medical Education, 39 (1),
+98–106.
+Fonseca, B., & Chi, M. T. H. (2011). Instruction based on self-explanation. In R. E. Mayer & P. S. Alex-
+ander (Eds.), The handbook of research on learning and instruction (pp. 296–321). NY: Routledge
+Taylor and Francis Group.
+Gruppen, L. D., & Frohna, A. Z. (2002). Clinical reasoning. In G. R. Norman, C. P. M. Van der Vleuten, &
+D. I. Newble (Eds.), International handbook of research in medical education (pp. 205–230).
+Dordrecht: Kluwer.
+Kassirer, J. P. (2010). Teaching clinical reasoning: case-based and coached. Academic Medicine, 85 (7),
+1118–1124.
+Larsen, D. P., Butler, A. C., & Roediger, H. L., I. I. I. (2013). Comparative effects of test-enhanced learning
+and self-explanation on long-term retention. Medical Education, 47 (7), 674–682.
+Mamede, S., van Gog, T., Moura, A. S., de Fabria, R. M. D., Peixoto, J. M., Rikers, R. M. J. P., & Schmidt,
+H. G. (2012). Reﬂection as a strategy to foster medical students’ acquisition of diagnostic competence.
+Medical Education, 46 (5), 464–472.
+Mayer, R. E. (2010). Applying the science of learning to medical education. Medical Education, 44 (6),
+543–549.
+Mylopoulos, M., & Regehr, G. (2011). Putting the expert together again. Medical Education, 45 (9),
+920–926.
+Norman, G. (2005). Research in clinical reasoning: Past history and current trends. Medical Education,
+39(4), 418–427.
+Renkl, A. (2011). Instruction based on examples. In R. E. Mayer & P. S. Alexander (Eds.), The handbook of
+research on learning and instruction (pp. 272–295). New York: Routledge Taylor and Francis Group.
+Renkl, A. (2014). Toward an instructionnally oriented theory of example-based learning. Cognitive Science,
+38, 1–37.
+Rosen, M. A., Salas, E., Pavlas, D., Jensen, R., Fu, D., & Lampton, D. (2010). Demonstration-based
+training: A review of instructional features. Human Factors, 52 (5), 596–609.
+Rummel, N., Spada, H., & Hauser, S. (2009). Learning to collaborate while being scripted or by observing a
+model. International Journal of Computer-supported Collaborative Learning, 4 , 69–92.
+Schmidt, H. G., & Rikers, R. M. J. P. (2007). How expertise develops in medicine: knowledge encapsulation
+and illness script formation. Medical Education, 41 (12), 1133–1139.
+Schworm, S., & Renkl, A. (2007). Learning argumentation skills through the use of prompts for self-
+explaining examples. Journal of Educational Psychology, 99 , 285–296.
+van de Wiel, M. W. J., Van den Bossche, P., Janssen, S., & Jossberger, H. (2011). Exploring deliberate
+practice in medicine: How do physicians learn in the workplace? Advances in Health Sciences Edu-
+cation, 16(1), 81–95.
+van Gog, T., & Rummel, N. (2010). Example-based learning: Integrating cognitive and social-cognitive
+research perspectives. Educational Psychology Review, 22 , 155–174.
+van Merrie¨nboer, J. J. G., & Sweller, J. (2010). Cognitive load theory in health professional education:
+Design principles and strategies. Medical Education, 44 (1), 85–93.
+Wong, R. M. F., Lawson, M. J., & Keeves, J. (2002). The effects of self-explanation training on students’
+problem-solving in high-school mathematics. Learning and Instruction, 12 , 233–262.
+Woods, N. N. (2007). Science is fundamental: The role of biomedical knowledge in clinical reasoning.
+Medical Education, 41 (12), 1173–1177.
+Woods, N. N., Brooks, L. R., & Norman, G. R. (2007a). It all makes sense: Biomedical knowledge, causal
+connections and memory in the novice diagnostician. Advances in Health Sciences Education, 12 (4),
+405–415.
+Woods, N. N., Brooks, L. R., & Norman, G. R. (2007b). The role of biomedical knowledge in diagnosis of
+difﬁcult clinical cases. Advances in Health Sciences Education, 12 (4), 417–426.
+Self-explanation examples and clinical reasoning 993
+123

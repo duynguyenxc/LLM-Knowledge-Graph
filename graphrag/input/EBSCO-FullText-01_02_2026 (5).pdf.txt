@@ -1,0 +1,673 @@
+TITLE: Should we teach using schemas? Evidence from a randomised trial
+AUTHORS: Sarah Blissett, Rodrigo B Cavalcanti, Matthew Sibbald
+YEAR: 2012
+DOI: 10.1111/j.1365-2923.2012.04311.x
+
+CONTENT:
+Should we teach using schemas? Evidence from a
+randomised trial
+Sarah Blissett,1–3 Rodrigo B Cavalcanti 1–3 & Matthew Sibbald 1–3
+CONTEXT Schema-based instruction may alter
+knowledge organisation and diagnostic
+reasoning strategies through the provision of
+structured knowledge to novice trainees.
+The effects of schema-based instruction on
+diagnostic accuracy and knowledge
+organisation have not been rigorously
+tested.
+METHODS Year 2 medical students were
+randomised to learn four cardiac diagnoses
+using schema-based instruction ( n = 26) or
+traditional instruction ( n = 27) on a high-
+ﬁdelity cardiopulmonary simulator (CPS).
+Students completed case-based learning in
+groups of two to ﬁve and underwent individual
+written and practical tests. The written test
+consisted of questions testing features that
+linked or distinguished diagnoses (structured
+knowledge) and questions testing features of
+individual diagnoses (factual knowledge). A
+practical test of diagnostic accuracy on the CPS
+was performed for two diagnoses present in the
+learning phase (taught lesions) and two
+untaught lesions. A majority of students
+(n = 37, 70%) voluntarily returned for
+follow-up written testing 2–4 weeks later.
+RESULTS Learning time and accuracy did not
+differ between students on schema-based and
+those on traditional instruction. Students
+receiving schema-based instruction performed
+better on structured knowledge questions
+(p < 0.001) and no differently on factual
+knowledge questions (p = 0.7). Relative differ-
+ences between groups remained unchanged on
+follow-up testing. Diagnostic success was higher
+in the schema-based instruction group for
+taught lesions (mean difference = 38%, 95%
+conﬁdence interval [CI] 20–56; p < 0.001) and
+untaught lesions (mean difference = 31%, 95%
+CI 15–48; p < 0.001).
+CONCLUSIONS Schema-based instruction was
+associated with improved retention of struc-
+tured knowledge and diagnostic performance
+among novices. This study provides important
+proof-of-concept for a schema-based approach
+and suggests there is substantial beneﬁt to
+using this approach with novice trainees.
+reﬂection
+Medical Education 2012: 46: 815–822
+doi:10.1111/j.1365-2923.2012.04311.x
+Discuss ideas arising from this article at
+www.mededuc.com ‘discuss’
+1Department of Medicine, University of Toronto, Toronto, Ontario,
+Canada
+2Division of General Internal Medicine, Toronto Western Hospital,
+University Health Network, Toronto, Ontario, Canada
+3Dr Herbert Ho Ping Kong Centre for Excellence in Education and
+Practice, University Health Network, Toronto, Ontario, Canada
+Correspondence: Matt Sibbald, University Health Network, Toronto
+Western Hospital, 8E420, 399 Bathurst Street, Toronto, Ontario
+M5T 2S8, Canada. Tel: 00 1 416 603 5800; Fax: 00 1 416 603 6495;
+E-mail: matthew.sibbald@utoronto.ca
+ª Blackwell Publishing Ltd 2012. MEDICAL EDUCATION 2012; 46: 815–822 815
+INTRODUCTION
+The amount and complexity of information medical
+students are asked to master are exponentially
+increasing. One approach to help students overcome
+this information overload is to identify strategies that
+help students acquire knowledge more efﬁciently.
+Cognitive load theory and knowledge organisation
+concepts can help indesigning such learningstrategies.
+Information overload through the lens of cognitive
+load theory
+Cognitive load theory views the challenges of learning
+through the ﬁnite limitations of working memory.
+1
+Working memory can process only three to seven
+information elements.
+1 When a subject matter
+involves multiple interacting elements, it can over-
+whelm working memory and become difﬁcult to
+learn. Traditionally, complex subjects with many
+interacting elements are taught by presenting each
+element separately to reduce cognitive load.
+1,2 For
+example, learning cardiac physical examination
+requires students to master lists of ﬁndings for each
+relevant diagnosis. However, when students face a
+patient with an unknown systolic murmur, they must
+integrate all of this information to arrive at a
+diagnosis, a task that presents a tremendous chal-
+lenge to working memory. An alternative approach is
+to explicitly teach how the elements interact by
+organising information into schemas
+1 or representa-
+tions of diagnoses distinguished by relevant clinical
+and pathophysiologic variables. Schemas reduce
+cognitive load by presenting the most important links
+between interacting elements.
+Schemas and knowledge organisation
+Items of knowledge acquired by novices are often
+stored in long-term memory as isolated facts. Isolated
+facts are hard to recall and apply to clinical problems
+because they are not linked to other relevant infor-
+mation.
+3 In order for this information to be useful in
+solving clinical problems, it needs to be reorganised
+around clinical ﬁndings and concepts. 2 This requires
+trainees to link multiple causal hypotheses and
+elaborate on them in order to build an understand-
+ing of the underlying concept. Bordage describes this
+highly linked conceptual knowledge as ‘compiled’.
+3
+Schemas group diagnoses by relevant clinical and
+pathophysiologic variables. Therefore, the provision
+of schemas is hypothesised to aid in the development
+of compiled knowledge because schemas present the
+information in a structured, clinically relevant way.
+Schemas and clinical reasoning
+Diagnostic reasoning strategies used by novice learn-
+ers include hypothetico-deductive and schema-based
+reasoning. Elstein et al.
+4 describe hypothetico-
+deductive reasoning as a process whereby clinicians
+formulate and test hypotheses in a sequential fashion.
+By contrast, schema-based reasoning is a process in
+which key clinical features are used to include or
+exclude sets of diagnoses. In an observational study,
+Coderre et al.
+5 found that novice medical students
+achieved higher diagnostic success when employing a
+schema-based strategy compared with a hypothetico-
+deductive strategy. It is tempting to attribute the
+higher diagnostic success to schema-based reasoning.
+However, the use of schemas may also be a surrogate
+for students with a more thorough understanding of
+the clinical problem.
+5
+Relating knowledge organisation and reasoning
+strategies
+Knowledge organisation and reasoning strategies are
+likely to be linked.
+3,6 Dispersed knowledge acquired
+through rote memorisation might force hypothetico-
+deductive reasoning. Conversely, highly compiled
+knowledge stored as elaborate causal networks may
+promote schema-based reasoning. Therefore,
+teaching schemas may have beneﬁcial effects in both
+promoting more expert knowledge organisation and
+facilitating expert-like reasoning.
+Testing a schema-based approach
+Previous studies of schema-based instruction
+identiﬁed improved test scores and better diagnos-
+tic accuracy when schemas were compared with
+traditional lists or tables for teaching in nephro-
+logy
+7,8 and congenital cardiology. 9 These studies
+suggest that schemas provide information in a
+structure that enables the use of schema-based
+reasoning. However, this evidence comes from non-
+randomised retrospective comparisons in which
+the effect of schemas may have been confounded
+by differences among students in level of
+expertise.
+7–9
+Seasoned clinicians have been critical of
+schema-based instruction, arguing that schemas
+cannot prepare students to reason through an
+unlearned diagnosis.
+8,9 Even experts abandon
+schematic reasoning and adopt hypothesis testing
+when faced with an unfamiliar problem.
+10 Novice
+students taught with a schema have not had to
+navigate the material using a hypothetico-deductive
+816 ª Blackwell Publishing Ltd 2012. MEDICAL EDUCATION 2012; 46: 815–822
+S Blissett et al
+approach. As a result, students may struggle when
+encountering untaught diagnoses.
+Cardiac physical diagnosis provides a good model to
+test the effect of schema-based instructional guidance
+for several reasons. Firstly, multiple studies have
+documented poor cardiac auscultatory skills among
+senior medical students and residents, and resulting
+low rates of diagnostic success (19–55%).
+11–15
+Secondly, traditional teaching of cardiac physical
+diagnosis involves diagnosis-speciﬁc lists of features,
+structured around steps in the cardiac physical
+examination. This approach leads a novice learner to
+hypothetico-deductive reasoning until repeated
+encounters promote the development of individual
+schemas. Thirdly, a high-ﬁdelity cardiopulmonary
+simulator (CPS), Harvey
+/C210 (Gorden Center for
+Research in Medical Education, University of Miami,
+Miami, FL, USA), which can mimic a wide range of
+clinically relevant pathology for learning and test-
+ing,
+16 is available.
+We aimed to test the effects of schema-based
+instruction in comparison with those of a traditional
+framework on the acquisition of cardiac auscultation
+skills among novices in a randomised trial. We
+hypothesised that schema-based instruction would
+foster clinically relevant knowledge (hereafter
+referred to as ‘structured knowledge’), increase
+schema-based reasoning and improve diagnostic
+accuracy. We also hypothesised that schema-based
+instruction would increase diagnostic error compared
+with traditional instruction for lesions that students
+had not encountered before.
+METHODS
+Population
+Year 2 medical students at the University of Toronto
+were invited to participate. Students had previously
+completed two 4-hour sessions covering the
+components of the cardiac physical examination. All
+participants provided informed consent.
+Design
+The study design featured case-based learning using
+Harvey
+/C210 , a CPS that reproduces visual, tactile and
+auditory ﬁndings of the cardiac examination,
+designed at the Gordon Center for Research in
+Medical Education, University of Miami (Miami,
+FL, USA). Participants attended a 15-minute
+orientation.
+Participants attended one of 14 sessions, each of
+which included up to ﬁve participants. Sessions were
+randomised into two categories to include a control
+sample that received an instructional framework
+based on the traditional approach (Fig. 1) and an
+intervention sample that received an instructional
+framework based on a diagnostic schema (Fig. 2).
+Both frameworks contained the same information.
+However, the organisation of the information
+differed. The traditional framework (Fig. 1) was
+structured around individual valvular lesions and
+listed the 10 clinical features of each diagnosis in a
+table format. The schema framework (Fig. 2)
+grouped diagnoses according to clinical features
+based on murmur location and timing (e.g. ‘apex
+beat’, ‘radiation’ and ‘character’ for a murmur heard
+at the apex).
+Before the schemas were developed, we conducted a
+search for existing frameworks in the literature. This
+revealed two schemas that were inappropriate for the
+study. One schema used a ﬁnding not available on
+the simulator, hepatomegaly, as a key distinguishing
+feature of cardiac lesions,
+17 whereas the other was a
+cumbersome, long framework beyond the scope of a
+novice.18 Therefore, two experts with 10 years of
+experience in cardiac physical examination were
+consulted to develop an appropriate schema. The
+schema was revised based on pilot data.
+The study was divided into four phases: learning;
+consolidation; testing, and retesting. The ﬁrst three
+phases all occurred in the same session. Retesting
+occurred 2–4 weeks later. All written materials were
+handed to the facilitator at the end of the session to
+prevent any contamination between groups.
+Learning phase
+In groups of two to ﬁve students, participants were
+asked to deduce the diagnosis of four unknown
+cardiac lesions (aortic regurgitation, aortic stenosis,
+mitral regurgitation and ventricular septal defect) on
+the simulator using the assigned framework. A
+facilitator was available for technical troubleshooting,
+but did not participate in the learning process. Each
+participant was asked to record his or her diagnosis
+and the key features that had led to it. Once the
+group had ﬁnished, participants were given a written
+answer guide. The group was allowed 15 minutes to
+resolve any incorrect diagnoses or clarify examination
+features. This case-based, collaborative design was
+intended to foster learning while limiting the effects
+of instructional guidance to the framework provided.
+The four lesions chosen were derived from a survey of
+ª Blackwell Publishing Ltd 2012. MEDICAL EDUCATION 2012; 46: 815–822 817
+Should we teach using schemas?
+internists who identiﬁed them as key components of
+the curriculum for general practice. 12 Learning
+worksheets were reviewed to ensure no misconcep-
+tions were learned using either framework. Each
+diagnosis was scored as correct or incorrect. Key
+features were categorised as correct features in the
+schema, correct features not in the schema, or
+incorrect features.
+Consolidation phase
+Participants were allocated 15 minutes to review the
+instructional framework prior to testing. They were
+allowed to discuss any learning difﬁculties within
+their group.
+Testing and retesting phase
+Participants individually completed a written test
+and then a practical test without the aid of
+their instructional framework. Participants were
+invited to undertake a repeat written test
+administered 2–4 weeks after the initial session.
+Retesting was limited to the written test by logistical
+constraints.
+Written test
+Participants completed a 19-question written test
+including single-response multiple-choice questions
+(MCQs), multiple-response MCQs and short-answer
+questions. The questions were divided into two
+groups. The ﬁrst group ( n = 9) tested features which
+linked or distinguished diagnoses (structured knowl-
+edge questions). The second group ( n = 10) tested
+features of individual diagnoses (factual knowledge
+questions). Sample questions from each group are
+included in Table 1. Both groups involved diagnoses
+familiar to the participants from the learning phase
+(taught lesions) and not taught to the participants in
+the learning phase (untaught lesions). All tested
+diagnoses were present in both the structured and
+factual knowledge questions. The written test was
+marked by two researchers blinded to group alloca-
+tion. Disagreement was resolved by consensus.
+Practical test
+Participants were asked to individually identify four
+unidentiﬁed lesions on Harvey
+/C210 , recording the diag-
+nosis and key features used in arriving at the
+Figure 1 Traditional instructional framework
+818 ª Blackwell Publishing Ltd 2012. MEDICAL EDUCATION 2012; 46: 815–822
+S Blissett et al
+diagnosis. Two of the tested lesions were taught
+lesions from the learning phase (aortic regurgitation
+and mitral regurgitation). The remaining two lesions,
+aortic sclerosis and hypertrophic cardiomyopathy,
+were included on the instructional frameworks, but
+not in the learning phase (untaught lesions).
+Data analysis
+An analysis of variance (
+ANOVA) was performed to
+compare written test scores. Unpaired t-tests were
+used to compare practical test scores and key feature
+identiﬁcation. All analyses were performed with SPSS
+Version 17 (SPSS, Inc., Chicago, IL, USA).
+The study was approved by the Research Ethics Board
+at the University of Toronto.
+RESULTS
+A total of 53 students participated in the study; 26
+were assigned to the schema-based and 27 to the
+traditional-based instruction.
+Learning phase
+There was no difference in the time used to
+complete the learning phase between participants
+assigned, respectively, to the schema-based and
+traditional instructional frameworks (45 ± 11
+minutes and 39 ± 8 minutes, respectively; t
+12 = 1.2,
+p = 0.24). Accuracy in diagnosing the four lesions
+in the learning phase was similar between those
+assigned to the schema-based and traditional
+frameworks (98% versus 93%, respectively;
+t
+163 = 1.9, p = 0.06). Students assigned to the
+traditional framework identiﬁed more total features
+(4.4 ± 1.8 versus 3.8 ± 1.1; t
+210 = 2.9, p = 0.004),
+more correct features not in the schema (1.4 ± 1.3
+versus 0.1 ± 0.4; t
+210 = 9.9, p < 0.001), and more
+incorrect features (0.2 ± 0.6 versus 0.04 ± 0.2;
+t
+130 = 3.1, p = 0.003) compared with those assigned
+to the schema-based framework. Students who
+received the schema identiﬁed signiﬁcantly more
+features present in the schema (3.7 ± 1.1 versus
+3.0 ± 1.3; t
+210 = 4.3, p < 0.001).
+Figure 2 Schema-based instructional framework
+ª Blackwell Publishing Ltd 2012. MEDICAL EDUCATION 2012; 46: 815–822 819
+Should we teach using schemas?
+Testing phase
+Written tests were scored independently by two
+raters with high inter-rater reliability (Spearman’s
+r = 0.961, p < 0.001). There was a signiﬁcant effect
+of instruction type on performance ( F
+1003,3 = 17,
+p < 0.001). There was also a signiﬁcant interaction
+between instruction type and question type
+(F
+1003,3 = 18, p < 0.001). Schema-based instruction
+was associated with higher scores on structured
+knowledge questions (74% versus 55%; p < 0.0001),
+but not on factual knowledge questions (62% versus
+62%; p = 0.93). On follow-up testing 2–4 weeks later
+(n = 37, 70% of participants), these ﬁndings
+remained unchanged. There was a signiﬁcant effect
+of instruction type on performance ( F
+509,3 = 12,
+p = 0.001) and a signiﬁcant interaction between
+instruction type and question type ( F509,3 =5 ,
+p = 0.02). Students in the schema group
+performed better on structured knowledge ques-
+tions (62% versus 42%; p = 0.001), but not on
+factual knowledge questions (52% versus 48%;
+p = 0.41).
+On the practical test, schema-based instruction was
+associated with greater diagnostic accuracy (61%
+versus 26%; mean difference = 35%, 95% conﬁdence
+interval [CI] 22–47; t
+205 = 5.40, p < 0.001). Schema-
+based instruction was associated with greater diag-
+nostic accuracy for both taught (77% versus 39%,
+mean difference = 38%, 95% CI 20–56; t
+102 = 2.26,
+p < 0.001) and untaught (44% versus 13%, mean
+difference = 31%, 95% CI 15–48; t89 = 3.75,
+p < 0.001) lesions. For taught lesions, schema-in-
+structed students identiﬁed the same number of
+overall features, more correct features in the schema,
+fewer correct features not in the schema and fewer
+incorrect features (Table 2). For untaught diagnoses,
+schema-instructed students identiﬁed fewer overall
+features, fewer correct features not in the schema and
+fewer incorrect features (Table 2).
+DISCUSSION
+To our knowledge, this study is the ﬁrst prospective,
+randomised study to evaluate schema-based
+Table 1 Examples of questions on the written test
+Structured knowledge questions* Factual knowledge questions /C160
+1 You hear a diastolic murmur. Which features are most helpful in
+diagnosing the cause? Choose as many as you feel would be
+helpful
+1 Circle the features you would expect to ﬁnd in a patient with aortic
+regurgitation. Choose as many as are correct
+(a) JVP
+(b) Grade of murmur
+(c) Location of murmur
+(d) Radiation of murmur
+(e) Character
+(f) Apex beat
+(g) Carotid pulse
+(h) Changes with inspiration
+(a) Bounding carotid pulse
+(b) S3
+(c) Normal apex
+(d) Diastolic component of murmur
+(e) Opening snap
+(f) CV waveform in JVP
+(g) Loudest at sternal border
+(h) Changes with inspiration
+2 You hear a murmur loudest at the base. What physical
+examination manoeuvre would you do next to diagnose
+the murmur? Choose one response
+2 Which feature are you most likely to ﬁnd in a patient with aortic
+stenosis?
+(a) Examine the JVP
+(b) Examine the carotid pulse
+(c) Ask the patient to take a deep breath in and determine if the
+murmur changes
+(a) Elevated JVP
+(b) Murmur loudest at the sternal border
+(c) Radiation to the carotids
+(d) S3
+* Correct answers for structured knowledge sample questions: (1) c, d, e, f, g; (2) b
+/C160Correct answers for factual knowledge sample questions:
+(1) a, b, d, g; (2) c
+JVP = jugular venous pressure
+820 ª Blackwell Publishing Ltd 2012. MEDICAL EDUCATION 2012; 46: 815–822
+S Blissett et al
+instruction among pre-clerkship learners. Our results
+provide strong support for the use of schema-based
+instruction in cardiac auscultation among novice
+students. We found that students instructed with a
+schema achieved higher diagnostic success than
+students instructed with the traditional framework.
+Of note, the 26% diagnostic accuracy achieved by the
+control group was comparable with rates achieved in
+previous evaluations of diagnostic accuracy among
+Year 2 medical students (19–24%),
+12,19 which sug-
+gests that this group was not unfairly disadvantaged
+by our design.
+How do schemas beneﬁt novices? The hypothesis that
+schemas beneﬁt novices by modifying knowledge
+organisation and diagnostic reasoning strategies is
+supported by our data. The results on the written test
+provide evidence that schemas modiﬁed knowledge
+organisation by increasing the amount of structured
+knowledge without changing factual knowledge of
+diagnoses. The magnitude of the effect (38–40%) is
+similar to that in a previous study in which schemas
+were found to improve scores on nephrology questions
+by 30%.
+8 Although reasoning strategy was not directly
+measured (for fear of overwhelming novices with a
+verbal protocol), schema-instructed students were
+more likely to report features from the schema in
+arriving at their diagnosis. This suggests a higher use of
+schema-based reasoning by schema-instructed students.
+Is there a downside to schema-based instruction? We
+anticipated lower diagnostic accuracy on untaught
+lesions among students instructed with schemas
+because they may be less likely to generate non-
+schema-based correct features. Although the tradi-
+tional instruction group did generate a greater
+number of correct features for untaught lesions, this
+did not translate into higher diagnostic success. In
+fact, the schema-based instruction group had 30%
+higher diagnostic success. Two explanations are
+possible. Firstly, the traditional instruction group
+identiﬁed more incorrect features. Incorrect features
+may have a derailing effect on diagnostic reasoning.
+Secondly, the schema-based instruction group iden-
+tiﬁed more schema-based features. Schema-based
+features may be more helpful in the diagnostic
+process than non-schema-based features as they help
+distinguish diagnoses. Importantly, we cannot
+generalise these ﬁndings to all diagnoses as we did
+not assess diagnoses or feature combinations not
+provided in the instructional material.
+Our study has several limitations. Firstly, it was
+conducted at a single centre. Our conclusions would
+be strengthened by replication elsewhere. Secondly,
+practical testing was immediate. With further time to
+study and digest material, the beneﬁt of a schema
+might be reduced. Thirdly, only novice learners
+participated. It is unclear how our ﬁndings might
+apply to experienced learners, who may already
+possess compiled knowledge. Fourthly, Harvey
+/C210 has
+prominent and standardised physical examination
+ﬁndings that are not always present in real patients.
+This may have allowed students to make the correct
+Table 2 Feature identiﬁcation among students taught using the schema-based and traditional instruction frameworks
+All lesions Taught lesions Untaught lesions
+Mean difference
+(95% CI)* p-value
+Mean
+difference
+(95% CI)* p-value
+Mean
+difference
+(95% CI)* p-value
+Correct features
+in schema
+0.39 (0.05–0.69) 0.012 0.62 (0.23–1.02) 0.002 0.15 ( ) 0.28 to 0.58) NS
+Correct features
+not in schema
+) 0.71 ( ) 0.90 to ) 0.51) < 0.001 ) 0.64 ( ) 0.93 to ) 0.35) < 0.001 ) 0.77 ( ) 0.10 to ) 0.51) < 0.001
+Incorrect
+features
+) 0.52 ( ) 7.32 to ) 0.31) < 0.001 ) 0.55 ( ) 0.80 to ) 0.29) < 0.001 ) 0.49 ( ) 0.83 to ) 0.16) 0.004
+Total features 0.310 ( ) 0.64 to 0.049) NS 0.020 ( ) 0.52 to 0.48) NS ) 0.62 ( ) 1.16 to 0.080) 0.025
+* Positive mean differences indicate that a greater number of features were identiﬁed by the schema-based instruction group; negative mean
+differences indicate that a greater number of features were identiﬁed by the traditional instruction group
+NS = not signiﬁcant
+ª Blackwell Publishing Ltd 2012. MEDICAL EDUCATION 2012; 46: 815–822 821
+Should we teach using schemas?
+diagnosis with fewer variables, thereby favouring the
+schema group. Finally, not all complex clinical
+problems are easily translated into schemas. Schema
+development requires the identiﬁcation of a small
+number of useful clinical variables, which may not
+always be apparent.
+In summary, this study provides important proof-of-
+concept for a schema-based approach to clinical
+instruction. Like the traditional framework used in
+this study, current teaching methods often emphasise
+comprehensiveness and diagnosis-speciﬁc knowledge.
+Our randomised study suggests a substantial beneﬁt
+in organising this knowledge using schemas. Future
+work should explore whether this beneﬁt is found
+across other domains, in more advanced learners,
+and continues to persist over time.
+Contributors:
+all authors contributed to the study design.
+SB collected the data. MS conducted the statistical analysis.
+All authors participated in data interpretation. SB drafted
+the manuscript and MS and RBC contributed to its critical
+revision. All authors approved the ﬁnal manuscript for
+publication.
+Acknowledgements: the authors would like to acknowledge
+Tobi Lam, Institute of Medical Science, Faculty of
+Medicine, University of Toronto, Toronto, Canada, for her
+assistance in designing the instructional frameworks, and
+the University of Toronto Medical School and the Herbert
+Ho Ping Kong Centre for Excellence in Education and
+Practice for their support of this study.
+Funding: none.
+Conﬂicts of interest: none.
+Ethical approval: the study was approved by the University
+of Toronto Research Ethics Board.
+REFERENCES
+1 Sweller J, Ayres P, Kalyuga S. Cognitive Load Theory. New
+York, NY: Springer 2011;42–8.
+2 Schmidt H, Rikers R. How expertise develops in med-
+icine: knowledge encapsulation and illness script for-
+mation. Med Educ 2007;41:1133–9.
+3 Bordage G. Elaborated knowledge: a key to successful
+diagnostic thinking. Acad Med 1994;69 (11):883–5.
+4 Elstein A, Schulman L, Sprafka S. Medical Problem-
+solving: An Analysis of Clinical Reasoning . Cambridge,
+MA: Harvard University Press 1978;330.
+5 Coderre S, Mandin H, Harasym P, Fick G. Diagnostic
+reasoning strategies and diagnostic success. Med Educ
+2003;37:695–703.
+6 Schmidt HG, Norman GR, Boshuizen HP. A cognitive
+perspective on medical expertise: theory and implica-
+tion. Acad Med 1990;65 (10):611–21.
+7 McLaughlin K, Coderre S, Mortis G, Mandin H. Expert-
+type knowledge structure in medical students is asso-
+ciated with increased odds of diagnostic success. Teach
+Learn Med 2007;19 (1):35–41.
+8 McLaughlin K, Mandin H. Using ‘concept sorting’ to
+study learning processes and outcomes. Acad Med
+2002;77 (8):831–6.
+9 Beck AL, Bergman DA. Using structured medical
+information to improve students’ problem-solving
+performance. J Med Educ 1986;61 (9 Pt 1):749–56.
+10 Pelaccia T, Tardif J, Triby E, Charlin B. An analysis of
+clinical reasoning through a recent and comprehensive
+approach: the dual-process theory. Med Educ Online
+2011;16: doi: 10.3402/meo.v16i0.5890.
+11 Mangione S, Nieman LZ. Cardiac auscultatory skills of
+internal medicine and family practice trainees. A
+comparison of diagnostic proficiency. JAMA 1997;278
+(9):717–22.
+12 Mangione S, Nieman LZ, Gracely E, Kaye D. The
+teaching and practice of cardiac auscultation during
+internal medicine and cardiology training. A nation-
+wide survey. Ann Intern Med 1993;119 (1):47–54.
+13 St Clair EW, Oddone EZ, Waugh RA, Corey GR,
+Feussner JR. Assessing housestaff diagnostic skills using
+a cardiology patient simulator. Ann Intern Med 1992;117
+(9):751–6.
+14 Vukanovic-Criley JM, Hovanesyan A, Criley SR, Ryan TJ,
+Plotnick G, Mankowitz K, Conti R, Criley M. Confi-
+dential testing of cardiac examination competency in
+cardiology and non-cardiology faculty and trainees: a
+multicentre study. Clin Cardiol 2010;33 (12):738–45.
+15 Vukanovic-Criley JM, Criley S, Warde CM, Boker JR,
+Guevera-Matheus L, Hallowell C, Nelson WP, Criley JM.
+Competency in cardiac examination skills in medical
+students, trainees, physicians, and faculty: a multicen-
+tre study. Arch Intern Med 2006;166 (6):610–6.
+16 Gordon MS, Ewy GA, DeLeon AC Jr, Waugh RA, Felner
+JM, Forker AD, Gessner IH, Mayer JW, Patterson D.
+‘Harvey’, the cardiology patient simulator: pilot studies
+on teaching effectiveness. Am J Cardiol 1980;45 (4):
+791–6.
+17 Collins RD. Algorithmic Diagnosis of Symptoms and Signs. A
+Cost-effective Approach. Philadelphia, PA: Lippincott
+Williams &Wilkins 2002;69.
+18 Naumov LB. Differential diagnostic algorithm for dis-
+eases manifested with heart murmurs syndrome.
+Anadolu Kardiyol Derg 2009;9 (4):331–9.
+19 Barrett MJ, Lacey CS, Sekara AE, Linden EA, Gracely
+EJ. Mastering cardiac murmurs: the power of repeti-
+tion. Chest 2004;126 (2):470–5.
+Received 2 February 2012; editorial comments to authors 7 March
+2012; accepted for publication 16 April 2012
+822 ª Blackwell Publishing Ltd 2012. MEDICAL EDUCATION 2012; 46: 815–822
+S Blissett et al
+Copyright of Medical Education is the property of Wiley-Blackwell and its content may not be copied or
+emailed to multiple sites or posted to a listserv without the copyright holder's express written permission.
+However, users may print, download, or email articles for individual use.

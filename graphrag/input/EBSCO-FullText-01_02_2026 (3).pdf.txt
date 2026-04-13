@@ -1,0 +1,237 @@
+TITLE: Effect of enhanced analytic reasoning on diagnostic accuracy: A randomized controlled study
+AUTHORS: Sun Jung Myung, Seok Hoon Kang, Sae Ra Phyo, Jwa Seop Shin, Wan Beom Park
+YEAR: 2013
+DOI: 10.3109/0142159x.2013.759643
+
+CONTENT:
+2013; 35: 248–250
+SHORT COMMUNICATION
+Effect of enhanced analytic reasoning on
+diagnostic accuracy: A randomized
+controlled study
+SUN JUNG MYUNG, SEOK HOON KANG, SAE RA PHYO, JWA SEOP SHIN & WAN BEOM PARK
+Seoul National University College of Medicine, Republic of Korea
+Abstract
+Background: Diagnostic error can be caused by several types of cognitive bias, which may be reversed by enhancing analytic
+reasoning.
+Aims: To evaluate whether enhancing analytic reasoning can increase diagnostic accuracy in objective structured clinical
+examination (OSCE) in medical students.
+Methods: All fourth-year medical students, randomly assigned to the analytic reasoning or control groups, undertook the OSCE
+with four cases using standardized patients. The analytic reasoning group was requested to list differential diagnoses and findings
+compatible or not compatible with each diagnosis prior to providing a diagnosis, while the control group provided a diagnosis
+without these processes. Mean diagnostic accuracy scores ( perfect score, 4.0) from four cases of OSCE were compared between
+the two groups.
+Results: One hundred forty-five students were randomly assigned to the analytic reasoning group ( n ¼ 65) or the control group
+(n ¼ 80). The baseline characteristics, including grade point average and the scores from each patient encounter, were comparable
+between groups. Mean diagnostic accuracy scores were significantly higher in the analytic reasoning group than in the control
+group (3.40 /C6 0.66 versus 3.05 /C6 0.98; p ¼ 0.011).
+Conclusion: Enhancement of analytic reasoning may improve diagnostic accuracy in novice doctors.
+Introduction
+Diagnostic errors comprise a large proportion of preventable
+medical errors and can be a result of numerous types of
+cognitive bias (Graber et al. 2005). Common cognitive bias
+include premature closure (‘‘the tendency to stop considering
+other possibilities after reaching a diagnosis’’), anchoring (‘‘the
+tendency to perceptually lock onto salient features too early in
+the diagnostic process’’), and confirmation bias (‘‘the tendency
+to seek data to confirm, not refute, the hypothesis’’) (Croskerry
+2003).
+Analytic reasoning, one method used to combat bias, is a
+reflective approach that involves the consideration of alterna-
+tive diagnoses and of evidence to refute a diagnosis as well as
+to support it (Norman & Eva 2010). However, there are few
+studies evaluating the effect of analytic reasoning on reducing
+diagnostic error (Mamede et al. 2010a, b). We conducted a
+randomized controlled study to determine whether the
+enhancement of analytic reasoning increases medical students’
+diagnostic accuracy on the objective structured clinical exam-
+ination (OSCE) using standardized patients.
+Methods
+This randomized control study was conducted in 2011 at Seoul
+National University College of Medicine (Seoul, South Korea).
+All fourth-year medical students participated in the OSCE ,
+which consists of four cases (IgA nephropathy, neurogenic
+diabetes insipidus, acute pyelonephritis, and exercise-induced
+asthma) developed by the Seoul Kyeonggi CPX Consortium; it
+was administered to nine examination groups of students over
+3 days. Each case required 16 min to administer, with 1 min to
+introduce the next case, 10 min for the student–standardized
+patient encounter, and 5 min after the encounter for the
+student to report the most probable diagnosis (Park et al.
+2007).
+The students were randomly assigned to nine examination
+groups through a computerized random selection process.
+Each examination group was also randomly assigned to either
+the analytic reasoning group or the control group. After
+encountering patients, students in the analytic reasoning group
+received an answer sheet containing a table designed to
+enhance analytic reasoning. Students in the analytic reasoning
+group were asked to complete the table with differential
+diagnoses and symptoms or signs compatible with or differing
+from each diagnosis, and then provide one most probable
+diagnosis. Students in the control group were simply asked to
+provide one most probable diagnosis on an answer sheet that
+lacked the table provided to the test group. Each group was
+given 5 min to complete their respective answer sheets;
+students in the reflective reasoning group had to complete
+the table and provide a diagnosis within 5 min. Before and
+Correspondence: W.B. Park, Department of Internal Medicine, Seoul National University College of Medicine, 103 Daehak-ro, Jongno-gu, Seoul
+110-799, Republic of Korea. Tel: 82 2 20723596; fax: 82 2 7629662; email: wbpark1@snu.ac.kr
+248 ISSN 0142–159X print/ISSN 1466–187X online/13/30248–3 /C2232013 Informa UK Ltd.
+DOI: 10.3109/0142159X.2013.759643
+during the study, all students were blinded to the purpose of
+this study and the difference between the groups. Oral consent
+was obtained with debriefing after examination and the
+diagnostic performance scores were only used for experimen-
+tal purposes .
+The mean diagnostic accuracy scores ( perfect score, 4.0)
+from four cases were compared between the groups using a
+linear regression model in which age, sex, grade point
+average, and exam date were included as co-variables.
+Student’s t-test was used to compare age, grade point average,
+OSCE scores and the chi-squared test to compare sex and
+student with correct diagnosis. Statistical analyses were
+performed using SPSS software (version 19.0; SPSS Inc.,
+Chicago, IL, USA). All tests were two-tailed. A p-value 50.05
+was considered statistically significant. The institutional review
+board provided study approval.
+Results
+A total of 145 fourth-year students were randomly assigned to
+the analytic reasoning group ( n ¼ 65) or the control group
+(n ¼ 80). Baseline characteristics, including grade point aver-
+age, were comparable between groups (Table 1). OSCE scores
+from encounters with standardized patients did not differ
+significantly between the two groups.
+Mean diagnostic accuracy scores were significantly higher
+in the analytic reasoning group than in the control group
+(3.40 /C6 0.66 versus 3.05 /C6 0.98; 95% CI of difference, 0.08–
+0.62; p ¼ 0.016). In the analytic reasoning group, diagnostic
+accuracy did not change significantly with respect to case
+order ( p ¼ 0.93 for trend).
+Discussion
+While most previous studies evaluating the effect of analytic
+reasoning on diagnostic accuracy used written examinations
+(Mamede et al. 2008, 2010b), this study employed the OSCE
+using standardized patients, which may better reflect real-life
+clinical situations (Barrows 1993). In addition, this study did
+not compel any experimental, artificial condition prohibiting
+analytic reasoning to the control group. Instead, we evaluated
+the value of enhancing analytic reasoning compared with
+routine, usual reasoning in medical students.
+The finding that scores from the patient encounters were
+comparable between the two groups implies that students in
+both groups obtained similar clinical information from the
+standardized patients. Nonetheless, diagnostic accuracy was
+significantly higher in the analytic reasoning group than in the
+control group, suggesting that using an apparatus (in this case,
+the table) to enhance analytic reasoning can help reduce
+diagnostic error in clinical reasoning. Completing the table
+presented on the answer sheet forced the consideration of
+alternative diagnoses and of findings that conflicted with a
+suspected diagnosis. These methods, in combination with the
+analysis of compatible findings, might contribute to reducing
+cognitive bias. These findings suggest that the training and
+practice of analytic reasoning should be emphasized to
+medical students and novice doctors.
+This study has a few limitations. First, this study was
+performed among fourth-year medical students just before
+attaining the license of medical doctor. Therefore, these results
+may not be generalizable to experienced doctors. However,
+senior residents may be more susceptible to cognitive error
+(e.g., availability bias) than junior residents, which can be
+corrected with analytic reasoning (Mamede et al. 2010b).
+Second, the effect of analytic reasoning on diagnostic accuracy
+can be case specific. In this study, diagnostic accuracy
+regarding the case of acute pyelonephritis was similar between
+the groups. Because the clinical presentation of this case was
+typical, students who took a heuristic ( pattern recognition)
+approach may not have made diagnostic errors. Another study
+has demonstrated contradictory results, suggesting that ana-
+lytic reasoning exercised by medical students was ineffective
+in complex cases, but effective in simple cases (Mamede et al.
+2010a). That study’s findings suggest that analytic reasoning
+may not be helpful if a case is too complex with respect to the
+level of students’ medical knowledge.
+In conclusion, this randomized controlled study demon-
+strated that, among fourth-year medical students diagnosing
+standardized patients, the enhancement of analytic reasoning
+Table 1. Characteristics of 145 medical students and diagnostic accuracy on the OSCE.
+Analytic reasoning group
+(n ¼ 65)
+Control group
+(n ¼ 80) p Value
+Characteristics
+Mean age, years 26 /C6 32 7 /C6 3 0.461
+Sex, female (%) 19 (29) 28 (35) 0.460
+Grade point average of the last semester 3.03 /C6 0.59 3.11 /C6 0.61 0.440
+Mean OSCE score
+a
+History taking 71.6 /C6 6.8 70.0 /C6 6.5 0.147
+Physical exam 46.6 /C6 10.3 45.2 /C6 10.8 0.443
+Patient–physician interaction 62.9 /C6 5.7 63.4 /C6 5.0 0.570
+Diagnostic accuracy
+No. (%) of students with correct diagnosis
+Case 1 (IgA nephropathy) 41 (63) 43 (54) 0.258
+Case 2 (neurogenic diabetes insipidus) 62 (95) 70 (88) 0.098
+Case 3 (acute pyelonephritis) 59 (91) 71 (89) 0.691
+Case 4 (exercise-induced asthma) 58 (89) 61 (76) 0.043
+Mean diagnostic accuracy score
+b 3.40 /C6 0.66 3.05 /C6 0.98 0.016
+Note: aA perfect score is 100 and ba perfect score is 4.0.
+Enhancement of analytic reasoning
+249
+increased diagnostic accuracy on the OSCE. These findings
+suggest that the enhancement of analytic reasoning may
+reduce diagnostic errors in clinical practice, at least among
+novice doctors.
+Acknowledgments
+This study was supported by grant no. 04-2010-076 from the
+Seoul National University Hospital Research Fund.
+Declaration of interest: The authors report no conflicts of
+interest. The authors alone are responsible for the content and
+writing of the article
+Notes on contributors
+SUN JUNG MYUNG, MD, PhD, is an Assistant Professor in the Office of
+Medical Education, Seoul National University College of Medicine, Seoul,
+Republic of Korea.
+SEOK HOON KANG, MD, MSc, is an Assistant Professor in the Office of
+Medical Education, Seoul National University College of Medicine, Seoul,
+Republic of Korea.
+SAE RA PHYO, MA, is an Assistant Teacher in the Office of Medical
+Education, Seoul National University College of Medicine, Seoul, Republic
+of Korea.
+JWA SEOP SHIN, MD, PhD, is an Associate Professor in the Department of
+Medical Education, Seoul National University College of Medicine, Seoul,
+Republic of Korea.
+WAN BEOM PARK, MD, PhD, is an Associate Professor in the Department
+of Internal Medicine, Seoul National University Hospital, Seoul, Republic of
+Korea.
+References
+Barrows HS. 1993. An overview of the uses of standardized
+patients for teaching and evaluating clinical skills. AAMC. Acad Med
+68:443–451.
+Croskerry P. 2003. The importance of cognitive errors in diagnosis and
+strategies to minimize them. Acad Med 78:775–780.
+Graber ML, Franklin N, Gordon R. 2005. Diagnostic error in internal
+medicine. Arch Intern Med 165:1493–1499.
+Mamede S, Schmidt HG, Penaforte JC. 2008. Effects of reflective practice on
+the accuracy of medical diagnoses. Med Educ 42:468–475.
+Mamede S, Schmidt HG, Rikers RM, Custers EJ, Splinter TA, van Saase JL.
+2010a. Conscious thought beats deliberation without attention in
+diagnostic decision-making: At least when you are an expert. Psychol
+Res 74:586–592.
+Mamede S, van GT, van den BK, Rikers RM, van Saase JL, van GC, Schmidt
+HG. 2010b. Effect of availability bias and reflective reasoning on
+diagnostic accuracy among internal medicine residents. JAMA
+304:1198–1203.
+Norman GR, Eva KW. 2010. Diagnostic error and clinical reasoning.
+Med Educ 44:94–100.
+Park WB, Lee SA, Kim EA, Gwack J, Yoo KY, Shin JS, Lee YS. 2007.
+Evaluation using simulated students for reliability of multiple standar-
+dized-patients scoring in clinical performance examinations. Med Teach
+29:978–980.
+S. J. Myung et al.
+250
+Copyright of Medical Teacher is the property of Taylor & Francis Ltd and its content may not be copied or
+emailed to multiple sites or posted to a listserv without the copyright holder's express written permission.
+However, users may print, download, or email articles for individual use.

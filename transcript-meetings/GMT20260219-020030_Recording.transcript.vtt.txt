@@ -1,0 +1,411 @@
+00:00:06.460 --> 00:00:14.Wei Zheng: Okay. Oh, that, is it recording? Is it
+recording? Oh, yeah, it's a recording, yeah, yeah. 00:00:14.710 --> 00:00:21.Wei
+Zheng: So, I'm sorry, I'm recently a little busy, and yeah, I just wonder.
+00:00:21.020 --> 00:00:23.Duy Nguyen: You're very busy here. 00:00:23.460 -->
+00:00:24.Wei Zheng: Oh, what? 00:00:24.870 --> 00:00:31.Wei Zheng: What is…
+because now it's only about 10 days left. I just wonder what… what we can come
+out. 00:00:32.189 --> 00:00:38.Wei Zheng: And, I think before you try to
+simulate the… the… what? Try to… 00:00:38.450 --> 00:00:48.Wei Zheng: Try to
+establish the knowledge graph that can establish the relations, that identify
+The identity, right? 00:00:48.890 --> 00:00:51.Duy Nguyen: And you see, the
+identity, and the… 00:00:51.700 --> 00:01:00.Wei Zheng: I don't know, do they
+have the relation, or the original publication, they have the relation or not?
+But anyway, they have some identity, original publication. 00:01:02.280 -->
+00:01:12.Wei Zheng: And, how this now? Is any, any… we said before, we said that
+you try to do, interactive, iterative. 00:01:13.540 --> 00:01:14.Duy Nguyen:
+Yes. 00:01:14.660 --> 00:01:17.Wei Zheng: So, what's the, what's current, what's
+current the situation? 00:01:19.130 --> 00:01:26.Duy Nguyen: My… right now, my
+direction is, like. 00:01:26.270 --> 00:01:33.Duy Nguyen: The knowledge graph
+first, and then the agent second, and then verification loop. 00:01:33.310 -->
+00:01:38.Duy Nguyen: for the… for the zero step. 00:01:39.660 --> 00:01:46.Duy
+Nguyen: is… it's gonna be, like, human input, so… so… like… 00:01:46.370 -->
+00:01:51.Duy Nguyen: And then for the step one, we will build the knowledge
+graph. 00:01:52.320 --> 00:02:08.Duy Nguyen: from, Graph, rack, and… the… the…
+Step 2 is, like, the… Quality Gate, validator. 00:02:09.840 --> 00:02:21.Duy
+Nguyen: And then, the multi-agent, the lan chain, land graph, And… And for the
+last step, It's like… 00:02:21.900 --> 00:02:27.Duy Nguyen: Scale up into, 28…
+Paper. 00:02:29.150 --> 00:02:35.Duy Nguyen: And for the idea, for the idea for,
+multi-AI Asian, 00:02:35.910 --> 00:02:38.Duy Nguyen: I'm gonna do, like, the
+ontology. 00:02:40.410 --> 00:02:50.Duy Nguyen: We will keep the schema in rule,
+and… and then the extraction agent, the… the graph rack. 00:02:50.640 -->
+00:03:02.Duy Nguyen: Index 10… And then, typing… validator… Asian… 00:03:04.870
+--> 00:03:08.Wei Zheng: No, okay. Now you talk about the architecture, right?
+00:03:08.810 --> 00:03:09.Duy Nguyen: Yeah, that's okay. 00:03:10.100 -->
+00:03:14.Wei Zheng: I talked about what's the result for your first
+iterativ00:03:14.910 --> 00:03:22.Wei Zheng: Regarding that original, we talked
+about, we try to let them identify entity. We need to define an entity.
+00:03:23.170 --> 00:03:31.Wei Zheng: And then we let them to identify entity and
+see whether, via identification, Well, Eid. 00:03:31.250 --> 00:03:39.Wei Zheng:
+Whether their identification of entity, from this, from this publication, is,
+00:03:40.180 --> 00:03:47.Wei Zheng: That can match… that can match what the
+author Identification. 00:03:48.120 --> 00:03:49.Wei Zheng: Have you tried that?
+00:03:55.100 --> 00:03:57.Wei Zheng: I think before, you already tried once, is
+that? 00:03:57.680 --> 00:03:59.Duy Nguyen: Yeah, let me try one. 00:04:08.140
+--> 00:04:15.Wei Zheng: Can you do the second, second trial or third trial and
+see the result is close to what we, what the author 00:04:16.810 -->
+00:04:19.Wei Zheng: Present all what we like. 00:04:27.850 --> 00:04:38.Duy
+Nguyen: Actually, I'm not gonna try the second, because for the, for the last
+week, I sick for the whole, whole last week. 00:04:38.680 --> 00:04:42.Duy
+Nguyen: So I'm not gonna do, every too much. 00:04:44.470 --> 00:04:47.Wei
+Zheng: What you… well, do not… every 2 months? What… when… 00:04:48.190 -->
+00:04:53.Duy Nguyen: I'm not gonna do, I'm not doing very too much for the last
+week. 00:04:56.000 --> 00:04:58.Wei Zheng: So, what's the current do you have?
+Now… 00:04:59.230 --> 00:05:02.Wei Zheng: So, what kind of result do we have
+now, so far? 00:05:04.920 --> 00:05:14.Duy Nguyen: For right now, I have the…
+the version 4, the… 2004, like, 00:05:14.810 --> 00:05:19.Duy Nguyen: I, I
+improved the entity, and improve the relationship. 00:05:20.890 --> 00:05:24.Wei
+Zheng: Do the author, did the author have those kind of things? 00:05:25.310 -->
+00:05:28.Wei Zheng: Did the author do those kind of things or not? 00:05:36.130
+--> 00:05:44.Wei Zheng: So, what we will present in that draft paper? Of course,
+we need to have the architecture. We need to have the method. 00:05:44.730 -->
+00:05:47.Wei Zheng: And then we need to present the result. 00:05:47.580 -->
+00:05:55.Wei Zheng: And also, And also, we need to incorporate what you did
+before. 00:05:56.160 --> 00:06:02.Wei Zheng: Have you tried that, you already
+developed that framework to search literature, is that? 00:06:02.090 -->
+00:06:02.Duy Nguyen: Yeah. 00:06:02.890 --> 00:06:10.Wei Zheng: Have you tried
+that? Let that… I think you must do that. You have to do that. You change
+criteria. 00:06:11.270 --> 00:06:12.Wei Zheng: Of that search. 00:06:13.500 -->
+00:06:18.Wei Zheng: And also, you try to set up the… the scope! 00:06:19.210 -->
+00:06:34.Wei Zheng: within the scope of that author's scope. Because also, when
+they make the publication, when they try to search literature, you know what I
+mean? So, they are published two years ago, you know? I'm not sure, said.
+00:06:34.440 --> 00:06:44.Wei Zheng: If their publication was published 2 years
+ago, okay? And then their literature search should be probably about another 1
+year. 00:06:45.380 --> 00:06:46.Wei Zheng: a hat. 00:06:47.040 --> 00:06:54.Wei
+Zheng: So, that means we will… Set up the same criteria as the author.
+00:06:55.590 --> 00:07:00.Wei Zheng: set up. I think also, when you do the
+literature search, they have some criteria. 00:07:00.920 --> 00:07:01.Duy
+Nguyen: Yeah. 00:07:01.590 --> 00:07:05.Wei Zheng: And then, we have the cut of
+time. 00:07:06.110 --> 00:07:09.Wei Zheng: At the same cut of time of the author
+did. 00:07:10.010 --> 00:07:18.Wei Zheng: Say, 2 years ago, and then plus 1
+year, plus 3 years ago. Our cut-off time is… 00:07:18.680 --> 00:07:20.Wei
+Zheng: Before. 00:07:21.130 --> 00:07:22.Wei Zheng: That's 3 years ago.
+00:07:22.930 --> 00:07:24.Wei Zheng: - you know what I mean? 00:07:24.760 -->
+00:07:25.Duy Nguyen: Yeah. 00:07:25.370 --> 00:07:26.Wei Zheng: And is that?
+00:07:27.700 --> 00:07:37.Wei Zheng: And also, he probably mentioned where they
+searched, is that? What database, what journal they searched, is I? Did they
+mention that? They should mention that, is that? 00:07:38.040 --> 00:07:43.Wei
+Zheng: And then you put those similar to what they did, and then you do the
+search. 00:07:43.800 --> 00:07:48.Wei Zheng: You let your engine do the search.
+And also, your engin00:07:48.390 --> 00:07:51.Wei Zheng: Not engine. Whatever
+you already developed. 00:07:51.740 --> 00:07:53.Duy Nguyen: Well, be PARB.
+00:07:53.420 --> 00:07:54.Wei Zheng: Of our model. 00:07:55.860 --> 00:07:57.Wei
+Zheng: You see what I mean? 00:07:57.160 --> 00:07:57.Duy Nguyen: Yeah.
+00:07:58.310 --> 00:07:59.Duy Nguyen: That's right. 00:07:59.380 -->
+00:08:11.Wei Zheng: So, you need to provide all those information. And also,
+first, you set up this criteria and do the search. I don't know the… the Mac let
+you do something, but I… because I… originally, I asked him to. 00:08:11.740 -->
+00:08:12.Duy Nguyen: Yeah. 00:08:12.970 --> 00:08:14.Wei Zheng: But I don't
+know… 00:08:14.260 --> 00:08:20.Duy Nguyen: I already, received the email. Yeah,
+I already received his email. 00:08:22.220 --> 00:08:34.Wei Zheng: Okay, but I…
+but I suppose… no, I… because that's why I… I asked you to handle that to him.
+I… actually, I want him to do that. But anyway, you know what it means, right?
+So… 00:08:34.500 --> 00:08:39.Wei Zheng: You will set up your… You also, you
+need, what? 00:08:40.510 --> 00:08:46.Wei Zheng: We will do that later, but
+first, you will set up the search criteria. 00:08:46.510 --> 00:08:47.Duy
+Nguyen: Yeah. Exactly. 00:08:48.160 --> 00:08:55.Wei Zheng: as the search, and
+then at the C, whether you can come out, the literature is close to
+th00:08:55.170 --> 00:09:00.Wei Zheng: Whatever they identified, about, what, 28
+or something like that? 00:09:01.070 --> 00:09:01.Duy Nguyen: Yeah. 00:09:02.080
+--> 00:09:03.Wei Zheng: You know what I mean? 00:09:03.180 --> 00:09:04.Duy
+Nguyen: Yeah, I understand that. 00:09:04.810 --> 00:09:05.Wei Zheng: Honestly?
+00:09:06.250 --> 00:09:11.Wei Zheng: After you got to row 28, And then you do
+whatever. 00:09:12.080 --> 00:09:13.Wei Zheng: They try to do. 00:09:13.990 -->
+00:09:21.Wei Zheng: And I don't know, do they have a knowledge graph? Or they,
+at least, they try, they probably, they do not have the mention. 00:09:22.050
+--> 00:09:29.Wei Zheng: They may not mention they do the knowledge graph, but
+whatever, they do the literature review as 00:09:30.260 --> 00:09:36.Wei Zheng:
+they do the literature review itself. It's kind of the same. Like, 00:09:36.830
+--> 00:09:39.Wei Zheng: Establish some knowledge base, is that? 00:09:39.610 -->
+00:09:40.Duy Nguyen: Yeah. 00:09:40.340 --> 00:09:45.Wei Zheng: And then, based
+on this knowledge base, I don't know, they try to identify 00:09:45.930 -->
+00:09:51.Wei Zheng: the, the, the big, big concept, or big entity, you know what
+I mean? 00:09:51.440 --> 00:09:54.Duy Nguyen: Yeah, the entity is a big concern.
+00:09:54.380 --> 00:09:59.Wei Zheng: Yeah, yeah, yeah. And then the definer, and
+then… Then you use your second… 00:09:59.990 --> 00:10:02.Wei Zheng: What call
+that? Google, Microsoft, I don't know. 00:10:02.920 --> 00:10:04.Duy Nguyen:
+Microsoft, graph app. 00:10:04.670 --> 00:10:10.Wei Zheng: And then, that's your
+second, that's your second, yeah. Second layer, okay. 00:10:10.980 -->
+00:10:12.Wei Zheng: Get your search. 00:10:12.650 --> 00:10:13.Duy Nguyen: Yes.
+00:10:13.160 --> 00:10:19.Wei Zheng: Second layer is knowledge graph, or
+whatever, and then… Okay, for the first part. 00:10:19.940 --> 00:10:27.Wei
+Zheng: For first, the knowledge, for the first literature search, you will come
+out some results, and then we will compare. 00:10:27.920 --> 00:10:30.Wei Zheng:
+your search result. You, you identify! 00:10:31.320 --> 00:10:33.Wei Zheng: You
+set up the criteria. 00:10:33.680 --> 00:10:41.Wei Zheng: just do the screen of
+the literature, is that? And then, you will use the same criteria, the author.
+00:10:41.960 --> 00:10:45.Wei Zheng: how used No, no, you know what I mean? The
+arts are… 00:10:45.690 --> 00:10:46.Duy Nguyen: Good. 00:10:46.130 -->
+00:10:53.Wei Zheng: The… the… based on literature search, the… Screen out of
+about 28. 00:10:53.610 --> 00:11:00.Wei Zheng: You know what? Publication. And
+see, if you specify And let's see, how much? 00:11:01.620 --> 00:11:05.Wei
+Zheng: You got, and how close, what you got? 00:11:05.480 --> 00:11:06.Duy
+Nguyen: what I got, yeah. 00:11:06.480 --> 00:11:07.Wei Zheng: Compared to…
+00:11:08.080 --> 00:11:08.Duy Nguyen: Yeah. 00:11:08.960 --> 00:11:10.Wei Zheng:
+Also, God, you see? 00:11:10.540 --> 00:11:12.Duy Nguyen: Yeah. That's the first
+one. 00:11:12.490 --> 00:11:20.Wei Zheng: The second one… And then, we… we just
+use their identified 28. 00:11:21.110 --> 00:11:21.Wei Zheng: Okay? 00:11:22.180
+--> 00:11:32.Wei Zheng: as our, what, as our feed to the, Microsoft, whatever,
+knowledge graph, building that? 00:11:32.700 --> 00:11:33.Duy Nguyen: Yeah.
+00:11:33.890 --> 00:11:34.Wei Zheng: On his end? 00:11:35.150 --> 00:11:44.Wei
+Zheng: What kind of process we need to use to let them learn, let them to
+identify the entity that can match. 00:11:45.000 --> 00:11:48.Wei Zheng: What
+the author has obtained. 00:11:49.540 --> 00:11:51.Wei Zheng: That is the second
+comparison. 00:11:52.340 --> 00:11:53.Duy Nguyen: Okay. 00:11:53.110 -->
+00:11:56.Wei Zheng: At least you need to come out with the result, and then make
+the comparison. 00:11:57.640 --> 00:12:03.Duy Nguyen: I promise I will, like,
+complete, 00:12:03.560 --> 00:12:06.Duy Nguyen: by fri… by this… this Friday.
+00:12:06.560 --> 00:12:07.Wei Zheng: That jut truck! 00:12:07.190 -->
+00:12:07.Duy Nguyen: He's weird. 00:12:07.730 --> 00:12:17.Wei Zheng: you try to
+do your best, because… and also, we need God's… we try to… we need to try to
+make this accepted, okay? 00:12:17.750 --> 00:12:18.Duy Nguyen: Yep.
+00:12:18.420 --> 00:12:31.Wei Zheng: Whenever you have time, okay, I just said,
+whenever you have time, you just try to do… try to do that, because that is the…
+because I think that's also your interest, but also we believe this is
+relatively new, and also. 00:12:31.590 --> 00:12:38.Wei Zheng: we can extend it
+to other fields. That will be your project. Have you talked to Dr. Wang?
+00:12:38.940 --> 00:12:41.Duy Nguyen: Yeah, I talked to Dr. Wang. 00:12:42.100
+--> 00:12:51.Duy Nguyen: But… I think… the sponsor, Dr. Wang, doesn't matter,
+but… . 00:12:51.380 --> 00:12:53.Wei Zheng: You need to come up with results,
+you need to come up with a project. 00:12:53.960 --> 00:13:04.Duy Nguyen: Yeah,
+but I have to, like, talk with the instructor, the two instructors from that
+course, that courses, and they're not allowed. 00:13:04.560 --> 00:13:05.Duy
+Nguyen: They… 00:13:05.180 --> 00:13:06.Wei Zheng: do now, Allah? 00:13:06.130
+--> 00:13:07.Duy Nguyen: Yeah, they, they do overlap. 00:13:08.150 -->
+00:13:11.Duy Nguyen: They just want me to, like, to do the simple thing.
+00:13:12.130 --> 00:13:16.Duy Nguyen: to, like, day, because I just have 2
+months left. 00:13:16.230 --> 00:13:22.Duy Nguyen: For the senior project. And
+they don't want me to, like, the… 00:13:23.130 --> 00:13:28.Duy Nguyen: The code
+will not run, or, like, they just want me to build a simple thing, and… and want
+me to, like. 00:13:28.630 --> 00:13:36.Wei Zheng: You can make this a simple
+part. You can take one of this part as… But anyway… 00:13:36.280 -->
+00:13:39.Wei Zheng: You can make this as a simple part. 00:13:39.750 -->
+00:13:45.Wei Zheng: as the project. You can take any part as the simple part as
+the project. 00:13:45.970 --> 00:13:52.Wei Zheng: I don't know what they mean.
+They do not allow you to do this. Because whatever, you can take any part.
+00:13:53.120 --> 00:13:59.Wei Zheng: any part, it's just like you make this…
+this is the many steps. You can… any… just make this… 00:14:00.190 -->
+00:14:02.Wei Zheng: One of the steps as your project. 00:14:02.850 -->
+00:14:05.Wei Zheng: That's a symbol, you know what I mean? 00:14:05.040 -->
+00:14:07.Duy Nguyen: Yeah. I talked with… 00:14:07.260 --> 00:14:20.Duy Nguyen:
+I talked with my instructor for the course, and they really want me to do, like,
+the website, the simple website, or, like, the simple app, the application.
+00:14:21.160 --> 00:14:26.Wei Zheng: That is why you crawl, you do the database,
+that is why it's also qualified that. 00:14:26.950 --> 00:14:32.Wei Zheng: The
+first one you did, that is do the database, do the… what's called a web crawl.
+00:14:32.700 --> 00:14:33.Duy Nguyen: Yeah. 00:14:35.790 --> 00:14:52.Duy
+Nguyen: But, actually, I… I talk with the instructor, from my idea for what I do
+for the web scripting, but they… they… they talked to me that, it's not, like,
+meet the requirement for this course. 00:14:53.540 --> 00:14:59.Duy Nguyen: I
+don't know why, but they want me to do, like, the website, not… not, like, the…
+the… 00:14:59.920 --> 00:15:03.Wei Zheng: What do they want you to do? What type
+of thing they want you to do? 00:15:05.600 --> 00:15:19.Duy Nguyen: the
+instructor, they want me to do, like, the website, something like the
+restaurant, or something like anything, but it's not for, like, the AI, the
+machine learning, the LM. 00:15:20.950 --> 00:15:22.Wei Zheng: Do you develop a
+website? 00:15:23.240 --> 00:15:24.Duy Nguyen: Yeah. 00:15:25.270 -->
+00:15:27.Duy Nguyen: I don't know why, but they want me to do that. 00:15:30.210
+--> 00:15:33.Wei Zheng: So, website… what… the website can do what? 00:15:34.650
+--> 00:15:35.Duy Nguyen: like… 00:15:36.070 --> 00:15:48.Duy Nguyen: like, the
+restaurant website with the, the, the, the chatbot, it, it can, like, answer
+the, any information. I, like, like, recommend and suggestion, the, the.
+00:15:48.470 --> 00:15:54.Wei Zheng: No, no, okay, okay, I understand. How about
+the course? Could you do something about the specific course? 00:15:54.390 -->
+00:16:05.Wei Zheng: like the chatbot for the course, the student can ask the
+chatbot about this course, what this course is for, what textbook, and what's
+the difficult. 00:16:05.410 --> 00:16:07.Duy Nguyen: Oh, cool! Young.
+00:16:08.420 --> 00:16:09.Wei Zheng: They can do that. 00:16:09.730 -->
+00:16:12.Duy Nguyen: Yeah, I can do that, yeah. 00:16:12.180 --> 00:16:17.Wei
+Zheng: Yeah, then we can develop some chat vote about the specific cause.
+00:16:17.130 --> 00:16:17.Duy Nguyen: Okay. 00:16:18.200 --> 00:16:22.Wei Zheng:
+I can provide a material regarding a particular course, and then… 00:16:22.550
+--> 00:16:31.Duy Nguyen: Actually, I have another project, a previous project,
+academic, Advisor… 00:16:31.460 --> 00:16:35.Wei Zheng: Yeah, yeah, yeah, you
+mentioned that. I think that is the goal is, 00:16:35.600 --> 00:16:39.Wei
+Zheng: Dr. Wang, you buy? Dr. Wang, let's do this kind of thing? 00:16:39.940
+--> 00:16:42.Duy Nguyen: Yeah, yeah. Dr. Wang. 00:16:42.700 --> 00:16:44.Wei
+Zheng: Did this kind of thing, right? 00:16:44.450 --> 00:16:45.Duy Nguyen: Yes.
+00:16:45.740 --> 00:16:50.Duy Nguyen: He willing to, like, sponsor for me, but…
+00:16:50.520 --> 00:16:53.Duy Nguyen: For this call… for these courses.
+00:16:53.520 --> 00:17:03.Duy Nguyen: the instructor want me to, like, I have to
+do it by myself, and that's my, my, my, my, my project. And Dr. Wang just, like.
+00:17:04.290 --> 00:17:05.Duy Nguyen: The person… 00:17:05.200 --> 00:17:06.Wei
+Zheng: I saw, or do I say? 00:17:06.210 --> 00:17:10.Duy Nguyen: verify my… the…
+the thing I… I do. 00:17:11.270 --> 00:17:18.Wei Zheng: Okay, I just say, yeah,
+if you do, you can do… instead of do the restaurant, you do the, of course.
+00:17:18.609 --> 00:17:20.Duy Nguyen: Yeah, the cost, yeah, the cost. Yeah,
+cool. 00:17:21.560 --> 00:17:24.Wei Zheng: You do a course, I can provide
+information regarding all the courses. 00:17:25.040 --> 00:17:35.Wei Zheng: It
+basically just says the student want to learn about background of course, just
+like what the course will be related to the future practice, and what kind of
+key concept. 00:17:35.890 --> 00:17:38.Wei Zheng: You already did something for
+that, is that? 00:17:38.850 --> 00:17:48.Duy Nguyen: I already did, yeah. Like,
+I… I collect the data, and then… put it… in the API. 00:17:49.100 -->
+00:17:52.Duy Nguyen: And… the, the, the deep-seq API. 00:17:53.850 -->
+00:18:00.Wei Zheng: Okay, oh, DeepSeek API, okay. You use the API, you use
+DeepSeek to answer the question, something like that? 00:18:00.260 -->
+00:18:02.Duy Nguyen: Yeah, because it's free. 00:18:02.360 --> 00:18:05.Wei
+Zheng: Yeah, yeah. But, but, but now… 00:18:05.800 --> 00:18:09.Wei Zheng: But
+now we can hire them to do that, 00:18:09.900 --> 00:18:12.Wei Zheng: To do
+that, graph rack. 00:18:12.200 --> 00:18:24.Wei Zheng: You do the same thing.
+Whenever I ask the equation, whenever we try to retrieve, retrieve equation,
+retrieve knowledge, you can pass on the… what? RIG. 00:18:25.440 -->
+00:18:26.Duy Nguyen: Yeah. 00:18:26.180 --> 00:18:27.Wei Zheng: And also, you…
+00:18:27.860 --> 00:18:39.Wei Zheng: And also, the thing is similar, it's
+similar. You just give them all the material. They will try to establish the
+knowledge graph, and then the best knowledge graph, they will answer the
+question. 00:18:42.330 --> 00:18:43.Duy Nguyen: Okay. 00:18:45.570 -->
+00:18:50.Wei Zheng: You know what? Because when you ask a question, there's a
+lot of ways to retrieve the information. 00:18:50.440 --> 00:18:52.Wei Zheng:
+You don't know what I mean? 00:18:52.000 --> 00:18:52.Duy Nguyen: Yes.
+00:18:52.570 --> 00:18:55.Wei Zheng: Just like a quad, just like a chair boat.
+00:18:55.550 --> 00:19:04.Wei Zheng: There are many ways to retrieve.
+Traditional… traditionally, they have many ways to retrieve, but now the new
+thing. 00:19:04.540 --> 00:19:05.Duy Nguyen: I have the idea, yeah. 00:19:05.760
+--> 00:19:09.Wei Zheng: Is the graph retrieve? You can combine, you know what I
+mean? 00:19:09.920 --> 00:19:10.Duy Nguyen: Yeah. 00:19:10.410 --> 00:19:17.Wei
+Zheng: You can combine graph retrieve compared to traditional, whatever, what
+you did before, what kind of retrieval you did before. 00:19:18.280 -->
+00:19:20.Wei Zheng: You can, you can combine them together. 00:19:20.920 -->
+00:19:21.Duy Nguyen: Yes, sir. 00:19:23.500 --> 00:19:25.Wei Zheng: But still,
+you can use a knowledge graph. 00:19:26.180 --> 00:19:29.Duy Nguyen: Yeah, I
+think I will use the knowledge to grab. 00:19:29.520 --> 00:19:32.Wei Zheng: You
+know, I mean, you can use whatever you did here. 00:19:33.240 --> 00:19:49.Wei
+Zheng: But essentially, it's what? This approach is very fundamental. This can
+apply in any field. So that means… I mean, you just, try to do this, and then
+once you… just like we feed now, we feed them with the… 00:19:49.820 -->
+00:19:53.Wei Zheng: 28 publications. Then they will try to 00:19:53.440 -->
+00:19:58.Wei Zheng: established those kind of things, and then they try to
+retrieve, to predict, you know what I mean? 00:19:59.280 --> 00:20:00.Wei Zheng:
+Amazon? 00:20:00.500 --> 00:20:03.Wei Zheng: You also can take the course
+material, you know what I mean? 00:20:03.630 --> 00:20:04.Wei Zheng: The exam!
+00:20:04.950 --> 00:20:05.Wei Zheng: Problem. 00:20:06.080 --> 00:20:16.Wei
+Zheng: And then you put them together, and then students will ask, what course
+it's about, what kind of problem usually they can have, and what kind of
+example. 00:20:16.600 --> 00:20:17.Duy Nguyen: I will. 00:20:17.180 -->
+00:20:28.Wei Zheng: What kind of excise they can have. Then, you can generate
+it, you know what I mean? Based on those databases, they can generate it, any,
+any problem or question. 00:20:29.240 --> 00:20:35.Wei Zheng: large student to
+exile, you know what I mean? And also, eventually, we can have a student check
+it. 00:20:36.030 --> 00:20:39.Duy Nguyen: Okay, I will do that. I… I will.
+00:20:39.170 --> 00:20:44.Wei Zheng: So that is okay for… For your instructor.
+00:20:44.840 --> 00:20:49.Duy Nguyen: Actually, I still have to talk with them,
+because for the last week. 00:20:50.600 --> 00:20:53.Duy Nguyen: I talk with
+them any idea for my idea, but… 00:20:53.760 --> 00:20:56.Duy Nguyen: They
+reject everything. I don't know why. 00:20:58.450 --> 00:21:00.Wei Zheng: You
+talk about this, you talk about this. 00:21:00.630 --> 00:21:01.Duy Nguyen:
+Okay. 00:21:01.320 --> 00:21:05.Wei Zheng: You talk about this. You said, you
+said before you did this kind of thing, you just want to build up. 00:21:06.520
+--> 00:21:07.Duy Nguyen: Cuz… 00:21:07.300 --> 00:21:18.Wei Zheng: you try to
+build up what you did before, and then you try to make it more… more… use more
+advanced technology. You probably can talk about… you do not talk about projects
+for this, you just talk about the course. 00:21:18.770 --> 00:21:20.Duy Nguyen:
+Okay, yeah, my idea, yeah, okay. 00:21:20.730 --> 00:21:29.Wei Zheng: So,
+basically, you just said, we have the example problem, we have the homework
+problem, we have the quiz, 00:21:29.590 --> 00:21:39.Wei Zheng: We have a quiz
+problem, we have the exam problem, and then whatever you will… you will… you
+will build this with the… with the textbook. 00:21:39.460 --> 00:21:45.Wei
+Zheng: And eventually, if the student asks what kind of problem they can have,
+and then you can make up the problem. 00:21:45.480 --> 00:21:47.Wei Zheng: And
+also prepare the right answer for them. 00:21:51.290 --> 00:21:52.Duy Nguyen:
+Yeah. 00:21:53.280 --> 00:21:54.Wei Zheng: Okay, okay. 00:21:54.440 -->
+00:21:56.Wei Zheng: Okay. 00:21:56.210 --> 00:22:00.Wei Zheng: But, but, but
+anyway… And, Anna now, I, I think, 00:22:03.910 --> 00:22:05.Wei Zheng: No, you,
+you, you, you're… 00:22:06.070 --> 00:22:09.Duy Nguyen: You come out, what kind
+of, what kind of. 00:22:09.700 --> 00:22:14.Wei Zheng: data now. You still try
+to do that knowledge graph, you know? 00:22:17.250 --> 00:22:18.Wei Zheng: Okay.
+00:22:18.240 --> 00:22:23.Duy Nguyen: I will try to, like, Complete the deadline
+as soon as possible. 00:22:24.500 --> 00:22:28.Duy Nguyen: I will, like, I'm…
+I'm gonna… 00:22:29.520 --> 00:22:36.Duy Nguyen: send for you the output from my
+output by Friday this week. 00:22:36.210 --> 00:22:43.Wei Zheng: But anyway, the
+thing is what? You first, as I said before, you need to understand what the
+author's doing. 00:22:43.950 --> 00:22:47.Wei Zheng: You need to fully
+understand what is author. 00:22:47.300 --> 00:22:50.Wei Zheng: step by step,
+how they come out from… 00:22:50.500 --> 00:22:53.Wei Zheng: The literature come
+out of the 28, is that? 00:22:53.980 --> 00:22:54.Duy Nguyen: Yep. 00:22:54.790
+--> 00:23:01.Wei Zheng: And you can't… Free disease… feed their publication to
+the chat GPT or whatever. 00:23:01.790 --> 00:23:03.Wei Zheng: You can ask them.
+00:23:04.140 --> 00:23:06.Wei Zheng: So if we want to do the user agent.
+00:23:06.870 --> 00:23:08.Wei Zheng: how we do that? For each step. 00:23:12.970
+--> 00:23:14.Wei Zheng: You know what I mean? 00:23:14.080 --> 00:23:15.Duy
+Nguyen: Yeah, I understand that. 00:23:17.420 --> 00:23:26.Wei Zheng: Yeah, I
+will also work on it now. I will work on it, and then I will communicate it with
+you. But now the basic idea is now, okay? You first… 00:23:27.030 -->
+00:23:31.Wei Zheng: You do… you see… you will see how many steps for the author?
+00:23:33.500 --> 00:23:35.Wei Zheng: Pulls are awesome! 00:23:35.320 -->
+00:23:37.Wei Zheng: They, they, they have to do. 00:23:38.040 --> 00:23:47.Wei
+Zheng: How many steps the author have to do in order to guard their result from
+January the 28th 00:23:49.120 --> 00:23:50.Wei Zheng: general… identify.
+00:23:50.910 --> 00:23:56.Wei Zheng: 28 publications. And then… Try to,
+00:23:56.460 --> 00:24:04.Wei Zheng: Whatever. Try to identify the big concept.
+Oh, what do they try to identify? They try to identify the… 00:24:04.640 -->
+00:24:05.Wei Zheng: Zawa. 00:24:05.830 --> 00:24:09.Wei Zheng: The intervention,
+effective intervention, for different type of people. 00:24:09.810 -->
+00:24:10.Duy Nguyen: Yes. 00:24:11.740 --> 00:24:18.Wei Zheng: And then, you
+just said… How they can do this, and then what kind of agent can do this?
+00:24:19.690 --> 00:24:20.Wei Zheng: And… 00:24:21.190 --> 00:24:33.Wei Zheng:
+Yeah, I will work on, probably I will provide something, okay? But you now just
+try to continue to do what we… we talked about before. Try to… already, you
+already come out with some identity, right? 00:24:33.720 --> 00:24:34.Duy
+Nguyen: Yeah, cheers. 00:24:34.970 --> 00:24:46.Wei Zheng: And try to do the
+iterative and see, they can improve on… they can got improved, and that can
+match whatever the author have. 00:24:47.680 --> 00:24:48.Duy Nguyen: Yep.
+00:24:48.240 --> 00:24:49.Wei Zheng: Okay? 00:24:50.860 --> 00:24:52.Duy Nguyen:
+Yeah, I, I… 00:24:52.770 --> 00:24:56.Wei Zheng: Okay, okay, okay. You sent me
+the, the letter, is that? 00:24:56.810 --> 00:24:57.Duy Nguyen: Yeah.
+00:24:57.340 --> 00:24:58.Wei Zheng: The sign letter, the sign letter you sent
+me. 00:24:58.980 --> 00:25:00.Duy Nguyen: Yeah, I understand you. 00:25:00.730
+--> 00:25:01.Wei Zheng: Okay, okay, okay. 00:25:02.160 --> 00:25:02.Wei Zheng:
+Logan, okay. 00:25:02.990 --> 00:25:08.Duy Nguyen: I… I hope you understand,
+because this… this month, I have to, like. 00:25:09.140 --> 00:25:15.Duy Nguyen:
+prepare the document, apply to Jackson State University, and… 00:25:15.100 -->
+00:25:17.Wei Zheng: Have you done that? Have you done that? 00:25:18.810 -->
+00:25:20.Wei Zheng: Have you done that or not? 00:25:20.840 --> 00:25:25.Wei
+Zheng: You haven't done yet, you know? So what's the deadline? What deadline?
+00:25:25.700 --> 00:25:30.Duy Nguyen: I have to submit everything by… March.
+00:25:32.460 --> 00:25:34.Duy Nguyen: First… first day of March. 00:25:34.990
+--> 00:25:36.Wei Zheng: Or a box as well. 00:25:37.010 --> 00:25:43.Duy Nguyen:
+I have to, like, prepare for the GIE, and took the GIE, and… When they need to
+pack? 00:25:43.760 --> 00:25:46.Wei Zheng: when they need a tech GIE? When they
+need a tech GIE? 00:25:47.320 --> 00:25:50.Wei Zheng: when they need a GRE
+score? Before the march? 00:25:52.530 --> 00:25:57.Duy Nguyen: I don't know,
+because I sent the email for… 00:25:57.550 --> 00:26:03.Duy Nguyen: For Jackson
+State University, but I don't… Have any reply from them? 00:26:05.110 -->
+00:26:09.Wei Zheng: Do you look at their website when they need the GRE?
+00:26:09.390 --> 00:26:13.Wei Zheng: They need the GIU, when you do the
+application, when they submit the application. 00:26:13.840 --> 00:26:15.Duy
+Nguyen: Yeah, when I'm going to submit the application. 00:26:17.830 -->
+00:26:20.Wei Zheng: You need to do the GRE now, you know? 00:26:20.080 -->
+00:26:24.Duy Nguyen: Yeah, I need to do the GIE, I need to prepare for the GRE
+and do the GRE right now. 00:26:25.070 --> 00:26:32.Duy Nguyen: And any paper…
+And, senior project, and my project, our, our project. 00:26:33.890 -->
+00:26:36.Duy Nguyen: For… for… for this, man. 00:26:42.060 --> 00:26:42.Wei
+Zheng: Hmm. 00:26:47.880 --> 00:26:51.Duy Nguyen: And… and this month is kind of
+hard for me, because… 00:26:52.690 --> 00:27:03.Duy Nguyen: the two weeks of,
+ice storm, ice storm. And the last week, I, I, I sick, for the whole week, I, I
+just, like, stay at home. 00:27:03.840 --> 00:27:06.Duy Nguyen: Because I'm
+sick. 00:27:08.040 --> 00:27:09.Wei Zheng: And I, I just have, like.
+00:27:10.190 --> 00:27:13.Duy Nguyen: In a half of a month, to do everything.
+00:27:19.500 --> 00:27:20.Duy Nguyen: I'm so sorry about that. 00:27:43.940 -->
+00:27:48.Wei Zheng: Okay, let me think of it, okay, let me think of it. But you
+just do whatever you can do. 00:27:48.340 --> 00:27:53.Duy Nguyen: You don't
+need to worry about it, because I will complete the… 00:27:53.260 -->
+00:28:00.Wei Zheng: Yeah, you just do whatever you should do, okay? I will
+consider that. How can we… because that is not too much time left, okay?
+00:28:00.980 --> 00:28:01.Duy Nguyen: Yeah. 00:28:01.300 --> 00:28:01.Wei Zheng:
+Okay. 00:28:02.110 --> 00:28:12.Wei Zheng: Yeah, okay, you just do… try to do
+your best, do whatever you can do for this… for this, draft paper, okay? You
+know, we need to come out with some results. We need to come out with some…
+00:28:12.790 --> 00:28:22.Duy Nguyen: I will come out with the result by Friday,
+by Friday, this week, because we just have 10, 10 more days, right? For the
+draft. 00:28:23.290 --> 00:28:32.Wei Zheng: First, you need to change the
+criteria and see what's the result you can come. You do the third. You probably
+just simply change the criteria for the web collaboration, you know what I mean?
+00:28:32.710 --> 00:28:33.Duy Nguyen: Yeah. 00:28:33.290 --> 00:28:35.Wei Zheng:
+You see what the result it is. 00:28:35.180 --> 00:28:39.Wei Zheng: And then you
+will identify the entity, okay? 00:28:39.210 --> 00:28:39.Duy Nguyen: Okay.
+00:28:40.090 --> 00:28:46.Wei Zheng: Probably we will talk about, yeah, after,
+after probably the, after weekend, okay? 00:28:46.880 --> 00:28:47.Duy Nguyen:
+Yep. 00:28:47.650 --> 00:28:48.Wei Zheng: Okay. 00:28:48.950 --> 00:28:52.Wei
+Zheng: I'm so sorry about that. Okay, okay, okay, okay, okay. 00:28:52.650 -->
+00:28:53.Wei Zheng: Okay.

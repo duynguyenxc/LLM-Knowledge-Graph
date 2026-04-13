@@ -1,0 +1,291 @@
+00:00:00.930 --> 00:00:06.Wei Zheng: So… You still need to figure out What do
+the agents do? 00:00:06.900 --> 00:00:08.Wei Zheng: In the… in that process.
+00:00:08.740 --> 00:00:09.Duy Nguyen: Okay. 00:00:12.540 --> 00:00:13.Wei Zheng:
+Oh. 00:00:13.500 --> 00:00:16.Wei Zheng: Last time, I asked you to ask the AI,
+right? 00:00:16.570 --> 00:00:17.Duy Nguyen: Yeah. 00:00:17.500 --> 00:00:27.Wei
+Zheng: Regarding… Regarding what we intend to do, and regarding what they
+actually do. 00:00:29.200 --> 00:00:32.Wei Zheng: And then you ask the AI, how
+can we make the… 00:00:32.400 --> 00:00:36.Wei Zheng: edge in the framework to
+simulate not… 00:00:36.340 --> 00:00:36.Duy Nguyen: Yes. 00:00:37.140 -->
+00:00:39.Wei Zheng: First of all, what are we intend to do? 00:00:39.810 -->
+00:00:43.Wei Zheng: I think you can based on what I already sent to you, you
+know? 00:00:43.840 --> 00:00:47.Duy Nguyen: Use the abstract, and there any…
+Information? 00:00:48.360 --> 00:00:53.Wei Zheng: Yeah, and… and what they do?
+Actually, you can fail. 00:00:53.950 --> 00:00:56.Wei Zheng: ChatGPT with their
+people. 00:00:57.020 --> 00:00:59.Duy Nguyen: Yes. And then you'll say, what
+kind of framework? 00:01:00.640 --> 00:01:01.Wei Zheng: We should have.
+00:01:03.820 --> 00:01:06.Wei Zheng: I… and how we build this? 00:01:22.580 -->
+00:01:23.Wei Zheng: Okay. 00:01:25.000 --> 00:01:37.Duy Nguyen: yesterday, I… I…
+I sent all my questions, for the… Jackson University, from your school?
+00:01:37.860 --> 00:01:38.Wei Zheng: I feel… . 00:01:38.980 --> 00:01:41.Duy
+Nguyen: For the, like, the procedure. 00:01:42.080 --> 00:01:46.Duy Nguyen: for
+applying the PhD? 00:01:47.530 --> 00:01:53.Duy Nguyen: in… up to now, I didn't…
+Have any response. 00:01:54.000 --> 00:01:54.Duy Nguyen: I'm okay. 00:01:54.930
+--> 00:01:57.Wei Zheng: Okay, very well respond to. 00:01:57.930 -->
+00:01:59.Wei Zheng: Well, you look at the website? 00:02:00.770 --> 00:02:04.Wei
+Zheng: Do you look at the website, what's the procedure it is? What's the
+requirement it is? 00:02:06.450 --> 00:02:13.Wei Zheng: Because there are too
+many students, I don't know if they will respond or not. But anyway, you look at
+the website, you look at what's the requirement. 00:02:16.840 --> 00:02:21.Duy
+Nguyen: But I have a question for you, like, In your department? 00:02:21.140
+--> 00:02:21.Wei Zheng: No. 00:02:22.070 --> 00:02:28.Duy Nguyen: The injury
+department, they… Do they require the GRE? 00:02:28.860 --> 00:02:33.Wei Zheng:
+I don't… I have no idea. I have no idea. It's not our department. It's a
+graduate school. 00:02:33.730 --> 00:02:34.Wei Zheng: It's graduate school.
+00:02:35.150 --> 00:02:38.Wei Zheng: You, you go to the website, you can, you
+can, you can immediately find it. 00:02:38.750 --> 00:02:48.Duy Nguyen: Because,
+like, the website is required, the GRE, but the department, they, they, they do,
+they do not require it. 00:02:48.430 --> 00:02:55.Wei Zheng: No, even graduate
+school requires that you must have, because you're always admitted by graduate
+school, not by our department. 00:02:58.720 --> 00:03:01.Wei Zheng: Your father
+must be omitted by our graduate school. 00:03:03.780 --> 00:03:05.Duy Nguyen:
+Oh, okay. 00:03:05.010 --> 00:03:08.Wei Zheng: Even required, it definitely
+didn't require it. No. 00:03:11.570 --> 00:03:13.Duy Nguyen: I already asked
+them, but… 00:03:14.220 --> 00:03:17.Wei Zheng: You look at their website, this
+should be as a requirement. 00:03:17.570 --> 00:03:19.Duy Nguyen: Yeah, I love
+the website. 00:03:23.640 --> 00:03:25.Wei Zheng: No, the deadline is what?
+00:03:26.440 --> 00:03:28.Wei Zheng: Starting in March either, huh? 00:03:29.030
+--> 00:03:32.Duy Nguyen: Yeah… is… Dove. 00:03:33.310 --> 00:03:37.Duy Nguyen:
+Is the beginning in March? 00:03:48.470 --> 00:03:52.Wei Zheng: So, when you
+will end it, I mean, your… when this semester will end it. 00:03:52.650 -->
+00:04:00.Duy Nguyen: This ma- this semester will end at around, like, 15 in
+major. 00:04:01.610 --> 00:04:02.Wei Zheng: Guinea over the mate. 00:04:03.300
+--> 00:04:08.Duy Nguyen: Yeah, around, like… On the… on the half of… in… in May,
+in May. 00:04:10.630 --> 00:04:12.Wei Zheng: So, your plan go back to…
+00:04:13.320 --> 00:04:15.Wei Zheng: Go back to your country during the summer?
+00:04:16.290 --> 00:04:17.Duy Nguyen: No. 00:04:17.250 --> 00:04:25.Duy Nguyen:
+I'm not planning to go back to country. I will, like, request for the OPT and…
+And I'll continue. 00:04:26.050 --> 00:04:26.Wei Zheng: Okay. 00:04:27.050 -->
+00:04:29.Duy Nguyen: And I, I, I applied for… 00:04:29.790 --> 00:04:38.Duy
+Nguyen: the fall in GSU, and we'll continue studying and not go back to my
+country this summer. 00:04:38.030 --> 00:04:39.Wei Zheng: Okay, probably…
+00:04:40.160 --> 00:04:40.Duy Nguyen: And I will, like… 00:04:40.920 -->
+00:04:43.Wei Zheng: But probably I can let you work on during the summer.
+00:04:43.690 --> 00:04:47.Duy Nguyen: Yeah, yeah. I'm not gonna go back to my
+country this month, this summer. 00:04:48.320 --> 00:04:49.Wei Zheng: Okay,
+okay. 00:04:49.990 --> 00:04:55.Wei Zheng: But anyway, I have no idea regarding
+the admission, because actually, I do not have any graduate. 00:04:55.090 -->
+00:04:55.Duy Nguyen: Yeah, yeah. 00:04:55.820 --> 00:04:57.Wei Zheng: I'm on
+mine, myself. 00:04:57.360 --> 00:04:57.Duy Nguyen: I have. 00:04:57.710 -->
+00:04:59.Wei Zheng: Use other people to register. 00:04:59.100 --> 00:05:00.Duy
+Nguyen: I understand that. 00:05:00.630 --> 00:05:06.Wei Zheng: I have no idea
+how they do that, because basically the idea is what they ever… they ask the IE,
+00:05:07.030 --> 00:05:08.Wei Zheng: You must have the TIE. 00:05:09.820 -->
+00:05:11.Wei Zheng: Even if they require them. 00:05:11.410 --> 00:05:12.Wei
+Zheng: No. 00:05:12.810 --> 00:05:15.Wei Zheng: We cannot overcome their
+requirement. 00:05:17.790 --> 00:05:18.Wei Zheng: But anyway… 00:05:25.340 -->
+00:05:27.Wei Zheng: Because tomorrow, I have a meeting. 00:05:28.420 -->
+00:05:34.Wei Zheng: Could you just say, how can we transfer that data, and also
+the algorithm? The algorithm, you just pass it to. 00:05:34.790 --> 00:05:35.Duy
+Nguyen: No doubt. 00:05:35.170 --> 00:05:37.Wei Zheng: Let him walker, whatever.
+00:05:37.810 --> 00:05:44.Wei Zheng: Whatever we want. But now, I think you are
+currently working on that paper. You already do something, right? 00:05:44.340
+--> 00:05:45.Duy Nguyen: Yes. 00:05:45.000 --> 00:05:48.Wei Zheng: So, this is
+a… That is a… 00:05:48.980 --> 00:05:53.Duy Nguyen: By the way, and can I have
+his… his email? His email. 00:05:54.060 --> 00:05:54.Wei Zheng: What do you
+know? 00:05:55.490 --> 00:05:58.Duy Nguyen: The, the PHD guy. 00:06:00.220 -->
+00:06:03.Wei Zheng: You mean the email in the JSU? 00:06:04.360 --> 00:06:05.Wei
+Zheng: Oh! 00:06:06.130 --> 00:06:08.Duy Nguyen: He's, the PA… 00:06:08.560 -->
+00:06:11.Wei Zheng: Oh, I can, I can tell you, I can tell you, I can tell you.
+00:06:11.210 --> 00:06:13.Duy Nguyen: Okay. Yeah, I can contact with him, and…
+00:06:22.820 --> 00:06:27.Wei Zheng: How you do that? How you do that? How you
+deliver that? Or… 00:06:29.210 --> 00:06:34.Duy Nguyen: Or I can ask… I can ask
+the team to create the Amazon, and then you just transfer the data. Okay, yeah,
+yeah. 00:06:34.940 --> 00:06:36.Wei Zheng: How… you… how many… 00:06:37.640 -->
+00:06:43.Wei Zheng: I mean, how many… how many data… I mean, how many
+publications you already have? I'm… you have a rough idea? 00:06:47.780 -->
+00:06:50.Duy Nguyen: I already stopped is… 00:06:51.010 --> 00:06:53.Wei Zheng:
+And a Khomeini, you have an idea, and a Khomeini. 00:06:58.610 --> 00:07:01.Wei
+Zheng: How many in the file you have? Roughly, roughly. 00:07:01.970 -->
+00:07:02.Duy Nguyen: Roughly. 00:07:03.600 --> 00:07:07.Duy Nguyen: Actually, I
+have no idea. I will share you the screen, and you will see it. 00:07:55.040 -->
+00:07:58.Wei Zheng: Can you know what is the volume it is, at least?
+00:07:58.400 --> 00:08:00.Wei Zheng: What's the data volume? 00:08:02.210 -->
+00:08:04.Wei Zheng: Baptists, how many baptized? 00:08:07.040 --> 00:08:08.Duy
+Nguyen: How many backpack kits? 00:08:08.950 --> 00:08:10.Wei Zheng: Yeah, I
+mean, the volume of data. 00:08:12.140 --> 00:08:12.Duy Nguyen: Yeah.
+00:08:13.390 --> 00:08:14.Duy Nguyen: I have not checked it. 00:08:17.200 -->
+00:08:19.Duy Nguyen: For the long term, go by. 00:08:21.370 --> 00:08:22.Duy
+Nguyen: H3. 00:08:42.900 --> 00:08:45.Duy Nguyen: Here's all I have, as you can
+see. 00:08:47.820 --> 00:08:50.Wei Zheng: I mean, what's the volume with teeth?
+I mean, I mean… 00:08:51.280 --> 00:08:53.Wei Zheng: This is just a photo, yeah?
+00:08:53.400 --> 00:08:54.Duy Nguyen: Yeah, I used to… 00:08:54.700 -->
+00:08:57.Wei Zheng: But, how they organize this? This is, 00:08:58.910 -->
+00:09:02.Wei Zheng: I mean, what this is, this is, you look at something.
+00:09:03.760 --> 00:09:06.Duy Nguyen: Here's the day that, today, the…
+00:09:06.230 --> 00:09:13.Wei Zheng: I mean, I mean, I mean, what is the, what
+is the thing you open? What is the platform you open? Is it a particular
+platform to open the data? 00:09:13.760 --> 00:09:16.Wei Zheng: I mean, what you
+are showing on the screen is what? 00:09:17.580 --> 00:09:19.Wei Zheng: Is
+Amazon for the files, huh? 00:09:19.870 --> 00:09:25.Duy Nguyen: Yeah, it's a S3
+bucket, the database of the… the cloud. 00:09:25.740 --> 00:09:26.Duy Nguyen:
+Dice. 00:09:26.360 --> 00:09:30.Wei Zheng: So they will organize the data, they
+let you see the data in this way, right? 00:09:30.430 --> 00:09:31.Duy Nguyen:
+Yes. 00:09:31.800 --> 00:09:32.Wei Zheng: Okay. 00:09:36.190 --> 00:09:40.Duy
+Nguyen: I think it's very easy to see, becaus00:09:41.130 --> 00:09:48.Duy
+Nguyen: ISI is today, the month, and year is very, very easy to follow.
+00:09:48.240 --> 00:09:53.Wei Zheng: I mean, that data is the data that… when
+you collect the data, all the data, they publish it. 00:09:54.160 -->
+00:09:56.Wei Zheng: I mean, the time, the date. 00:09:58.690 --> 00:10:06.Wei
+Zheng: You organize based on when you collect those data, or you organize based
+on their publication, the year of their publication. 00:10:07.770 -->
+00:10:11.Duy Nguyen: Just, just the day I collect the data, no. 00:10:11.150 -->
+00:10:12.Wei Zheng: Okay, okay, okay. 00:10:15.150 --> 00:10:18.Wei Zheng: Okay,
+so that's easy to read about, right? 00:10:18.640 --> 00:10:20.Duy Nguyen: Yes,
+it's very easy to read. 00:10:20.510 --> 00:10:24.Wei Zheng: No, no, no, no, I
+don't mean the read by people, I mean the read by my king. 00:10:25.300 -->
+00:10:30.Wei Zheng: If we want to… You were one of my hero, really. 00:10:31.280
+--> 00:10:38.Wei Zheng: So, you're basically… your data type is a different
+type. Why is the PDF? Why is the one? 00:10:38.350 --> 00:10:39.Wei Zheng: Just
+the text. 00:10:43.890 --> 00:10:46.Wei Zheng: what type of data you have there?
+I mean. 00:10:47.650 --> 00:10:50.Wei Zheng: We cannot manually process it. We
+need a… 00:10:51.490 --> 00:10:54.Wei Zheng: Fiddle with the machine, and then
+we let the machine to determine that. 00:10:56.020 --> 00:11:01.Duy Nguyen: It's
+very easy to fit to the machine, the machine can get easy to read it because
+it's the JSON file. 00:11:03.090 --> 00:11:04.Wei Zheng: Is this JSON file?
+00:11:04.270 --> 00:11:06.Duy Nguyen: Yeah, it's a JSON 5. 00:11:06.160 -->
+00:11:12.Wei Zheng: Generally, but they will put a different type of file in a
+different location, right? 00:11:12.190 --> 00:11:13.Duy Nguyen: Leon, yes.
+00:11:14.370 --> 00:11:20.Wei Zheng: So, you, you have the JSON file structure,
+is that? You specify that, is that? 00:11:20.350 --> 00:11:27.Duy Nguyen: Yes, I
+have the JS5 structure, the author, the title, the abstract, the geo, Anything.
+00:11:27.360 --> 00:11:30.Wei Zheng: So, you need to provide us all the
+information, boss. 00:11:31.580 --> 00:11:41.Wei Zheng: you need to provide your
+JSON file information. So, that means once we know this format, we can easily
+let the machine read it, based on the different type, is that? 00:11:41.720 -->
+00:11:42.Duy Nguyen: Yeah. 00:11:43.730 --> 00:11:46.Wei Zheng: Because we need
+to… we need to process those. 00:11:47.170 --> 00:11:52.Wei Zheng: We need
+processors. I asked him to do this processing. You just pass this to…
+00:11:52.750 --> 00:11:53.Duy Nguyen: Okay, okay. 00:11:53.830 --> 00:11:59.Wei
+Zheng: him, and then I will let him. And probably… we probably want him to do
+further. 00:11:59.560 --> 00:12:03.Duy Nguyen: Scripting, scripting, based on
+what you already have, okay? 00:12:04.830 --> 00:12:05.Duy Nguyen: No.
+00:12:06.980 --> 00:12:15.Wei Zheng: Yeah, and and so, so far, you haven't made
+any progress regarding… regarding… regarding what we… we tried to do.
+00:12:17.710 --> 00:12:25.Wei Zheng: I mean, you have an idea regarding the
+aging framework we… we try to do, because now it's only… probably the only 20
+days left. 00:12:30.150 --> 00:12:33.Duy Nguyen: For the last week, I cannot do
+anything. 00:12:33.980 --> 00:12:35.Wei Zheng: Okay, okay. 00:12:35.150 -->
+00:12:37.Duy Nguyen: So, I think I will… I have to… 00:12:38.270 -->
+00:12:42.Duy Nguyen: Like, done it, and rush it in this… in this. 00:12:42.530
+--> 00:12:44.Wei Zheng: Okay, okay, okay, okay, okay. 00:12:46.450 -->
+00:12:47.Wei Zheng: Okay. 00:12:47.680 --> 00:12:48.Wei Zheng: No. 00:12:50.700
+--> 00:12:52.Wei Zheng: Yeah, you just, 00:12:53.370 --> 00:12:59.Wei Zheng: So,
+the one way that we… it's easy to transfer your data, it's easy to transfer
+00:12:59.930 --> 00:13:04.Wei Zheng: from one Amazon counter to another Amazon
+counter, is that? You can do this, is that? 00:13:08.630 --> 00:13:15.Duy
+Nguyen: Maybe I can, I will fi- I will figure out in tonight and let…
+00:13:15.020 --> 00:13:15.Wei Zheng: Okay, okay. 00:13:15.700 --> 00:13:22.Duy
+Nguyen: Yeah, okay, okay, okay. Because… Actually, around, like. 00:13:22.680
+--> 00:13:30.Duy Nguyen: many weeks ago, I sent you the, like, the step-by-step
+to, like, create your own account. 00:13:30.310 --> 00:13:38.Duy Nguyen:
+Because… This AWS, the security is very important, so I cannot use… 00:13:39.580
+--> 00:13:43.Duy Nguyen: It has a two-layer, security. 00:13:43.700 -->
+00:13:48.Duy Nguyen: So that's why I cannot use your email and create your
+account. 00:13:50.880 --> 00:13:58.Wei Zheng: Okay, I understand, I understand,
+because that's… I tried, I also, I tried before. I… I have no idea how… how to
+do that. 00:13:58.540 --> 00:14:03.Wei Zheng: But anyway… If I let him create an
+account. 00:14:05.040 --> 00:14:11.Wei Zheng: No, I mean, if I will… I asked him
+to create account, that is easy to transfer the data from your account to his
+account, right? 00:14:12.070 --> 00:14:14.Duy Nguyen: Yeah. Actually, let me
+pass. 00:14:20.060 --> 00:14:22.Wei Zheng: Always anyway, you can… 00:14:22.760
+--> 00:14:30.Wei Zheng: you can put those in some place, and then… because I
+know that if you let some people got into that access, it's very difficult.
+00:14:30.170 --> 00:14:34.Wei Zheng: But how about you… you output those data?
+00:14:34.220 --> 00:14:36.Wei Zheng: You put it in somewhere. 00:14:36.680 -->
+00:14:40.Wei Zheng: In some, some, some cloud. 00:14:40.700 --> 00:14:44.Wei
+Zheng: And let him go there. Oh, yeah. Okay, okay. 00:14:44.510 --> 00:14:46.Wei
+Zheng: Either he called it. 00:14:46.340 --> 00:14:47.Duy Nguyen: A good idea,
+yeah. 00:14:47.100 --> 00:14:48.Wei Zheng: Common Cloud, is that? 00:14:49.180
+--> 00:14:50.Wei Zheng: Yeah, it's free, right? 00:14:50.980 --> 00:14:52.Duy
+Nguyen: Yeah, it's free. 00:14:52.840 --> 00:14:53.Wei Zheng: Yeah, you just…
+00:14:53.370 --> 00:14:55.Duy Nguyen: I think he scoot all day. 00:14:55.580 -->
+00:15:15.Wei Zheng: You just output that file into the cloud, and then let him
+go there, and whether they put data there, or they will download data in his
+account, that we will determine later. But at least you put it in some place.
+We, of course, we do not let him go into your Amazon account. I know that is
+difficult. 00:15:15.380 --> 00:15:28.Wei Zheng: But you just output your data
+in, and put in some… you create some, some account in some, free, space, the
+iCloud, or… 00:15:29.060 --> 00:15:30.Wei Zheng: Good luck! 00:15:30.020 -->
+00:15:31.Duy Nguyen: Okay, yeah, yeah. 00:15:31.130 --> 00:15:32.Wei Zheng: Not
+the public is the easy way. 00:15:33.800 --> 00:15:36.Wei Zheng: And then after
+that, I will let him to, to, to, to… 00:15:36.940 --> 00:15:37.Duy Nguyen:
+Right, yeah. 00:15:37.520 --> 00:15:44.Wei Zheng: to look at the data and to
+look at your JSON file, and if you have any questions, we can ask you, yeah.
+00:15:45.050 --> 00:15:45.Duy Nguyen: Okay. 00:15:47.670 --> 00:15:48.Wei Zheng:
+We'll go back. 00:15:48.580 --> 00:15:50.Duy Nguyen: Yeah, I think it's good
+today. 00:15:52.420 --> 00:15:58.Wei Zheng: And, I can make the contract start
+with this week, okay? 00:15:59.270 --> 00:16:00.Duy Nguyen: Okay. 00:16:01.900
+--> 00:16:02.Wei Zheng: Yeah. 00:16:03.430 --> 00:16:06.Duy Nguyen: We have to
+end the, the, the, the last. 00:16:06.520 --> 00:16:11.Wei Zheng: End of the
+semester, and then we can start, yeah, the summer, yeah. 00:16:12.960 -->
+00:16:13.Wei Zheng: Okay? 00:16:14.010 --> 00:16:16.Duy Nguyen: Okay, thank you,
+thank… thank you so much. 00:16:16.430 --> 00:16:22.Wei Zheng: But anyway, I'll
+just say, whenever you have time, you just walk on, because that is…
+00:16:22.340 --> 00:16:32.Wei Zheng: is a… it's a kind of thing is very
+interesting, and also its area is very, very interesting. I don't know, you… you
+have a class, this semester, you have a… you told me you have, what, four
+classes? 00:16:35.700 --> 00:16:37.Wei Zheng: I mean… You have a. 00:16:37.550
+--> 00:16:43.Duy Nguyen: I have 5 classes. I have 5 classes this semester. Yeah.
+I have 5 classes. 00:16:43.250 --> 00:16:44.Wei Zheng: 5 car, okay. 00:16:44.230
+--> 00:16:45.Duy Nguyen: Yeah, thank class. 00:16:45.700 --> 00:16:51.Duy
+Nguyen: the Far East, the… One of them is just the online class. 00:16:51.600
+--> 00:16:53.Wei Zheng: Okay, okay, okay. 00:16:55.700 --> 00:17:03.Duy Nguyen:
+And I… actually, next week, I will, talk to, Dr. Bo Wang. 00:17:03.670 -->
+00:17:14.Wei Zheng: Yeah, okay, you will talk to… I will send an email to him. I
+just said, he… because we tried to… I tried to collaborate with him, we tried to
+write some collaborative proposal regarding… 00:17:14.010 --> 00:17:23.Wei
+Zheng: We will do in the Mississippi. I will talk to him. You talk to him, just
+talk about, what we try to do. Basically, we just try to based on the
+literature. 00:17:23.950 --> 00:17:26.Wei Zheng: To fund the new trend of the
+research. 00:17:28.099 --> 00:17:29.Wei Zheng: Use a platform. 00:17:29.950 -->
+00:17:33.Duy Nguyen: Okay. Can you, like, send me… 00:17:33.720 --> 00:17:35.Wei
+Zheng: I will send both of you, I will send. 00:17:35.270 --> 00:17:37.Duy
+Nguyen: Yeah, yeah, okay. Yeah, it's easy for me to… 00:17:37.930 -->
+00:17:41.Wei Zheng: So, next week, so when? You have an appointment with him
+yet? 00:17:43.000 --> 00:17:45.Wei Zheng: You have an appointment with him yet,
+or no? 00:17:46.280 --> 00:17:48.Duy Nguyen: No. 00:17:48.310 --> 00:17:52.Wei
+Zheng: about what next week, what, what day? Before that, I will send an email.
+I will send an email. 00:17:52.840 --> 00:17:56.Duy Nguyen: I think, in Monday,
+Tuesday. 00:17:56.080 --> 00:17:57.Wei Zheng: Monday, okay, okay, okay, okay,
+okay. 00:17:58.000 --> 00:17:59.Duy Nguyen: I will talk, talk to him.
+00:17:59.100 --> 00:18:04.Wei Zheng: Okay, so you basically let him as advisor,
+is that? Yeah. Okay, that's no problem. 00:18:04.590 --> 00:18:08.Duy Nguyen: I
+even, like, passed my, Sponsor. 00:18:09.210 --> 00:18:10.Wei Zheng: Yeah, yeah,
+yeah. 00:18:11.010 --> 00:18:21.Wei Zheng: But actually, we work here. But
+anyway, you just use whatever we do here for your… for your project. But he need
+as an advisor or sponsor, you know? 00:18:21.940 --> 00:18:22.Duy Nguyen: Yeah.
+00:18:22.670 --> 00:18:26.Wei Zheng: Yeah, okay, I will talk him, I will talk
+him, I will talk him, yeah. 00:18:26.160 --> 00:18:33.Duy Nguyen: Because I
+cannot meet him this week, or last week, because the storm is so terrible in
+Oxford. 00:18:33.530 --> 00:18:35.Wei Zheng: Okay, okay, okay, okay.
+00:18:35.140 --> 00:18:36.Duy Nguyen: I'm about to say that. 00:18:36.000 -->
+00:18:39.Wei Zheng: I will… I will talk to him. I will send an email to both of
+you, okay? 00:18:39.400 --> 00:18:40.Duy Nguyen: Okay. 00:18:40.780 -->
+00:18:46.Wei Zheng: Okay, you can talk to him, and then… yeah. I think I will
+promote him. 00:18:46.280 --> 00:18:57.Wei Zheng: Also interested in this,
+because we plan to do a collaborative proposal, in the… in the fall, in the
+fall, regarding how to do this in the. 00:18:57.630 --> 00:19:01.Duy Nguyen:
+But, like, I think, 00:19:01.290 --> 00:19:05.Duy Nguyen: I will end… I will
+have to present the… 00:19:05.840 --> 00:19:10.Duy Nguyen: the senior project in
+the beginning of May, so we just have. 00:19:10.020 --> 00:19:13.Wei Zheng:
+Like, to… Oh, when, when, when you need, when you need to do that? 00:19:14.160
+--> 00:19:17.Duy Nguyen: I have two, presentation. 00:19:17.740 --> 00:19:19.Wei
+Zheng: Oh, you're the final, final president. 00:19:19.210 --> 00:19:25.Duy
+Nguyen: The final, yeah, the final presentation in the beginning of May, so we
+just have, like, two… 00:19:25.870 --> 00:19:28.Duy Nguyen: Two months, or two
+and a half, or two months. 00:19:28.500 --> 00:19:32.Wei Zheng: Could you send
+me what's the requirement for your… for your course price? 00:19:32.320 -->
+00:19:33.Duy Nguyen: Yeah, okay, okay. 00:19:33.210 --> 00:19:37.Wei Zheng: You
+send me whatever is your school requirement, and then I will frame it.
+00:19:38.310 --> 00:19:43.Wei Zheng: Did I make what you do, filled with this,
+okay? Okay. And I will send an email to him, yeah. 00:19:43.100 --> 00:19:43.Duy
+Nguyen: Okay. 00:19:43.940 --> 00:19:44.Wei Zheng: Okay, okay. 00:19:45.150 -->
+00:19:50.Wei Zheng: Okay, okay, just, yeah, just think of it and tell me, by
+tomorrow, okay? 00:19:50.890 --> 00:19:51.Duy Nguyen: Okay. 00:19:51.570 -->
+00:19:54.Wei Zheng: Yeah, tell me how to do the data transfer, okay?
+00:19:54.570 --> 00:19:55.Duy Nguyen: Okay, yeah. 00:19:55.330 --> 00:19:56.Wei
+Zheng: Okay, okay. 00:19:56.280 --> 00:19:57.Duy Nguyen: I will do it right now,
+so… 00:19:57.700 --> 00:19:58.Wei Zheng: Yeah, yeah, okay. 00:19:58.820 -->
+00:20:00.Duy Nguyen: And let you know. 00:20:00.250 --> 00:20:02.Wei Zheng:
+Yeah, yeah, yeah, as soon as possible, yeah, thank you.

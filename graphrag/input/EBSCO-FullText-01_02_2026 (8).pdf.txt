@@ -1,0 +1,982 @@
+TITLE: Self&#x2010;explanation in learning clinical reasoning: the added value of examples and prompts
+AUTHORS: Martine Chamberland, Sílvia Mamede, Christina St‐Onge, Jean Setrakian, Linda Bergeron, Henk Schmidt
+YEAR: 2015
+DOI: 10.1111/medu.12623
+
+CONTENT:
+Self-explanation in learning clinical reasoning: the
+added value of examples and prompts
+Martine Chamberland, 1,2 S/C19ılvia Mamede, 3,4 Christina St-Onge, 1,2 Jean Setrakian, 2 Linda Bergeron 1 &
+Henk Schmidt 4
+CONTEXT Recent studies suggest that self-expla-
+nation (SE) while diagnosing cases fosters the
+development of clinical reasoning in medical
+students; however, the conditions that optimise the
+impact of SE remain unknown. The example-based
+learning framework justiﬁes an exploration of
+students’ use of their own SEs combined with the
+study of examples. This study aimed to assess the
+impact on medical students’ diagnostic perfor-
+mance of: (i) combining students’ SEs with their
+listening to examples of residents’ SEs, and (ii)
+the addition of prompts (speciﬁc questions) while
+working with examples.
+METHODS This study consisted of a training
+phase and an assessment phase conducted 1 week
+later. In the training phase, 54 Year 3 medical
+students were randomly assigned to one of three
+groups. In all groups, students ﬁrst solved four
+clinical cases using SE. Subsequently, Group 1
+listened to examples of residents’ SEs with
+prompts; Group 2 listened to examples of resi-
+dents’ SEs without prompts, and the control group
+solved word puzzles. Then, all students again
+solved the same four cases. One week later, all
+students solved four similar and four different
+cases. Students’ diagnostic performance and
+diagnostic accuracy scores were assessed for each
+case at each time-point.
+RESULTS Although all groups’ diagnostic accu-
+racy scores on similar cases improved signiﬁcantly
+between the training and the assessment phase,
+Group 1 showed a signiﬁcantly higher diagnostic
+performance score after 1 week than the control
+group (p = 0.037). On different cases, Group 1
+obtained signiﬁcantly higher diagnostic accuracy
+(p = 0.011) and diagnostic performance
+(p < 0.001) scores than the control group and a
+signiﬁcantly higher diagnostic performance score
+than Group 2 (p = 0.018).
+CONCLUSIONS Self-explanation seems to be an
+effective technique to help medical students learn
+clinical reasoning. Its impact is increased signiﬁ-
+cantly by combining it with examples of residents’
+SEs and prompts. Although students’ exposure to
+examples of clinical reasoning is important, their
+‘active processing’ of these examples appears to be
+critical to their learning from them.
+Medical Education 2015: 49: 193 –202
+doi: 10.1111/medu.12623
+Discuss ideas arising from the article at
+www.mededuc.com discuss.
+1Centre de P /C19edagogie des Sciences de la Sant /C19e, Facult/C19e de
+M/C19edecine et des Sciences de la sant /C19e, Universit/C19e de Sherbrooke,
+Sherbrooke, Qu/C19ebec, Canada
+2Department of Medicine, Facult /C19e de M/C19edecine et des Sciences de
+la sant/C19e, Universit /C19e de Sherbrooke, Sherbrooke, Qu /C19ebec, Canada
+3Institute of Medical Education Research Rotterdam, Erasmus
+Medical Center, Erasmus University, Rotterdam, The Netherlands
+4Department of Psychology, Erasmus University, Rotterdam, The
+Netherlands
+Correspondence: Martine Chamberland, Centre de P /C19edagogie des
+Sciences de la Sant /C19e, Facult /C19ed eM /C19edecine et des Sciences de la
+Sant/C19e, Universit /C19e de Sherbrooke, 3001 12 Avenue Nord,
+Sherbrooke, Quebec J1H 5N4, Canada. Tel: 00 1 819 346 1110
+(ext. 15385); E-mail: martine.chamberland@usherbrooke.ca
+193ª 2015 John Wiley & Sons Ltd. MEDICAL EDUCATION 2015; 49: 193–202
+example-based learning
+INTRODUCTION
+Although clinical reasoning is viewed as a complex,
+multidimensional and integrated skill, a well-organ-
+ised medical knowledge base remains at its core.
+1,2
+One of the major foci of clinical education is to
+expand, revise and reﬁne this knowledge base, in
+large part through the process of clinical reasoning
+in response to patients’ problems.
+1–3 To learn more
+from these encounters, students should actively
+reﬂect on the clinical problems.
+3 Little is known
+about instructional strategies that teachers can use
+to guide students’ practice with problems.
+3,4 The
+use of self-explanation (SE) in the course of solving
+clinical cases has been shown to be effective for
+medical students at the clerkship level (the last seg-
+ment of the undergraduate curriculum, which con-
+sists of successive clinical rotations over periods of
+12–24 months depending on the programme) and
+seems to be a promising technique to support the
+learning of clinical reasoning in context.
+5 In addi-
+tion, recent studies have highlighted the importance
+of interacting with and observing peers (students,
+residents) and expert clinicians for the improve-
+ment of residents’ and clinicians’ reasoning in prac-
+tice.
+6,7 Combining SE with modelling by residents
+might support students’ clinical reasoning. Resi-
+dents have been recognised as important role mod-
+els in the education of medical students.
+8 However,
+little is known about their speciﬁc cognitive model-
+ling or contribution to the development of students’
+clinical reasoning. Clinical reasoning can be viewed
+through different theoretical perspectives. In the
+present paper, we use the cognitive sciences frame
+of reference to explore the potential beneﬁts of SE
+and active or prompted observation of residents’
+models of SE on students’ diagnostic performance
+in clerkship.
+Self-explanation is an active learning process that
+consists of generating explanations to oneself when
+working through learning materials.
+9–11 While self-
+explaining, learners engage in knowledge elabora-
+tion, integration and monitoring, allowing them to
+revise their knowledge and build a more coherent
+representation that facilitates the transfer of learn-
+ing.
+9 The beneﬁt of SE on learning has been dem-
+onstrated in various domains. 9 More speciﬁcally in
+medical education, it has been found that, in the
+solving of paper cases, clerks using SE improved
+their diagnostic performance on new cases in the
+same clinical area 1 week later compared with stu-
+dents who did not use SE.
+5 As knowledge restructur-
+ing and the emergence of illness scripts are critical
+to the development of clinical reasoning in stu-
+dents,2 it has been proposed that generating SE
+during the process of reasoning through and diag-
+nosing cases may foster the development of better
+organised and richer illness scripts used for clinical
+reasoning.
+5 The beneﬁcial effect was observed only
+with unfamiliar and not with familiar cases. Unfamil-
+iar cases seem to encourage students to reactivate
+biomedical knowledge, potentially creating new
+links between biomedical and clinical knowledge,
+thus leading to a more coherent mental or cognitive
+representation of diseases.
+12,13
+The use of prompts, which are speciﬁc instructions
+that require learners to process the example or the
+content in a speciﬁc way, has been shown to
+enhance the effect of SE on learning
+14,15 ‘Justiﬁca-
+tion prompts’ require students to generate the prin-
+cipal justiﬁcation and to focus on the underlying
+concepts. Examples of this type of prompt are: What
+principle is being applied here? This particular choice is
+correct because ... Transposed to clinical reasoning,
+this type of prompt may facilitate the activation of
+biomedical knowledge, such as pathophysiological
+mechanisms, while solving the problem, potentially
+leading to new links with clinical knowledge. By
+contrast, ‘mental model revision prompts’ help stu-
+dents to highlight discrepancies between their
+knowledge representation and the observed model.
+Examples of this type of prompt are: How does it
+relate to what you already know? Does it help you gain
+more insight into how to solve the problem?
+15 When
+applied to clinical reasoning, the student’s compar-
+ing and contrasting of his or her own mental
+representation of diseases with an example from a
+colleague might assist in that student’s revision of
+knowledge.
+Observing models has also been shown to foster the
+construction of mental representations in general.
+16
+Otherwise, for clinical reasoning, it has been sug-
+gested that when reasoning is made explicit in clini-
+cal practice, it not only becomes exposed to self-
+critique and to feedback from others, but it also
+becomes available to others as a potentially useful
+example from which to learn.
+6 The process of learn-
+ing or acquiring a skill by observing examples or
+models of that skill is called ‘example-based learn-
+ing’ (EBL).
+16 It has been suggested that EBL pro-
+motes the construction of appropriate cognitive
+representations that guide later performance. Exam-
+ple-based learning has been used for a wide range
+of tasks from psychomotor skills to highly and less
+structured cognitive skills.
+16 Hence, EBL may be
+relevant for learning clinical reasoning. According
+194 ª 2015 John Wiley & Sons Ltd. MEDICAL EDUCATION 2015; 49: 193–202
+M Chamberland et al
+to the EBL framework, the skill in the example
+must ﬁrst be ‘salient’ and ‘visible’ for the learner.
+Secondly, the difference between the model’s and
+the learner’s level of expertise is also worth consid-
+ering.
+16,17 A relatively small gap in expertise separat-
+ing the model from the learner may support the
+learner’s self-efﬁcacy (the learner’s judgement of his
+or her capacity to attain the observed performance)
+and clarify outcome expectations. It may also pro-
+vide social (i.e. feeling at ease) and cognitive con-
+gruence.
+18,19 By contrast, an expert model, which is
+largely automatised and works at a higher level of
+abstraction, may be difﬁcult for students to follow.
+Thirdly, to optimise learning when working with
+examples, students should engage in cognitive activi-
+ties that may occur before, during or after the
+observation.
+A recent study investigated the added value of lis-
+tening to peers’ (clerks) or experts’ SEs to the
+effect of SE on medical students’ learning of clini-
+cal diagnosis (M. Chamberland, S. Mamede, C. St-
+Onge, J. Setrakian and H. Schmidt, Universit /C19e de
+Sherbrooke, unpublished study 2014). In compari-
+son with a control group, only a small beneﬁt of
+exposure to peer or expert SE was found when
+the study subjects were tested on the same cases
+1 week later and no effect was found when they
+were tested on different and more difﬁcult cases.
+The authors suggested that using examples
+sourced from individuals with an intermediate
+level of expertise, such as residents (rather than
+peers or experts), and prompting students while
+they listened might have produced better out-
+comes. These ideas were tested in the present
+study, the purpose of which was to assess the
+impact on medical students’ learning of clinical
+diagnosis of: (i) combining students’ SE with lis-
+tening to examples of residents’ SEs, and (ii) add-
+ing prompts as the students worked with the
+examples of SE.
+METHODS
+Design
+A mixed design (between and within design) was
+used for this experimental study, which comprised
+two phases, a training phase and an assessment
+phase run 1 week later. In the training phase, par-
+ticipants were randomly assigned to one of three
+groups (Fig. 1). In each group, the students ﬁrst
+solved four clinical cases using SE. Then, Group 1
+listened to examples of residents’ SEs for the same
+cases with prompts, Group 2 listened to examples of
+residents’ SEs without prompts, and the control
+group solved word puzzles. Subsequently, all stu-
+dents solved the same four cases again. One week
+later, all students solved four similar cases (near-
+transfer cases) and four different cases (far-transfer
+cases).
+Students’ diagnostic performance was assessed on
+each case and at each performance moment.
+Figure 1 illustrates the study design.
+Participants
+Participants were Year 3 medical students on the
+University of Sherbrooke undergraduate pro-
+gramme, which consists of 2.5 years of problem-
+based learning followed by 18 months of clerkship.
+At the time of the study, participants were engaged
+in their ﬁrst 8 months of clerkship. All students on
+clinical rotations within the Departments of Medi-
+cine and Paediatrics during June to August 2013
+were invited to participate in the study. Participa-
+tion was voluntary and no ﬁnancial incentive was
+offered. Written informed consent was obtained.
+Of the 60 students invited to participate, 58
+accepted and were randomly assigned to one of
+three groups: Group 1, in which students were
+exposed to examples of residents’ SEs with
+prompts; Group 2, in which students were exposed
+to examples of residents’ SEs without prompts, and
+a control group. Fig. 1 gives further details. Data
+were analysed for the 54 students who completed
+the two phases of the study (Group 1, n = 19;
+Group 2, n = 18; control group, n = 17).
+Ethics approval was obtained from the Ethics Com-
+mittee for Research, Education and Social Sciences
+at the University of Sherbrooke.
+Materials
+Clinical cases
+Twelve clinical cases were used for the study. All cases
+were related to jaundice because this clinical topic
+was rather unfamiliar to the Year 3 medical students
+involved.
+5,12 The cases consisted of four training
+cases, four near-transfer cases and four far-transfer
+cases. Case descriptions were approximately 300
+words long and included the chief complaint, back-
+ground information, and ﬁndings from history tak-
+ing, physical examination and laboratory tests. The
+training cases and far-transfer cases had been
+195ª 2015 John Wiley & Sons Ltd. MEDICAL EDUCATION 2015; 49: 193–202
+Self-explanation examples and clinical reasoning
+developed and used in previous studies. 5,12 Near-
+transfer cases were developed and revised by two
+senior internists/clinical teachers (MC, JS) for this
+study.
+The topic of jaundice was broken down into the fol-
+lowing four broad disease categories according to
+pathophysiological mechanism: acute hepatitis;
+chronic liver disease; obstructive jaundice, and
+haemolysis. Each set of four cases included one case
+in each of the four categories. The near-transfer
+cases were similar to the training cases and used the
+same key elements and ﬁnal diagnoses. Only superﬁ-
+cial data irrelevant to the diagnosis were changed
+from the initial cases (e.g. gender, age, background
+information). Far-transfer cases, however, presented
+different clinical scenarios and different ﬁnal
+diagnoses (Table 1). The latter were also made more
+difﬁcult by a less typical presentation, less common
+ﬁnal diagnosis or the presence of comorbidity.
+In the training phase, cases were presented in a
+booklet with one case per page. Cases were
+displayed in a particular order in half of the
+booklets and in the reverse order in the other
+half. These two different booklets were distributed
+alternately to recruited students. In the assessment
+phase, for transfer cases, we used a similar strategy
+to assemble two differently ordered booklets in
+which we intercalated four ﬁller cases in other
+clinical areas.
+Examples of residents’ SEs
+To develop the examples of residents’ SEs, three-
+second-year internal medicine residents from the
+University of Sherbrooke were recruited on a volun-
+tary basis. Compared with the participants, the resi-
+dents had two additional years of training. After a
+20-minute introduction to SE similar to the proce-
+dure used with students in the study, the residents
+were asked to self-explain while reasoning through
+each of the four training cases, but not to provide
+their ﬁnal diagnostic opinion at the end. The SEs
+were audio-recorded electronically and anonymised.
+For each of the four cases, the senior internists on
+Table 1 Clinical cases used in the study
+Broad categories of disease
+Speciﬁc diagnosis
+Training cases Near-transfer cases Far-transfer cases
+1 Acute hepatitis Viral hepatitis B Viral hepatitis B Viral hepatitis A
+2 Cirrhosis Chronic alcoholism Chronic alcoholism Haemochromatosis
+3 Obstructive jaundice Pancreatic tumour Pancreatic tumour Choledocholithiasis
+4 Haemolysis Autoimmune, idiopathic Autoimmune, idiopathic Cold agglutinins, Mycoplasma infection
+Group 1
+Group 1
+Group 2
+Control
+Group 1
+Group 2
+Control
+Control
+Group 2
+Assessment phaseLearning phase
+Intervention
+Students’ SE
+Four training casesDx
+Resident SE example
+Prompts Dx
+Resident SE example 
+No prompts Dx
+Four
+Four near-transfer cases
+Four far-transfer cases Dx
+1 - week interval
+Individual meeting Group meeting
+No example DxNo prompts
+Figure 1 Study design. SE = self-explanation; Dx = diagnosis
+196 ª 2015 John Wiley & Sons Ltd. MEDICAL EDUCATION 2015; 49: 193–202
+M Chamberland et al
+the research team gave their global appreciation of
+the three available recordings and selected the
+example that provided the most elaborate explana-
+tions for the clinical ﬁndings and differential diag-
+nosis. All participants in Groups 1 and 2 were
+exposed to the same recordings of residents’ SEs.
+Sound tracks of the four selected audiotapes were
+modiﬁed (for voice tonality) to prevent recognition
+of the speaker. Their speed was also adjusted to cre-
+ate equal-length audio examples of 8 minutes. Writ-
+ten consent was obtained from residents.
+Prompts
+Two different types of prompt, justiﬁcation
+prompts (e.g. What principle is being applied here? Do
+you agree with this interpretation? Explain; How do you
+justify this interpretation? What pathophysiological
+mechanisms could underline this interpretation? ) and
+mental model revision prompts (e.g. How does this
+reasoning relate to yours? How does this interpretation
+compare with what you already know? How does this
+analysis help you gain more insight into how to solve
+the problem? What new information does this provide
+for you? ) were designed in order to support
+students’ active listening to the examples of
+residents’ SEs.
+A total of 12 prompts, six of each type, were
+incorporated into the four resident SE recordings.
+Hence, for each resident SE recording, three
+prompts were inserted at different moments in
+the clinical reasoning process. After each prompt,
+a 35-second sequence of silence was incorporated
+into the sound track in order to provide students
+with strictly controlled time in which to respond
+to the prompt. To keep time on task equal for
+students listening to examples of resident SE with-
+out prompts, similar sequences of silence were
+added at the same moments in the resident SE
+recordings.
+We pilot-tested the materials with three medical stu-
+dents who were not involved in the study, and made
+minor adjustments to ensure the clarity of materials
+and instructions.
+Procedure
+Training phase
+In this phase, a research assistant met each
+participant individually. After a brief introduction
+to SE, the technique was illustrated to the student
+with a 7-minute audio example of SE on a clinical
+case not used in the study (mono-arthritis). Then,
+the participant was asked to solve the ﬁrst train-
+ing case, while self-explaining aloud for 8 minutes.
+He or she was then given 2 minutes to write
+down the answers to three questions:
+Q1 What is the most likely diagnosis?
+Q2 What are the two main arguments supporting
+this diagnosis?
+Q3 List two plausible alternative diagnoses.
+Participants in Group 1 then listened to the 8-min-
+ute example of resident SE on the same training
+case. After each prompt, the student was given
+35 seconds in which to verbalise his or her answers
+to the prompt. At the end of the recording, the stu-
+dent was again given 2 minutes to answer the same
+three questions regarding the diagnosis.
+Participants in Group 2 listened to the 8-minute
+example of resident SE without prompts. They were
+advised that a few silent sequences were included in
+the sound track, but were not given further speciﬁc
+instructions. They were asked to remain silent dur-
+ing the sequences. They were then allowed 2 min-
+utes to answer the three questions.
+Participants in the control group were invited after
+the case to move to the next page of their booklet
+and to solve a word puzzle for 8 minutes. This task
+was intended to equate time on task and to avoid
+students engaging in additional SE about the case.
+20
+Then, they were allowed 2 minutes to answer the
+three questions.
+This procedure was repeated for all four training
+cases.
+At the end of the session, the research assistant
+asked the student open-ended questions on his or
+her perceived learning experiences with the
+approaches used in the session.
+The training phase lasted for 2 hours for each
+group and was audio-recorded.
+Assessment phase
+One week later, participants from all groups gath-
+ered for the 2-hour assessment phase supervised by
+a research assistant. Participants were requested to
+solve in silence 12 cases presented in a booklet:
+four near-transfer cases; four far-transfer cases, and
+197ª 2015 John Wiley & Sons Ltd. MEDICAL EDUCATION 2015; 49: 193–202
+Self-explanation examples and clinical reasoning
+four intercalated ﬁllers. For each case, they
+answered the same three questions on their diagno-
+ses. At the end of the session, participants com-
+pleted a brief questionnaire asking for their age,
+gender, clinical rotation, and any personal work or
+teaching activities related to the topic of jaundice
+that had occurred during the preceding week.
+There was no difference between the groups for
+any of these items (Table 2).
+Two research assistants, who had participated in a
+standardisation exercise, ran all the individual and
+group sessions according to written protocols.
+Data analysis
+For all cases (training, near-transfer and far-transfer
+cases) and all three questions, each participant’s
+answer was scored on a 3-point scale (0 = incorrect,
+1 = partially correct, 2 = entirely correct). For the
+training cases and the far-transfer cases, partici-
+pants’ answers to the three questions on diagnosis
+were assessed using a scoring grid developed and
+validated in a previous study,
+5 and all responses
+were scored by one rater (MC), who was blind to
+the participants’ conditions. In the previous study,
+scoring of the cases by two raters had shown inter-
+rater reliability, measured by intraclass correlations
+ranging from 0.70 to 0.95. Responses on the near-
+transfer cases, which had not been used previously,
+were scored independently by two raters (MC and
+JS) who were unaware of the conditions under
+which they had been given. Inter-rater reliability,
+measured by intraclass correlations, ranged from
+0.69 to 1.00. Disagreements were resolved by
+discussion.
+Two measurements were derived from participants’
+answers: the diagnostic accuracy score (the score on
+Q1), and the diagnostic performance score (the
+sum of scores on Q1, Q2 and Q3), which reﬂected,
+respectively, the accuracy of the diagnosis and the
+quality of diagnostic reasoning. The scores on each
+set of four cases were summed and then expressed
+as a percentage of the total score.
+Descriptive statistics were computed. To evaluate
+the comparability of the groups, two separate one-
+way analyses of variance (
+ANOVAs), with group as a
+between-subjects factor, were performed on the
+mean diagnostic accuracy score and on the mean
+diagnostic performance score obtained before the
+intervention. Two separate repeated-measures
+ANO-
+VAs with group as a between-subjects factor (resident
+SE with prompt; resident SE without prompt; con-
+trol) and performance moment as a within-subjects
+factor (before the intervention in the training
+phase; after the intervention in the training phase;
+test at 1 week) were conducted on mean diagnostic
+accuracy scores and diagnostic performance scores
+Table 2 Description of participant groups and conditions
+Group 1: resident
+SE with prompts
+Group 2: resident
+SE without prompts Control group
+Age, years, mean /C6SD 22.37 /C61.64 23.18 /C61.70 22.44 /C60.81
+Women 63.2% 72.2% 56.3%
+Current clinical rotation IM 68.4% IM 47.1% IM 37.5%
+Paediatrics 31.6% Paediatrics 52.9% Paediatrics 62.5%
+Personal work related to jaundice during the last week None 57.9% None 64.7% None 62.5%
+≤ 2 hours 31.6% ≤ 2 hours 29.4% ≤ 2 hours 31.3%
+> 2 hours 10.5% > 2 hours 5.9% > 2 hours 6.3%
+Teaching related to jaundice during the last week None 68.4% None 76.5% None 75.0%
+≤ 2 hours 26.3% ≤ 2 hours 17.6% ≤ 2 hours 12.5%
+> 2 hours 5.3% > 2 hours 5.9% > 2 hours 12.5%
+There is no signiﬁcant difference between groups for age ( F2,49 = 1.622, p = 0.208), gender ( v2
+2 = 0.952, p = 0.621), current clinical
+rotation ( v2
+2 = 3.566, p = 0.168), students’ personal work on jaundice ( v2
+4 = 0.401, p = 0.982) or teaching related to jaundice during the
+week of the study ( v2
+4 = 1.685, p = 0.793).
+IM = internal medicine; SD = standard deviation; SE = self-explanation.
+198 ª 2015 John Wiley & Sons Ltd. MEDICAL EDUCATION 2015; 49: 193–202
+M Chamberland et al
+for training and near-transfer cases. Two one-way
+ANOVAs with group as a between-subjects factor were
+performed on mean diagnostic accuracy scores and
+on mean diagnostic performance scores on far-trans-
+fer cases. The signiﬁcance level was set at 0.05 for
+all comparisons.
+RESULTS
+Table 3 presents mean diagnostic accuracy scores
+and Table 4 mean diagnostic performance scores
+on training and on near-transfer cases as a function
+of performance moment for each group. Two sepa-
+rate one-way
+ANOVAs on the mean diagnostic accu-
+racy score and the mean diagnostic performance
+score obtained before the intervention did not show
+signiﬁcant differences between the groups (respec-
+tively, F
+2,51 = 0.61, p = 0.546; F2,51 = 0.70,
+p = 0.507), which shows that the groups were com-
+parable.
+For the mean diagnostic accuracy score, the
+repeated-measures ANOVA revealed a signiﬁcant main
+effect of performance moment ( F2,102 = 18.26,
+p < 0.001). The main effect of group was not signiﬁ-
+cant, although it was borderline ( F2,51 = 2.61,
+p = 0.083). There was a signiﬁcant interaction effect
+(F4,102 = 2.58, p = 0.042). To better understand
+these primary ﬁndings, post hoc analyses were con-
+ducted using paired t-tests within each group and
+each performance moment. The results are pre-
+sented in Table 3. Bonferroni corrections were used
+(a = 0.017). In both Groups 1 and 2, students’
+diagnostic accuracy scores improved signiﬁcantly
+and immediately after listening to the example and
+were maintained 1 week later. For students in the
+control group, the improvement was also signiﬁcant
+but delayed to 1 week later.
+For the mean diagnostic performance scores, the
+repeated-measures
+ANOVA revealed a signiﬁcant
+main effect of performance moment
+(F1,102 = 32.44, p < 0.001). The main effect of
+group was signiﬁcant ( F2,51 = 3.76, p = 0.030).
+There was no signiﬁcant interaction effect
+(F
+4,102 = 1.99, p = 0.102). Post hoc analyses revealed
+that Group 1 performed signiﬁcantly better than
+the control group (p = 0.037); there were no other
+signiﬁcant differences between the groups
+(Group 1 versus Group 2, p = 1.00; Group 2 versus
+control group, p = 0.120). Post hoc analyses using
+paired t-tests were conducted within each group.
+The results are presented in Table 4. Students in
+both Groups 1 and 2 improved signiﬁcantly and
+immediately; their diagnostic performance scores
+then remained stable 1 week later. For students in
+the control group, no improvement was noted
+immediately, but a signiﬁcant increase in scores
+occurred 1 week later.
+Table 5 presents mean diagnostic accuracy scores
+and mean diagnostic performance scores on trans-
+fer cases at 1 week later for each group. A one-way
+ANOVA on mean diagnostic accuracy scores revealed
+a signiﬁcant difference between the groups
+(F
+2,51 = 4.98, p = 0.011). Post hoc analysis revealed
+that Group 1 performed signiﬁcantly better than
+the control group (p = 0.011). No other signiﬁcant
+difference was noted between the groups (Group 1
+Table 3 Diagnostic accuracy as a function of performance moment for each group on training cases and near-transfer cases and p-
+values for score differences between performance moments for each group
+Group
+Diagnostic accuracy score, mean /C6SD p-value
+Before
+(training cases)
+After
+(training cases)
+1-week
+(near-transfer
+cases)
+Before
+versus
+after
+Before
+versus
+1 week
+After
+versus
+1 week
+Group 1: resident SE with prompts (n = 19) 73.03 /C617.31 83.55 /C611.07 82.24 /C616.31 0.016 0.035 0.716
+Group 2: resident SE without prompts (n = 18) 69.44 /C617.79 84.72 /C68.08 83.33 /C611.34 0.002 0.004 0.607
+Control group (n = 17) 66.18 /C620.62 67.65 /C620.76 77.21 /C616.08 0.431 0.001 0.003
+Signiﬁcance level: p = 0.017.
+SD = standard deviation; SE = self-explanation.
+199ª 2015 John Wiley & Sons Ltd. MEDICAL EDUCATION 2015; 49: 193–202
+Self-explanation examples and clinical reasoning
+versus Group 2, p = 0.104; Group 2 versus control
+group, p = 1). A separate one-way ANOVA on mean
+diagnostic performance scores also revealed a signif-
+icant difference between the groups on transfer
+cases ( F
+2,51 = 10.22, p < 0.001). Post hoc analysis
+revealed that Group 1 performed signiﬁcantly better
+than the control group (p < 0.001); there was also a
+signiﬁcant difference between Groups 1 and 2
+(p = 0.018), but no difference between Group 2
+and the control group (p = 0.344).
+DISCUSSION
+This experimental study with SE in medical clerks
+explored the added value of listening to an example
+of a resident’s SE with or without prompts.
+The results ﬁrst demonstrate that all groups,
+including the control group (SE alone), improved
+signiﬁcantly in both diagnostic accuracy and diag-
+nostic performance scores on near-transfer cases.
+This supports the growing evidence that this tech-
+nique, even without external feedback, is effective
+for learning clinical reasoning at clerkship level.
+5
+Secondly, listening to the example of a resident’s
+SE and being prompted while doing so improved
+students’ diagnostic performance score on near-
+transfer cases at 1 week later compared with the
+control group. Thirdly, for performance on far-
+transfer cases, which reﬂects deep and meaningful
+learning,
+21 the impact became even stronger.
+Indeed, Group 1, with the combined intervention,
+performed signiﬁcantly better on both scores com-
+pared with the control group. Moreover, in diagnos-
+tic performance, Group 1 performed signiﬁcantly
+better than the two other groups.
+These results reinforce the importance of consid-
+ering the level of expertise chosen for the exam-
+ples
+16 relative to that of the learners. In a
+previous study, listening to peer or expert
+Table 4 Diagnostic performance scores as a function of performance moment for each group on training cases and near-transfer cases
+and p-values for score differences between performance moments for each group
+Group
+Diagnostic accuracy score, mean /C6SD p-value
+Before
+(training cases)
+After
+(training cases)
+1-week
+(near-transfer
+cases)
+Before
+versus
+after
+Before
+versus
+1 week
+After
+versus
+1 week
+Group 1: resident SE with prompts (n = 19) 57.24 /C610.47 67.76 /C67.96 69.74 /C67.46 0.001 < 0.001 0.243
+Group 2: resident SE without prompts (n = 18) 56.48 /C612.80 67.13 /C68.68 67.13 /C68.44 < 0.001 0.004 1.000
+Control group (n = 17) 52.70 /C613.58 55.64 /C612.92 63.97 /C611.87 0.138 0.001 0.009
+Signiﬁcance level: p = 0.017.
+SD = standard deviation; SE = self-explanation.
+Table 5 Diagnostic accuracy scores and diagnostic performance scores for each group on transfer cases 1 week later
+Group
+Diagnostic accuracy
+scores, mean /C6SD
+Diagnostic performance
+scores, mean /C6SD
+Group 1: resident SE with prompts 68.42 /C618.80 66.89 /C68.94
+Group 2: resident SE without prompts 53.47 /C618.59 55.56 /C613.63
+Control group 47.06 /C625.21 49.02 /C613.22
+SD = standard deviation; SE = self-explanation.
+200 ª 2015 John Wiley & Sons Ltd. MEDICAL EDUCATION 2015; 49: 193–202
+M Chamberland et al
+examples of SE in clinical reasoning did not pro-
+duce performance improvements to the same
+extent (M. Chamberland, S. Mamede, C. St-Onge,
+J. Setrakian and H. Schmidt, Universit /C19e de Sher-
+brooke, unpublished study 2014). Junior residents
+represent near peers for medical clerks. Their
+clinical reasoning is close to, or cognitively con-
+gruent with, the students’ own, which allows the
+latter to relate to it easily and to appreciate simi-
+larities and differences.
+8,18 At the same time, the
+residents’ more developed reasoning acts as a
+source of new information from which students
+can learn. At the end of the session, the research
+assistant verbally asked the students open-ended
+questions on their perceived learning experience
+with the techniques used in the session. The role
+of these techniques in their learning was highly
+appreciated by students in this study. Students
+reported that listening to residents’ examples
+helped them to elaborate further on their own
+ideas. They also reported that it helped them to
+conﬁrm their reasoning and to complete their
+ﬁnal diagnostic opinion and argument with some
+ideas they had not raised by themselves.
+Furthermore, students must be cognitively engaged
+in order to gain from working with even the best
+and most suitable example. In our study, students’
+SE was used as a preparatory task and was
+intended to prepare the students cognitively for
+the example that followed. The incorporation of
+only three general prompts to each of the four
+examples of resident SE interestingly had an
+additional impact. Justiﬁcation and mental model
+revision prompts presumably engaged students in
+additional SE while they listened to the example,
+thereby supporting the deep processing of the
+resident SE. This ﬁnding further reinforces the
+importance of stimulating students to reactivate
+underlying pathophysiological mechanisms when
+trying to make sense of information while solv-
+ing unfamiliar cases.
+12,22 The signiﬁcant difference
+observed between Groups 1 and 2 in diagnostic
+performance scores on far-transfer cases
+further emphasises the important role played by
+prompts.
+Interestingly, the dynamics of improvement on
+near-transfer cases in the control group with SE
+alone and in the two other groups, who were
+exposed to example SEs, differed. For the latter two
+groups, the improvement was immediate and main-
+tained over time, whereas the group subjected to SE
+alone took 1 week to appreciate the full impact,
+which again suggests deeper data processing in the
+course of a week. Other studies have shown this
+delayed effect of SE or structured reﬂection on
+medical students’ diagnostic reasoning (M. Cham-
+berland, S. Mamede, C. St-Onge, J. Setrakian and
+H. Schmidt, Universit /C19e de Sherbrooke, unpublished
+study 2014).
+20 Listening to models seemed to accel-
+erate the effect, although there appeared to be a
+ceiling on further improvement. However, the
+scores obtained after the intervention in the train-
+ing phase were very high, which left no room for
+extra gain. Perhaps an additional improvement after
+1 week might be observed if students were to work
+with more difﬁcult cases in the training phase.
+This study has limitations. As it was conducted
+under well-controlled conditions, the generalisation
+of its ﬁndings to real and busy clinical training envi-
+ronments may be restricted. Participants were Year 3
+medical students and the same results may not
+apply to learners at other levels of training.
+This study has implications for practice. Self-expla-
+nation is an easy, inexpensive and effective way of
+ensuring students are cognitively engaged as they
+solve cases in clerkship. Moreover, SE seems to be a
+useful technique for making reasoning explicit and
+available for learning by colleagues, especially near
+peers. Natural examples of clinical reasoning,
+although not didactically designed, are useful and
+may be made available in the clinical learning envi-
+ronment without too much preparation, even with-
+out the intervention of clinical teachers. Students’
+exposure to adapted examples of clinical reasoning
+is important, but their active processing of these
+examples seems critical. Prompts used in this study
+were general and could be applied to any clinical
+problem.
+Future studies might aim to transpose these ideas to
+concrete activities in real clinical situations. The
+impact of similar techniques in other tandems of
+near peers, such as senior residents and clinical
+teachers, also warrants further investigation.
+Contributors: MC contributed to the conception and design
+of the study, and the acquisition, analysis and interpreta-
+tion of data, and drafted the manuscript. SM, CS-O, JS
+and HS contributed to the conception and design of the
+study, and the analysis and interpretation of data. LB con-
+tributed to the acquisition and analysis of data. All
+authors contributed to the revision of the paper and
+approved the ﬁnal manuscript for publication. All authors
+are accountable for all aspects of the work and for
+ensuring that questions relating to the accuracy or integ-
+201ª 2015 John Wiley & Sons Ltd. MEDICAL EDUCATION 2015; 49: 193–202
+Self-explanation examples and clinical reasoning
+rity of any part of the work are appropriately investigated
+and resolved.
+Acknowledgements: The authors are grateful to the students
+and residents who dedicated their time to participate in
+the study.
+Funding: Funding for this project was received from the
+Fonds de de´veloppement pe´dagogique 2013, Socie´te´ des
+Me´decins de l’Universite´ de Sherbrooke (SMUS) and the
+Socie´te´ des Me´decins de l’Universite´ de Sherbrooke
+Research Chair in Medical Education held by C St-O.
+Conﬂicts of interest: None.
+Ethical approval: This study was approved by the Ethics
+Committee for Research, Education and Social Sciences at
+the University of Sherbrooke.
+REFERENCES
+1 Norman G. Research in clinical reasoning: past
+history and current trends. Med Educ 2005;39:418–27.
+2 Schmidt HG, Rikers RMJP. How expertise develops in
+medicine: knowledge encapsulation and illness script
+formation. Med Educ 2007;41:1133–9.
+3 Eva KW. What every teacher needs to know about
+clinical reasoning. Med Educ 2005;39:98–106.
+4 Kassirer JP. Teaching clinical reasoning: case-based
+and coached. Acad Med 2010;85 (7):1118–24.
+5 Chamberland M, St-Onge C, Setrakian J, Lanthier L,
+Bergeron L, Bourget A, Mamede S, Schmidt H, Rikers
+R. The inﬂuence of medical students’ self-
+explanations on diagnostic performance. Med Educ
+2011;45:688–95.
+6 Ajjawi R, Higgs J. Learning to reason: a journey of
+professional socialisation. Adv Health Sci Educ Theory
+Pract 2008;13 (2):133–50.
+7 van de Wiel MWJ, van den Bossche P, Janssen S,
+Jossberger H. Exploring deliberate practice in
+medicine: how do physicians learn in the workplace?
+Adv Health Sci Educ Theory Pract 2011;16 (1):81–95.
+8 Sternszus R, Cruess S, Cruess R, Young M, Steinert Y.
+Residents as role models: impact on undergraduate
+trainees. Acad Med 2012;87 (9):1282–7.
+9 Chi MTH. Self-explaining expository texts: the dual
+processes of generating inferences and repairing
+mental models. In: Glaser R, ed. Advances in
+Instructional Psychology . Mahwah, NJ: Lawrence
+Erlbaum Associates 2000;161
+–238.
+10 Roy M, Chi MTH. The self-explanation principle in
+multimedia learning. In: Mayer RE, ed. Cambridge
+Handbook of Multimedia Learning . New York, NY:
+Cambridge University Press 2005;271 –86.
+11 Dunlosky J, Rawson KA, Marsh EJ, Nathan MJ,
+Willingham DT. Improving students’ learning with
+effective learning techniques: promising directions
+from cognitive and educational psychology. Psychol Sci
+Public Interest 2013;14 (1):4–58.
+12 Chamberland M, Mamede S, St-Onge C, Rivard M-A,
+Setrakian J, L /C19evesque A, Lanthier L, Schmidt HG,
+Rikers RMJP. Students’ self-explanations while solving
+unfamiliar cases: the role of biomedical knowledge.
+Med Educ 2013;47:1109–16.
+13 Woods NN, Brooks LR, Norman GR. The role of
+biomedical knowledge in diagnosis of difﬁcult clinical
+cases. Adv Health Sci Educ Theory Pract 2007;12
+(4):417–26.
+14 Schworm S, Renkl A. Learning argumentation skills
+through the use of prompts for self-explaining
+examples. J Educ Psychol 2007;99 (2):285–96.
+15 Nokes TJ, Hausmann RG, VanLehn K, Gershman S.
+Testing the instructional ﬁt hypothesis: the case of
+self-explanation prompts. Instr Sci 2011;39 (5):645–66.
+16 van Gog T, Rummel N. Example-based learning:
+integrating cognitive and social-cognitive research
+perspectives. Educ Psychol Rev 2010;22:155–74.
+17 Rosen MA, Salas E, Pavlas D, Jensen R, Fu D,
+Lampton D. Demonstration-based training: a review
+of instructional features. Hum Factors 2010;52 (5):596–
+609.
+18 Lockspeiser TM, O’Sullivan P, Teherani A, Muller J.
+Understanding the experience of being taught by
+peers: the value of social and cognitive congruence.
+Adv Health Sci Educ Theory Pract 2008;13 (3):361–72.
+19 Ten Cate O, Durning S. Peer teaching in medical
+education: twelve reasons to move from theory to
+practice. Med Teach 2007;29 (6):591–9.
+20 Mamede S, van Gog T, Moura AS, de Faria RMD,
+Peixoto JM, Rikers RMJP, Schmidt HG. Reﬂection as
+a strategy to foster medical students’ acquisition of
+diagnostic competence. Med Educ 2012;46:464–
+72.
+21 Mayer RE. Applying the science of learning to
+medical education. Med Educ 2010;44:543–9.
+22 Woods NN. Science is fundamental: the role of
+biomedical knowledge in clinical reasoning. Med Educ
+2007;41:1173–7.
+Received 8 May 2014; editorial comments to author 29 July
+2014; accepted for publication 9 September 2014
+202 ª 2015 John Wiley & Sons Ltd. MEDICAL EDUCATION 2015; 49: 193–202
+M Chamberland et al
+Copyright
+of
+Medical
+Education
+is
+the
+property
+of
+Wiley-
+Blackwell
+and
+its
+content
+may
+not
+be
+copied
+or
+emailed
+to
+multiple
+sites
+or
+posted
+to
+a
+listserv
+without
+the
+copyright
+holder's
+express
+written
+permission.
+However,
+users
+may
+print,
+download,
+or
+email
+articles
+for
+individual
+use.

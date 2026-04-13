@@ -1,0 +1,793 @@
+TITLE: To what extent does nonanalytic reasoning contribute to visual learning in cytopathology?
+AUTHORS: Andrew Evered, Darren Walker, Andrew A. Watt, Nick Perham
+YEAR: 2013
+DOI: 10.1002/cncy.21263
+
+CONTENT:
+To What Extent Does Nonanalytic Reasoning Contribute
+to Visual Learning in Cytopathology?
+Andrew Evered, BSc 1,2; Darren Walker, PhD 2; Andrew A. Watt, PhD 2; and and Nick Perham, PhD 2
+BACKGROUND: Acquisition of visual interpretation skills in cytopathology may involve 2 strategies. Analytic strategies
+require trainees to base their interpretive decisions on carefully considered and often exhaustive cytomorphologic feature
+lists, a process that can be time-consuming and inefficient. In contrast, nonanalytic pattern recognition strategies are
+rarely encouraged during training, even though this approach is characteristic of expert diagnostic behavior. This study
+evaluated the potential role of nonanalytic learning in cytopathology as an efficient alternative to analytic training.
+METHODS: Forty-nine cytology novice participants undertook an initial image interpretation test to obtain baseline diag-
+nostic accuracy (test 1). Twenty-four participants subsequently received training in basic cervical cytomorphology and
+were given a list of cell features for future reference (the “analytic” group). The remaining 25 participants were simply
+shown 20 nonannotated paired images of normal and abnormal cervical cells (the “nonanalytic” group). Following a prac-
+tice phase, both groups were retested (test 2). Prior to a final test (test 3), participants in both groups were instructed to
+adopt a combined analytic/nonanalytic diagnostic strategy. Diagnostic accuracy and response times were measured in
+each test. RESULTS: Diagnostic accuracy in both groups improved significantly between tests 1 and 2 ( P<.001) but
+decreased between tests 2 and 3 ( P<.05). Speed of response to test images was generally faster under nonanalytic than
+under analytic conditions. CONCLUSIONS: Nonanalytic reasoning in cytopathology image interpretation can be as accu-
+rate as traditional feature-based reasoning. Encouraging trainees to adopt pattern recognition strategies may help to
+expedite the acquisition of visual interpretation skills in cytopathology training programs, yet combining analytic and non-
+analytic reasoning do not appear to be effective. Cancer (Cancer Cytopathol) 2013;121:329–38.
+VC 2013 American Cancer
+Society.
+KEY WORDS: cytopathology; perceptual learning; pattern recognition; training; cognition.
+The primary purpose of cytopathology is to identify cancer cells or their precursors by light microscopy. 1 The
+process can be broken down into 3 separate but interdependent problems: visual search for a cellular abnormal-
+ity, the recognition of one or more cells as “abnormal” in appearance, and finally, a decision as to whether any
+cells are sufficiently atypical to warrant further investigation of the patient. Cutting across each facet is the ques-
+tion of how cytologists develop their visual and cognitive skills with training and practice. This question is im-
+portant, because visual recognition and classification of abnormal cells is a subjective and error-prone task, even
+among highly skilled cytologists.
+2,3 Surprisingly little is known about the nature of the visual learning process in
+cytopathology, which hinders the development of evidence-based training programs. 4 Training is generally
+organized such that novices first learn key cytomorphological features and subsequently perfect their skills dur-
+ing a lengthy period of supervised practice.
+5,6 However, there is currently no consensus on the appropriate dura-
+tion and design of such programs. Evidence-based strategies that minimize costs and demands on staff time may
+Corresponding author: Andrew Evered, BSc, Cervical Screening Wales Laboratory, Magden Park, Talbot Green, Nr Cardiff, UK, CF72 8XT; Fax:
+(011) 44 1443 235157; aevered@cardiffmet.ac.uk
+1Cervical Screening Wales, Cardiff, United Kingdom; 2Department of Applied Psychology, Cardiff Metropolitan University, Cardiff, United Kingdom
+Received: August 1, 2012; Revised: October 21, 2012; Accepted: October 24, 2012
+Published online February 6, 2013 in Wiley Online Library (wileyonlinelibrary.com)
+DOI: 10.1002/cncy.21263, wileyonlinelibrary.com
+Cancer Cytopathology June 2013 329
+Original Article
+lead to improvements in the cost-effectiveness of cytopa-
+thology services.7 The current study was motivated by the
+dearth of knowledge noted above and by the desire to
+formulate a training strategy that might help expedite
+the acquisition of visual interpretation skills in cytopa-
+thology trainees.
+One possible approach to learning visual interpreta-
+tion skills is the so-called nonanalytic or “pattern recog-
+nition” strategy, which has been widely acknowledged in
+the field of radiological image interpretation.
+8 Far from
+being a new idea, the theoretical basis of this form of rea-
+soning came from the philosopher Michael Polanyi in the
+1960s, who argued that experienced clinicians possess a
+“tacit knowledge” of medicine that cannot be explicitly
+expressed and is applied without conscious awareness.
+9
+His ideas were and still are treated with skepticism by
+many clinicians, who hold the contrasting view that clini-
+cal judgment is a wholly explicit process deploying ex-
+haustive rules and principles.
+10–12 Despite its analytic
+rigor, rule-based reasoning is costly in terms of its ineffi-
+ciency and high demand on working memory resources.
+In contrast, rapid nonanalytic perceptual processing of
+clinical scenarios appears to be a common trait among
+experienced clinicians.
+13–15 Moreover, several authors
+convincingly argue that an analytic/nonanalytic dichot-
+omy is oversimplistic and instead propose that the dual
+application of such strategies is more realistic.
+16 Dual pro-
+cess theory, as it has become known, has found strong
+empirical and theoretical support.
+17–20
+Research spanning more than 30 years strongly sup-
+ports the notion that, regardless of the visual domain,
+experts adopt more efficient visual processing and
+decision-making strategies than do trainees.
+21 In cognitive
+psychology terms, experts tend to use strategies variably
+referred to in the literature as “backward reasoning,”
+“similarity-driven reasoning,” or “nonanalytic reasoning,”
+in which one or only a small number of tentative diagno-
+ses are made from a rapid initial and largely nonanalytic
+global impression of the visual scene. This reasoning strat-
+egy is highly efficient in its use of short-term memory
+resources, and its adoption by experts is generously sup-
+ported by research in the fields of radiology, cognitive psy-
+chology, and medical decision-making.
+22–27 In medical
+education, training strategies that include nonanalytic rea-
+soning have been shown to enhance the diagnostic per-
+formance of novices.
+28 It therefore seems curious why
+such a tactic is not usually considered in cytopathology
+training programs, which, with their emphasis on the de-
+velopment of visual interpretation skills, would seem to
+be an ideal candidate for such an approach. Instead, cyto-
+pathology training usually involves the exhaustive applica-
+tion of morphological feature lists and diagnostic “rules,”
+all of which must be carefully and systematically consid-
+ered before arriving at a diagnosis. The reasons for this
+highly analytic strategy are unclear but probably result
+from a desire to instill in students a consistent diagnostic
+approach and to prevent premature closure and other cog-
+nitive biases. As noted above, research in fields other than
+cytopathology indicates that analytic and nonanalytic rea-
+soning are probably not mutually exclusive processes. A
+combination of the 2 seems to be more effective than
+either tactic alone,
+29–31 an approach that will be tested in
+this study.
+In light of the uncertainties concerning visual learn-
+ing processes and optimum training strategies in cytopa-
+thology, the aim of this study was to compare the effect of
+rule-based (analytic) training with a nonanalytic “pattern
+recognition” style of learning on the subsequent diagnos-
+tic performance of novice observers. We hypothesize that
+novices who adopt a pure nonanalytic reasoning strategy
+can achieve levels of diagnostic accuracy equal to that
+achieved using a purely analytic approach. In addition, we
+propose that novices instructed to adopt a combination of
+nonanalytic and analytic reasoning achieve diagnostic
+accuracy greater than those instructed to emphasize either
+tactic alone.
+To operationalize the 2 approaches to visual learn-
+ing, we have adopted what is commonly referred to as
+“alternative forced choice” methodology.
+32 The most
+common form of this type of experiment is the 2-alterna-
+tive forced choice experiment in which an observer exam-
+ines 2 images simultaneously, only one of which is
+abnormal. The observer indicates which image is abnor-
+mal, and the data are analyzed to determine the percent-
+age of correct decisions. An important drawback of
+alternative forced choice experiments is their lack of eco-
+logical validity: the method does not resemble an actual
+clinical paradigm. However, several studies suggest that
+variants of this technique can successfully enhance the vis-
+ual learning process in novice dermatologists and histopa-
+thologists and may therefore be a useful training tool.
+33–36
+Regardless of the experimental methodology
+employed, studies of visual diagnostic performance
+require some measure of accuracy or error as the
+Original Article
+330 Cancer Cytopathology June 2013
+ 19346638, 2013, 6, Downloaded from https://acsjournals.onlinelibrary.wiley.com/doi/10.1002/cncy.21263 by University Of Mississippi, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+dependent variable. The evaluation of observer perform-
+ance using receiver operating characteristic (ROC) analy-
+sis is very popular in radiology,37 and its utility is explored
+in the current study. However, unlike many studies in
+radiology, which tend to focus on area under the ROC
+curve (AUC) as the main dependent variable, this investi-
+gation reports the signal detection variables “d prime”
+(d 0) and “criterion.” These variables measure 2 entirely
+separate aspects of diagnostic performance and are poten-
+tially more informative than the single summary statistic,
+AUC. The value of signal detection theory in explaining
+aspects of visual diagnostic behavior in cytopathology has
+been reported previously. 38 The variable d 0 measures the
+ability of observers to discriminate normal from abnormal
+cells, whereas criterion indicates the tendency, or readi-
+ness, of participants to report a cell as abnormal.
+MATERIALS AND METHODS
+Participants
+The study received approval from Cardiff Metropolitan
+University School of Health Sciences Ethics Committee
+and Public Health Wales Research and Development
+Group. Consent was obtained from 49 first- and second-
+year undergraduate psychology students from varied edu-
+cational backgrounds and without previous cytopathology
+experience, to take part in the study. Nine participants
+were male aged 19 to 22 years (median, 21 years) and 40
+were female aged 18 to 54 years (median, 21 years).
+Design
+Participants were divided into 2 groups (Fig. 1). Each
+group was subjected to a separate training and repeat test-
+ing protocol, giving a between-design repeated measures
+experiment. Training method (analytic versus nonana-
+lytic) was chosen as the between-group independent vari-
+able, whereas pretest instruction strategy served as the
+repeated measures variable. The primary dependent varia-
+bles were error rate and response time. Power calculations
+confirmed that the number of participants was sufficient
+to detect a moderate effect size with power50.8.
+Materials
+One hundred static digital images of epithelial cells were
+acquired from routine cervical screening samples at 3
+400 original magnification using a ColourView II digital
+camera (Soft Imaging System Ltd, Helperby, North York-
+shire, England) attached to an Olympus BX51 optical
+microscope (Olympus, Tokyo, Japan). All images were
+acquired using analySIS software (Soft Imaging System,
+Ltd) at a resolution of 2080 pixels 3 1544 pixels and
+displayed on liquid crystal color monitors at a resolution
+of 1024 pixels 3 768 pixels. All images were given a
+gold standard diagnosis (normal or abnormal) by expert
+consensus from 3 trained cytologists. The use of digital
+images as stimuli enabled a level of standardization and
+experimental efficiency that would not be achievable
+using glass slide specimens. Forty images were consigned
+to a training set, and the remaining images were used to
+generate a 60-slide image test. Two additional 60-slide
+test sets were created by first inverting and then rotating
+the original images through 180 /C14. The intention of this
+manipulation was to minimize memory effects between
+tests. As an additional safeguard against memory effects,
+images were presented in a randomized sequence in
+each test.
+Procedure
+All participants initially undertook an image interpreta-
+tion test (test 1) to provide baseline diagnostic accuracy of
+untrained novice observers. The test consisted of a
+FIGURE 1. Diagram shows the experimental design.
+Nonanalytic Reasoning in Cytology/Evered et al
+Cancer Cytopathology June 2013 331
+ 19346638, 2013, 6, Downloaded from https://acsjournals.onlinelibrary.wiley.com/doi/10.1002/cncy.21263 by University Of Mississippi, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+randomized sequence of 60 images of single cervical epi-
+thelial cells, 30 of which were “abnormal” (ie, cells from
+high-grade squamous intraepithelial lesion) and 30 were
+“normal.” Participants were asked to give their opinion of
+normal or abnormal for each image. Although the fre-
+quency of abnormal cases is high compared with rates of
+1% to 2% in the routine setting of a cervical screening
+program, the use of training slides enriched with cellular
+abnormalities is normal in cytopathology training pro-
+grams and is therefore justified in this experiment.
+Analytic Training Group
+Following the baseline test, 24 participants were ran-
+domly allocated to receive “analytic training,” in which
+they were taught the morphological features of normal
+and abnormal cells by an experienced cytology trainer and
+shown 20 pairs of images on a computer screen. Each
+image pair comprised 1 normal and 1 abnormal cell, and
+images were annotated with the relevant diagnostic fea-
+tures (Fig. 2). Participants in this group were also given a
+typed list of features for future reference, and a full expla-
+nation of the relevant cytological terminology was pro-
+vided (Table 1). The trainer answered all queries and
+clarified any points of uncertainty before proceeding fur-
+ther. For the practice phase, cells were again presented in
+normal/abnormal pairs but were not annotated. After dis-
+playing each image, participants were instructed to use the
+feature list to make their diagnosis and then press a
+computer key to see the correct answer. There was no ele-
+ment of performance measurement at this stage; the inten-
+tion was purely to facilitate the learning process.
+Following the practice phase, participants were given
+2 separate image interpretation tests, each comprising 60
+individual cell images presented in sequence (tests 2 and 3
+in Fig. 1). As in test 1, these tests consisted of an equal mix
+of normal and abnormal cells presented in random order.
+Before test 2, participants were instructed to base their di-
+agnosis solely on an analysis of the cytological features
+observed. Participants were specifically instructed not to
+trust any sense of familiarity with previous images and to
+use only the analytic reasoning skills acquired during the
+training phase. Before proceeding to test 3, instructions
+were amended to permit participants to augment the
+FIGURE 2. Example of an image-pair from the analytic training set is shown. Cells of interest were positioned near the center of
+each image. Images were preceded by a visual cue to direct participants’ gaze to the correct cell.
+TABLE 1. List of Abnormal Cell Features Given to
+Participants in the Analytic Training Group
+Feature
+Irregular chromatin distribution
+Irregular nuclear membrane
+Disproportionate nuclear enlargement
+Nuclear hyperchromasia
+Abnormalities of the number, form, and size of nucleoli
+Multinucleation associated with any of the above
+Original Article
+332 Cancer Cytopathology June 2013
+ 19346638, 2013, 6, Downloaded from https://acsjournals.onlinelibrary.wiley.com/doi/10.1002/cncy.21263 by University Of Mississippi, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+decision-making process with any nonanalytic reasoning
+skills they may have developed during training and prac-
+tice. In other words, participants were instructed to trust
+their sense of familiarity with previous images to amend
+their initial decision as necessary.
+Nonanalytic Training Group
+This group of 25 participants was subjected to the same
+format of training, practice, and testing as was the
+“analytic training” group, and the same images were used.
+However, no feature-driven training was provided, and
+the only image annotation used during training was re-
+stricted to the labels “normal” and “abnormal” (Fig. 3).
+The intention, therefore, was for participants to develop
+nonanalytic pattern recognition skills without assistance
+from the trainer.
+Following the practice phase, participants under-
+took test 2, for which they were asked to provide their first
+impression of each image based on their similarity to
+images seen during training and practice. Following test
+2, participants were asked to write a list of features they
+felt were helpful in making their diagnostic decisions. Im-
+mediately preceding the final test (test 3), participants in
+this group were instructed to supplement their nonana-
+lytic reasoning strategy with an analytical approach based
+on each individual’s personal list of diagnostic features,
+and to amend their initial impression as necessary.
+In addition to deciding “normal” or “abnormal” for
+each test image, participants in both groups provided a
+confidence rating on a 1-to-5 ordinal scale using a
+computer keyboard. To test the efficiency of the decision-
+making process, the time to respond to each test image
+was recorded automatically using DMDX software.
+39
+RESULTS
+We present error rate and response time data as the main
+dependent variables. In addition, we report the signal
+detection variables d
+0 and criterion, both of which are
+derived from error rate data. Briefly, d 0 provides a mea-
+sure of discriminability between “signal” and “noise,” in
+this case between abnormal and normal cells. An increase
+in the value of d
+0 indicates improved discriminability and
+better performance. 38 Criterion can be viewed as a mea-
+sure of the tendency to report a cell as abnormal. A low
+value indicates a liberal criterion, whereas higher values are
+more indicative of a conservative criterion. The conver-
+sion of error data to d
+0 and criterion therefore helps to elu-
+cidate whether changes in error rates are due to alterations
+in discriminability or changes in diagnostic threshold, or
+both. Furthermore, unlike error rates, d
+0 and criterion are
+normally distributed, permitting parametric statistical
+analysis. The results were evaluated by 2-way mixed
+design analysis of variance using the statistical package
+SPSS (version 19; SPSS Inc, Chicago, Ill). Two-sided
+P values of <.05 were considered to be statistically
+significant.
+Error Rate
+Miss error rates (proportion of abnormal cell images
+reported as normal) and false alarm rates (proportion of
+normal cell images reported as abnormal) are plotted in
+Figs. 4 and 5. The most striking changes were seen in the
+FIGURE 3. Example of an image-pair from the nonanalytic training set is shown. Annotations were not provided. Cells of interest
+were positioned near the center of each image. Images were preceded by a visual cue to direct participants’ gaze to the correct cell.
+Nonanalytic Reasoning in Cytology/Evered et al
+Cancer Cytopathology June 2013 333
+ 19346638, 2013, 6, Downloaded from https://acsjournals.onlinelibrary.wiley.com/doi/10.1002/cncy.21263 by University Of Mississippi, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+miss errors. Before any training was provided (test 1),
+miss error rates were 36.8% and 42.3% for the analytic
+and nonanalytic conditions, respectively. Under both
+conditions, miss errors declined dramatically to 16.7%
+and 22.7%, respectively, following the respective training
+protocols (test 2). Curiously, miss errors increased to
+18.2% and 26.4%, respectively, in the final test, in which
+participants were instructed to adopt a combined ana-
+lytic/nonanalytic strategy.
+Changes in false alarm rate were less noticeable
+(Fig. 5), dropping overall from 41.7% to 38.5% in the
+analytic group and from 39.1% to 38.4% in the nonana-
+lytic group.
+D Prime
+Under both analytic and nonanalytic conditions, there
+was a notable increase in d 0 between tests 1 and 2
+(F(1,47)556.98, P5.000) followed by a decrease
+between tests 2 and 3 ( F(1,47)55.12, P5.028) (Fig. 6).
+The magnitude of these changes was similar in both
+groups (F(1,47)53.99, P5.052), and there was no signif-
+icant interaction between training strategy and method of
+instruction (F(2,94)50.46, P5.636).
+Criterion
+Criterion decreased significantly between tests 1 and 2
+under both analytic and nonanalytic conditions
+(F(1,47)518.07, P5.000) which was followed by a non-
+significant increase between tests 2 and 3 ( F(1,47)51.08,
+P5.304) (Fig. 6). The magnitude of these changes was
+similar in both groups ( F(1,47)50.81, P5.373), and
+there was no significant interaction between training strat-
+egy and method of instruction ( F(1.26,59.42)52.14,
+P5.144) (Greenhouse-Geisser correction).
+Response Time
+In the analytic training group, the median time for partici-
+pants to respond “normal” or “abnormal” to each image
+increased from 2.53 seconds to 2.89 seconds between tests
+1 and 2, decreasing to 1.74 seconds for test 3. Response
+FIGURE 4. Miss error rate is graphed as a function of condi-
+tion. Horizontal axis gives tests 1, 2, and 3 under analytic rea-
+soning (AR) and nonanalytic reasoning (NAR) conditions,
+respectively. Error bars represent 61 standard error of the
+mean.
+FIGURE 5. False alarm rate is graphed as a function of condi-
+tion. Horizontal axis gives tests 1, 2, and 3 under analytic rea-
+soning (AR) and nonanalytic reasoning (NAR) conditions,
+respectively. Error bars represent 61 standard error of the
+mean.
+FIGURE 6. Changes in d 0, criterion, and response time (RT) in
+seconds are plotted with condition. Horizontal axis gives
+tests 1, 2, and 3 under analytic reasoning (AR) and nonana-
+lytic reasoning (NAR) conditions, respectively. Vertical axis
+gives median reaction time (RT) in seconds. D prime ( d 0) and
+criterion are devoid of units, and only relative values are im-
+portant. Error bars represent 61 standard error of the mean.
+*P<.001, ** P<.05; n.s., not significant.
+Original Article
+334 Cancer Cytopathology June 2013
+ 19346638, 2013, 6, Downloaded from https://acsjournals.onlinelibrary.wiley.com/doi/10.1002/cncy.21263 by University Of Mississippi, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+times in the nonanalytic group were notably lower than
+the analytic group for the first 2 tests (2.11 and 1.90 sec-
+onds, respectively). However, response times essentially
+equalized by the final test (1.74 seconds and 1.89 seconds
+for the analytic and nonanalytic groups, respectively).
+Features of Abnormal Cells Generated by
+Participants in the Nonanalytic Training
+Group
+Table 2 summarizes the features that participants in the
+nonanalytic group claimed were helpful in identifying
+abnormal cells, together with the frequency with which
+they were quoted. Although written in layman’s terms,
+the morphologic descriptions are surprisingly similar to
+the standard list of features provided by the trainer to the
+analytic training group.
+DISCUSSION
+This purpose of this study was to provide an insight into
+the nature of visual learning in cytopathology, for which
+there is a dearth of literature. Research in other fields sug-
+gests that analytic and nonanalytic strategies play a com-
+bined role, but the notion that nonanalytic “pattern
+recognition” can be operationalized as a teaching and
+learning strategy is not popular.
+40 Indeed, most discus-
+sions relating to medical decision-making acknowledge
+the difficulty in incorporating pattern recognition as a
+diagnostic strategy in training programs, referring to this
+aspect of learning as the “hidden curriculum.”
+41,42 Cytol-
+ogists, similar to many other clinicians who rely on their
+visual skills to make complex diagnoses, accept that at
+least a portion of their diagnostic armamentarium comes
+from a tacit recognition of cellular patterns, and whole
+textbooks have been devoted to the subject.
+43 However,
+there is currently a lack of empirical research into the na-
+ture of perceptual learning in cytopathology, which our
+study begins to address.
+By recruiting participants with no previous experi-
+ence in cytopathology and examining their diagnostic per-
+formance under controlled laboratory conditions, we
+were able to demonstrate a significant element of nonana-
+lytic reasoning from the earliest learning stages. After only
+brief exposure to paired images of normal and abnormal
+cells in the style of alternative forced choice training, the
+diagnostic performance of participants improved signifi-
+cantly in subsequent tests. The improvement took the
+form of a decline in miss errors (ie, false negatives) with-
+out any noticeable increases in false alarms (ie, false posi-
+tives). The increase in d
+0 and decrease in criterion between
+tests 1 and 2 are consistent with improvements in the abil-
+ity of participants to discriminate between normal and
+abnormal cells and a corresponding shift to a more liberal
+threshold for reporting images as abnormal. This pattern
+of results is not entirely unexpected. When participants
+become aware of the features of cancer cells, discrimina-
+tion should improve alongside a greater readiness to
+report cellular abnormalities. The nonsignificant upward
+criterion shifts between tests 2 and 3 perhaps indicate a sta-
+bilization of decision threshold as participants became
+increasingly confident in their diagnostic abilities.
+What is perhaps more surprising in this study is that
+improvements in diagnostic performance did not require
+intensive rule-based training. Overall, the diagnostic
+performance of participants was no better following rule-
+based training than after a brief period of nonanalytic pat-
+tern recognition training, thus supporting the hypothesis
+that a nonanalytic reasoning strategy can achieve levels of
+diagnostic accuracy equal to that achieved using a purely
+analytic approach. Moreover, response time data suggest
+that nonanalytic strategies are more efficient than rule-
+based training. This finding is encouraging because
+rule-based training in cytopathology is time-consuming
+and labor-intensive. Given the noninferior performance
+of nonanalytic strategies, their incorporation into cytology
+training and skill maintenance programs might be of tre-
+mendous benefit to cytopathology services and could
+shorten training times considerably. In the United King-
+dom, for instance, nonmedical trainees are mandated to
+TABLE 2. Features of Abnormal Cells Generated by
+Participants in the Nonanalytic Training Group
+Feature
+T otal No. of Occasions
+Feature Was Quoted
+as “Helpful”
+“Dark nucleus” 15
+“Irregularly shaped nucleus” 14
+“Large nucleus” 11
+“Irregular cell shape” 10
+“Spots/blotches/rough texture in nucleus” 7
+“Disproportionate nucleus/small cytoplasm” 6
+“Joining of cells” 5
+“More than one nucleus” 4
+“Large cell” 4
+“Dark cytoplasm” 4
+“Nucleus sometimes lighter than cytoplasm” 2
+“Splitting of nucleus” 1
+“Spots in cytoplasm” 1
+“Pale cytoplasm” 1
+Nonanalytic Reasoning in Cytology/Evered et al
+Cancer Cytopathology June 2013 335
+ 19346638, 2013, 6, Downloaded from https://acsjournals.onlinelibrary.wiley.com/doi/10.1002/cncy.21263 by University Of Mississippi, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+attend an intensive 4-week introductory course followed
+by 2 years of closely supervised screening of a minimum
+of 5000 cytology slides.
+5,6 Although it is difficult to esti-
+mate the full costs of this labor-intensive activity for the
+whole of the UK cervical screening program, they are no
+doubt considerable. Although no cytologist would argue
+against the need for thorough preparation of cytopathol-
+ogy trainees, any evidence-based strategy that offers the
+potential for reducing training times while achieving the
+same outcome should be taken very seriously. The exact
+format of such “pattern recognition” training would
+require careful consideration but might take the form of
+carefully selected image pairs that contrast the features of
+normal and abnormal cells. Importantly, such pattern rec-
+ognition training would not necessitate the presence of ex-
+haustive feature lists, which students can often find
+difficult to integrate into coherent diagnostic decisions.
+Interestingly, the idea of developing trainees’ perceptual
+learning skills is not new outside the domain of cytopa-
+thology. Effective perceptual learning technology has
+been developed in fields as diverse as airplane navigation,
+speech and language therapy, surgical training, and
+mathematics.
+44
+The deterioration in diagnostic performance
+between tests 2 and 3 under both analytic and nonanalytic
+training conditions, although disappointing, is worthy of
+discussion. Clinical reasoning theory predicts an
+improved performance when observers are instructed to
+combine analytic and nonanalytic reasoning strategies,
+15
+but participants in both training groups showed a signifi-
+cant decline in d
+0 in the final test. The hypothesis that a
+combined nonanalytic/analytic reasoning strategy can
+achieve diagnostic accuracy greater than that employing
+either method alone is therefore not supported. The possi-
+bility that participant boredom and fatigue contributed to
+the decline in performance during the final test should be
+considered, and future experiments should attempt to
+control for these factors. An alternative explanation for
+the relatively poor performance in the final test, which
+occurred in both groups of participants, is the possibility
+that participants were confused by the instructions given
+just prior to the test. We readily acknowledge that the
+meaning and validity of an instruction to “combine” ana-
+lytic and nonanalytic reasoning is not entirely clear and
+that practitioners are unlikely to consciously do this in
+practice. This explanation must, of course, remain specu-
+lative until further studies are undertaken.
+Although the focus of this study was on diagnostic
+accuracy, we took the opportunity to gather response time
+data in an attempt to gauge the efficiency of each training
+modality. Although the interpretation and meaning of
+response times is uncertain, several investigators propose
+that short response times (generally <1 second), at least
+among experts, indicate rapid nonanalytic cognitive proc-
+essing.
+45,46 The results of this study support the notion
+that novices can also respond very quickly to complex vis-
+ual scenes, with generally quicker response times noted
+under nonanalytic reasoning conditions than under ana-
+lytic conditions. Importantly, the fast response times do
+not appear to be at the expense of diagnostic accuracy.
+This study investigated the acquisition of visual
+interpretation skills, which is only one of the skills
+required of a trained cytologist. Equally important in
+cytopathology training is the development of accurate lo-
+cator skills, because slides are scanned at low magnifica-
+tion. Studying the visual scanning skills of microscopists
+using an eye-tracking device has been attempted previ-
+ously, but is hampered by the physical size of the eye-
+tracker and the close working distance imposed by a
+standard light microscope.
+47,48 However, the increasing
+availability of virtual microscopy, whereby digital images
+of whole glass slide specimens are displayed on a computer
+monitor, permits the separation of observer from the clin-
+ical image and provides an exciting opportunity to study
+this important determinant of cytologist proficiency.
+49
+The results of this study generally support a long his-
+tory of theories generated mainly in the cognitive psychol-
+ogy and radiology literature that put rapid visual
+perceptual processing at the heart of expert performance
+and how it develops.
+50–53 Our data fit well with such the-
+ories, and for the first time we demonstrate that cytopa-
+thology has much in common with radiology with regard
+to visual learning. Furthermore, we have shown that the
+ability of novices to assess, rapidly and accurately, com-
+plex cytopathology images appears to develop very early
+in the learning process. Indeed, the list of morphologic
+criteria generated spontaneously by naive observers in this
+study is surprisingly similar to those appearing in cytopa-
+thology textbooks and atlases. The similarities between
+the standard criteria listed in Table 1 and those produced
+by naive participants in Table 2 are readily apparent. Our
+study clearly illustrates the extent to which inexperienced
+observers are able to generate diagnostic criteria without
+assistance from an expert trainer and with minimal
+Original Article
+336 Cancer Cytopathology June 2013
+ 19346638, 2013, 6, Downloaded from https://acsjournals.onlinelibrary.wiley.com/doi/10.1002/cncy.21263 by University Of Mississippi, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+exposure to cytopathology images. This finding has
+important implications for cytopathology training
+programs.
+In summary, the results of this study are encouraging
+for cytopathology trainers and practitioners alike. Nona-
+nalytic reasoning strategies are worthy of further explora-
+tion as an innovative training technique that could
+expedite the acquisition of diagnostic expertise, a skill that
+purportedly takes several years to master.
+FUNDING SOURCES
+No specific funding was disclosed.
+CONFLICT OF INTEREST DISCLOSURE
+The authors made no disclosure.
+REFERENCES
+1. Evered A. Abnormal cervical cytology. In: Shambayati B, editor.
+Fundamentals of Biomedical Science: Cytopathology. London, UK:
+Oxford University Press; 2011:108-135.
+2. Mitchell H, Medley G. Differences between Papanicolaou smears
+with correct and incorrect diagnoses. Cytopathology. 1995;6:368-
+375.
+3. Stoler MH, Schiffman M. Interobserver reproducibility of cervical
+cytologic and histological interpretations. JAMA. 2001;285:1500-
+1505.
+4. Evered A. What can cytologists learn from 25 years of investiga-
+tions in visual search? Br J Biomed Sci . 2005;62:182-192.
+5. Qualifications and training for non-medical laboratory staff. Shef-
+field, UK: NHS Cervical Screening Programme. (NHSCSP Publi-
+cation No 12); 1995.
+6. Level 3 Diploma in Cervical Cytology Centre Resource Pack. Lon-
+don, UK: City and Guilds; 2007.
+7. Melamed MR, Hutchinson ML, Kaufman, EA, et al. Evaluation of
+costs and benefits of advances in cytologic technology. International
+Academy of Cytology Task Force summary. Diagnostic cytology
+towards the 21st Century: an international expert conference and
+tutorial. Acta Cytol . 1998;42:69-75.
+8. Nodine C, Mello-Thoms C. The role of expertise in radiologic
+image interpretation. In: Samei E, Krupinski E, editors. The Hand-
+book of Medical Image Perception and Techniques. New York,
+NY: Cambridge University Press; 2010:139-156.
+9. Polanyi M. The logic of tacit inference. Philosophy. 1966;41:1-18.
+10. Goldman GM. The tacit dimension of clinical judgment. Yale J
+Biol Med . 1990;63:47-61.
+11. Dreyfus HL, Dreyfus SE. Mind over machine: the power of
+human intuition and expertise in the era of the computer. New
+York, NY: The Free Press; 1986.
+12. Patel VL, Arocha JF, Kaufman DR. Primer on cognition for medi-
+cal informatics. J Am Med Inform Assoc . 2001;8:324-343.
+13. Medin DL, Alton MW, Murphy TD. Given versus induced cate-
+gory representations: use of prototype and exemplar information in
+classification. J Exp Psychol Learn . 1984;10:333-352.
+14. Brooks LR, Norman GR, Allen SW. Role of specific similarity in a
+medical diagnostic task. J Exp Psychol Gen . 1991;120:278-287.
+15. Hatala RM, Norman GR, Brooks LR. The impact of a clinical sce-
+nario upon electrocardiographic interpretation. J Gen Intern Med .
+1999;14:126-129.
+16. Pelaccia T, Tardif J, Triby E, Charlin B. An analysis of clinical rea-
+soning through a recent and comprehensive approach: the dual-pro-
+cess theory. Med Educ Online. 2011;16. doi:10.3402/meo.v16i0.5890.
+17. Kahneman D. Maps of bounded rationality: a perspective on intui-
+tive judgment and choice. Am Psychol . 2002;58:697-720.
+18. Evans JSBT. In two minds: dual-processing accounts of reasoning,
+judgment and social cognition. Trends Cogn Sci . 2003;7:454-459.
+19. Evans JSBT. Dual processing accounts of reasoning, judgment and
+social cognition. Annu Rev Psychol . 2008;59:255-278.
+20. Evans JSBT. Intuition and reasoning: a dual-process perspective.
+Psychol Inq . 2010;21:313-326.
+21. Navon D. Forest before trees: the precedence of global features in
+visual perception. Cogn Psychol . 1977;9:353-383.
+22. Kundell HL, Nodine CF. Interpreting chest radiographs without
+visual search. Radiology. 1975;116:527-532.
+23. Joseph GM, Patel VL. Domain knowledge and hypothesis genera-
+tion in diagnostic reasoning. Med Decis Making . 1990;10:31-46.
+24. Bar M, Kassam KS, Ghuman AS, et al. Top-down facilitation of
+visual recognition. Proc Natl Acad Sci U S A . 2006;103:449-454.
+25. Cave KR, Batty MJ. From searching for features to searching for
+threat: drawing the boundary between preattentive and attentive
+vision. Vis Cogn . 2006;14:629-646.
+26. Taylor PM. A review of research into the development of radio-
+logic expertise: implications for computer-based training.
+Acad
+Radiol. 2007;14:1252-1263.
+27. Kundel HL, Nodine CF, Krupinski EA, Mello-Thoms C. Using
+gaze-tracking data and mixture distribution analysis to support a
+holistic model for the detection of cancers on mammograms. Acad
+Radiol. 2008;15:881-886.
+28. Ark TK, Brooks LR, Eva KW. Giving learners the best of both
+worlds: Do clinical teachers need to guard against teaching pattern
+recognition to novices? Acad Med . 2006;81:405-409.
+29. Eva KW. What every teacher needs to know about clinical reason-
+ing. Med Educ . 2004;39:98-106.
+30. Pelaccia T, Tardif J, Triby E, Charlin B. An analysis of clinical rea-
+soning through a recent and comprehensive approach: the dual-pro-
+cess theory. Med Educ Online . 2011;16:10.3402/meo.v16i0.5890.
+31. Norman G, Young M, Brooks L. Non-analytic models of clinical
+reasoning: the role of experience. Med Educ . 2007;41:1140-1145.
+32. Burgess AE. Comparison of receiver operating characteristic and
+forced choice observer performance measurement methods. Med
+Phys. 1995;22:643-655.
+33. Aldridge RB, Glodzik D, Ballerini L, Fisher RB, Rees JL. Utility of
+non-rule-based visual matching as a strategy to allow novices to
+achieve skin lesion diagnosis. Acta Derm Venereol . 2011;91:279-283.
+34. Girardi S, Gaudy C, Gouvernet J, Teston J, Richard MA, Grob JJ.
+Superiority of a cognitive education with photographs over ABCD
+criteria in the education of the general population to the early
+detection of melanoma: a randomized study. Int J Cancer .
+2006;118:2276-2280.
+35. Brown NH, Robertson KM, Bisset YC, Rees JL. Using a structured
+image database, how well can novices assign skin lesion images to
+the correct diagnostic grouping? J Invest Dermatol . 2009;129:2509-
+2512.
+36. Fujita K, Crowley RS. The Virtual Slide Set – a curriculum devel-
+opment system for digital microscopy. AMIA Annu Symp Proc .
+2003;2003:846.
+37. Samei E, Li X. Logistical issues in designing perception experi-
+ments. In: Samei E, Krupinski E, editors. The Handbook of Medi-
+cal Image Perception and Techniques. New York, NY: Cambridge
+University Press; 2010:177-186.
+38. Evans KK, Tambouret RH, Evered A, Wilbur DC, Wolfe JM.
+Prevalence of abnormalities influences cytologists’ error rates in
+screening for cervical cancer. Arch Pathol Lab Med . 2011;135:
+1557-1560.
+Nonanalytic Reasoning in Cytology/Evered et al
+Cancer Cytopathology June 2013 337
+ 19346638, 2013, 6, Downloaded from https://acsjournals.onlinelibrary.wiley.com/doi/10.1002/cncy.21263 by University Of Mississippi, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+39. Forster KI, Forster JC. DMDX: A Windows display program with
+millisecond accuracy. Behav Res Meth Ins C . 2003;35:116-124.
+40. Kundel HL. How to minimize perceptual error and maximize ex-
+pertise in medical imaging. Proc SPIE . 2007a;6515:1-11.
+doi:10.1117/12.718061.
+41. Foucar E. Diagnostic decision-making in anatomic pathology. Am
+J Clin Pathol . 2001;116(suppl 1):S21-S33.
+42. Hafferty FW, Franks R. The hidden curriculum, ethics teaching,
+and the structure of medical education. Acad Med . 1994;69:
+861-871.
+43. Renshaw AA. Aspiration Cytology: A Pattern Recognition
+Approach. Philadelphia, PA: Elsevier Saunders ; 2005.
+44. Kellman PJ, Garrigan P. Perceptual learning and human expertise.
+Phys Life Rev . 2009;6:53-84.
+45. Kundel HL, Nodine CF, Conant EF, Weinstein SP. Holistic com-
+ponent of image perception in mammogram interpretation. Radiol-
+ogy. 2007;242:396-402.
+46. Norman G, Young M, Brooks L. Non-analytic models of clinical
+reasoning: the role of experience. Med Educ . 2007;41:1140-1145.
+47. Schenck U, Reuter B, V €ohringer P. Investigation of the visual cyto-
+screening of conventional gynecologic smears. I. Analysis of slide
+movement. Anal Quant Cytol Histol . 1986;8:35-45.
+48. Reuter B, Schenck U. Investigation of the visual cytoscreening of
+conventional gynecologic smears. II. Analysis of eye movement.
+Anal Quant Cytol Histol . 1986;8:210-218.
+49. Evered A, Dudding N. Accuracy and perceptions of virtual micros-
+copy compared with glass slide microscopy in cervical cytology.
+Cytopathology. 2011;22:82-87.
+50. Ahissar M, Hochstein S. The reverse hierarchy theory of visual per-
+ceptual learning. Trends Cogn Sci . 2004;8:457-464.
+51. Mackworth NH, Morandi AJ. The gaze selects informative details
+within pictures. Percept Psychophys . 1967;2:547-552.
+52. Neisser U. Cognitive Psychology. Englewood Cliffs, NJ: Prentice-
+Hall; 1967.
+53. Lesgold A, Rubinson H, Feltovich P, et al. Expertise in a complex
+skill: diagnosing X-ray pictures. In: Chi M, Glaser R, Far M,
+editors. The Nature of Expertise. Hillsdale, NJ: Erlbaum; 1988:
+311-342.
+Original Article
+338 Cancer Cytopathology June 2013
+ 19346638, 2013, 6, Downloaded from https://acsjournals.onlinelibrary.wiley.com/doi/10.1002/cncy.21263 by University Of Mississippi, Wiley Online Library on [02/01/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
