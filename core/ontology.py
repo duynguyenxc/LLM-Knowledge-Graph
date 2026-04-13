@@ -72,10 +72,14 @@ class RelationType(str, Enum):
     LEADS_TO = "LEADS_TO"
     TRIGGERS = "TRIGGERS"
 
+from typing import Union
+
+LabelType = Union[ContextType, InterventionType, MechanismResourceType, MechanismResponseType, OutcomeType]
+
 class Entity(BaseModel):
     id: str = Field(..., description="A unique identifier for the entity, e.g., 'E02'")
     category: EntityCategory = Field(..., description="The high-level category in the CMO framework")
-    label: str = Field(..., description="The standard concept label from the Richmond KG specification")
+    label: LabelType = Field(..., description="The EXACT concept string chosen from the E01-E47 specification.")
     extracted_text: str = Field(..., description="The verbatim text span extracted from the paper")
 
 class Relationship(BaseModel):
