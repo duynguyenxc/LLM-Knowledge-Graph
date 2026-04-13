@@ -75,6 +75,6 @@ umap:
   enabled: false
 
 snapshots:
-  graphml: false
+  graphml: true
   raw_entities: true
   top_level_nodes: true

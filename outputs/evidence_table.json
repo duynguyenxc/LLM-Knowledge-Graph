@@ -1,0 +1,11 @@
+[
+  {
+    "study_id": "d:\\LLM-Knowledge-Graph\\graphrag\\input\\201201linn.pdf.txt",
+    "context": "students with 'low knowledge,' low clinical domain-specific knowledge, or an inability to use knowledge in a reasoning situation",
+    "mechanism_resource": "multiple relevant resources",
+    "mechanism_response": "build understanding",
+    "outcome": "positive impact on learning",
+    "intervention": "teaching resources that allow them to make mistakes",
+    "relationships": 4
+  }
+]

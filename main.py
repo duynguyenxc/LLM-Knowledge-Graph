@@ -1,183 +1,134 @@
 """
-main.py — Full Multi-Agent Pipeline Runner
-==========================================
-Runs the LangGraph orchestrator on all available papers in graphrag/input/,
-then saves ALL outputs (entities, relationships, programme theory) to
-the /outputs/ directory for human inspection and academic reporting.
+main.py — Full 10-Agent Pipeline Runner (v2)
+============================================
+Runs the complete Multi-Agent Realist Synthesis Framework aligned with
+the Richmond et al. (2020) Human Reference Standard.
+
+Pipeline:
+  Phase 0: Protocol & IPT
+  Phase 1: Study Registry Build (Deduplication)
+  Phase 2: Two-Stage Screening (T/A + Full Text) with HITL CP1
+  Phase 3: CMOC Extraction with HITL CP2
+  Phase 4: Contradiction Detection with HITL CP3
+  Phase 5: Theory Synthesis with HITL CP4
+  Phase 6: Reporting & Audit Artifacts
 """
 
 import os
 import json
 from datetime import datetime
 from dotenv import load_dotenv
+
 from core.orchestrator import orchestrator_app
 from core.state import RealistReviewState
+from core.agents.deduplication_agent import build_study_registry_from_input
+from core.agents.protocol_agent import run_protocol_agent
 
 load_dotenv()
 
-# ── Configuration ──────────────────────────────────────────────────────────────
-INPUT_DIR  = r"d:\LLM-Knowledge-Graph\graphrag\input"
-OUTPUT_DIR = r"d:\LLM-Knowledge-Graph\outputs"
+INPUT_DIR     = r"d:\LLM-Knowledge-Graph\graphrag\input"
+METADATA_FILE = r"d:\LLM-Knowledge-Graph\data\studies_metadata.jsonl"
+OUTPUT_DIR    = r"d:\LLM-Knowledge-Graph\outputs"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# ── Helpers ────────────────────────────────────────────────────────────────────
-def save_json(data, filename):
-    path = os.path.join(OUTPUT_DIR, filename)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-    print(f"  [SAVED] {path}")
-    return path
-
-def save_text(text, filename):
-    path = os.path.join(OUTPUT_DIR, filename)
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(text)
-    print(f"  [SAVED] {path}")
-    return path
-
-# ── Main Pipeline ──────────────────────────────────────────────────────────────
-def run_pipeline():
-    print("=" * 70)
-    print("  MULTI-AGENT REALIST SYNTHESIS FRAMEWORK")
-    print("  Based on: Richmond et al. (2020) — RRE 2026")
-    print("=" * 70)
-
-    # Collect all papers
-    txt_files = sorted([f for f in os.listdir(INPUT_DIR) if f.endswith(".txt")])
-    print(f"\n[INFO] Found {len(txt_files)} papers in graphrag/input/\n")
-
-    all_entities      = []
-    all_relationships = []
-    all_cmocs         = []
-    all_contradictions = []
-    programme_theory  = ""
-
-    for i, txt_name in enumerate(txt_files, 1):
-        txt_path = os.path.join(INPUT_DIR, txt_name)
-        print(f"\n[{i}/{len(txt_files)}] Processing: {txt_name}")
-        print("-" * 60)
-
-        with open(txt_path, "r", encoding="utf-8") as f:
-            text_content = f.read()
-
-        initial_state = RealistReviewState(
-            record_id=txt_name,
-            paper_text=text_content,
-            extracted_cmocs=[],
-            leiden_communities=[],
-            validation_status="pending",
-            human_feedback="",
-            contradictions_found=[],
-            draft_programme_theory="",
-            errors=[],
-            iteration_count=0
-        )
-
-        try:
-            final_state = orchestrator_app.invoke(initial_state)
-        except Exception as e:
-            print(f"  [ERROR] {e}")
-            continue
-
-        # ── Collect Entities & Relationships ──
-        cmocs = final_state.get("extracted_cmocs", [])
-        for cmoc in cmocs:
-            if not cmoc:
-                continue
-            all_cmocs.append(cmoc.dict())
-
-            for entity in cmoc.entities:
-                all_entities.append({
-                    "paper":    txt_name,
-                    "id":       entity.id,
-                    "category": entity.category.value,
-                    "label":    entity.label.value if hasattr(entity.label, 'value') else str(entity.label),
-                    "text":     entity.extracted_text
-                })
-                print(f"  [ENTITY]  [{entity.category.value}] {entity.id}: {entity.label.value if hasattr(entity.label, 'value') else entity.label}")
-
-            for rel in cmoc.relationships:
-                all_relationships.append({
-                    "paper":     txt_name,
-                    "source":    rel.source_id,
-                    "target":    rel.target_id,
-                    "type":      rel.relation_type.value,
-                    "evidence":  rel.evidence_quote
-                })
-                print(f"  [RELATION] {rel.source_id} --{rel.relation_type.value}--> {rel.target_id}")
-
-        # ── Contradictions ──
-        contradictions = final_state.get("contradictions_found", [])
-        if contradictions:
-            all_contradictions.extend(contradictions)
-            print(f"  [CONTRADICTION] {len(contradictions)} found")
-        else:
-            print(f"  [CONTRADICTION] None found")
-
-        # ── Programme Theory (last paper sets the overall theory) ──
-        theory = final_state.get("draft_programme_theory", "")
-        if theory:
-            programme_theory = theory
-
-    # ═══════════════════════════════════════════════════════════════════════════
-    # SAVE ALL OUTPUTS
-    # ═══════════════════════════════════════════════════════════════════════════
-    print("\n" + "=" * 70)
-    print("  SAVING OUTPUTS")
-    print("=" * 70)
-
-    # 1. Entities JSON
-    save_json(all_entities, "entities.json")
-
-    # 2. Relationships JSON
-    save_json(all_relationships, "relationships.json")
-
-    # 3. Full CMOC extraction records
-    save_json(all_cmocs, "cmoc_full_records.json")
-
-    # 4. Contradictions
-    save_json(all_contradictions, "contradictions.json")
-
-    # 5. Programme Theory (readable text)
-    save_text(programme_theory, "programme_theory.txt")
-
-    # 6. Summary report (markdown)
-    now = datetime.now().strftime("%Y-%m-%d %H:%M")
-    summary = f"""# Extraction Summary Report
-Generated: {now}
-
-## Statistics
-- Papers processed: {len(txt_files)}
-- Total Entities extracted: {len(all_entities)}
-- Total Relationships extracted: {len(all_relationships)}
-- Contradictions found: {len(all_contradictions)}
-
-## Entity Breakdown
+# ── Review Question (researcher-defined) ──────────────────────────────────────
+REVIEW_QUESTION = """
+How do educational interventions develop clinical reasoning ability 
+(analytical and non-analytical) in undergraduate medical and healthcare students?
 """
-    from collections import Counter
-    cat_counts = Counter([e["category"] for e in all_entities])
-    for cat, count in cat_counts.items():
-        summary += f"- {cat}: {count}\n"
 
-    summary += f"\n## All Entities\n| # | Paper | ID | Category | Label |\n|---|-------|-----|----------|-------|\n"
-    for idx, e in enumerate(all_entities, 1):
-        label_short = str(e['label'])[:60] + "…" if len(str(e['label'])) > 60 else str(e['label'])
-        summary += f"| {idx} | {e['paper'][:30]} | {e['id']} | {e['category']} | {label_short} |\n"
+def run_full_pipeline():
+    print("=" * 70)
+    print("  MULTI-AGENT REALIST SYNTHESIS FRAMEWORK v2.0")
+    print("  10-Agent Pipeline | Richmond et al. (2020) Benchmark")
+    print("=" * 70)
+    print(f"  Timestamp: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"  Review Question: {REVIEW_QUESTION.strip()}")
+    print("=" * 70)
 
-    summary += f"\n## All Relationships\n| Source | Type | Target | Evidence |\n|--------|------|--------|----------|\n"
-    for r in all_relationships:
-        ev_short = r['evidence'][:60] + "…" if len(r['evidence']) > 60 else r['evidence']
-        summary += f"| {r['source']} | {r['type']} | {r['target']} | {ev_short} |\n"
+    # ── PHASE 0: Protocol & IPT ───────────────────────────────────────────────
+    print("\n[PHASE 0] Generating Initial Programme Theory...")
+    protocol_state = run_protocol_agent(REVIEW_QUESTION)
+    ipt = protocol_state["ipt_hypothesis"]
+    criteria = protocol_state["inclusion_criteria"]
 
-    summary += f"\n## Final Programme Theory\n\n{programme_theory}\n"
-    save_text(summary, "SUMMARY_REPORT.md")
+    # ── PHASE 1: Build Study Registry ─────────────────────────────────────────
+    print("\n[PHASE 1] Building Study Registry from ingested papers...")
+    registry_state = build_study_registry_from_input(INPUT_DIR, METADATA_FILE)
+    study_registry = registry_state["study_registry"]
+    print(f"  Registry: {len(study_registry)} unique studies")
 
-    # ═══════════════════════════════════════════════════════════════════════════
+    # ── Read one paper for CMOC extraction ───────────────────────────────────
+    # (Full pipeline: iterates all included; for demo we pass all through state)
+    sample_paper_text = ""
+    sample_record_id = ""
+    if study_registry:
+        sample = study_registry[0]
+        sample_record_id = sample["source_file"]
+        try:
+            with open(sample["source_file"], "r", encoding="utf-8", errors="replace") as f:
+                sample_paper_text = f.read(8000)
+        except:
+            sample_paper_text = sample.get("abstract", "No text available")
+
+    # ── Initialize Full LangGraph State ──────────────────────────────────────
+    initial_state: RealistReviewState = {
+        # Phase 0
+        "ipt_hypothesis": ipt,
+        "inclusion_criteria": criteria,
+        "review_question": REVIEW_QUESTION.strip(),
+        # Phase 1
+        "raw_candidate_pool": [],
+        "study_registry": study_registry,
+        # Phase 2 (populated by screening agents)
+        "title_abstract_decisions": [],
+        "full_text_decisions": [],
+        "included_studies": [],
+        # Phase 3 CMOC
+        "current_record_id": sample_record_id,
+        "current_paper_text": sample_paper_text,
+        "extracted_cmocs": [],
+        # HITL
+        "validation_status": "pending",
+        "human_feedback": "",
+        "hitl_checkpoint": "none",
+        # Synthesis
+        "leiden_communities": [],
+        "contradictions_found": [],
+        "demi_regularities": [],
+        "draft_programme_theory": "",
+        "programme_theory_version": 1,
+        # Reporting
+        "prisma_counts": registry_state.get("prisma_counts", {}),
+        "evidence_table": [],
+        "audit_log": protocol_state.get("audit_log", []) + registry_state.get("audit_log", []),
+        # Meta
+        "errors": [],
+        "iteration_count": 0
+    }
+
+    # ── PHASES 2-6: Run LangGraph Pipeline ───────────────────────────────────
+    print("\n[PHASES 2-6] Executing LangGraph Multi-Agent Pipeline...")
+    print("-" * 70)
+
+    final_state = orchestrator_app.invoke(initial_state)
+
+    # ── Summary ───────────────────────────────────────────────────────────────
     print("\n" + "=" * 70)
     print("  PIPELINE COMPLETE")
-    print(f"  >> {len(all_entities)} Entities | {len(all_relationships)} Relationships")
-    print(f"  >> All output files saved to: {OUTPUT_DIR}")
     print("=" * 70)
+    print(f"  Studies in registry:   {len(final_state.get('study_registry', []))}")
+    print(f"  Studies included:      {len(final_state.get('included_studies', []))}")
+    print(f"  CMOCs extracted:       {len(final_state.get('extracted_cmocs', []))}")
+    print(f"  Contradictions:        {len(final_state.get('contradictions_found', []))}")
+    print(f"  Audit log entries:     {len(final_state.get('audit_log', []))}")
+    print(f"  HITL checkpoints:      4 (Screening / CMOC / Contradiction / Theory)")
+    print(f"  Output directory:      {OUTPUT_DIR}")
+    print("=" * 70)
+    print("\n  Output files:")
+    for fname in os.listdir(OUTPUT_DIR):
+        fsize = os.path.getsize(os.path.join(OUTPUT_DIR, fname))
+        print(f"    {fname:<40} ({fsize:,} bytes)")
 
 if __name__ == "__main__":
-    run_pipeline()
+    run_full_pipeline()
