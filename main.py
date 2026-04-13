@@ -46,11 +46,18 @@ def run_framework():
     print(f"\nFinal Validation Status: {status}")
     print(f"Total CMOCs Extracted: {len(cmocs)}")
     
-    for cmoc in cmocs:
-        if cmoc and cmoc.entities:
-            print("\nExtracted Graph Node Example:")
-            for entity in cmoc.entities:
-                print(f"  - [{entity.id}] {entity.category.value}: {entity.label}")
+    contradictions = final_state.get('contradictions_found', [])
+    if contradictions:
+        print("\n--- CONTRADICTIONS ADJUDICATED ---")
+        for idx, con in enumerate(contradictions):
+            print(f"[{idx+1}] {con}")
+    else:
+        print("\n--- CONTRADICTIONS: None found ---")
+
+    theory_draft = final_state.get('draft_programme_theory', '')
+    print("\n================ FINAL PROGRAMME THEORY =================\n")
+    print(theory_draft)
+    print("\n==========================================================\n")
 
 if __name__ == "__main__":
     run_framework()
