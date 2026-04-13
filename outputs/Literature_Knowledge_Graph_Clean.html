@@ -1,0 +1,959 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+                <link href="lib/tom-select/tom-select.css" rel="stylesheet">
+                <script src="lib/tom-select/tom-select.complete.min.js"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 100vh;
+                 background-color: #f8f9fa;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+             #loadingBar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width: 100%;
+                 height: 100vh;
+                 background-color:rgba(200,200,200,0.8);
+                 -webkit-transition: all 0.5s ease;
+                 -moz-transition: all 0.5s ease;
+                 -ms-transition: all 0.5s ease;
+                 -o-transition: all 0.5s ease;
+                 transition: all 0.5s ease;
+                 opacity:1;
+             }
+
+             #bar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width:20px;
+                 height:20px;
+                 margin:auto auto auto auto;
+                 border-radius:11px;
+                 border:2px solid rgba(30,30,30,0.05);
+                 background: rgb(0, 173, 246); /* Old browsers */
+                 box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+             }
+
+             #border {
+                 position:absolute;
+                 top:10px;
+                 left:10px;
+                 width:500px;
+                 height:23px;
+                 margin:auto auto auto auto;
+                 box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+                 border-radius:10px;
+             }
+
+             #text {
+                 position:absolute;
+                 top:8px;
+                 left:530px;
+                 width:30px;
+                 height:50px;
+                 margin:auto auto auto auto;
+                 font-size:22px;
+                 color: #000000;
+             }
+
+             div.outerBorder {
+                 position:relative;
+                 top:400px;
+                 width:600px;
+                 height:44px;
+                 margin:auto auto auto auto;
+                 border:8px solid rgba(0,0,0,0.1);
+                 background: rgb(252,252,252); /* Old browsers */
+                 background: -moz-linear-gradient(top,  rgba(252,252,252,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+                 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+                 background: -webkit-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+                 background: -o-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+                 background: -ms-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
+                 background: linear-gradient(to bottom,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
+                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+                 border-radius:72px;
+                 box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+             }
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+                <div id="select-menu" class="card-header">
+                    <div class="row no-gutters">
+                        <div class="col-10 pb-2">
+                            <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            onchange="selectNode([value]);"
+                            id="select-node"
+                            placeholder="Select node..."
+                            >
+                                <option selected>Select a Node by ID</option>
+                                
+                                    <option value="CONTROL">CONTROL</option>
+                                
+                                    <option value="CYTOPATHOLOGY TRAINING">CYTOPATHOLOGY TRAINING</option>
+                                
+                                    <option value="PATIENT">PATIENT</option>
+                                
+                                    <option value="MEDICAL DECISION MAKING">MEDICAL DECISION MAKING</option>
+                                
+                                    <option value="NOVICE DIAGNOSTICIANS">NOVICE DIAGNOSTICIANS</option>
+                                
+                                    <option value="FALSE ALARM RATE">FALSE ALARM RATE</option>
+                                
+                                    <option value="COMBINED REASONING INSTRUCTION">COMBINED REASONING INSTRUCTION</option>
+                                
+                                    <option value="ELABORATED FEEDBACK">ELABORATED FEEDBACK</option>
+                                
+                                    <option value="BIASES">BIASES</option>
+                                
+                                    <option value="CLINICAL TEACHING">CLINICAL TEACHING</option>
+                                
+                                    <option value="HYPOTHYROIDISM">HYPOTHYROIDISM</option>
+                                
+                                    <option value="STUDY">STUDY</option>
+                                
+                                    <option value="VIRTUAL PATIENTS">VIRTUAL PATIENTS</option>
+                                
+                                    <option value="GROUP 2: RESIDENT SE WITHOUT PROMPTS">GROUP 2: RESIDENT SE WITHOUT PROMPTS</option>
+                                
+                                    <option value="HEART FAILURE">HEART FAILURE</option>
+                                
+                                    <option value="PERFORMANCE IMPROVEMENT">PERFORMANCE IMPROVEMENT</option>
+                                
+                                    <option value="CASE-BASED LEARNING">CASE-BASED LEARNING</option>
+                                
+                                    <option value="MULTIPLE-CHOICE QUESTIONS">MULTIPLE-CHOICE QUESTIONS</option>
+                                
+                                    <option value="SCHEMA-BASED INSTRUCTION">SCHEMA-BASED INSTRUCTION</option>
+                                
+                                    <option value="ASSESSMENT AND TREATMENT OF CHEST PAIN SCENARIO">ASSESSMENT AND TREATMENT OF CHEST PAIN SCENARIO</option>
+                                
+                                    <option value="ECG">ECG</option>
+                                
+                                    <option value="DIAGNOSTIC DECISIONS">DIAGNOSTIC DECISIONS</option>
+                                
+                                    <option value="WRITTEN TEST">WRITTEN TEST</option>
+                                
+                                    <option value="MRI">MRI</option>
+                                
+                                    <option value="TEST 3">TEST 3</option>
+                                
+                                    <option value="WJ">WJ</option>
+                                
+                                    <option value="MISCONCEPTIONS">MISCONCEPTIONS</option>
+                                
+                                    <option value="LEARNING">LEARNING</option>
+                                
+                                    <option value="DIAGNOSIS">DIAGNOSIS</option>
+                                
+                                    <option value="CLINICAL REASONING SKILLS">CLINICAL REASONING SKILLS</option>
+                                
+                                    <option value="RESULTS AND DISCUSSION">RESULTS AND DISCUSSION</option>
+                                
+                                    <option value="DIAGNOSTIC KNOWLEDGE">DIAGNOSTIC KNOWLEDGE</option>
+                                
+                                    <option value="VIRTUAL PATIENT">VIRTUAL PATIENT</option>
+                                
+                                    <option value="DIAGNOSTIC PERFORMANCE SCORES">DIAGNOSTIC PERFORMANCE SCORES</option>
+                                
+                                    <option value="BIOMEDICAL KNOWLEDGE">BIOMEDICAL KNOWLEDGE</option>
+                                
+                                    <option value="PROMPTS">PROMPTS</option>
+                                
+                                    <option value="CLINICAL PROBLEMS">CLINICAL PROBLEMS</option>
+                                
+                                    <option value="TRAINING PHASE">TRAINING PHASE</option>
+                                
+                                    <option value="LABORATORY INVESTIGATIONS">LABORATORY INVESTIGATIONS</option>
+                                
+                                    <option value="REPEATED CASE-BASED LEARNING">REPEATED CASE-BASED LEARNING</option>
+                                
+                                    <option value="PROGRESSIVE JAUNDICE">PROGRESSIVE JAUNDICE</option>
+                                
+                                    <option value="PERSONAL DIGITAL ASSISTANTS">PERSONAL DIGITAL ASSISTANTS</option>
+                                
+                                    <option value="DIAGNOSTIC CATEGORIES">DIAGNOSTIC CATEGORIES</option>
+                                
+                                    <option value="DIAGNOSTIC STRATEGIES">DIAGNOSTIC STRATEGIES</option>
+                                
+                                    <option value="NORMAN GR">NORMAN GR</option>
+                                
+                                    <option value="PROBLEM SOLVING">PROBLEM SOLVING</option>
+                                
+                                    <option value="CASE ANALYSIS">CASE ANALYSIS</option>
+                                
+                                    <option value="UNIVERSITY OF ADELAIDE">UNIVERSITY OF ADELAIDE</option>
+                                
+                                    <option value="SELF-EXPLANATION (SE)">SELF-EXPLANATION (SE)</option>
+                                
+                                    <option value="DIAGNOSTIC PERFORMANCE TESTS">DIAGNOSTIC PERFORMANCE TESTS</option>
+                                
+                                    <option value="STATISTICAL SIGNIFICANCE">STATISTICAL SIGNIFICANCE</option>
+                                
+                                    <option value="MISS ERROR RATE">MISS ERROR RATE</option>
+                                
+                                    <option value="STUDY 1">STUDY 1</option>
+                                
+                                    <option value="VIRTUAL PATIENT CASES">VIRTUAL PATIENT CASES</option>
+                                
+                                    <option value="SURGICAL SKILLS TRAINING">SURGICAL SKILLS TRAINING</option>
+                                
+                                    <option value="DELAYED TEST">DELAYED TEST</option>
+                                
+                                    <option value="LONG-TERM RETENTION">LONG-TERM RETENTION</option>
+                                
+                                    <option value="PATIENT CASES">PATIENT CASES</option>
+                                
+                                    <option value="GROUP 1">GROUP 1</option>
+                                
+                                    <option value="TRADITIONAL INSTRUCTION">TRADITIONAL INSTRUCTION</option>
+                                
+                                    <option value="TEST-ENHANCED LEARNING">TEST-ENHANCED LEARNING</option>
+                                
+                                    <option value="PATHOPHYSIOLOGICAL EXPLANATION">PATHOPHYSIOLOGICAL EXPLANATION</option>
+                                
+                                    <option value="KNOWLEDGE RESTRUCTURING">KNOWLEDGE RESTRUCTURING</option>
+                                
+                                    <option value="HYPERTENSION">HYPERTENSION</option>
+                                
+                                    <option value="SURGICAL RESIDENTS">SURGICAL RESIDENTS</option>
+                                
+                                    <option value="COGNITIVE FORCING STRATEGIES">COGNITIVE FORCING STRATEGIES</option>
+                                
+                                    <option value="SELF-EXPLANATION">SELF-EXPLANATION</option>
+                                
+                                    <option value="NOVEL EDUCATIONAL TOOL">NOVEL EDUCATIONAL TOOL</option>
+                                
+                                    <option value="SA">SA</option>
+                                
+                                    <option value="AVAILABILITY BIAS">AVAILABILITY BIAS</option>
+                                
+                                    <option value="PHYSICAL EXAMINATION">PHYSICAL EXAMINATION</option>
+                                
+                                    <option value="PARTICIPANT">PARTICIPANT</option>
+                                
+                                    <option value="DIAGNOSTIC REASONING">DIAGNOSTIC REASONING</option>
+                                
+                                    <option value="NONANALYTIC REASONING">NONANALYTIC REASONING</option>
+                                
+                                    <option value="MEDICAL EDUCATION">MEDICAL EDUCATION</option>
+                                
+                                    <option value="FINAL MANUSCRIPT">FINAL MANUSCRIPT</option>
+                                
+                                    <option value="ACUTE VIRAL PERICARDITIS">ACUTE VIRAL PERICARDITIS</option>
+                                
+                                    <option value="IMMEDIATE DIAGNOSIS">IMMEDIATE DIAGNOSIS</option>
+                                
+                                    <option value="DE-BIASING STRATEGIES">DE-BIASING STRATEGIES</option>
+                                
+                                    <option value="FAR-TRANSFER CASES">FAR-TRANSFER CASES</option>
+                                
+                                    <option value="DIAGNOSTIC PERFORMANCE">DIAGNOSTIC PERFORMANCE</option>
+                                
+                                    <option value="CLINICAL CASES">CLINICAL CASES</option>
+                                
+                                    <option value="PRACTICE PHASE">PRACTICE PHASE</option>
+                                
+                                    <option value="IMMEDIATE TEST PHASE">IMMEDIATE TEST PHASE</option>
+                                
+                                    <option value="COGNITIVE LOAD THEORY">COGNITIVE LOAD THEORY</option>
+                                
+                                    <option value="CFS">CFS</option>
+                                
+                                    <option value="APPLICATION SECURITY">APPLICATION SECURITY</option>
+                                
+                                    <option value="FEATURE LIST">FEATURE LIST</option>
+                                
+                                    <option value="GROUP 2">GROUP 2</option>
+                                
+                                    <option value="EXIT EXAMINATION">EXIT EXAMINATION</option>
+                                
+                                    <option value="COMBINED INSTRUCTION GROUP">COMBINED INSTRUCTION GROUP</option>
+                                
+                                    <option value="TRIPARTITE TEACHING INTERVENTION">TRIPARTITE TEACHING INTERVENTION</option>
+                                
+                                    <option value="CRITICAL REVISION">CRITICAL REVISION</option>
+                                
+                                    <option value="DIAGNOSTIC ACCURACY">DIAGNOSTIC ACCURACY</option>
+                                
+                                    <option value="DIAGNOSTIC PERFORMANCE SCORE">DIAGNOSTIC PERFORMANCE SCORE</option>
+                                
+                                    <option value="E-LEARNING">E-LEARNING</option>
+                                
+                                    <option value="MED EDUC">MED EDUC</option>
+                                
+                                    <option value="COMBINED REASONING STRATEGIES">COMBINED REASONING STRATEGIES</option>
+                                
+                                    <option value="ERRONEOUS EXAMPLES">ERRONEOUS EXAMPLES</option>
+                                
+                                    <option value="GENDER">GENDER</option>
+                                
+                                    <option value="CARDIAC PHYSICAL DIAGNOSIS">CARDIAC PHYSICAL DIAGNOSIS</option>
+                                
+                                    <option value="STUDY 2">STUDY 2</option>
+                                
+                                    <option value="INTERACTIVE APPLICATION">INTERACTIVE APPLICATION</option>
+                                
+                                    <option value="CASE-BASED WORKED EXAMPLE APPROACH">CASE-BASED WORKED EXAMPLE APPROACH</option>
+                                
+                                    <option value="SPONTANEOUS REASONING CONDITION">SPONTANEOUS REASONING CONDITION</option>
+                                
+                                    <option value="JB">JB</option>
+                                
+                                    <option value="TRAINING">TRAINING</option>
+                                
+                                    <option value="LAPAROSCOPY IMAGE">LAPAROSCOPY IMAGE</option>
+                                
+                                    <option value="LEARNING PHASE">LEARNING PHASE</option>
+                                
+                                    <option value="PEER SE">PEER SE</option>
+                                
+                                    <option value="ANALYTIC REASONING">ANALYTIC REASONING</option>
+                                
+                                    <option value="ELECTRONIC HEALTH RECORDS">ELECTRONIC HEALTH RECORDS</option>
+                                
+                                    <option value="PATIENT RECORDS">PATIENT RECORDS</option>
+                                
+                                    <option value="CONTROL GROUP">CONTROL GROUP</option>
+                                
+                                    <option value="LESS FAMILIAR TOPIC">LESS FAMILIAR TOPIC</option>
+                                
+                                    <option value="DIAGNOSTIC ERROR">DIAGNOSTIC ERROR</option>
+                                
+                                    <option value="PERICARDITIS">PERICARDITIS</option>
+                                
+                                    <option value="ERROR RATE">ERROR RATE</option>
+                                
+                                    <option value="SELF-EXPLANATION SEGMENTS">SELF-EXPLANATION SEGMENTS</option>
+                                
+                                    <option value="RESEARCH">RESEARCH</option>
+                                
+                                    <option value="UNDERGRADUATE STUDENTS">UNDERGRADUATE STUDENTS</option>
+                                
+                                    <option value="COMPETENCY IN CARDIAC EXAMINATION">COMPETENCY IN CARDIAC EXAMINATION</option>
+                                
+                                    <option value="LEARNING CONDITIONS">LEARNING CONDITIONS</option>
+                                
+                                    <option value="CASEBOOK APPLICATION">CASEBOOK APPLICATION</option>
+                                
+                                    <option value="DECISION-MAKING">DECISION-MAKING</option>
+                                
+                                    <option value="PEERS">PEERS</option>
+                                
+                                    <option value="JAUNDICE">JAUNDICE</option>
+                                
+                                    <option value="NON-ANALYTIC REASONING">NON-ANALYTIC REASONING</option>
+                                
+                                    <option value="PREMATURE CLOSURE">PREMATURE CLOSURE</option>
+                                
+                                    <option value="YEAR 4 MEDICAL STUDENTS">YEAR 4 MEDICAL STUDENTS</option>
+                                
+                                    <option value="PROTOCOLS">PROTOCOLS</option>
+                                
+                                    <option value="MEDICAL STUDENTS">MEDICAL STUDENTS</option>
+                                
+                                    <option value="DIAGNOSTIC COMPETENCE">DIAGNOSTIC COMPETENCE</option>
+                                
+                                    <option value="STUDENT PREPAREDNESS">STUDENT PREPAREDNESS</option>
+                                
+                                    <option value="FEEDBACK">FEEDBACK</option>
+                                
+                                    <option value="FAMILIAR CASES">FAMILIAR CASES</option>
+                                
+                                    <option value="SERIOUS GAME">SERIOUS GAME</option>
+                                
+                                    <option value="REFLECTION">REFLECTION</option>
+                                
+                                    <option value="EXPERT SE">EXPERT SE</option>
+                                
+                                    <option value="KNOWLEDGE ELABORATION">KNOWLEDGE ELABORATION</option>
+                                
+                                    <option value="LEARNERS">LEARNERS</option>
+                                
+                                    <option value="PILOT STUDY">PILOT STUDY</option>
+                                
+                                    <option value="EASING TRANSITION FROM STUDENT TO DOCTOR">EASING TRANSITION FROM STUDENT TO DOCTOR</option>
+                                
+                                    <option value="CASEBOOK">CASEBOOK</option>
+                                
+                                    <option value="SURGEONS">SURGEONS</option>
+                                
+                                    <option value="WORKED EXAMPLES">WORKED EXAMPLES</option>
+                                
+                                    <option value="ANNOTATIONS">ANNOTATIONS</option>
+                                
+                                    <option value="LIMITATIONS">LIMITATIONS</option>
+                                
+                                    <option value="EXPERTS">EXPERTS</option>
+                                
+                                    <option value="DIAGNOSTIC DECISION MAKING">DIAGNOSTIC DECISION MAKING</option>
+                                
+                                    <option value="EDUCATIONAL STRATEGIES">EDUCATIONAL STRATEGIES</option>
+                                
+                                    <option value="LOW BACK PAIN">LOW BACK PAIN</option>
+                                
+                                    <option value="DECISION MAKING">DECISION MAKING</option>
+                                
+                                    <option value="COMBINED REASONING STRATEGY">COMBINED REASONING STRATEGY</option>
+                                
+                                    <option value="RESIDENTS">RESIDENTS</option>
+                                
+                                    <option value="EXAMPLE-BASED LEARNING">EXAMPLE-BASED LEARNING</option>
+                                
+                                    <option value="MANUSCRIPT REVISION">MANUSCRIPT REVISION</option>
+                                
+                                    <option value="DIFFERENTIAL DIAGNOSIS">DIFFERENTIAL DIAGNOSIS</option>
+                                
+                                    <option value="ENGAGEMENT">ENGAGEMENT</option>
+                                
+                                    <option value="IMMEDIATE TEST">IMMEDIATE TEST</option>
+                                
+                                    <option value="SEOUL NATIONAL UNIVERSITY COLLEGE OF MEDICINE">SEOUL NATIONAL UNIVERSITY COLLEGE OF MEDICINE</option>
+                                
+                                    <option value="FORMATIVE ASSESSMENTS">FORMATIVE ASSESSMENTS</option>
+                                
+                                    <option value="TIME REQUIRED TO SOLVE CASES">TIME REQUIRED TO SOLVE CASES</option>
+                                
+                                    <option value="AVAILABILITY HEURISTIC">AVAILABILITY HEURISTIC</option>
+                                
+                                    <option value="PARAPHRASES">PARAPHRASES</option>
+                                
+                                    <option value="GROUP 1: RESIDENT SE WITH PROMPTS">GROUP 1: RESIDENT SE WITH PROMPTS</option>
+                                
+                                    <option value="CLINICAL DIAGNOSTIC REASONING">CLINICAL DIAGNOSTIC REASONING</option>
+                                
+                                    <option value="COMPETENCIES">COMPETENCIES</option>
+                                
+                                    <option value="LAPAROSCOPIC SIMULATORS">LAPAROSCOPIC SIMULATORS</option>
+                                
+                                    <option value="DIAGNOSTIC ACCURACY SCORES">DIAGNOSTIC ACCURACY SCORES</option>
+                                
+                                    <option value="LEARNING FROM TEXT">LEARNING FROM TEXT</option>
+                                
+                                    <option value="SECOND DIAGNOSIS">SECOND DIAGNOSIS</option>
+                                
+                                    <option value="VALIDITY">VALIDITY</option>
+                                
+                                    <option value="DATA COLLECTION">DATA COLLECTION</option>
+                                
+                                    <option value="VP CASES">VP CASES</option>
+                                
+                                    <option value="USER">USER</option>
+                                
+                                    <option value="CLINICAL REASONING">CLINICAL REASONING</option>
+                                
+                                    <option value="PROBLEM-BASED LEARNING">PROBLEM-BASED LEARNING</option>
+                                
+                                    <option value="CONTRASTIVE LEARNING">CONTRASTIVE LEARNING</option>
+                                
+                                    <option value="PARTICIPANTS">PARTICIPANTS</option>
+                                
+                                    <option value="RESPONSE TIME">RESPONSE TIME</option>
+                                
+                                    <option value="PATIENT VIDEOS">PATIENT VIDEOS</option>
+                                
+                                    <option value="ERRORS">ERRORS</option>
+                                
+                                    <option value="TEACHING CLINICAL REASONING">TEACHING CLINICAL REASONING</option>
+                                
+                                    <option value="POST HOC ANALYSES">POST HOC ANALYSES</option>
+                                
+                                    <option value="TIME-ON-TASK">TIME-ON-TASK</option>
+                                
+                                    <option value="LEARNING ENVIRONMENT">LEARNING ENVIRONMENT</option>
+                                
+                                    <option value="COGNITIVE BIAS">COGNITIVE BIAS</option>
+                                
+                                    <option value="MORE FAMILIAR TOPIC">MORE FAMILIAR TOPIC</option>
+                                
+                                    <option value="TRADITIONAL FRAMEWORK">TRADITIONAL FRAMEWORK</option>
+                                
+                                    <option value="REPEATED-MEASURES ANOVA">REPEATED-MEASURES ANOVA</option>
+                                
+                                    <option value="AGE">AGE</option>
+                                
+                                    <option value="NEUROLOGY">NEUROLOGY</option>
+                                
+                                    <option value="MULTIFACETED DIAGNOSTIC REASONING STRATEGIES">MULTIFACETED DIAGNOSTIC REASONING STRATEGIES</option>
+                                
+                                    <option value="RETENTION TEST">RETENTION TEST</option>
+                                
+                                    <option value="IMAGE INTERPRETATION TESTS">IMAGE INTERPRETATION TESTS</option>
+                                
+                                    <option value="INTERVENTION IN THE TRAINING PHASE">INTERVENTION IN THE TRAINING PHASE</option>
+                                
+                                    <option value="ANALOGICAL TRANSFER">ANALOGICAL TRANSFER</option>
+                                
+                                    <option value="E-SEMINARS">E-SEMINARS</option>
+                                
+                                    <option value="GAME">GAME</option>
+                                
+                                    <option value="CLERKSHIP">CLERKSHIP</option>
+                                
+                                    <option value="LEARNER REPORT">LEARNER REPORT</option>
+                                
+                                    <option value="STUDENTS">STUDENTS</option>
+                                
+                                    <option value="CONTRIBUTORS">CONTRIBUTORS</option>
+                                
+                                    <option value="PATIENT RECORD">PATIENT RECORD</option>
+                                
+                                    <option value="ASSESSMENT PHASE">ASSESSMENT PHASE</option>
+                                
+                                    <option value="TEST 2">TEST 2</option>
+                                
+                                    <option value="NEAR-TRANSFER CASES">NEAR-TRANSFER CASES</option>
+                                
+                                    <option value="CROSSKERRY'S STRATEGIES">CROSSKERRY'S STRATEGIES</option>
+                                
+                                    <option value="PATIENT VIDEO BANK">PATIENT VIDEO BANK</option>
+                                
+                                    <option value="LESS FAMILIAR CASES">LESS FAMILIAR CASES</option>
+                                
+                                    <option value="SELF-EXPLANATIONS">SELF-EXPLANATIONS</option>
+                                
+                                    <option value="SURGICAL TRAINING">SURGICAL TRAINING</option>
+                                
+                                    <option value="ILLNESS SCRIPTS">ILLNESS SCRIPTS</option>
+                                
+                                    <option value="DIAGNOSTIC ERRORS">DIAGNOSTIC ERRORS</option>
+                                
+                                    <option value="DIAGNOSTIC ACCURACY SCORE">DIAGNOSTIC ACCURACY SCORE</option>
+                                
+                                    <option value="KEY FEATURE QUESTIONS">KEY FEATURE QUESTIONS</option>
+                                
+                                    <option value="TESTING PHASE">TESTING PHASE</option>
+                                
+                                    <option value="PATIENT VIDEO ENRICHMENT">PATIENT VIDEO ENRICHMENT</option>
+                                
+                                    <option value="CFS TRAINING">CFS TRAINING</option>
+                                
+                                    <option value="TRAINING PROTOCOLS">TRAINING PROTOCOLS</option>
+                                
+                                    <option value="UNIVERSITY OF SHERBROOKE">UNIVERSITY OF SHERBROOKE</option>
+                                
+                                    <option value="REPEATED TESTING">REPEATED TESTING</option>
+                                
+                                    <option value="PRIMARY CARE EDUCATION">PRIMARY CARE EDUCATION</option>
+                                
+                                    <option value="ADVANCED MEDICAL STUDENTS">ADVANCED MEDICAL STUDENTS</option>
+                                
+                                    <option value="DIAGNOSTIC OUTCOMES">DIAGNOSTIC OUTCOMES</option>
+                                
+                                    <option value="MEDICINE LEARNING AND TEACHING UNIT">MEDICINE LEARNING AND TEACHING UNIT</option>
+                                
+                                    <option value="VISUAL LEARNING">VISUAL LEARNING</option>
+                                
+                                    <option value="DIAGNOSTIC ACCURACY AS A FUNCTION OF PERFORMANCE MOMENT">DIAGNOSTIC ACCURACY AS A FUNCTION OF PERFORMANCE MOMENT</option>
+                                
+                                    <option value="STRUCTURED REFLECTION">STRUCTURED REFLECTION</option>
+                                
+                                    <option value="DIAGNOSTIC PROBLEMS">DIAGNOSTIC PROBLEMS</option>
+                                
+                                    <option value="PNEUMONIA">PNEUMONIA</option>
+                                
+                                    <option value="STUDENT PERFORMANCE">STUDENT PERFORMANCE</option>
+                                
+                                    <option value="SIMULATOR SESSION">SIMULATOR SESSION</option>
+                                
+                                    <option value="MEDIALIS">MEDIALIS</option>
+                                
+                                    <option value="LEARNER REPORTS">LEARNER REPORTS</option>
+                                
+                                    <option value="TRAINING CASES">TRAINING CASES</option>
+                                
+                                    <option value="SIMULATION SESSION">SIMULATION SESSION</option>
+                                
+                                    <option value="CLINICAL JUDGMENT">CLINICAL JUDGMENT</option>
+                                
+                                    <option value="CASE FILE FORMAT">CASE FILE FORMAT</option>
+                                
+                                    <option value="DATA ANALYSIS">DATA ANALYSIS</option>
+                                
+                                    <option value="TEST PHASE">TEST PHASE</option>
+                                
+                                    <option value="UNDERGRADUATE MEDICAL STUDENTS">UNDERGRADUATE MEDICAL STUDENTS</option>
+                                
+                                    <option value="E-SEMINSAR">E-SEMINSAR</option>
+                                
+                                    <option value="E-LEARNING RESOURCES">E-LEARNING RESOURCES</option>
+                                
+                                    <option value="GERIATRIC EDUCATION">GERIATRIC EDUCATION</option>
+                                
+                                    <option value="SELF-EXPLANATION EXAMPLES">SELF-EXPLANATION EXAMPLES</option>
+                                
+                                    <option value="PATTERN RECOGNITION">PATTERN RECOGNITION</option>
+                                
+                                    <option value="LEARNER">LEARNER</option>
+                                
+                                    <option value="CLINICAL DECISION MAKING TEACHING INTERVENTION">CLINICAL DECISION MAKING TEACHING INTERVENTION</option>
+                                
+                            </select>
+                        </div>
+                        <div class="col-2 pb-2">
+                            <button type="button" class="btn btn-primary btn-block" onclick="neighbourhoodHighlight({nodes: []});">Reset Selection</button>
+                        </div>
+                    </div>
+                </div>
+            
+            
+              <div id="filter-menu" class="card-header">
+                <div class="row no-gutters">
+                  <div class="col-3 pb-2">
+                    <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            onchange="updateFilter(value, 'item')"
+                            id="select-item"
+                        >
+                        <option value="">Select a network item</option>
+                        <option value="edge">edge</option>
+                        <option value="node">node</option>
+                    </select>
+                  </div>
+                  <div class="col-3 pb-2">
+                    <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            onchange="updateFilter(value, 'property')"
+                            id="select-property"
+                        >
+                        <option value="">Select a property...</option>
+                    </select>
+                  </div>
+                  <div class="col-3 pb-2">
+                    <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            id="select-value"
+                        >
+                        <option value="">Select value(s)...</option>
+                    </select>
+                  </div>
+                  <div class="col-1 pb-2">
+                    <button type="button" class="btn btn-primary btn-block" onclick="highlightFilter(filter);">Filter</button>
+                  </div>
+                  <div class="col-2 pb-2">
+                    <button type="button" class="btn btn-primary btn-block" onclick="clearFilter(true)">Reset Selection</button>
+                  </div>
+                </div>
+              </div>
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+            <div id="loadingBar">
+              <div class="outerBorder">
+                <div id="text">0%</div>
+                <div id="border">
+                  <div id="bar"></div>
+                </div>
+              </div>
+            </div>
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+                  new TomSelect("#select-node",{
+                      create: false,
+                      sortField: {
+                          field: "text",
+                          direction: "asc"
+                      }
+                  });
+              
+
+              
+                  // explicitly using onItemAdd and this function as we need to save multiple values
+                  let updateValueFilter = function() {
+                      return function () {
+                      filter['value'].push(arguments[0])
+                      }
+                  }
+
+                  let valueControl = new TomSelect("#select-value",{
+                      maxItems: null,
+                      valueField: 'id',
+                      labelField: 'title',
+                      searchField: 'title',
+                      create: false,
+                      sortField: {
+                          field: "text",
+                          direction: "asc"
+                      },
+                      onItemAdd: updateValueFilter()
+                  });
+
+                  let addValues = function() {
+                      return function () {
+                          // clear the current value options and add the selected attribute values
+                          // tom-select handles duplicates
+                          let selectedProperty = arguments[0];
+                          valueControl.clear();
+                          valueControl.clearOptions();
+                          filter['value'] = []
+                          if (filter['item'] === 'node') {
+                              for (let each in allNodes) {
+                                  valueControl.addOption({
+                                      id:allNodes[each][selectedProperty],
+                                      title:allNodes[each][selectedProperty]
+                                  })
+                              }
+                          }
+                          else if (filter['item'] === 'edge') {
+                              for (let each in allEdges) {
+                                  valueControl.addOption({
+                                      id:allEdges[each][selectedProperty],
+                                      title:allEdges[each][selectedProperty]
+                                  })
+                              }
+                          }
+                      }
+                  };
+
+                  let propControl = new TomSelect("#select-property",{
+                      valueField: 'id',
+                      labelField: 'title',
+                      searchField: 'title',
+                      create: false,
+                      sortField: {
+                          field: "text",
+                          direction: "asc"
+                      },
+                      onItemAdd: addValues()
+                  });
+
+                  let addProperties = function() {
+                      return function () {
+                          // loops through the selected network item and adds the attributes to dropdown
+                          // tom-select handles duplicates
+                          clearFilter(false)
+                          if (arguments[0] === 'edge') {
+                              for (let each in allEdges) {
+                                  if (allEdges.hasOwnProperty(each)) {
+                                      for (let eachProp in allEdges[each]) {
+                                          if (allEdges[each].hasOwnProperty(eachProp)) {
+                                              propControl.addOption({id: eachProp, title: eachProp})
+                                          }
+                                      }
+                                  }
+                              }
+                          }
+                          else if (arguments[0] === 'node') {
+                              for (let each in allNodes) {
+                                  if (allNodes.hasOwnProperty(each)) {
+                                      for (let eachProp in allNodes[each]) {
+                                          if (allNodes[each].hasOwnProperty(eachProp)
+                                              && (eachProp !== 'hidden' && eachProp !== 'savedLabel'
+                                                  && eachProp !== 'hiddenLabel')) {
+                                              propControl.addOption({id: eachProp, title: eachProp})
+
+                                          }
+                                      }
+                                  }
+                              }
+                          }
+                      }
+                  };
+
+                  let itemControl = new TomSelect("#select-item",{
+                      create: false,
+                      sortField:{
+                          field: "text",
+                          direction: "asc"
+                      },
+                      onItemAdd: addProperties()
+                  });
+
+                  function clearFilter(reset) {
+                      // utility function to clear all the selected filter options
+                      // if reset is set to true, the existing filter will be removed
+                      // else, only the dropdown options are cleared
+                      propControl.clear();
+                      propControl.clearOptions();
+                      valueControl.clear();
+                      valueControl.clearOptions();
+                      filter = {
+                          item : '',
+                          property : '',
+                          value : []
+                      }
+                      if (reset) {
+                          itemControl.clear();
+                          filterHighlight({nodes: []})
+                      }
+                  }
+
+                  function updateFilter(value, key) {
+                      // key could be 'item' or 'property' and value is as selected in dropdown
+                      filter[key] = value
+                  }
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"font": {"color": "#333333"}, "group": "Entity", "id": "CONTROL", "label": "CONTROL", "shape": "dot", "size": 17.0, "title": "[Entity]\nCONTROL"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "CYTOPATHOLOGY TRAINING", "label": "CYTOPATHOLOGY TRAINING", "shape": "dot", "size": 20.5, "title": "[Entity]\nCYTOPATHOLOGY TRAINING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PATIENT", "label": "PATIENT", "shape": "dot", "size": 18.0, "title": "[Entity]\nPATIENT"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "MEDICAL DECISION MAKING", "label": "MEDICAL DECISION MAKING", "shape": "dot", "size": 17.0, "title": "[Entity]\nMEDICAL DECISION MAKING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "NOVICE DIAGNOSTICIANS", "label": "NOVICE DIAGNOSTICIANS", "shape": "dot", "size": 19.0, "title": "[Entity]\nNOVICE DIAGNOSTICIANS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "FALSE ALARM RATE", "label": "FALSE ALARM RATE", "shape": "dot", "size": 17.0, "title": "[Entity]\nFALSE ALARM RATE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "COMBINED REASONING INSTRUCTION", "label": "COMBINED REASONING INSTRUCTION", "shape": "dot", "size": 16.5, "title": "[Entity]\nCOMBINED REASONING INSTRUCTION"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "ELABORATED FEEDBACK", "label": "ELABORATED FEEDBACK", "shape": "dot", "size": 16.5, "title": "[Entity]\nELABORATED FEEDBACK"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "BIASES", "label": "BIASES", "shape": "dot", "size": 16.5, "title": "[Entity]\nBIASES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "CLINICAL TEACHING", "label": "CLINICAL TEACHING", "shape": "dot", "size": 17.0, "title": "[Entity]\nCLINICAL TEACHING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "HYPOTHYROIDISM", "label": "HYPOTHYROIDISM", "shape": "dot", "size": 16.5, "title": "[Entity]\nHYPOTHYROIDISM"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "STUDY", "label": "STUDY", "shape": "dot", "size": 17.0, "title": "[Entity]\nSTUDY"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "VIRTUAL PATIENTS", "label": "VIRTUAL PATIENTS", "shape": "dot", "size": 17.5, "title": "[Entity]\nVIRTUAL PATIENTS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "GROUP 2: RESIDENT SE WITHOUT PROMPTS", "label": "GROUP 2: RESIDENT SE WITHOUT PROMPT", "shape": "dot", "size": 18.5, "title": "[Entity]\nGROUP 2: RESIDENT SE WITHOUT PROMPTS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "HEART FAILURE", "label": "HEART FAILURE", "shape": "dot", "size": 16.5, "title": "[Entity]\nHEART FAILURE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PERFORMANCE IMPROVEMENT", "label": "PERFORMANCE IMPROVEMENT", "shape": "dot", "size": 17.0, "title": "[Entity]\nPERFORMANCE IMPROVEMENT"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "CASE-BASED LEARNING", "label": "CASE-BASED LEARNING", "shape": "dot", "size": 16.5, "title": "[Entity]\nCASE-BASED LEARNING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "MULTIPLE-CHOICE QUESTIONS", "label": "MULTIPLE-CHOICE QUESTIONS", "shape": "dot", "size": 16.5, "title": "[Entity]\nMULTIPLE-CHOICE QUESTIONS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "SCHEMA-BASED INSTRUCTION", "label": "SCHEMA-BASED INSTRUCTION", "shape": "dot", "size": 21.5, "title": "[Entity]\nSCHEMA-BASED INSTRUCTION"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "ASSESSMENT AND TREATMENT OF CHEST PAIN SCENARIO", "label": "ASSESSMENT AND TREATMENT OF CHEST P", "shape": "dot", "size": 21.0, "title": "[Entity]\nASSESSMENT AND TREATMENT OF CHEST PAIN SCENARIO"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "ECG", "label": "ECG", "shape": "dot", "size": 17.5, "title": "[Entity]\nECG"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "DIAGNOSTIC DECISIONS", "label": "DIAGNOSTIC DECISIONS", "shape": "dot", "size": 19.0, "title": "[Entity]\nDIAGNOSTIC DECISIONS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "WRITTEN TEST", "label": "WRITTEN TEST", "shape": "dot", "size": 17.5, "title": "[Entity]\nWRITTEN TEST"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "MRI", "label": "MRI", "shape": "dot", "size": 16.5, "title": "[Entity]\nMRI"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "TEST 3", "label": "TEST 3", "shape": "dot", "size": 17.0, "title": "[Entity]\nTEST 3"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "WJ", "label": "WJ", "shape": "dot", "size": 16.5, "title": "[Entity]\nWJ"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "MISCONCEPTIONS", "label": "MISCONCEPTIONS", "shape": "dot", "size": 18.0, "title": "[Entity]\nMISCONCEPTIONS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "LEARNING", "label": "LEARNING", "shape": "dot", "size": 17.5, "title": "[Entity]\nLEARNING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "DIAGNOSIS", "label": "DIAGNOSIS", "shape": "dot", "size": 19.0, "title": "[Entity]\nDIAGNOSIS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "CLINICAL REASONING SKILLS", "label": "CLINICAL REASONING SKILLS", "shape": "dot", "size": 19.0, "title": "[Entity]\nCLINICAL REASONING SKILLS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "RESULTS AND DISCUSSION", "label": "RESULTS AND DISCUSSION", "shape": "dot", "size": 16.5, "title": "[Entity]\nRESULTS AND DISCUSSION"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "DIAGNOSTIC KNOWLEDGE", "label": "DIAGNOSTIC KNOWLEDGE", "shape": "dot", "size": 29.0, "title": "[Entity]\nDIAGNOSTIC KNOWLEDGE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "VIRTUAL PATIENT", "label": "VIRTUAL PATIENT", "shape": "dot", "size": 16.5, "title": "[Entity]\nVIRTUAL PATIENT"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "DIAGNOSTIC PERFORMANCE SCORES", "label": "DIAGNOSTIC PERFORMANCE SCORES", "shape": "dot", "size": 21.0, "title": "[Entity]\nDIAGNOSTIC PERFORMANCE SCORES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "BIOMEDICAL KNOWLEDGE", "label": "BIOMEDICAL KNOWLEDGE", "shape": "dot", "size": 21.0, "title": "[Entity]\nBIOMEDICAL KNOWLEDGE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PROMPTS", "label": "PROMPTS", "shape": "dot", "size": 17.0, "title": "[Entity]\nPROMPTS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "CLINICAL PROBLEMS", "label": "CLINICAL PROBLEMS", "shape": "dot", "size": 16.5, "title": "[Entity]\nCLINICAL PROBLEMS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "TRAINING PHASE", "label": "TRAINING PHASE", "shape": "dot", "size": 22.0, "title": "[Entity]\nTRAINING PHASE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "LABORATORY INVESTIGATIONS", "label": "LABORATORY INVESTIGATIONS", "shape": "dot", "size": 17.0, "title": "[Entity]\nLABORATORY INVESTIGATIONS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "REPEATED CASE-BASED LEARNING", "label": "REPEATED CASE-BASED LEARNING", "shape": "dot", "size": 17.0, "title": "[Entity]\nREPEATED CASE-BASED LEARNING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PROGRESSIVE JAUNDICE", "label": "PROGRESSIVE JAUNDICE", "shape": "dot", "size": 16.5, "title": "[Entity]\nPROGRESSIVE JAUNDICE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PERSONAL DIGITAL ASSISTANTS", "label": "PERSONAL DIGITAL ASSISTANTS", "shape": "dot", "size": 18.0, "title": "[Entity]\nPERSONAL DIGITAL ASSISTANTS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "DIAGNOSTIC CATEGORIES", "label": "DIAGNOSTIC CATEGORIES", "shape": "dot", "size": 21.5, "title": "[Entity]\nDIAGNOSTIC CATEGORIES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "DIAGNOSTIC STRATEGIES", "label": "DIAGNOSTIC STRATEGIES", "shape": "dot", "size": 24.5, "title": "[Entity]\nDIAGNOSTIC STRATEGIES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "NORMAN GR", "label": "NORMAN GR", "shape": "dot", "size": 17.0, "title": "[Entity]\nNORMAN GR"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PROBLEM SOLVING", "label": "PROBLEM SOLVING", "shape": "dot", "size": 17.0, "title": "[Entity]\nPROBLEM SOLVING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "CASE ANALYSIS", "label": "CASE ANALYSIS", "shape": "dot", "size": 17.0, "title": "[Entity]\nCASE ANALYSIS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "UNIVERSITY OF ADELAIDE", "label": "UNIVERSITY OF ADELAIDE", "shape": "dot", "size": 16.5, "title": "[Entity]\nUNIVERSITY OF ADELAIDE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "SELF-EXPLANATION (SE)", "label": "SELF-EXPLANATION (SE)", "shape": "dot", "size": 20.5, "title": "[Entity]\nSELF-EXPLANATION (SE)"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "DIAGNOSTIC PERFORMANCE TESTS", "label": "DIAGNOSTIC PERFORMANCE TESTS", "shape": "dot", "size": 17.0, "title": "[Entity]\nDIAGNOSTIC PERFORMANCE TESTS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "STATISTICAL SIGNIFICANCE", "label": "STATISTICAL SIGNIFICANCE", "shape": "dot", "size": 16.5, "title": "[Entity]\nSTATISTICAL SIGNIFICANCE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "MISS ERROR RATE", "label": "MISS ERROR RATE", "shape": "dot", "size": 18.5, "title": "[Entity]\nMISS ERROR RATE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "STUDY 1", "label": "STUDY 1", "shape": "dot", "size": 18.0, "title": "[Entity]\nSTUDY 1"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "VIRTUAL PATIENT CASES", "label": "VIRTUAL PATIENT CASES", "shape": "dot", "size": 26.0, "title": "[Entity]\nVIRTUAL PATIENT CASES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "SURGICAL SKILLS TRAINING", "label": "SURGICAL SKILLS TRAINING", "shape": "dot", "size": 22.0, "title": "[Entity]\nSURGICAL SKILLS TRAINING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "DELAYED TEST", "label": "DELAYED TEST", "shape": "dot", "size": 18.0, "title": "[Entity]\nDELAYED TEST"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "LONG-TERM RETENTION", "label": "LONG-TERM RETENTION", "shape": "dot", "size": 17.0, "title": "[Entity]\nLONG-TERM RETENTION"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PATIENT CASES", "label": "PATIENT CASES", "shape": "dot", "size": 16.5, "title": "[Entity]\nPATIENT CASES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "GROUP 1", "label": "GROUP 1", "shape": "dot", "size": 24.0, "title": "[Entity]\nGROUP 1"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "TRADITIONAL INSTRUCTION", "label": "TRADITIONAL INSTRUCTION", "shape": "dot", "size": 18.5, "title": "[Entity]\nTRADITIONAL INSTRUCTION"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "TEST-ENHANCED LEARNING", "label": "TEST-ENHANCED LEARNING", "shape": "dot", "size": 18.5, "title": "[Entity]\nTEST-ENHANCED LEARNING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PATHOPHYSIOLOGICAL EXPLANATION", "label": "PATHOPHYSIOLOGICAL EXPLANATION", "shape": "dot", "size": 17.0, "title": "[Entity]\nPATHOPHYSIOLOGICAL EXPLANATION"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "KNOWLEDGE RESTRUCTURING", "label": "KNOWLEDGE RESTRUCTURING", "shape": "dot", "size": 16.5, "title": "[Entity]\nKNOWLEDGE RESTRUCTURING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "HYPERTENSION", "label": "HYPERTENSION", "shape": "dot", "size": 16.5, "title": "[Entity]\nHYPERTENSION"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "SURGICAL RESIDENTS", "label": "SURGICAL RESIDENTS", "shape": "dot", "size": 17.5, "title": "[Entity]\nSURGICAL RESIDENTS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "COGNITIVE FORCING STRATEGIES", "label": "COGNITIVE FORCING STRATEGIES", "shape": "dot", "size": 17.0, "title": "[Entity]\nCOGNITIVE FORCING STRATEGIES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "SELF-EXPLANATION", "label": "SELF-EXPLANATION", "shape": "dot", "size": 41.5, "title": "[Entity]\nSELF-EXPLANATION"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "NOVEL EDUCATIONAL TOOL", "label": "NOVEL EDUCATIONAL TOOL", "shape": "dot", "size": 22.0, "title": "[Entity]\nNOVEL EDUCATIONAL TOOL"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "SA", "label": "SA", "shape": "dot", "size": 17.0, "title": "[Entity]\nSA"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "AVAILABILITY BIAS", "label": "AVAILABILITY BIAS", "shape": "dot", "size": 16.5, "title": "[Entity]\nAVAILABILITY BIAS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PHYSICAL EXAMINATION", "label": "PHYSICAL EXAMINATION", "shape": "dot", "size": 17.5, "title": "[Entity]\nPHYSICAL EXAMINATION"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PARTICIPANT", "label": "PARTICIPANT", "shape": "dot", "size": 16.5, "title": "[Entity]\nPARTICIPANT"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "DIAGNOSTIC REASONING", "label": "DIAGNOSTIC REASONING", "shape": "dot", "size": 17.5, "title": "[Entity]\nDIAGNOSTIC REASONING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "NONANALYTIC REASONING", "label": "NONANALYTIC REASONING", "shape": "dot", "size": 19.0, "title": "[Entity]\nNONANALYTIC REASONING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "MEDICAL EDUCATION", "label": "MEDICAL EDUCATION", "shape": "dot", "size": 26.0, "title": "[Entity]\nMEDICAL EDUCATION"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "FINAL MANUSCRIPT", "label": "FINAL MANUSCRIPT", "shape": "dot", "size": 18.5, "title": "[Entity]\nFINAL MANUSCRIPT"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "ACUTE VIRAL PERICARDITIS", "label": "ACUTE VIRAL PERICARDITIS", "shape": "dot", "size": 19.5, "title": "[Entity]\nACUTE VIRAL PERICARDITIS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "IMMEDIATE DIAGNOSIS", "label": "IMMEDIATE DIAGNOSIS", "shape": "dot", "size": 16.5, "title": "[Entity]\nIMMEDIATE DIAGNOSIS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "DE-BIASING STRATEGIES", "label": "DE-BIASING STRATEGIES", "shape": "dot", "size": 20.0, "title": "[Entity]\nDE-BIASING STRATEGIES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "FAR-TRANSFER CASES", "label": "FAR-TRANSFER CASES", "shape": "dot", "size": 17.5, "title": "[Entity]\nFAR-TRANSFER CASES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "DIAGNOSTIC PERFORMANCE", "label": "DIAGNOSTIC PERFORMANCE", "shape": "dot", "size": 40.0, "title": "[Entity]\nDIAGNOSTIC PERFORMANCE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "CLINICAL CASES", "label": "CLINICAL CASES", "shape": "dot", "size": 23.0, "title": "[Entity]\nCLINICAL CASES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PRACTICE PHASE", "label": "PRACTICE PHASE", "shape": "dot", "size": 17.5, "title": "[Entity]\nPRACTICE PHASE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "IMMEDIATE TEST PHASE", "label": "IMMEDIATE TEST PHASE", "shape": "dot", "size": 16.5, "title": "[Entity]\nIMMEDIATE TEST PHASE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "COGNITIVE LOAD THEORY", "label": "COGNITIVE LOAD THEORY", "shape": "dot", "size": 16.5, "title": "[Entity]\nCOGNITIVE LOAD THEORY"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "CFS", "label": "CFS", "shape": "dot", "size": 18.0, "title": "[Entity]\nCFS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "APPLICATION SECURITY", "label": "APPLICATION SECURITY", "shape": "dot", "size": 17.0, "title": "[Entity]\nAPPLICATION SECURITY"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "FEATURE LIST", "label": "FEATURE LIST", "shape": "dot", "size": 16.5, "title": "[Entity]\nFEATURE LIST"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "GROUP 2", "label": "GROUP 2", "shape": "dot", "size": 23.5, "title": "[Entity]\nGROUP 2"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "EXIT EXAMINATION", "label": "EXIT EXAMINATION", "shape": "dot", "size": 16.5, "title": "[Entity]\nEXIT EXAMINATION"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "COMBINED INSTRUCTION GROUP", "label": "COMBINED INSTRUCTION GROUP", "shape": "dot", "size": 16.5, "title": "[Entity]\nCOMBINED INSTRUCTION GROUP"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "TRIPARTITE TEACHING INTERVENTION", "label": "TRIPARTITE TEACHING INTERVENTION", "shape": "dot", "size": 18.0, "title": "[Entity]\nTRIPARTITE TEACHING INTERVENTION"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "CRITICAL REVISION", "label": "CRITICAL REVISION", "shape": "dot", "size": 16.5, "title": "[Entity]\nCRITICAL REVISION"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "DIAGNOSTIC ACCURACY", "label": "DIAGNOSTIC ACCURACY", "shape": "dot", "size": 50, "title": "[Entity]\nDIAGNOSTIC ACCURACY"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "DIAGNOSTIC PERFORMANCE SCORE", "label": "DIAGNOSTIC PERFORMANCE SCORE", "shape": "dot", "size": 20.0, "title": "[Entity]\nDIAGNOSTIC PERFORMANCE SCORE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "E-LEARNING", "label": "E-LEARNING", "shape": "dot", "size": 17.0, "title": "[Entity]\nE-LEARNING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "MED EDUC", "label": "MED EDUC", "shape": "dot", "size": 17.0, "title": "[Entity]\nMED EDUC"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "COMBINED REASONING STRATEGIES", "label": "COMBINED REASONING STRATEGIES", "shape": "dot", "size": 17.5, "title": "[Entity]\nCOMBINED REASONING STRATEGIES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "ERRONEOUS EXAMPLES", "label": "ERRONEOUS EXAMPLES", "shape": "dot", "size": 16.5, "title": "[Entity]\nERRONEOUS EXAMPLES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "GENDER", "label": "GENDER", "shape": "dot", "size": 18.0, "title": "[Entity]\nGENDER"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "CARDIAC PHYSICAL DIAGNOSIS", "label": "CARDIAC PHYSICAL DIAGNOSIS", "shape": "dot", "size": 17.5, "title": "[Entity]\nCARDIAC PHYSICAL DIAGNOSIS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "STUDY 2", "label": "STUDY 2", "shape": "dot", "size": 18.0, "title": "[Entity]\nSTUDY 2"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "INTERACTIVE APPLICATION", "label": "INTERACTIVE APPLICATION", "shape": "dot", "size": 16.5, "title": "[Entity]\nINTERACTIVE APPLICATION"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "CASE-BASED WORKED EXAMPLE APPROACH", "label": "CASE-BASED WORKED EXAMPLE APPROACH", "shape": "dot", "size": 17.0, "title": "[Entity]\nCASE-BASED WORKED EXAMPLE APPROACH"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "SPONTANEOUS REASONING CONDITION", "label": "SPONTANEOUS REASONING CONDITION", "shape": "dot", "size": 16.5, "title": "[Entity]\nSPONTANEOUS REASONING CONDITION"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "JB", "label": "JB", "shape": "dot", "size": 17.0, "title": "[Entity]\nJB"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "TRAINING", "label": "TRAINING", "shape": "dot", "size": 16.5, "title": "[Entity]\nTRAINING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "LAPAROSCOPY IMAGE", "label": "LAPAROSCOPY IMAGE", "shape": "dot", "size": 17.0, "title": "[Entity]\nLAPAROSCOPY IMAGE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "LEARNING PHASE", "label": "LEARNING PHASE", "shape": "dot", "size": 23.5, "title": "[Entity]\nLEARNING PHASE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PEER SE", "label": "PEER SE", "shape": "dot", "size": 17.0, "title": "[Entity]\nPEER SE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "ANALYTIC REASONING", "label": "ANALYTIC REASONING", "shape": "dot", "size": 21.0, "title": "[Entity]\nANALYTIC REASONING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "ELECTRONIC HEALTH RECORDS", "label": "ELECTRONIC HEALTH RECORDS", "shape": "dot", "size": 18.5, "title": "[Entity]\nELECTRONIC HEALTH RECORDS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PATIENT RECORDS", "label": "PATIENT RECORDS", "shape": "dot", "size": 17.0, "title": "[Entity]\nPATIENT RECORDS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "CONTROL GROUP", "label": "CONTROL GROUP", "shape": "dot", "size": 28.5, "title": "[Entity]\nCONTROL GROUP"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "LESS FAMILIAR TOPIC", "label": "LESS FAMILIAR TOPIC", "shape": "dot", "size": 16.5, "title": "[Entity]\nLESS FAMILIAR TOPIC"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "DIAGNOSTIC ERROR", "label": "DIAGNOSTIC ERROR", "shape": "dot", "size": 33.5, "title": "[Entity]\nDIAGNOSTIC ERROR"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PERICARDITIS", "label": "PERICARDITIS", "shape": "dot", "size": 16.5, "title": "[Entity]\nPERICARDITIS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "ERROR RATE", "label": "ERROR RATE", "shape": "dot", "size": 17.0, "title": "[Entity]\nERROR RATE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "SELF-EXPLANATION SEGMENTS", "label": "SELF-EXPLANATION SEGMENTS", "shape": "dot", "size": 18.0, "title": "[Entity]\nSELF-EXPLANATION SEGMENTS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "RESEARCH", "label": "RESEARCH", "shape": "dot", "size": 17.0, "title": "[Entity]\nRESEARCH"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "UNDERGRADUATE STUDENTS", "label": "UNDERGRADUATE STUDENTS", "shape": "dot", "size": 16.5, "title": "[Entity]\nUNDERGRADUATE STUDENTS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "COMPETENCY IN CARDIAC EXAMINATION", "label": "COMPETENCY IN CARDIAC EXAMINATION", "shape": "dot", "size": 18.5, "title": "[Entity]\nCOMPETENCY IN CARDIAC EXAMINATION"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "LEARNING CONDITIONS", "label": "LEARNING CONDITIONS", "shape": "dot", "size": 17.0, "title": "[Entity]\nLEARNING CONDITIONS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "CASEBOOK APPLICATION", "label": "CASEBOOK APPLICATION", "shape": "dot", "size": 20.5, "title": "[Entity]\nCASEBOOK APPLICATION"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "DECISION-MAKING", "label": "DECISION-MAKING", "shape": "dot", "size": 17.5, "title": "[Entity]\nDECISION-MAKING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PEERS", "label": "PEERS", "shape": "dot", "size": 17.5, "title": "[Entity]\nPEERS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "JAUNDICE", "label": "JAUNDICE", "shape": "dot", "size": 19.5, "title": "[Entity]\nJAUNDICE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "NON-ANALYTIC REASONING", "label": "NON-ANALYTIC REASONING", "shape": "dot", "size": 17.0, "title": "[Entity]\nNON-ANALYTIC REASONING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PREMATURE CLOSURE", "label": "PREMATURE CLOSURE", "shape": "dot", "size": 16.5, "title": "[Entity]\nPREMATURE CLOSURE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "YEAR 4 MEDICAL STUDENTS", "label": "YEAR 4 MEDICAL STUDENTS", "shape": "dot", "size": 17.5, "title": "[Entity]\nYEAR 4 MEDICAL STUDENTS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PROTOCOLS", "label": "PROTOCOLS", "shape": "dot", "size": 16.5, "title": "[Entity]\nPROTOCOLS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "MEDICAL STUDENTS", "label": "MEDICAL STUDENTS", "shape": "dot", "size": 39.5, "title": "[Entity]\nMEDICAL STUDENTS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "DIAGNOSTIC COMPETENCE", "label": "DIAGNOSTIC COMPETENCE", "shape": "dot", "size": 25.0, "title": "[Entity]\nDIAGNOSTIC COMPETENCE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "STUDENT PREPAREDNESS", "label": "STUDENT PREPAREDNESS", "shape": "dot", "size": 17.0, "title": "[Entity]\nSTUDENT PREPAREDNESS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "FEEDBACK", "label": "FEEDBACK", "shape": "dot", "size": 25.0, "title": "[Entity]\nFEEDBACK"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "FAMILIAR CASES", "label": "FAMILIAR CASES", "shape": "dot", "size": 16.5, "title": "[Entity]\nFAMILIAR CASES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "SERIOUS GAME", "label": "SERIOUS GAME", "shape": "dot", "size": 23.5, "title": "[Entity]\nSERIOUS GAME"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "REFLECTION", "label": "REFLECTION", "shape": "dot", "size": 16.5, "title": "[Entity]\nREFLECTION"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "EXPERT SE", "label": "EXPERT SE", "shape": "dot", "size": 17.0, "title": "[Entity]\nEXPERT SE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "KNOWLEDGE ELABORATION", "label": "KNOWLEDGE ELABORATION", "shape": "dot", "size": 16.5, "title": "[Entity]\nKNOWLEDGE ELABORATION"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "LEARNERS", "label": "LEARNERS", "shape": "dot", "size": 16.5, "title": "[Entity]\nLEARNERS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PILOT STUDY", "label": "PILOT STUDY", "shape": "dot", "size": 17.0, "title": "[Entity]\nPILOT STUDY"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "EASING TRANSITION FROM STUDENT TO DOCTOR", "label": "EASING TRANSITION FROM STUDENT TO D", "shape": "dot", "size": 18.5, "title": "[Entity]\nEASING TRANSITION FROM STUDENT TO DOCTOR"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "CASEBOOK", "label": "CASEBOOK", "shape": "dot", "size": 28.0, "title": "[Entity]\nCASEBOOK"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "SURGEONS", "label": "SURGEONS", "shape": "dot", "size": 20.0, "title": "[Entity]\nSURGEONS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "WORKED EXAMPLES", "label": "WORKED EXAMPLES", "shape": "dot", "size": 17.5, "title": "[Entity]\nWORKED EXAMPLES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "ANNOTATIONS", "label": "ANNOTATIONS", "shape": "dot", "size": 16.5, "title": "[Entity]\nANNOTATIONS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "LIMITATIONS", "label": "LIMITATIONS", "shape": "dot", "size": 18.0, "title": "[Entity]\nLIMITATIONS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "EXPERTS", "label": "EXPERTS", "shape": "dot", "size": 17.5, "title": "[Entity]\nEXPERTS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "DIAGNOSTIC DECISION MAKING", "label": "DIAGNOSTIC DECISION MAKING", "shape": "dot", "size": 19.5, "title": "[Entity]\nDIAGNOSTIC DECISION MAKING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "EDUCATIONAL STRATEGIES", "label": "EDUCATIONAL STRATEGIES", "shape": "dot", "size": 17.0, "title": "[Entity]\nEDUCATIONAL STRATEGIES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "LOW BACK PAIN", "label": "LOW BACK PAIN", "shape": "dot", "size": 17.0, "title": "[Entity]\nLOW BACK PAIN"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "DECISION MAKING", "label": "DECISION MAKING", "shape": "dot", "size": 20.5, "title": "[Entity]\nDECISION MAKING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "COMBINED REASONING STRATEGY", "label": "COMBINED REASONING STRATEGY", "shape": "dot", "size": 17.5, "title": "[Entity]\nCOMBINED REASONING STRATEGY"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "RESIDENTS", "label": "RESIDENTS", "shape": "dot", "size": 19.5, "title": "[Entity]\nRESIDENTS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "EXAMPLE-BASED LEARNING", "label": "EXAMPLE-BASED LEARNING", "shape": "dot", "size": 18.0, "title": "[Entity]\nEXAMPLE-BASED LEARNING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "MANUSCRIPT REVISION", "label": "MANUSCRIPT REVISION", "shape": "dot", "size": 16.5, "title": "[Entity]\nMANUSCRIPT REVISION"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "DIFFERENTIAL DIAGNOSIS", "label": "DIFFERENTIAL DIAGNOSIS", "shape": "dot", "size": 20.0, "title": "[Entity]\nDIFFERENTIAL DIAGNOSIS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "ENGAGEMENT", "label": "ENGAGEMENT", "shape": "dot", "size": 16.5, "title": "[Entity]\nENGAGEMENT"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "IMMEDIATE TEST", "label": "IMMEDIATE TEST", "shape": "dot", "size": 18.0, "title": "[Entity]\nIMMEDIATE TEST"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "SEOUL NATIONAL UNIVERSITY COLLEGE OF MEDICINE", "label": "SEOUL NATIONAL UNIVERSITY COLLEGE O", "shape": "dot", "size": 18.0, "title": "[Entity]\nSEOUL NATIONAL UNIVERSITY COLLEGE OF MEDICINE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "FORMATIVE ASSESSMENTS", "label": "FORMATIVE ASSESSMENTS", "shape": "dot", "size": 16.5, "title": "[Entity]\nFORMATIVE ASSESSMENTS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "TIME REQUIRED TO SOLVE CASES", "label": "TIME REQUIRED TO SOLVE CASES", "shape": "dot", "size": 17.5, "title": "[Entity]\nTIME REQUIRED TO SOLVE CASES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "AVAILABILITY HEURISTIC", "label": "AVAILABILITY HEURISTIC", "shape": "dot", "size": 17.0, "title": "[Entity]\nAVAILABILITY HEURISTIC"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PARAPHRASES", "label": "PARAPHRASES", "shape": "dot", "size": 16.5, "title": "[Entity]\nPARAPHRASES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "GROUP 1: RESIDENT SE WITH PROMPTS", "label": "GROUP 1: RESIDENT SE WITH PROMPTS", "shape": "dot", "size": 18.5, "title": "[Entity]\nGROUP 1: RESIDENT SE WITH PROMPTS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "CLINICAL DIAGNOSTIC REASONING", "label": "CLINICAL DIAGNOSTIC REASONING", "shape": "dot", "size": 17.5, "title": "[Entity]\nCLINICAL DIAGNOSTIC REASONING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "COMPETENCIES", "label": "COMPETENCIES", "shape": "dot", "size": 17.0, "title": "[Entity]\nCOMPETENCIES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "LAPAROSCOPIC SIMULATORS", "label": "LAPAROSCOPIC SIMULATORS", "shape": "dot", "size": 16.5, "title": "[Entity]\nLAPAROSCOPIC SIMULATORS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "DIAGNOSTIC ACCURACY SCORES", "label": "DIAGNOSTIC ACCURACY SCORES", "shape": "dot", "size": 18.0, "title": "[Entity]\nDIAGNOSTIC ACCURACY SCORES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "LEARNING FROM TEXT", "label": "LEARNING FROM TEXT", "shape": "dot", "size": 16.5, "title": "[Entity]\nLEARNING FROM TEXT"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "SECOND DIAGNOSIS", "label": "SECOND DIAGNOSIS", "shape": "dot", "size": 17.5, "title": "[Entity]\nSECOND DIAGNOSIS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "VALIDITY", "label": "VALIDITY", "shape": "dot", "size": 17.0, "title": "[Entity]\nVALIDITY"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "DATA COLLECTION", "label": "DATA COLLECTION", "shape": "dot", "size": 19.0, "title": "[Entity]\nDATA COLLECTION"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "VP CASES", "label": "VP CASES", "shape": "dot", "size": 23.0, "title": "[Entity]\nVP CASES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "USER", "label": "USER", "shape": "dot", "size": 16.5, "title": "[Entity]\nUSER"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "CLINICAL REASONING", "label": "CLINICAL REASONING", "shape": "dot", "size": 50, "title": "[Entity]\nCLINICAL REASONING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PROBLEM-BASED LEARNING", "label": "PROBLEM-BASED LEARNING", "shape": "dot", "size": 17.0, "title": "[Entity]\nPROBLEM-BASED LEARNING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "CONTRASTIVE LEARNING", "label": "CONTRASTIVE LEARNING", "shape": "dot", "size": 17.5, "title": "[Entity]\nCONTRASTIVE LEARNING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PARTICIPANTS", "label": "PARTICIPANTS", "shape": "dot", "size": 19.0, "title": "[Entity]\nPARTICIPANTS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "RESPONSE TIME", "label": "RESPONSE TIME", "shape": "dot", "size": 17.0, "title": "[Entity]\nRESPONSE TIME"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PATIENT VIDEOS", "label": "PATIENT VIDEOS", "shape": "dot", "size": 16.5, "title": "[Entity]\nPATIENT VIDEOS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "ERRORS", "label": "ERRORS", "shape": "dot", "size": 18.0, "title": "[Entity]\nERRORS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "TEACHING CLINICAL REASONING", "label": "TEACHING CLINICAL REASONING", "shape": "dot", "size": 17.0, "title": "[Entity]\nTEACHING CLINICAL REASONING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "POST HOC ANALYSES", "label": "POST HOC ANALYSES", "shape": "dot", "size": 17.0, "title": "[Entity]\nPOST HOC ANALYSES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "TIME-ON-TASK", "label": "TIME-ON-TASK", "shape": "dot", "size": 16.5, "title": "[Entity]\nTIME-ON-TASK"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "LEARNING ENVIRONMENT", "label": "LEARNING ENVIRONMENT", "shape": "dot", "size": 18.0, "title": "[Entity]\nLEARNING ENVIRONMENT"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "COGNITIVE BIAS", "label": "COGNITIVE BIAS", "shape": "dot", "size": 17.5, "title": "[Entity]\nCOGNITIVE BIAS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "MORE FAMILIAR TOPIC", "label": "MORE FAMILIAR TOPIC", "shape": "dot", "size": 16.5, "title": "[Entity]\nMORE FAMILIAR TOPIC"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "TRADITIONAL FRAMEWORK", "label": "TRADITIONAL FRAMEWORK", "shape": "dot", "size": 17.5, "title": "[Entity]\nTRADITIONAL FRAMEWORK"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "REPEATED-MEASURES ANOVA", "label": "REPEATED-MEASURES ANOVA", "shape": "dot", "size": 17.0, "title": "[Entity]\nREPEATED-MEASURES ANOVA"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "AGE", "label": "AGE", "shape": "dot", "size": 18.5, "title": "[Entity]\nAGE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "NEUROLOGY", "label": "NEUROLOGY", "shape": "dot", "size": 18.0, "title": "[Entity]\nNEUROLOGY"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "MULTIFACETED DIAGNOSTIC REASONING STRATEGIES", "label": "MULTIFACETED DIAGNOSTIC REASONING S", "shape": "dot", "size": 17.0, "title": "[Entity]\nMULTIFACETED DIAGNOSTIC REASONING STRATEGIES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "RETENTION TEST", "label": "RETENTION TEST", "shape": "dot", "size": 18.5, "title": "[Entity]\nRETENTION TEST"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "IMAGE INTERPRETATION TESTS", "label": "IMAGE INTERPRETATION TESTS", "shape": "dot", "size": 17.0, "title": "[Entity]\nIMAGE INTERPRETATION TESTS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "INTERVENTION IN THE TRAINING PHASE", "label": "INTERVENTION IN THE TRAINING PHASE", "shape": "dot", "size": 17.0, "title": "[Entity]\nINTERVENTION IN THE TRAINING PHASE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "ANALOGICAL TRANSFER", "label": "ANALOGICAL TRANSFER", "shape": "dot", "size": 17.0, "title": "[Entity]\nANALOGICAL TRANSFER"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "E-SEMINARS", "label": "E-SEMINARS", "shape": "dot", "size": 27.5, "title": "[Entity]\nE-SEMINARS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "GAME", "label": "GAME", "shape": "dot", "size": 19.0, "title": "[Entity]\nGAME"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "CLERKSHIP", "label": "CLERKSHIP", "shape": "dot", "size": 16.5, "title": "[Entity]\nCLERKSHIP"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "LEARNER REPORT", "label": "LEARNER REPORT", "shape": "dot", "size": 20.5, "title": "[Entity]\nLEARNER REPORT"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "STUDENTS", "label": "STUDENTS", "shape": "dot", "size": 33.0, "title": "[Entity]\nSTUDENTS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "CONTRIBUTORS", "label": "CONTRIBUTORS", "shape": "dot", "size": 17.0, "title": "[Entity]\nCONTRIBUTORS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PATIENT RECORD", "label": "PATIENT RECORD", "shape": "dot", "size": 16.5, "title": "[Entity]\nPATIENT RECORD"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "ASSESSMENT PHASE", "label": "ASSESSMENT PHASE", "shape": "dot", "size": 25.5, "title": "[Entity]\nASSESSMENT PHASE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "TEST 2", "label": "TEST 2", "shape": "dot", "size": 18.0, "title": "[Entity]\nTEST 2"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "NEAR-TRANSFER CASES", "label": "NEAR-TRANSFER CASES", "shape": "dot", "size": 18.0, "title": "[Entity]\nNEAR-TRANSFER CASES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "CROSSKERRY\u0027S STRATEGIES", "label": "CROSSKERRY\u0027S STRATEGIES", "shape": "dot", "size": 17.0, "title": "[Entity]\nCROSSKERRY\u0027S STRATEGIES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PATIENT VIDEO BANK", "label": "PATIENT VIDEO BANK", "shape": "dot", "size": 16.5, "title": "[Entity]\nPATIENT VIDEO BANK"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "LESS FAMILIAR CASES", "label": "LESS FAMILIAR CASES", "shape": "dot", "size": 18.5, "title": "[Entity]\nLESS FAMILIAR CASES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "SELF-EXPLANATIONS", "label": "SELF-EXPLANATIONS", "shape": "dot", "size": 19.5, "title": "[Entity]\nSELF-EXPLANATIONS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "SURGICAL TRAINING", "label": "SURGICAL TRAINING", "shape": "dot", "size": 17.5, "title": "[Entity]\nSURGICAL TRAINING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "ILLNESS SCRIPTS", "label": "ILLNESS SCRIPTS", "shape": "dot", "size": 22.5, "title": "[Entity]\nILLNESS SCRIPTS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "DIAGNOSTIC ERRORS", "label": "DIAGNOSTIC ERRORS", "shape": "dot", "size": 18.0, "title": "[Entity]\nDIAGNOSTIC ERRORS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "DIAGNOSTIC ACCURACY SCORE", "label": "DIAGNOSTIC ACCURACY SCORE", "shape": "dot", "size": 19.5, "title": "[Entity]\nDIAGNOSTIC ACCURACY SCORE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "KEY FEATURE QUESTIONS", "label": "KEY FEATURE QUESTIONS", "shape": "dot", "size": 17.5, "title": "[Entity]\nKEY FEATURE QUESTIONS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "TESTING PHASE", "label": "TESTING PHASE", "shape": "dot", "size": 17.0, "title": "[Entity]\nTESTING PHASE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PATIENT VIDEO ENRICHMENT", "label": "PATIENT VIDEO ENRICHMENT", "shape": "dot", "size": 16.5, "title": "[Entity]\nPATIENT VIDEO ENRICHMENT"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "CFS TRAINING", "label": "CFS TRAINING", "shape": "dot", "size": 20.5, "title": "[Entity]\nCFS TRAINING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "TRAINING PROTOCOLS", "label": "TRAINING PROTOCOLS", "shape": "dot", "size": 18.0, "title": "[Entity]\nTRAINING PROTOCOLS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "UNIVERSITY OF SHERBROOKE", "label": "UNIVERSITY OF SHERBROOKE", "shape": "dot", "size": 16.5, "title": "[Entity]\nUNIVERSITY OF SHERBROOKE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "REPEATED TESTING", "label": "REPEATED TESTING", "shape": "dot", "size": 20.5, "title": "[Entity]\nREPEATED TESTING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PRIMARY CARE EDUCATION", "label": "PRIMARY CARE EDUCATION", "shape": "dot", "size": 19.5, "title": "[Entity]\nPRIMARY CARE EDUCATION"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "ADVANCED MEDICAL STUDENTS", "label": "ADVANCED MEDICAL STUDENTS", "shape": "dot", "size": 16.5, "title": "[Entity]\nADVANCED MEDICAL STUDENTS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "DIAGNOSTIC OUTCOMES", "label": "DIAGNOSTIC OUTCOMES", "shape": "dot", "size": 17.0, "title": "[Entity]\nDIAGNOSTIC OUTCOMES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "MEDICINE LEARNING AND TEACHING UNIT", "label": "MEDICINE LEARNING AND TEACHING UNIT", "shape": "dot", "size": 16.5, "title": "[Entity]\nMEDICINE LEARNING AND TEACHING UNIT"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "VISUAL LEARNING", "label": "VISUAL LEARNING", "shape": "dot", "size": 18.0, "title": "[Entity]\nVISUAL LEARNING"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "DIAGNOSTIC ACCURACY AS A FUNCTION OF PERFORMANCE MOMENT", "label": "DIAGNOSTIC ACCURACY AS A FUNCTION O", "shape": "dot", "size": 17.5, "title": "[Entity]\nDIAGNOSTIC ACCURACY AS A FUNCTION OF PERFORMANCE MOMENT"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "STRUCTURED REFLECTION", "label": "STRUCTURED REFLECTION", "shape": "dot", "size": 24.0, "title": "[Entity]\nSTRUCTURED REFLECTION"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "DIAGNOSTIC PROBLEMS", "label": "DIAGNOSTIC PROBLEMS", "shape": "dot", "size": 16.5, "title": "[Entity]\nDIAGNOSTIC PROBLEMS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PNEUMONIA", "label": "PNEUMONIA", "shape": "dot", "size": 16.5, "title": "[Entity]\nPNEUMONIA"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "STUDENT PERFORMANCE", "label": "STUDENT PERFORMANCE", "shape": "dot", "size": 19.5, "title": "[Entity]\nSTUDENT PERFORMANCE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "SIMULATOR SESSION", "label": "SIMULATOR SESSION", "shape": "dot", "size": 21.0, "title": "[Entity]\nSIMULATOR SESSION"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "MEDIALIS", "label": "MEDIALIS", "shape": "dot", "size": 26.0, "title": "[Entity]\nMEDIALIS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "LEARNER REPORTS", "label": "LEARNER REPORTS", "shape": "dot", "size": 25.0, "title": "[Entity]\nLEARNER REPORTS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "TRAINING CASES", "label": "TRAINING CASES", "shape": "dot", "size": 17.0, "title": "[Entity]\nTRAINING CASES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "SIMULATION SESSION", "label": "SIMULATION SESSION", "shape": "dot", "size": 20.5, "title": "[Entity]\nSIMULATION SESSION"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "CLINICAL JUDGMENT", "label": "CLINICAL JUDGMENT", "shape": "dot", "size": 17.5, "title": "[Entity]\nCLINICAL JUDGMENT"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "CASE FILE FORMAT", "label": "CASE FILE FORMAT", "shape": "dot", "size": 17.5, "title": "[Entity]\nCASE FILE FORMAT"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "DATA ANALYSIS", "label": "DATA ANALYSIS", "shape": "dot", "size": 18.0, "title": "[Entity]\nDATA ANALYSIS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "TEST PHASE", "label": "TEST PHASE", "shape": "dot", "size": 18.5, "title": "[Entity]\nTEST PHASE"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "UNDERGRADUATE MEDICAL STUDENTS", "label": "UNDERGRADUATE MEDICAL STUDENTS", "shape": "dot", "size": 19.0, "title": "[Entity]\nUNDERGRADUATE MEDICAL STUDENTS"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "E-SEMINSAR", "label": "E-SEMINSAR", "shape": "dot", "size": 16.5, "title": "[Entity]\nE-SEMINSAR"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "E-LEARNING RESOURCES", "label": "E-LEARNING RESOURCES", "shape": "dot", "size": 16.5, "title": "[Entity]\nE-LEARNING RESOURCES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "GERIATRIC EDUCATION", "label": "GERIATRIC EDUCATION", "shape": "dot", "size": 16.5, "title": "[Entity]\nGERIATRIC EDUCATION"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "SELF-EXPLANATION EXAMPLES", "label": "SELF-EXPLANATION EXAMPLES", "shape": "dot", "size": 17.5, "title": "[Entity]\nSELF-EXPLANATION EXAMPLES"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "PATTERN RECOGNITION", "label": "PATTERN RECOGNITION", "shape": "dot", "size": 16.5, "title": "[Entity]\nPATTERN RECOGNITION"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "LEARNER", "label": "LEARNER", "shape": "dot", "size": 17.5, "title": "[Entity]\nLEARNER"}, {"font": {"color": "#333333"}, "group": "Entity", "id": "CLINICAL DECISION MAKING TEACHING INTERVENTION", "label": "CLINICAL DECISION MAKING TEACHING I", "shape": "dot", "size": 20.5, "title": "[Entity]\nCLINICAL DECISION MAKING TEACHING INTERVENTION"}]);
+                  edges = new vis.DataSet([{"color": "#bdc3c7", "from": "CONTROL", "title": "", "to": "DIAGNOSTIC ACCURACY", "width": 2.0}, {"color": "#bdc3c7", "from": "CONTROL", "title": "", "to": "DIAGNOSTIC PERFORMANCE", "width": 2.0}, {"color": "#bdc3c7", "from": "CONTROL", "title": "", "to": "GROUP 2", "width": 3.0}, {"color": "#bdc3c7", "from": "CONTROL", "title": "", "to": "GROUP 1", "width": 3.0}, {"color": "#bdc3c7", "from": "CYTOPATHOLOGY TRAINING", "title": "", "to": "DIAGNOSTIC ACCURACY", "width": 4.0}, {"color": "#bdc3c7", "from": "CYTOPATHOLOGY TRAINING", "title": "", "to": "ANALYTIC REASONING", "width": 3.5}, {"color": "#bdc3c7", "from": "CYTOPATHOLOGY TRAINING", "title": "", "to": "NONANALYTIC REASONING", "width": 2.0}, {"color": "#bdc3c7", "from": "MEDICAL DECISION MAKING", "title": "", "to": "AVAILABILITY HEURISTIC", "width": 2.5}, {"color": "#bdc3c7", "from": "MEDICAL DECISION MAKING", "title": "", "to": "PATTERN RECOGNITION", "width": 3.0}, {"color": "#bdc3c7", "from": "NOVICE DIAGNOSTICIANS", "title": "", "to": "COMBINED REASONING STRATEGIES", "width": 4.0}, {"color": "#bdc3c7", "from": "NOVICE DIAGNOSTICIANS", "title": "", "to": "BIASES", "width": 3.5}, {"color": "#bdc3c7", "from": "NOVICE DIAGNOSTICIANS", "title": "", "to": "STUDY 1", "width": 2.5}, {"color": "#bdc3c7", "from": "NOVICE DIAGNOSTICIANS", "title": "", "to": "STUDY 2", "width": 2.5}, {"color": "#bdc3c7", "from": "NOVICE DIAGNOSTICIANS", "title": "", "to": "DIAGNOSTIC ACCURACY", "width": 3.5}, {"color": "#bdc3c7", "from": "FALSE ALARM RATE", "title": "", "to": "ANALYTIC REASONING", "width": 3.0}, {"color": "#bdc3c7", "from": "FALSE ALARM RATE", "title": "", "to": "NONANALYTIC REASONING", "width": 0.5}, {"color": "#bdc3c7", "from": "FALSE ALARM RATE", "title": "", "to": "TRAINING PROTOCOLS", "width": 3.0}, {"color": "#bdc3c7", "from": "FALSE ALARM RATE", "title": "", "to": "MISS ERROR RATE", "width": 2.0}, {"color": "#bdc3c7", "from": "COMBINED REASONING INSTRUCTION", "title": "", "to": "DIAGNOSTIC ACCURACY", "width": 4.0}, {"color": "#bdc3c7", "from": "ELABORATED FEEDBACK", "title": "", "to": "DIAGNOSTIC KNOWLEDGE", "width": 4.0}, {"color": "#bdc3c7", "from": "ELABORATED FEEDBACK", "title": "", "to": "TIME-ON-TASK", "width": 2.0}, {"color": "#bdc3c7", "from": "CLINICAL TEACHING", "title": "", "to": "SELF-EXPLANATION", "width": 3.0}, {"color": "#bdc3c7", "from": "CLINICAL TEACHING", "title": "", "to": "STRUCTURED REFLECTION", "width": 0.5}, {"color": "#bdc3c7", "from": "CLINICAL TEACHING", "title": "", "to": "DIAGNOSTIC COMPETENCE", "width": 4.0}, {"color": "#bdc3c7", "from": "CLINICAL TEACHING", "title": "", "to": "ADVANCED MEDICAL STUDENTS", "width": 4.0}, {"color": "#bdc3c7", "from": "HYPOTHYROIDISM", "title": "", "to": "DIAGNOSTIC STRATEGIES", "width": 3.0}, {"color": "#bdc3c7", "from": "VIRTUAL PATIENTS", "title": "", "to": "GERIATRIC EDUCATION", "width": 4.0}, {"color": "#bdc3c7", "from": "VIRTUAL PATIENTS", "title": "", "to": "CASEBOOK", "width": 3.5}, {"color": "#bdc3c7", "from": "GROUP 2: RESIDENT SE WITHOUT PROMPTS", "title": "", "to": "CONTROL GROUP", "width": 0.5}, {"color": "#bdc3c7", "from": "GROUP 2: RESIDENT SE WITHOUT PROMPTS", "title": "", "to": "DIAGNOSTIC PERFORMANCE SCORE", "width": 3.0}, {"color": "#bdc3c7", "from": "GROUP 2: RESIDENT SE WITHOUT PROMPTS", "title": "", "to": "DIAGNOSTIC PERFORMANCE SCORES", "width": 3.5}, {"color": "#bdc3c7", "from": "GROUP 2: RESIDENT SE WITHOUT PROMPTS", "title": "", "to": "NEAR-TRANSFER CASES", "width": 3.0}, {"color": "#bdc3c7", "from": "GROUP 2: RESIDENT SE WITHOUT PROMPTS", "title": "", "to": "FAR-TRANSFER CASES", "width": 1.5}, {"color": "#bdc3c7", "from": "GROUP 2: RESIDENT SE WITHOUT PROMPTS", "title": "", "to": "GROUP 1: RESIDENT SE WITH PROMPTS", "width": 3.5}, {"color": "#bdc3c7", "from": "GROUP 2: RESIDENT SE WITHOUT PROMPTS", "title": "", "to": "DIAGNOSTIC ACCURACY AS A FUNCTION OF PERFORMANCE MOMENT", "width": 2.0}, {"color": "#bdc3c7", "from": "HEART FAILURE", "title": "", "to": "MEDICAL STUDENTS", "width": 4.0}, {"color": "#bdc3c7", "from": "HEART FAILURE", "title": "", "to": "E-SEMINARS", "width": 3.5}, {"color": "#bdc3c7", "from": "HEART FAILURE", "title": "", "to": "DIAGNOSTIC ACCURACY", "width": 2.0}, {"color": "#bdc3c7", "from": "PERFORMANCE IMPROVEMENT", "title": "", "to": "STUDENTS", "width": 0.5}, {"color": "#bdc3c7", "from": "PERFORMANCE IMPROVEMENT", "title": "", "to": "SURGEONS", "width": 4.0}, {"color": "#bdc3c7", "from": "PERFORMANCE IMPROVEMENT", "title": "", "to": "RESIDENTS", "width": 4.0}, {"color": "#bdc3c7", "from": "PERFORMANCE IMPROVEMENT", "title": "", "to": "GAME", "width": 4.5}, {"color": "#bdc3c7", "from": "CASE-BASED LEARNING", "title": "", "to": "STUDENT PERFORMANCE", "width": 0.5}, {"color": "#bdc3c7", "from": "CASE-BASED LEARNING", "title": "", "to": "REPEATED TESTING", "width": 3.5}, {"color": "#bdc3c7", "from": "MULTIPLE-CHOICE QUESTIONS", "title": "", "to": "DIAGNOSTIC REASONING", "width": 3.0}, {"color": "#bdc3c7", "from": "MULTIPLE-CHOICE QUESTIONS", "title": "", "to": "CASEBOOK APPLICATION", "width": 4.0}, {"color": "#bdc3c7", "from": "SCHEMA-BASED INSTRUCTION", "title": "", "to": "MEDICAL STUDENTS", "width": 4.0}, {"color": "#bdc3c7", "from": "SCHEMA-BASED INSTRUCTION", "title": "", "to": "DIAGNOSTIC ACCURACY", "width": 8.5}, {"color": "#bdc3c7", "from": "SCHEMA-BASED INSTRUCTION", "title": "", "to": "STUDENTS", "width": 4.0}, {"color": "#bdc3c7", "from": "SCHEMA-BASED INSTRUCTION", "title": "", "to": "LEARNING PHASE", "width": 3.5}, {"color": "#bdc3c7", "from": "SCHEMA-BASED INSTRUCTION", "title": "", "to": "WRITTEN TEST", "width": 3.5}, {"color": "#bdc3c7", "from": "ECG", "title": "", "to": "PERICARDITIS", "width": 0.5}, {"color": "#bdc3c7", "from": "ECG", "title": "", "to": "DIAGNOSTIC ACCURACY", "width": 3.5}, {"color": "#bdc3c7", "from": "ECG", "title": "", "to": "STUDY 1", "width": 4.0}, {"color": "#bdc3c7", "from": "ECG", "title": "", "to": "STUDY 2", "width": 4.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC DECISIONS", "title": "", "to": "ANALYTIC REASONING", "width": 3.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC DECISIONS", "title": "", "to": "NON-ANALYTIC REASONING", "width": 3.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC DECISIONS", "title": "", "to": "FEATURE LIST", "width": 3.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC DECISIONS", "title": "", "to": "PARTICIPANTS", "width": 3.5}, {"color": "#bdc3c7", "from": "WRITTEN TEST", "title": "", "to": "DATA ANALYSIS", "width": 3.5}, {"color": "#bdc3c7", "from": "WRITTEN TEST", "title": "", "to": "TESTING PHASE", "width": 7.5}, {"color": "#bdc3c7", "from": "MRI", "title": "", "to": "DIAGNOSTIC STRATEGIES", "width": 0.5}, {"color": "#bdc3c7", "from": "TEST 3", "title": "", "to": "TEST 2", "width": 3.5}, {"color": "#bdc3c7", "from": "TEST 3", "title": "", "to": "MISS ERROR RATE", "width": 3.0}, {"color": "#bdc3c7", "from": "WJ", "title": "", "to": "RESULTS AND DISCUSSION", "width": 4.0}, {"color": "#bdc3c7", "from": "WJ", "title": "", "to": "FINAL MANUSCRIPT", "width": 3.5}, {"color": "#bdc3c7", "from": "WJ", "title": "", "to": "CRITICAL REVISION", "width": 3.5}, {"color": "#bdc3c7", "from": "MISCONCEPTIONS", "title": "", "to": "LEARNER REPORTS", "width": 4.0}, {"color": "#bdc3c7", "from": "MISCONCEPTIONS", "title": "", "to": "LEARNER REPORT", "width": 4.0}, {"color": "#bdc3c7", "from": "LEARNING", "title": "", "to": "MEDICAL STUDENTS", "width": 4.0}, {"color": "#bdc3c7", "from": "LEARNING", "title": "", "to": "FEEDBACK", "width": 4.5}, {"color": "#bdc3c7", "from": "LEARNING", "title": "", "to": "PERSONAL DIGITAL ASSISTANTS", "width": 3.5}, {"color": "#bdc3c7", "from": "LEARNING", "title": "", "to": "NOVEL EDUCATIONAL TOOL", "width": 0.5}, {"color": "#bdc3c7", "from": "DIAGNOSIS", "title": "", "to": "CLINICAL REASONING", "width": 0.5}, {"color": "#bdc3c7", "from": "DIAGNOSIS", "title": "", "to": "DIAGNOSTIC PERFORMANCE", "width": 0.5}, {"color": "#bdc3c7", "from": "DIAGNOSIS", "title": "", "to": "PARTICIPANT", "width": 4.0}, {"color": "#bdc3c7", "from": "DIAGNOSIS", "title": "", "to": "REPEATED-MEASURES ANOVA", "width": 0.5}, {"color": "#bdc3c7", "from": "DIAGNOSIS", "title": "", "to": "SIMULATOR SESSION", "width": 4.0}, {"color": "#bdc3c7", "from": "CLINICAL REASONING SKILLS", "title": "", "to": "MEDICAL STUDENTS", "width": 4.0}, {"color": "#bdc3c7", "from": "CLINICAL REASONING SKILLS", "title": "", "to": "PRIMARY CARE EDUCATION", "width": 3.5}, {"color": "#bdc3c7", "from": "CLINICAL REASONING SKILLS", "title": "", "to": "DIAGNOSTIC STRATEGIES", "width": 3.5}, {"color": "#bdc3c7", "from": "CLINICAL REASONING SKILLS", "title": "", "to": "VP CASES", "width": 4.0}, {"color": "#bdc3c7", "from": "CLINICAL REASONING SKILLS", "title": "", "to": "ILLNESS SCRIPTS", "width": 3.0}, {"color": "#bdc3c7", "from": "RESULTS AND DISCUSSION", "title": "", "to": "JB", "width": 4.0}, {"color": "#bdc3c7", "from": "RESULTS AND DISCUSSION", "title": "", "to": "SA", "width": 4.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC KNOWLEDGE", "title": "", "to": "FEEDBACK", "width": 3.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC KNOWLEDGE", "title": "", "to": "CONTROL GROUP", "width": 2.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC KNOWLEDGE", "title": "", "to": "ERRORS", "width": 2.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC KNOWLEDGE", "title": "", "to": "STATISTICAL SIGNIFICANCE", "width": 2.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC KNOWLEDGE", "title": "", "to": "ERRONEOUS EXAMPLES", "width": 7.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC KNOWLEDGE", "title": "", "to": "CASE-BASED WORKED EXAMPLE APPROACH", "width": 4.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC KNOWLEDGE", "title": "", "to": "LEARNING ENVIRONMENT", "width": 4.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC KNOWLEDGE", "title": "", "to": "WORKED EXAMPLES", "width": 4.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC KNOWLEDGE", "title": "", "to": "TIME-ON-TASK", "width": 5.5}, {"color": "#bdc3c7", "from": "VIRTUAL PATIENT", "title": "", "to": "CASEBOOK", "width": 4.0}, {"color": "#bdc3c7", "from": "VIRTUAL PATIENT", "title": "", "to": "ELECTRONIC HEALTH RECORDS", "width": 4.0}, {"color": "#bdc3c7", "from": "VIRTUAL PATIENT", "title": "", "to": "PATIENT CASES", "width": 4.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE SCORES", "title": "", "to": "SELF-EXPLANATION", "width": 4.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE SCORES", "title": "", "to": "CONTROL GROUP", "width": 5.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE SCORES", "title": "", "to": "LESS FAMILIAR TOPIC", "width": 2.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE SCORES", "title": "", "to": "MORE FAMILIAR TOPIC", "width": 0.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE SCORES", "title": "", "to": "GROUP 1", "width": 4.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE SCORES", "title": "", "to": "GROUP 2", "width": 3.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE SCORES", "title": "", "to": "REPEATED-MEASURES ANOVA", "width": 0.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE SCORES", "title": "", "to": "GROUP 1: RESIDENT SE WITH PROMPTS", "width": 4.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE SCORES", "title": "", "to": "SELF-EXPLANATION (SE)", "width": 4.5}, {"color": "#bdc3c7", "from": "BIOMEDICAL KNOWLEDGE", "title": "", "to": "CLINICAL REASONING", "width": 9.5}, {"color": "#bdc3c7", "from": "BIOMEDICAL KNOWLEDGE", "title": "", "to": "SELF-EXPLANATION", "width": 3.5}, {"color": "#bdc3c7", "from": "BIOMEDICAL KNOWLEDGE", "title": "", "to": "LESS FAMILIAR CASES", "width": 3.0}, {"color": "#bdc3c7", "from": "BIOMEDICAL KNOWLEDGE", "title": "", "to": "DIAGNOSTIC PERFORMANCE", "width": 4.0}, {"color": "#bdc3c7", "from": "BIOMEDICAL KNOWLEDGE", "title": "", "to": "ILLNESS SCRIPTS", "width": 4.0}, {"color": "#bdc3c7", "from": "BIOMEDICAL KNOWLEDGE", "title": "", "to": "DIAGNOSTIC OUTCOMES", "width": 4.0}, {"color": "#bdc3c7", "from": "BIOMEDICAL KNOWLEDGE", "title": "", "to": "DIAGNOSTIC COMPETENCE", "width": 0.5}, {"color": "#bdc3c7", "from": "PROMPTS", "title": "", "to": "SELF-EXPLANATION", "width": 4.0}, {"color": "#bdc3c7", "from": "PROMPTS", "title": "", "to": "SELF-EXPLANATION (SE)", "width": 7.0}, {"color": "#bdc3c7", "from": "CLINICAL PROBLEMS", "title": "", "to": "SELF-EXPLANATION", "width": 3.0}, {"color": "#bdc3c7", "from": "CLINICAL PROBLEMS", "title": "", "to": "ILLNESS SCRIPTS", "width": 3.0}, {"color": "#bdc3c7", "from": "TRAINING PHASE", "title": "", "to": "MEDICAL STUDENTS", "width": 4.0}, {"color": "#bdc3c7", "from": "TRAINING PHASE", "title": "", "to": "SELF-EXPLANATION", "width": 12.5}, {"color": "#bdc3c7", "from": "TRAINING PHASE", "title": "", "to": "PRACTICE PHASE", "width": 8.0}, {"color": "#bdc3c7", "from": "TRAINING PHASE", "title": "", "to": "IMMEDIATE TEST PHASE", "width": 4.0}, {"color": "#bdc3c7", "from": "TRAINING PHASE", "title": "", "to": "ASSESSMENT PHASE", "width": 20.0}, {"color": "#bdc3c7", "from": "TRAINING PHASE", "title": "", "to": "CLINICAL CASES", "width": 15.0}, {"color": "#bdc3c7", "from": "TRAINING PHASE", "title": "", "to": "STRUCTURED REFLECTION", "width": 3.0}, {"color": "#bdc3c7", "from": "TRAINING PHASE", "title": "", "to": "JAUNDICE", "width": 0.5}, {"color": "#bdc3c7", "from": "TRAINING PHASE", "title": "", "to": "CONTROL GROUP", "width": 2.0}, {"color": "#bdc3c7", "from": "TRAINING PHASE", "title": "", "to": "NEAR-TRANSFER CASES", "width": 3.5}, {"color": "#bdc3c7", "from": "TRAINING PHASE", "title": "", "to": "PARTICIPANT", "width": 4.0}, {"color": "#bdc3c7", "from": "LABORATORY INVESTIGATIONS", "title": "", "to": "PROGRESSIVE JAUNDICE", "width": 4.5}, {"color": "#bdc3c7", "from": "REPEATED CASE-BASED LEARNING", "title": "", "to": "UNDERGRADUATE MEDICAL STUDENTS", "width": 4.0}, {"color": "#bdc3c7", "from": "REPEATED CASE-BASED LEARNING", "title": "", "to": "KEY FEATURE QUESTIONS", "width": 4.5}, {"color": "#bdc3c7", "from": "PROGRESSIVE JAUNDICE", "title": "", "to": "PHYSICAL EXAMINATION", "width": 4.0}, {"color": "#bdc3c7", "from": "PROGRESSIVE JAUNDICE", "title": "", "to": "HYPERTENSION", "width": 2.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC CATEGORIES", "title": "", "to": "PERICARDITIS", "width": 4.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC STRATEGIES", "title": "", "to": "LOW BACK PAIN", "width": 3.0}, {"color": "#bdc3c7", "from": "PROBLEM SOLVING", "title": "", "to": "CLINICAL REASONING", "width": 4.0}, {"color": "#bdc3c7", "from": "PROBLEM SOLVING", "title": "", "to": "ANALOGICAL TRANSFER", "width": 0.5}, {"color": "#bdc3c7", "from": "PROBLEM SOLVING", "title": "", "to": "NOVEL EDUCATIONAL TOOL", "width": 4.0}, {"color": "#bdc3c7", "from": "CASE ANALYSIS", "title": "", "to": "ACUTE VIRAL PERICARDITIS", "width": 4.0}, {"color": "#bdc3c7", "from": "CASE ANALYSIS", "title": "", "to": "PILOT STUDY", "width": 3.0}, {"color": "#bdc3c7", "from": "UNIVERSITY OF ADELAIDE", "title": "", "to": "MEDICINE LEARNING AND TEACHING UNIT", "width": 4.5}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION (SE)", "title": "", "to": "CONTROL GROUP", "width": 2.0}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION (SE)", "title": "", "to": "RESIDENTS", "width": 4.0}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION (SE)", "title": "", "to": "GROUP 1", "width": 4.0}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION (SE)", "title": "", "to": "GROUP 2", "width": 3.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE TESTS", "title": "", "to": "FEEDBACK", "width": 3.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE TESTS", "title": "", "to": "STRUCTURED REFLECTION", "width": 3.5}, {"color": "#bdc3c7", "from": "STATISTICAL SIGNIFICANCE", "title": "", "to": "DIAGNOSTIC ACCURACY SCORE", "width": 3.0}, {"color": "#bdc3c7", "from": "STATISTICAL SIGNIFICANCE", "title": "", "to": "DIAGNOSTIC PERFORMANCE SCORE", "width": 0.5}, {"color": "#bdc3c7", "from": "MISS ERROR RATE", "title": "", "to": "ANALYTIC REASONING", "width": 3.0}, {"color": "#bdc3c7", "from": "MISS ERROR RATE", "title": "", "to": "NONANALYTIC REASONING", "width": 3.0}, {"color": "#bdc3c7", "from": "MISS ERROR RATE", "title": "", "to": "TEST 2", "width": 4.0}, {"color": "#bdc3c7", "from": "MISS ERROR RATE", "title": "", "to": "TRAINING PROTOCOLS", "width": 4.0}, {"color": "#bdc3c7", "from": "STUDY 1", "title": "", "to": "DATA COLLECTION", "width": 4.0}, {"color": "#bdc3c7", "from": "STUDY 1", "title": "", "to": "STUDENTS", "width": 4.0}, {"color": "#bdc3c7", "from": "VIRTUAL PATIENT CASES", "title": "", "to": "DIAGNOSTIC ERROR", "width": 3.0}, {"color": "#bdc3c7", "from": "VIRTUAL PATIENT CASES", "title": "", "to": "PRIMARY CARE EDUCATION", "width": 4.0}, {"color": "#bdc3c7", "from": "VIRTUAL PATIENT CASES", "title": "", "to": "PATIENT VIDEOS", "width": 3.5}, {"color": "#bdc3c7", "from": "VIRTUAL PATIENT CASES", "title": "", "to": "E-LEARNING RESOURCES", "width": 3.0}, {"color": "#bdc3c7", "from": "VIRTUAL PATIENT CASES", "title": "", "to": "ELECTRONIC HEALTH RECORDS", "width": 4.5}, {"color": "#bdc3c7", "from": "VIRTUAL PATIENT CASES", "title": "", "to": "STUDENT PREPAREDNESS", "width": 3.5}, {"color": "#bdc3c7", "from": "VIRTUAL PATIENT CASES", "title": "", "to": "PATIENT CASES", "width": 3.5}, {"color": "#bdc3c7", "from": "VIRTUAL PATIENT CASES", "title": "", "to": "CASE FILE FORMAT", "width": 4.0}, {"color": "#bdc3c7", "from": "SURGICAL SKILLS TRAINING", "title": "", "to": "MEDICAL EDUCATION", "width": 4.0}, {"color": "#bdc3c7", "from": "DELAYED TEST", "title": "", "to": "STRUCTURED REFLECTION", "width": 4.5}, {"color": "#bdc3c7", "from": "DELAYED TEST", "title": "", "to": "DIAGNOSTIC COMPETENCE", "width": 0.5}, {"color": "#bdc3c7", "from": "DELAYED TEST", "title": "", "to": "LEARNING PHASE", "width": 10.5}, {"color": "#bdc3c7", "from": "DELAYED TEST", "title": "", "to": "IMMEDIATE TEST", "width": 2.5}, {"color": "#bdc3c7", "from": "LONG-TERM RETENTION", "title": "", "to": "REPEATED TESTING", "width": 4.0}, {"color": "#bdc3c7", "from": "LONG-TERM RETENTION", "title": "", "to": "TEST-ENHANCED LEARNING", "width": 4.0}, {"color": "#bdc3c7", "from": "LONG-TERM RETENTION", "title": "", "to": "SELF-EXPLANATION", "width": 3.5}, {"color": "#bdc3c7", "from": "PATIENT CASES", "title": "", "to": "ANNOTATIONS", "width": 3.5}, {"color": "#bdc3c7", "from": "GROUP 1", "title": "", "to": "SELF-EXPLANATION", "width": 3.5}, {"color": "#bdc3c7", "from": "GROUP 1", "title": "", "to": "DIAGNOSTIC ACCURACY", "width": 4.5}, {"color": "#bdc3c7", "from": "GROUP 1", "title": "", "to": "DIAGNOSTIC PERFORMANCE", "width": 4.5}, {"color": "#bdc3c7", "from": "GROUP 1", "title": "", "to": "DIAGNOSTIC ACCURACY SCORE", "width": 4.0}, {"color": "#bdc3c7", "from": "GROUP 1", "title": "", "to": "DIAGNOSTIC PERFORMANCE SCORE", "width": 4.5}, {"color": "#bdc3c7", "from": "GROUP 1", "title": "", "to": "AGE", "width": 3.0}, {"color": "#bdc3c7", "from": "GROUP 1", "title": "", "to": "GENDER", "width": 3.0}, {"color": "#bdc3c7", "from": "GROUP 1", "title": "", "to": "DIAGNOSTIC ACCURACY SCORES", "width": 4.5}, {"color": "#bdc3c7", "from": "GROUP 1", "title": "", "to": "GROUP 2", "width": 2.5}, {"color": "#bdc3c7", "from": "GROUP 1", "title": "", "to": "INTERVENTION IN THE TRAINING PHASE", "width": 4.0}, {"color": "#bdc3c7", "from": "GROUP 1", "title": "", "to": "NEAR-TRANSFER CASES", "width": 4.0}, {"color": "#bdc3c7", "from": "GROUP 1", "title": "", "to": "FAR-TRANSFER CASES", "width": 4.5}, {"color": "#bdc3c7", "from": "TRADITIONAL INSTRUCTION", "title": "", "to": "MEDICAL STUDENTS", "width": 2.5}, {"color": "#bdc3c7", "from": "TRADITIONAL INSTRUCTION", "title": "", "to": "DIAGNOSTIC ACCURACY", "width": 4.0}, {"color": "#bdc3c7", "from": "TRADITIONAL INSTRUCTION", "title": "", "to": "STUDENTS", "width": 4.0}, {"color": "#bdc3c7", "from": "TRADITIONAL INSTRUCTION", "title": "", "to": "LEARNING PHASE", "width": 3.5}, {"color": "#bdc3c7", "from": "TEST-ENHANCED LEARNING", "title": "", "to": "CLINICAL REASONING", "width": 3.0}, {"color": "#bdc3c7", "from": "TEST-ENHANCED LEARNING", "title": "", "to": "UNDERGRADUATE MEDICAL STUDENTS", "width": 3.0}, {"color": "#bdc3c7", "from": "TEST-ENHANCED LEARNING", "title": "", "to": "MEDICAL EDUCATION", "width": 0.5}, {"color": "#bdc3c7", "from": "TEST-ENHANCED LEARNING", "title": "", "to": "KEY FEATURE QUESTIONS", "width": 3.5}, {"color": "#bdc3c7", "from": "TEST-ENHANCED LEARNING", "title": "", "to": "NEUROLOGY", "width": 0.5}, {"color": "#bdc3c7", "from": "PATHOPHYSIOLOGICAL EXPLANATION", "title": "", "to": "LEARNER REPORTS", "width": 4.0}, {"color": "#bdc3c7", "from": "KNOWLEDGE RESTRUCTURING", "title": "", "to": "DIAGNOSTIC COMPETENCE", "width": 3.5}, {"color": "#bdc3c7", "from": "KNOWLEDGE RESTRUCTURING", "title": "", "to": "ILLNESS SCRIPTS", "width": 4.5}, {"color": "#bdc3c7", "from": "KNOWLEDGE RESTRUCTURING", "title": "", "to": "DIAGNOSTIC OUTCOMES", "width": 4.5}, {"color": "#bdc3c7", "from": "SURGICAL RESIDENTS", "title": "", "to": "SERIOUS GAME", "width": 4.5}, {"color": "#bdc3c7", "from": "SURGICAL RESIDENTS", "title": "", "to": "MEDIALIS", "width": 3.5}, {"color": "#bdc3c7", "from": "SURGICAL RESIDENTS", "title": "", "to": "VALIDITY", "width": 3.5}, {"color": "#bdc3c7", "from": "COGNITIVE FORCING STRATEGIES", "title": "", "to": "STUDENTS", "width": 0.5}, {"color": "#bdc3c7", "from": "COGNITIVE FORCING STRATEGIES", "title": "", "to": "DIAGNOSTIC ERROR", "width": 8.0}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION", "title": "", "to": "CLINICAL REASONING", "width": 46.0}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION", "title": "", "to": "MEDICAL STUDENTS", "width": 4.0}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION", "title": "", "to": "FEEDBACK", "width": 0.5}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION", "title": "", "to": "MEDICAL EDUCATION", "width": 3.5}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION", "title": "", "to": "LESS FAMILIAR CASES", "width": 10.5}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION", "title": "", "to": "FAMILIAR CASES", "width": 3.0}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION", "title": "", "to": "DIAGNOSTIC PERFORMANCE", "width": 31.5}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION", "title": "", "to": "CLINICAL CASES", "width": 3.5}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION", "title": "", "to": "KNOWLEDGE ELABORATION", "width": 4.5}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION", "title": "", "to": "STRUCTURED REFLECTION", "width": 3.0}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION", "title": "", "to": "DIAGNOSTIC COMPETENCE", "width": 8.0}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION", "title": "", "to": "LEARNING FROM TEXT", "width": 3.0}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION", "title": "", "to": "DIAGNOSTIC ACCURACY SCORE", "width": 2.5}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION", "title": "", "to": "DIAGNOSTIC PERFORMANCE SCORE", "width": 2.5}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION", "title": "", "to": "DIAGNOSTIC ACCURACY", "width": 4.0}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION", "title": "", "to": "ILLNESS SCRIPTS", "width": 7.0}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION", "title": "", "to": "STUDENTS", "width": 4.0}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION", "title": "", "to": "RESEARCH", "width": 2.5}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION", "title": "", "to": "EXPERTS", "width": 4.0}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION", "title": "", "to": "PEERS", "width": 2.5}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION", "title": "", "to": "SELF-EXPLANATIONS", "width": 3.0}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION", "title": "", "to": "EXAMPLE-BASED LEARNING", "width": 3.5}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION", "title": "", "to": "ASSESSMENT PHASE", "width": 4.0}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION", "title": "", "to": "GROUP 2", "width": 3.5}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION", "title": "", "to": "CONTROL GROUP", "width": 2.5}, {"color": "#bdc3c7", "from": "NOVEL EDUCATIONAL TOOL", "title": "", "to": "MEDICAL STUDENTS", "width": 4.5}, {"color": "#bdc3c7", "from": "NOVEL EDUCATIONAL TOOL", "title": "", "to": "DIAGNOSTIC REASONING", "width": 4.0}, {"color": "#bdc3c7", "from": "SA", "title": "", "to": "FINAL MANUSCRIPT", "width": 3.5}, {"color": "#bdc3c7", "from": "SA", "title": "", "to": "CRITICAL REVISION", "width": 0.5}, {"color": "#bdc3c7", "from": "AVAILABILITY BIAS", "title": "", "to": "DIAGNOSTIC ERROR", "width": 7.5}, {"color": "#bdc3c7", "from": "AVAILABILITY BIAS", "title": "", "to": "CFS TRAINING", "width": 4.0}, {"color": "#bdc3c7", "from": "AVAILABILITY BIAS", "title": "", "to": "DIAGNOSTIC DECISION MAKING", "width": 3.5}, {"color": "#bdc3c7", "from": "PHYSICAL EXAMINATION", "title": "", "to": "CLINICAL REASONING", "width": 4.5}, {"color": "#bdc3c7", "from": "PHYSICAL EXAMINATION", "title": "", "to": "ACUTE VIRAL PERICARDITIS", "width": 3.5}, {"color": "#bdc3c7", "from": "PHYSICAL EXAMINATION", "title": "", "to": "LEARNER REPORTS", "width": 3.5}, {"color": "#bdc3c7", "from": "PARTICIPANT", "title": "", "to": "ASSESSMENT PHASE", "width": 4.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC REASONING", "title": "", "to": "CLINICAL REASONING", "width": 4.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC REASONING", "title": "", "to": "DIAGNOSTIC ERROR", "width": 4.5}, {"color": "#bdc3c7", "from": "NONANALYTIC REASONING", "title": "", "to": "DIAGNOSTIC ACCURACY", "width": 3.5}, {"color": "#bdc3c7", "from": "NONANALYTIC REASONING", "title": "", "to": "DIAGNOSTIC ERROR", "width": 2.5}, {"color": "#bdc3c7", "from": "NONANALYTIC REASONING", "title": "", "to": "VISUAL LEARNING", "width": 4.0}, {"color": "#bdc3c7", "from": "NONANALYTIC REASONING", "title": "", "to": "CLINICAL JUDGMENT", "width": 3.0}, {"color": "#bdc3c7", "from": "NONANALYTIC REASONING", "title": "", "to": "TRAINING PROTOCOLS", "width": 3.5}, {"color": "#bdc3c7", "from": "MEDICAL EDUCATION", "title": "", "to": "CLINICAL REASONING", "width": 4.5}, {"color": "#bdc3c7", "from": "MEDICAL EDUCATION", "title": "", "to": "FORMATIVE ASSESSMENTS", "width": 4.0}, {"color": "#bdc3c7", "from": "MEDICAL EDUCATION", "title": "", "to": "DIAGNOSTIC ERROR", "width": 4.0}, {"color": "#bdc3c7", "from": "MEDICAL EDUCATION", "title": "", "to": "DIAGNOSTIC COMPETENCE", "width": 4.5}, {"color": "#bdc3c7", "from": "MEDICAL EDUCATION", "title": "", "to": "CASEBOOK", "width": 4.5}, {"color": "#bdc3c7", "from": "MEDICAL EDUCATION", "title": "", "to": "STRUCTURED REFLECTION", "width": 3.5}, {"color": "#bdc3c7", "from": "MEDICAL EDUCATION", "title": "", "to": "EXAMPLE-BASED LEARNING", "width": 4.0}, {"color": "#bdc3c7", "from": "MEDICAL EDUCATION", "title": "", "to": "COGNITIVE LOAD THEORY", "width": 4.0}, {"color": "#bdc3c7", "from": "FINAL MANUSCRIPT", "title": "", "to": "MEDICAL STUDENTS", "width": 2.5}, {"color": "#bdc3c7", "from": "FINAL MANUSCRIPT", "title": "", "to": "JB", "width": 3.5}, {"color": "#bdc3c7", "from": "ACUTE VIRAL PERICARDITIS", "title": "", "to": "CLINICAL CASES", "width": 4.0}, {"color": "#bdc3c7", "from": "ACUTE VIRAL PERICARDITIS", "title": "", "to": "JAUNDICE", "width": 2.0}, {"color": "#bdc3c7", "from": "IMMEDIATE DIAGNOSIS", "title": "", "to": "DIAGNOSTIC COMPETENCE", "width": 2.5}, {"color": "#bdc3c7", "from": "IMMEDIATE DIAGNOSIS", "title": "", "to": "LEARNING PHASE", "width": 3.0}, {"color": "#bdc3c7", "from": "IMMEDIATE DIAGNOSIS", "title": "", "to": "IMMEDIATE TEST", "width": 4.5}, {"color": "#bdc3c7", "from": "FAR-TRANSFER CASES", "title": "", "to": "ASSESSMENT PHASE", "width": 3.5}, {"color": "#bdc3c7", "from": "FAR-TRANSFER CASES", "title": "", "to": "GROUP 2", "width": 0.5}, {"color": "#bdc3c7", "from": "FAR-TRANSFER CASES", "title": "", "to": "GROUP 1: RESIDENT SE WITH PROMPTS", "width": 4.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE", "title": "", "to": "CLINICAL REASONING", "width": 0.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE", "title": "", "to": "TEACHING CLINICAL REASONING", "width": 4.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE", "title": "", "to": "DIFFERENTIAL DIAGNOSIS", "width": 3.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE", "title": "", "to": "DIAGNOSTIC ACCURACY", "width": 4.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE", "title": "", "to": "PATTERN RECOGNITION", "width": 3.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE", "title": "", "to": "CONTROL GROUP", "width": 6.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE", "title": "", "to": "EXPERTS", "width": 4.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE", "title": "", "to": "PREMATURE CLOSURE", "width": 0.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE", "title": "", "to": "STRUCTURED REFLECTION", "width": 11.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE", "title": "", "to": "LEARNERS", "width": 4.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE", "title": "", "to": "LESS FAMILIAR TOPIC", "width": 3.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE", "title": "", "to": "MORE FAMILIAR TOPIC", "width": 0.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE", "title": "", "to": "ASSESSMENT PHASE", "width": 4.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE", "title": "", "to": "SELF-EXPLANATIONS", "width": 3.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE", "title": "", "to": "TRAINING CASES", "width": 7.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE", "title": "", "to": "PEERS", "width": 0.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE", "title": "", "to": "PEER SE", "width": 8.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE", "title": "", "to": "EXPERT SE", "width": 8.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE", "title": "", "to": "POST HOC ANALYSES", "width": 2.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE", "title": "", "to": "VISUAL LEARNING", "width": 0.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE", "title": "", "to": "GROUP 2", "width": 2.5}, {"color": "#bdc3c7", "from": "CLINICAL CASES", "title": "", "to": "MEDICAL STUDENTS", "width": 0.5}, {"color": "#bdc3c7", "from": "CLINICAL CASES", "title": "", "to": "CFS TRAINING", "width": 4.5}, {"color": "#bdc3c7", "from": "CLINICAL CASES", "title": "", "to": "ASSESSMENT PHASE", "width": 4.0}, {"color": "#bdc3c7", "from": "CLINICAL CASES", "title": "", "to": "REFLECTION", "width": 3.0}, {"color": "#bdc3c7", "from": "CLINICAL CASES", "title": "", "to": "STRUCTURED REFLECTION", "width": 3.5}, {"color": "#bdc3c7", "from": "CLINICAL CASES", "title": "", "to": "LEARNING PHASE", "width": 8.5}, {"color": "#bdc3c7", "from": "PRACTICE PHASE", "title": "", "to": "TEST PHASE", "width": 4.0}, {"color": "#bdc3c7", "from": "PRACTICE PHASE", "title": "", "to": "FEATURE LIST", "width": 3.5}, {"color": "#bdc3c7", "from": "PRACTICE PHASE", "title": "", "to": "TEST 2", "width": 0.5}, {"color": "#bdc3c7", "from": "PRACTICE PHASE", "title": "", "to": "IMAGE INTERPRETATION TESTS", "width": 3.5}, {"color": "#bdc3c7", "from": "IMMEDIATE TEST PHASE", "title": "", "to": "FEEDBACK", "width": 4.0}, {"color": "#bdc3c7", "from": "IMMEDIATE TEST PHASE", "title": "", "to": "DIAGNOSTIC ACCURACY", "width": 4.0}, {"color": "#bdc3c7", "from": "COGNITIVE LOAD THEORY", "title": "", "to": "EDUCATIONAL STRATEGIES", "width": 4.0}, {"color": "#bdc3c7", "from": "CFS", "title": "", "to": "DIAGNOSTIC ERROR", "width": 3.5}, {"color": "#bdc3c7", "from": "CFS", "title": "", "to": "LIMITATIONS", "width": 0.5}, {"color": "#bdc3c7", "from": "APPLICATION SECURITY", "title": "", "to": "PATIENT RECORDS", "width": 4.5}, {"color": "#bdc3c7", "from": "GROUP 2", "title": "", "to": "DIAGNOSTIC ACCURACY SCORE", "width": 2.0}, {"color": "#bdc3c7", "from": "GROUP 2", "title": "", "to": "DIAGNOSTIC PERFORMANCE SCORE", "width": 3.0}, {"color": "#bdc3c7", "from": "GROUP 2", "title": "", "to": "AGE", "width": 3.0}, {"color": "#bdc3c7", "from": "GROUP 2", "title": "", "to": "GENDER", "width": 3.0}, {"color": "#bdc3c7", "from": "GROUP 2", "title": "", "to": "DIAGNOSTIC ACCURACY SCORES", "width": 3.0}, {"color": "#bdc3c7", "from": "GROUP 2", "title": "", "to": "INTERVENTION IN THE TRAINING PHASE", "width": 4.0}, {"color": "#bdc3c7", "from": "GROUP 2", "title": "", "to": "NEAR-TRANSFER CASES", "width": 3.0}, {"color": "#bdc3c7", "from": "EXIT EXAMINATION", "title": "", "to": "STUDENT PERFORMANCE", "width": 4.5}, {"color": "#bdc3c7", "from": "EXIT EXAMINATION", "title": "", "to": "REPEATED TESTING", "width": 3.5}, {"color": "#bdc3c7", "from": "EXIT EXAMINATION", "title": "", "to": "E-SEMINARS", "width": 3.5}, {"color": "#bdc3c7", "from": "COMBINED INSTRUCTION GROUP", "title": "", "to": "ANALYTIC REASONING", "width": 3.0}, {"color": "#bdc3c7", "from": "COMBINED INSTRUCTION GROUP", "title": "", "to": "NON-ANALYTIC REASONING", "width": 3.0}, {"color": "#bdc3c7", "from": "COMBINED INSTRUCTION GROUP", "title": "", "to": "TEST PHASE", "width": 3.0}, {"color": "#bdc3c7", "from": "TRIPARTITE TEACHING INTERVENTION", "title": "", "to": "DATA COLLECTION", "width": 3.5}, {"color": "#bdc3c7", "from": "CRITICAL REVISION", "title": "", "to": "JB", "width": 3.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC ACCURACY", "title": "", "to": "CLINICAL REASONING", "width": 0.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC ACCURACY", "title": "", "to": "MEDICAL STUDENTS", "width": 0.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC ACCURACY", "title": "", "to": "COMBINED REASONING STRATEGIES", "width": 4.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC ACCURACY", "title": "", "to": "RESPONSE TIME", "width": 3.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC ACCURACY", "title": "", "to": "MULTIFACETED DIAGNOSTIC REASONING STRATEGIES", "width": 4.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC ACCURACY", "title": "", "to": "CONTRASTIVE LEARNING", "width": 4.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC ACCURACY", "title": "", "to": "ANALOGICAL TRANSFER", "width": 3.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC ACCURACY", "title": "", "to": "SPONTANEOUS REASONING CONDITION", "width": 2.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC ACCURACY", "title": "", "to": "JAUNDICE", "width": 3.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC ACCURACY", "title": "", "to": "CONTROL GROUP", "width": 3.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC ACCURACY", "title": "", "to": "COGNITIVE BIAS", "width": 4.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC ACCURACY", "title": "", "to": "PREMATURE CLOSURE", "width": 4.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC ACCURACY", "title": "", "to": "AGE", "width": 2.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC ACCURACY", "title": "", "to": "ANALYTIC REASONING", "width": 7.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC ACCURACY", "title": "", "to": "PEER SE", "width": 8.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC ACCURACY", "title": "", "to": "EXPERT SE", "width": 8.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC ACCURACY", "title": "", "to": "POST HOC ANALYSES", "width": 2.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC ACCURACY", "title": "", "to": "VISUAL LEARNING", "width": 4.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE SCORE", "title": "", "to": "CONTROL GROUP", "width": 2.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE SCORE", "title": "", "to": "ASSESSMENT PHASE", "width": 4.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC PERFORMANCE SCORE", "title": "", "to": "GROUP 1: RESIDENT SE WITH PROMPTS", "width": 4.5}, {"color": "#bdc3c7", "from": "E-LEARNING", "title": "", "to": "MED EDUC", "width": 2.5}, {"color": "#bdc3c7", "from": "E-LEARNING", "title": "", "to": "GERIATRIC EDUCATION", "width": 0.5}, {"color": "#bdc3c7", "from": "COMBINED REASONING STRATEGIES", "title": "", "to": "DIAGNOSTIC DECISION MAKING", "width": 3.5}, {"color": "#bdc3c7", "from": "ERRONEOUS EXAMPLES", "title": "", "to": "FEEDBACK", "width": 3.5}, {"color": "#bdc3c7", "from": "ERRONEOUS EXAMPLES", "title": "", "to": "ERRORS", "width": 3.5}, {"color": "#bdc3c7", "from": "GENDER", "title": "", "to": "STUDENTS", "width": 2.5}, {"color": "#bdc3c7", "from": "GENDER", "title": "", "to": "CONTROL GROUP", "width": 3.0}, {"color": "#bdc3c7", "from": "GENDER", "title": "", "to": "SURGEONS", "width": 2.5}, {"color": "#bdc3c7", "from": "GENDER", "title": "", "to": "RESIDENTS", "width": 2.5}, {"color": "#bdc3c7", "from": "CARDIAC PHYSICAL DIAGNOSIS", "title": "", "to": "TRADITIONAL FRAMEWORK", "width": 2.5}, {"color": "#bdc3c7", "from": "STUDY 2", "title": "", "to": "DATA COLLECTION", "width": 4.0}, {"color": "#bdc3c7", "from": "STUDY 2", "title": "", "to": "STUDENTS", "width": 4.0}, {"color": "#bdc3c7", "from": "INTERACTIVE APPLICATION", "title": "", "to": "CLINICAL REASONING", "width": 0.5}, {"color": "#bdc3c7", "from": "CASE-BASED WORKED EXAMPLE APPROACH", "title": "", "to": "MEDICAL STUDENTS", "width": 4.0}, {"color": "#bdc3c7", "from": "SPONTANEOUS REASONING CONDITION", "title": "", "to": "COMBINED REASONING STRATEGY", "width": 2.5}, {"color": "#bdc3c7", "from": "SPONTANEOUS REASONING CONDITION", "title": "", "to": "LEARNING CONDITIONS", "width": 3.0}, {"color": "#bdc3c7", "from": "TRAINING", "title": "", "to": "PARTICIPANTS", "width": 3.5}, {"color": "#bdc3c7", "from": "TRAINING", "title": "", "to": "SERIOUS GAME", "width": 4.0}, {"color": "#bdc3c7", "from": "TRAINING", "title": "", "to": "LEARNERS", "width": 3.0}, {"color": "#bdc3c7", "from": "LEARNING PHASE", "title": "", "to": "DIFFERENTIAL DIAGNOSIS", "width": 3.0}, {"color": "#bdc3c7", "from": "LEARNING PHASE", "title": "", "to": "STUDENTS", "width": 4.5}, {"color": "#bdc3c7", "from": "LEARNING PHASE", "title": "", "to": "REFLECTION", "width": 3.5}, {"color": "#bdc3c7", "from": "LEARNING PHASE", "title": "", "to": "IMMEDIATE TEST", "width": 11.0}, {"color": "#bdc3c7", "from": "LEARNING PHASE", "title": "", "to": "YEAR 4 MEDICAL STUDENTS", "width": 4.5}, {"color": "#bdc3c7", "from": "LEARNING PHASE", "title": "", "to": "TESTING PHASE", "width": 4.0}, {"color": "#bdc3c7", "from": "PEER SE", "title": "", "to": "ASSESSMENT PHASE", "width": 3.0}, {"color": "#bdc3c7", "from": "PEER SE", "title": "", "to": "TRAINING CASES", "width": 3.0}, {"color": "#bdc3c7", "from": "ANALYTIC REASONING", "title": "", "to": "DECISION MAKING", "width": 3.0}, {"color": "#bdc3c7", "from": "ANALYTIC REASONING", "title": "", "to": "DIAGNOSTIC ERROR", "width": 3.0}, {"color": "#bdc3c7", "from": "ANALYTIC REASONING", "title": "", "to": "COMBINED REASONING STRATEGY", "width": 3.5}, {"color": "#bdc3c7", "from": "ANALYTIC REASONING", "title": "", "to": "SEOUL NATIONAL UNIVERSITY COLLEGE OF MEDICINE", "width": 3.0}, {"color": "#bdc3c7", "from": "ANALYTIC REASONING", "title": "", "to": "CLINICAL JUDGMENT", "width": 3.0}, {"color": "#bdc3c7", "from": "ANALYTIC REASONING", "title": "", "to": "TRAINING PROTOCOLS", "width": 3.5}, {"color": "#bdc3c7", "from": "ELECTRONIC HEALTH RECORDS", "title": "", "to": "CLINICAL REASONING", "width": 3.5}, {"color": "#bdc3c7", "from": "ELECTRONIC HEALTH RECORDS", "title": "", "to": "CASEBOOK", "width": 13.0}, {"color": "#bdc3c7", "from": "ELECTRONIC HEALTH RECORDS", "title": "", "to": "CASEBOOK APPLICATION", "width": 4.0}, {"color": "#bdc3c7", "from": "PATIENT RECORDS", "title": "", "to": "CASEBOOK", "width": 3.5}, {"color": "#bdc3c7", "from": "PATIENT RECORDS", "title": "", "to": "ANNOTATIONS", "width": 0.5}, {"color": "#bdc3c7", "from": "PATIENT RECORDS", "title": "", "to": "CASE FILE FORMAT", "width": 4.0}, {"color": "#bdc3c7", "from": "CONTROL GROUP", "title": "", "to": "COGNITIVE BIAS", "width": 0.5}, {"color": "#bdc3c7", "from": "CONTROL GROUP", "title": "", "to": "DIAGNOSTIC ERROR", "width": 3.0}, {"color": "#bdc3c7", "from": "CONTROL GROUP", "title": "", "to": "CFS TRAINING", "width": 3.0}, {"color": "#bdc3c7", "from": "CONTROL GROUP", "title": "", "to": "SECOND DIAGNOSIS", "width": 2.5}, {"color": "#bdc3c7", "from": "CONTROL GROUP", "title": "", "to": "DIAGNOSTIC DECISION MAKING", "width": 0.5}, {"color": "#bdc3c7", "from": "CONTROL GROUP", "title": "", "to": "ASSESSMENT PHASE", "width": 4.0}, {"color": "#bdc3c7", "from": "CONTROL GROUP", "title": "", "to": "INTERVENTION IN THE TRAINING PHASE", "width": 3.5}, {"color": "#bdc3c7", "from": "CONTROL GROUP", "title": "", "to": "DIAGNOSTIC ACCURACY SCORES", "width": 2.5}, {"color": "#bdc3c7", "from": "CONTROL GROUP", "title": "", "to": "AGE", "width": 3.0}, {"color": "#bdc3c7", "from": "CONTROL GROUP", "title": "", "to": "DIAGNOSTIC ACCURACY SCORE", "width": 2.5}, {"color": "#bdc3c7", "from": "CONTROL GROUP", "title": "", "to": "GROUP 1: RESIDENT SE WITH PROMPTS", "width": 3.0}, {"color": "#bdc3c7", "from": "LESS FAMILIAR TOPIC", "title": "", "to": "DIAGNOSTIC ACCURACY SCORE", "width": 3.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC ERROR", "title": "", "to": "CLINICAL REASONING", "width": 4.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC ERROR", "title": "", "to": "PNEUMONIA", "width": 3.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC ERROR", "title": "", "to": "COGNITIVE BIAS", "width": 0.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC ERROR", "title": "", "to": "CFS TRAINING", "width": 7.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC ERROR", "title": "", "to": "SECOND DIAGNOSIS", "width": 0.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC ERROR", "title": "", "to": "PREMATURE CLOSURE", "width": 0.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC ERROR", "title": "", "to": "CROSSKERRY\u0027S STRATEGIES", "width": 3.5}, {"color": "#bdc3c7", "from": "PERICARDITIS", "title": "", "to": "E-SEMINARS", "width": 3.5}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION SEGMENTS", "title": "", "to": "LESS FAMILIAR CASES", "width": 4.5}, {"color": "#bdc3c7", "from": "SELF-EXPLANATION SEGMENTS", "title": "", "to": "FAMILIAR CASES", "width": 4.5}, {"color": "#bdc3c7", "from": "RESEARCH", "title": "", "to": "LIMITATIONS", "width": 0.5}, {"color": "#bdc3c7", "from": "RESEARCH", "title": "", "to": "STRUCTURED REFLECTION", "width": 3.5}, {"color": "#bdc3c7", "from": "UNDERGRADUATE STUDENTS", "title": "", "to": "CASEBOOK", "width": 4.5}, {"color": "#bdc3c7", "from": "LEARNING CONDITIONS", "title": "", "to": "CONTRASTIVE LEARNING", "width": 0.5}, {"color": "#bdc3c7", "from": "CASEBOOK APPLICATION", "title": "", "to": "CASE FILE FORMAT", "width": 4.0}, {"color": "#bdc3c7", "from": "CASEBOOK APPLICATION", "title": "", "to": "PATIENT RECORD", "width": 4.5}, {"color": "#bdc3c7", "from": "DECISION-MAKING", "title": "", "to": "SERIOUS GAME", "width": 3.5}, {"color": "#bdc3c7", "from": "DECISION-MAKING", "title": "", "to": "MEDIALIS", "width": 3.5}, {"color": "#bdc3c7", "from": "PEERS", "title": "", "to": "PARAPHRASES", "width": 0.5}, {"color": "#bdc3c7", "from": "PEERS", "title": "", "to": "ERRORS", "width": 3.0}, {"color": "#bdc3c7", "from": "JAUNDICE", "title": "", "to": "MEDICAL STUDENTS", "width": 4.0}, {"color": "#bdc3c7", "from": "NON-ANALYTIC REASONING", "title": "", "to": "DECISION MAKING", "width": 0.5}, {"color": "#bdc3c7", "from": "NON-ANALYTIC REASONING", "title": "", "to": "COMBINED REASONING STRATEGY", "width": 3.5}, {"color": "#bdc3c7", "from": "MEDICAL STUDENTS", "title": "", "to": "PROBLEM-BASED LEARNING", "width": 7.0}, {"color": "#bdc3c7", "from": "MEDICAL STUDENTS", "title": "", "to": "UNIVERSITY OF SHERBROOKE", "width": 4.0}, {"color": "#bdc3c7", "from": "MEDICAL STUDENTS", "title": "", "to": "CLERKSHIP", "width": 7.0}, {"color": "#bdc3c7", "from": "MEDICAL STUDENTS", "title": "", "to": "ASSESSMENT PHASE", "width": 4.5}, {"color": "#bdc3c7", "from": "MEDICAL STUDENTS", "title": "", "to": "LEARNING ENVIRONMENT", "width": 4.0}, {"color": "#bdc3c7", "from": "MEDICAL STUDENTS", "title": "", "to": "SERIOUS GAME", "width": 0.5}, {"color": "#bdc3c7", "from": "MEDICAL STUDENTS", "title": "", "to": "MEDIALIS", "width": 3.0}, {"color": "#bdc3c7", "from": "MEDICAL STUDENTS", "title": "", "to": "VALIDITY", "width": 0.5}, {"color": "#bdc3c7", "from": "MEDICAL STUDENTS", "title": "", "to": "STRUCTURED REFLECTION", "width": 4.0}, {"color": "#bdc3c7", "from": "MEDICAL STUDENTS", "title": "", "to": "DIAGNOSTIC COMPETENCE", "width": 4.5}, {"color": "#bdc3c7", "from": "MEDICAL STUDENTS", "title": "", "to": "CLINICAL DECISION MAKING TEACHING INTERVENTION", "width": 4.0}, {"color": "#bdc3c7", "from": "MEDICAL STUDENTS", "title": "", "to": "TRAINING CASES", "width": 4.0}, {"color": "#bdc3c7", "from": "MEDICAL STUDENTS", "title": "", "to": "RESIDENTS", "width": 4.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC COMPETENCE", "title": "", "to": "CLINICAL REASONING", "width": 0.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC COMPETENCE", "title": "", "to": "DIFFERENTIAL DIAGNOSIS", "width": 0.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC COMPETENCE", "title": "", "to": "STRUCTURED REFLECTION", "width": 7.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC COMPETENCE", "title": "", "to": "REFLECTION", "width": 4.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC COMPETENCE", "title": "", "to": "DIAGNOSTIC ACCURACY SCORES", "width": 0.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC COMPETENCE", "title": "", "to": "ILLNESS SCRIPTS", "width": 4.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC COMPETENCE", "title": "", "to": "SELF-EXPLANATIONS", "width": 4.0}, {"color": "#bdc3c7", "from": "STUDENT PREPAREDNESS", "title": "", "to": "CLINICAL REASONING", "width": 3.0}, {"color": "#bdc3c7", "from": "STUDENT PREPAREDNESS", "title": "", "to": "CASEBOOK", "width": 0.5}, {"color": "#bdc3c7", "from": "FEEDBACK", "title": "", "to": "CFS TRAINING", "width": 4.0}, {"color": "#bdc3c7", "from": "FEEDBACK", "title": "", "to": "USER", "width": 4.0}, {"color": "#bdc3c7", "from": "FEEDBACK", "title": "", "to": "LEARNING ENVIRONMENT", "width": 4.5}, {"color": "#bdc3c7", "from": "FEEDBACK", "title": "", "to": "ERRORS", "width": 3.5}, {"color": "#bdc3c7", "from": "FEEDBACK", "title": "", "to": "WORKED EXAMPLES", "width": 3.0}, {"color": "#bdc3c7", "from": "FEEDBACK", "title": "", "to": "MEDIALIS", "width": 4.0}, {"color": "#bdc3c7", "from": "FEEDBACK", "title": "", "to": "LEARNER REPORTS", "width": 4.0}, {"color": "#bdc3c7", "from": "FAMILIAR CASES", "title": "", "to": "LESS FAMILIAR CASES", "width": 9.0}, {"color": "#bdc3c7", "from": "SERIOUS GAME", "title": "", "to": "STUDENTS", "width": 0.5}, {"color": "#bdc3c7", "from": "SERIOUS GAME", "title": "", "to": "PARTICIPANTS", "width": 9.0}, {"color": "#bdc3c7", "from": "SERIOUS GAME", "title": "", "to": "VALIDITY", "width": 4.0}, {"color": "#bdc3c7", "from": "SERIOUS GAME", "title": "", "to": "SURGEONS", "width": 4.0}, {"color": "#bdc3c7", "from": "SERIOUS GAME", "title": "", "to": "RESIDENTS", "width": 3.0}, {"color": "#bdc3c7", "from": "SERIOUS GAME", "title": "", "to": "ENGAGEMENT", "width": 3.0}, {"color": "#bdc3c7", "from": "SERIOUS GAME", "title": "", "to": "MEDIALIS", "width": 4.0}, {"color": "#bdc3c7", "from": "EXPERT SE", "title": "", "to": "ASSESSMENT PHASE", "width": 0.5}, {"color": "#bdc3c7", "from": "EXPERT SE", "title": "", "to": "TRAINING CASES", "width": 3.0}, {"color": "#bdc3c7", "from": "KNOWLEDGE ELABORATION", "title": "", "to": "CLINICAL REASONING", "width": 3.5}, {"color": "#bdc3c7", "from": "LEARNERS", "title": "", "to": "STRUCTURED REFLECTION", "width": 4.0}, {"color": "#bdc3c7", "from": "PILOT STUDY", "title": "", "to": "STUDENTS", "width": 4.0}, {"color": "#bdc3c7", "from": "CASEBOOK", "title": "", "to": "PATIENT RECORD", "width": 4.0}, {"color": "#bdc3c7", "from": "SURGEONS", "title": "", "to": "VALIDITY", "width": 4.0}, {"color": "#bdc3c7", "from": "SURGEONS", "title": "", "to": "MEDIALIS", "width": 4.0}, {"color": "#bdc3c7", "from": "SURGEONS", "title": "", "to": "GAME", "width": 3.5}, {"color": "#bdc3c7", "from": "SURGEONS", "title": "", "to": "AGE", "width": 2.5}, {"color": "#bdc3c7", "from": "SURGEONS", "title": "", "to": "TIME REQUIRED TO SOLVE CASES", "width": 3.0}, {"color": "#bdc3c7", "from": "ANNOTATIONS", "title": "", "to": "PATIENT RECORD", "width": 3.5}, {"color": "#bdc3c7", "from": "LIMITATIONS", "title": "", "to": "STUDENTS", "width": 6.5}, {"color": "#bdc3c7", "from": "LIMITATIONS", "title": "", "to": "PARTICIPANTS", "width": 2.0}, {"color": "#bdc3c7", "from": "EXPERTS", "title": "", "to": "CLINICAL REASONING", "width": 4.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC DECISION MAKING", "title": "", "to": "REPEATED TESTING", "width": 0.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC DECISION MAKING", "title": "", "to": "PARTICIPANTS", "width": 4.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC DECISION MAKING", "title": "", "to": "CLINICAL DIAGNOSTIC REASONING", "width": 5.0}, {"color": "#bdc3c7", "from": "EDUCATIONAL STRATEGIES", "title": "", "to": "DIAGNOSTIC ERRORS", "width": 0.5}, {"color": "#bdc3c7", "from": "EDUCATIONAL STRATEGIES", "title": "", "to": "CLINICAL DIAGNOSTIC REASONING", "width": 4.5}, {"color": "#bdc3c7", "from": "LOW BACK PAIN", "title": "", "to": "VP CASES", "width": 3.0}, {"color": "#bdc3c7", "from": "DECISION MAKING", "title": "", "to": "COGNITIVE BIAS", "width": 4.0}, {"color": "#bdc3c7", "from": "DECISION MAKING", "title": "", "to": "STUDENTS", "width": 7.5}, {"color": "#bdc3c7", "from": "RESIDENTS", "title": "", "to": "UNIVERSITY OF SHERBROOKE", "width": 0.5}, {"color": "#bdc3c7", "from": "RESIDENTS", "title": "", "to": "GAME", "width": 3.5}, {"color": "#bdc3c7", "from": "RESIDENTS", "title": "", "to": "AGE", "width": 2.5}, {"color": "#bdc3c7", "from": "RESIDENTS", "title": "", "to": "TIME REQUIRED TO SOLVE CASES", "width": 3.0}, {"color": "#bdc3c7", "from": "EXAMPLE-BASED LEARNING", "title": "", "to": "CLINICAL REASONING", "width": 3.5}, {"color": "#bdc3c7", "from": "EXAMPLE-BASED LEARNING", "title": "", "to": "SELF-EXPLANATIONS", "width": 3.0}, {"color": "#bdc3c7", "from": "MANUSCRIPT REVISION", "title": "", "to": "DATA ANALYSIS", "width": 4.0}, {"color": "#bdc3c7", "from": "MANUSCRIPT REVISION", "title": "", "to": "CONTRIBUTORS", "width": 0.5}, {"color": "#bdc3c7", "from": "DIFFERENTIAL DIAGNOSIS", "title": "", "to": "CLINICAL REASONING", "width": 4.0}, {"color": "#bdc3c7", "from": "DIFFERENTIAL DIAGNOSIS", "title": "", "to": "IMMEDIATE TEST", "width": 4.0}, {"color": "#bdc3c7", "from": "DIFFERENTIAL DIAGNOSIS", "title": "", "to": "ILLNESS SCRIPTS", "width": 3.5}, {"color": "#bdc3c7", "from": "DIFFERENTIAL DIAGNOSIS", "title": "", "to": "LEARNER REPORTS", "width": 3.5}, {"color": "#bdc3c7", "from": "ENGAGEMENT", "title": "", "to": "COMPETENCIES", "width": 0.5}, {"color": "#bdc3c7", "from": "FORMATIVE ASSESSMENTS", "title": "", "to": "UNDERGRADUATE MEDICAL STUDENTS", "width": 2.5}, {"color": "#bdc3c7", "from": "FORMATIVE ASSESSMENTS", "title": "", "to": "KEY FEATURE QUESTIONS", "width": 3.5}, {"color": "#bdc3c7", "from": "PARAPHRASES", "title": "", "to": "LESS FAMILIAR CASES", "width": 2.5}, {"color": "#bdc3c7", "from": "GROUP 1: RESIDENT SE WITH PROMPTS", "title": "", "to": "NEAR-TRANSFER CASES", "width": 4.0}, {"color": "#bdc3c7", "from": "GROUP 1: RESIDENT SE WITH PROMPTS", "title": "", "to": "DIAGNOSTIC ACCURACY AS A FUNCTION OF PERFORMANCE MOMENT", "width": 4.0}, {"color": "#bdc3c7", "from": "COMPETENCIES", "title": "", "to": "SURGICAL TRAINING", "width": 4.5}, {"color": "#bdc3c7", "from": "DIAGNOSTIC ACCURACY SCORES", "title": "", "to": "REPEATED-MEASURES ANOVA", "width": 4.0}, {"color": "#bdc3c7", "from": "SECOND DIAGNOSIS", "title": "", "to": "CFS TRAINING", "width": 4.0}, {"color": "#bdc3c7", "from": "DATA COLLECTION", "title": "", "to": "STUDENT PERFORMANCE", "width": 4.5}, {"color": "#bdc3c7", "from": "DATA COLLECTION", "title": "", "to": "SIMULATION SESSION", "width": 3.5}, {"color": "#bdc3c7", "from": "VP CASES", "title": "", "to": "PATIENT VIDEOS", "width": 4.0}, {"color": "#bdc3c7", "from": "CLINICAL REASONING", "title": "", "to": "STUDENT PERFORMANCE", "width": 4.0}, {"color": "#bdc3c7", "from": "CLINICAL REASONING", "title": "", "to": "REPEATED TESTING", "width": 4.5}, {"color": "#bdc3c7", "from": "CLINICAL REASONING", "title": "", "to": "KEY FEATURE QUESTIONS", "width": 3.5}, {"color": "#bdc3c7", "from": "CLINICAL REASONING", "title": "", "to": "TEACHING CLINICAL REASONING", "width": 4.0}, {"color": "#bdc3c7", "from": "CLINICAL REASONING", "title": "", "to": "PROBLEM-BASED LEARNING", "width": 4.0}, {"color": "#bdc3c7", "from": "CLINICAL REASONING", "title": "", "to": "UNDERGRADUATE MEDICAL STUDENTS", "width": 4.0}, {"color": "#bdc3c7", "from": "CLINICAL REASONING", "title": "", "to": "CLERKSHIP", "width": 0.5}, {"color": "#bdc3c7", "from": "CLINICAL REASONING", "title": "", "to": "DIAGNOSTIC ERRORS", "width": 3.0}, {"color": "#bdc3c7", "from": "CLINICAL REASONING", "title": "", "to": "SELF-EXPLANATIONS", "width": 3.0}, {"color": "#bdc3c7", "from": "CLINICAL REASONING", "title": "", "to": "DIAGNOSTIC OUTCOMES", "width": 0.5}, {"color": "#bdc3c7", "from": "CLINICAL REASONING", "title": "", "to": "CROSSKERRY\u0027S STRATEGIES", "width": 0.5}, {"color": "#bdc3c7", "from": "CLINICAL REASONING", "title": "", "to": "ASSESSMENT PHASE", "width": 3.5}, {"color": "#bdc3c7", "from": "CLINICAL REASONING", "title": "", "to": "SELF-EXPLANATION EXAMPLES", "width": 4.0}, {"color": "#bdc3c7", "from": "CONTRASTIVE LEARNING", "title": "", "to": "ANALOGICAL TRANSFER", "width": 4.0}, {"color": "#bdc3c7", "from": "RESPONSE TIME", "title": "", "to": "IMAGE INTERPRETATION TESTS", "width": 3.5}, {"color": "#bdc3c7", "from": "RESPONSE TIME", "title": "", "to": "TRAINING PROTOCOLS", "width": 2.5}, {"color": "#bdc3c7", "from": "ERRORS", "title": "", "to": "LESS FAMILIAR CASES", "width": 3.0}, {"color": "#bdc3c7", "from": "POST HOC ANALYSES", "title": "", "to": "INTERVENTION IN THE TRAINING PHASE", "width": 3.5}, {"color": "#bdc3c7", "from": "TIME-ON-TASK", "title": "", "to": "LEARNING ENVIRONMENT", "width": 0.5}, {"color": "#bdc3c7", "from": "MORE FAMILIAR TOPIC", "title": "", "to": "DIAGNOSTIC ACCURACY SCORE", "width": 3.5}, {"color": "#bdc3c7", "from": "AGE", "title": "", "to": "STUDENTS", "width": 2.5}, {"color": "#bdc3c7", "from": "RETENTION TEST", "title": "", "to": "STUDENT PERFORMANCE", "width": 0.5}, {"color": "#bdc3c7", "from": "RETENTION TEST", "title": "", "to": "REPEATED TESTING", "width": 7.5}, {"color": "#bdc3c7", "from": "RETENTION TEST", "title": "", "to": "E-SEMINSAR", "width": 4.0}, {"color": "#bdc3c7", "from": "RETENTION TEST", "title": "", "to": "E-SEMINARS", "width": 0.5}, {"color": "#bdc3c7", "from": "GAME", "title": "", "to": "STUDENTS", "width": 3.5}, {"color": "#bdc3c7", "from": "STUDENTS", "title": "", "to": "SIMULATOR SESSION", "width": 4.0}, {"color": "#bdc3c7", "from": "STUDENTS", "title": "", "to": "SIMULATION SESSION", "width": 4.0}, {"color": "#bdc3c7", "from": "ASSESSMENT PHASE", "title": "", "to": "DIAGNOSTIC ACCURACY SCORE", "width": 4.5}, {"color": "#bdc3c7", "from": "ASSESSMENT PHASE", "title": "", "to": "NEAR-TRANSFER CASES", "width": 4.0}, {"color": "#bdc3c7", "from": "CROSSKERRY\u0027S STRATEGIES", "title": "", "to": "CLINICAL DECISION MAKING TEACHING INTERVENTION", "width": 0.5}, {"color": "#bdc3c7", "from": "PATIENT VIDEO BANK", "title": "", "to": "PATIENT VIDEO ENRICHMENT", "width": 3.5}, {"color": "#bdc3c7", "from": "SURGICAL TRAINING", "title": "", "to": "MEDIALIS", "width": 4.0}, {"color": "#bdc3c7", "from": "ILLNESS SCRIPTS", "title": "", "to": "STRUCTURED REFLECTION", "width": 4.0}, {"color": "#bdc3c7", "from": "DIAGNOSTIC ERRORS", "title": "", "to": "CLINICAL DECISION MAKING TEACHING INTERVENTION", "width": 3.0}, {"color": "#bdc3c7", "from": "KEY FEATURE QUESTIONS", "title": "", "to": "UNDERGRADUATE MEDICAL STUDENTS", "width": 3.5}, {"color": "#bdc3c7", "from": "PNEUMONIA", "title": "", "to": "PATTERN RECOGNITION", "width": 0.5}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "barnesHut": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.3,
+            "damping": 0.09,
+            "gravitationalConstant": -3000,
+            "springConstant": 0.05,
+            "springLength": 250
+        },
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+                    network.on("selectNode", neighbourhoodHighlight);
+                  
+
+                  
+
+
+                  
+                      network.on("stabilizationProgress", function(params) {
+                          document.getElementById('loadingBar').removeAttribute("style");
+                          var maxWidth = 496;
+                          var minWidth = 20;
+                          var widthFactor = params.iterations/params.total;
+                          var width = Math.max(minWidth,maxWidth * widthFactor);
+                          document.getElementById('bar').style.width = width + 'px';
+                          document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
+                      });
+                      network.once("stabilizationIterationsDone", function() {
+                          document.getElementById('text').innerHTML = '100%';
+                          document.getElementById('bar').style.width = '496px';
+                          document.getElementById('loadingBar').style.opacity = 0;
+                          // really clean the dom element
+                          setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
+                      });
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
