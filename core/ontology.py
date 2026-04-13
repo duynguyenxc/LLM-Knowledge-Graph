@@ -93,8 +93,8 @@ class CMOCExtraction(BaseModel):
     entities: List[Entity] = Field(default_factory=list, description="List of recognized entities")
     relationships: List[Relationship] = Field(default_factory=list, description="Causal relationships aligning with the CMO structure")
 
-    class Config:
-        schema_extra = {
+    model_config = {
+        "json_schema_extra": {
             "example": {
                 "record_id": "doi:10.1111/medu.14137",
                 "entities": [
@@ -115,3 +115,4 @@ class CMOCExtraction(BaseModel):
                 ]
             }
         }
+    }
