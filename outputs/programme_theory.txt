@@ -1,0 +1,21 @@
+**Programme Theory: Understanding the Impact of Real-Life Scenarios on Medical Students with Low Knowledge**
+
+**Context (C):**  
+The primary context involves medical students characterized by 'low knowledge,' particularly those with low clinical domain-specific knowledge or an inability to effectively use knowledge in reasoning situations. These students face challenges when required to integrate and apply detailed biomedical knowledge in practical scenarios.
+
+**Intervention (I):**  
+The intervention employed involves the use of real-life scenarios, including simulations and interactions with simulated patients. This approach is designed to provide students with practical, case-based learning experiences that mirror real-world clinical problems.
+
+**Mechanism (M):**  
+1. **Mechanism Resource (M1):** The intervention provides multiple relevant resources intended to support the integration of biomedical knowledge. However, the effectiveness of these resources is contingent upon the students' ability to access and utilize them effectively.
+   
+2. **Mechanism Response (M2):** The cognitive load experienced by students is increased due to the complexity of the scenarios and the requirement to activate detail-level knowledge. This heightened cognitive load can overwhelm students, particularly when they lack sufficient time or resources to process the information thoroughly.
+
+**Outcome (O):**  
+The outcome observed in this context is predominantly negative learning outcomes. Students who are unable to manage the increased cognitive load and effectively utilize the provided resources tend to struggle, particularly when time constraints are imposed. This results in their inability to reason through cases step-by-step, leading to poor performance and failure to achieve the desired learning objectives.
+
+**Explanation of What Works, for Whom, in What Respects, to What Extent, in What Contexts, and How:**
+
+In the context of medical students with low clinical domain-specific knowledge, real-life scenarios and simulations are intended to enhance learning by providing practical, case-based experiences. However, for these students, the intervention's effectiveness is limited by their initial knowledge base and ability to manage cognitive load. The provision of multiple relevant resources is crucial, but without adequate time and support, these resources may not be effectively utilized. Consequently, the increased cognitive load can lead to negative learning outcomes, as students struggle to integrate and apply their knowledge under pressure.
+
+To improve outcomes, it is essential to tailor the intervention to the students' knowledge levels, ensuring that they have sufficient time and support to process information and apply their learning effectively. By addressing these contextual factors, the intervention can be more successful in achieving positive learning outcomes for students with low knowledge.
