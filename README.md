@@ -26,7 +26,7 @@ Rather than requiring months of manual researcher effort, this framework deploys
 
 ---
 
-## 🏛️ Architecture Overview
+## Architecture Overview
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
