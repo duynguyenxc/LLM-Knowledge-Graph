@@ -10,7 +10,7 @@
 
 ---
 
-## 📖 What Is This Project?
+## What Is This Project?
 
 This repository implements a **10-Agent AI pipeline** that automates every stage of a realist systematic review, benchmarked against the human reference standard established in:
 
@@ -71,12 +71,12 @@ Rather than requiring months of manual researcher effort, this framework deploys
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 LLM-Knowledge-Graph/
 │
-├── main.py                          # 🚀 Pipeline entry point — run this
+├── main.py                          # Pipeline entry point — run this
 │
 ├── core/                            # Core infrastructure (method-agnostic)
 │   ├── orchestrator.py              # LangGraph StateGraph with all nodes + edges
@@ -103,7 +103,7 @@ LLM-Knowledge-Graph/
 ├── scripts/                         # Utility + Visualization scripts
 │   ├── data_ingestion.py            # PDF → text conversion for graphrag/input/
 │   ├── extract_texts.py             # Alternative extractor (fallback)
-│   ├── visualize_dashboard.py       # 🌟 Generates Knowledge_Dashboard.html
+│   ├── visualize_dashboard.py       # Generates Knowledge_Dashboard.html
 │   ├── generate_table_view.py       # Generates Dictionary_Table_View.html
 │   ├── export_community_reports.py  # Parquet → Markdown for community reports
 │   ├── visualize_graph.py           # Full 2D static Pyvis graph
@@ -114,13 +114,13 @@ LLM-Knowledge-Graph/
 ├── data/
 │   └── studies_metadata.jsonl       # Structured metadata for all 28 studies
 │
-├── outputs/                         # 📦 All generated artifacts (gitignored large files)
+├── outputs/                         # All generated artifacts (gitignored large files)
 │   ├── PRISMA_report.md
 │   ├── evidence_table.md / .json
 │   ├── programme_theory_final.md
 │   ├── audit_trail.md
-│   ├── Knowledge_Dashboard.html     # 🌐 Interactive graph explorer
-│   ├── Dictionary_Table_View.html   # 📚 Searchable entity encyclopedia
+│   ├── Knowledge_Dashboard.html     # Interactive graph explorer
+│   ├── Dictionary_Table_View.html   # Searchable entity encyclopedia
 │   ├── Community_Reports_Summary.md
 │   └── graphrag_data/               # GraphRAG Parquet databases + graph.graphml
 │
@@ -131,7 +131,7 @@ LLM-Knowledge-Graph/
 
 ---
 
-## ⚙️ How It Works — The Two-System Pipeline
+## How It Works — The Two-System Pipeline
 
 ### System 1: GraphRAG — Building the Literature Knowledge Graph
 
@@ -196,7 +196,7 @@ Four mandatory checkpoints ensure the AI never makes final academic judgments un
 
 ---
 
-## 🔬 The Richmond Ontology — Anti-Hallucination Schema
+## The Richmond Ontology — Anti-Hallucination Schema
 
 Every entity extracted by the CMOC agent must match one of 47 predefined concepts from Richmond et al. (2020). This is enforced via Pydantic `Union` types in `core/ontology.py`:
 
@@ -223,11 +223,11 @@ The CMOC extractor uses **few-shot prompting grounded in Richmond's actual paper
 
 ---
 
-## 📊 Visual Analytics
+## Visual Analytics
 
 The dashboard and all visualization tools are generated from the same `outputs/graphrag_data/` database.
 
-### 🌟 Knowledge Dashboard (Recommended)
+### Knowledge Dashboard (Recommended)
 
 ```bash
 python scripts/visualize_dashboard.py
@@ -250,7 +250,7 @@ Also features a **Search bar** — type any term to auto-fly the camera to match
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.11.9
@@ -313,7 +313,7 @@ During execution, 4 HITL checkpoints will print to the terminal. In the current 
 
 ---
 
-## 📦 Output Artifacts
+## Output Artifacts
 
 All artifacts are saved to `outputs/`:
 
@@ -330,7 +330,7 @@ All artifacts are saved to `outputs/`:
 
 ---
 
-## 📋 Pipeline Execution Results
+## Pipeline Execution Results
 
 Verified run completed on **April 13, 2026**:
 
@@ -350,14 +350,14 @@ Knowledge Graph:
 
 ---
 
-## 🔒 Security
+## Security
 
 - **API keys** are stored in `.env` files, which are listed in `.gitignore` and never committed.
 - **`.env.example`** is committed as a safe template showing required variable names only.
 
 ---
 
-## 🛠 Technology Stack
+## Technology Stack
 
 | Library | Version | Role |
 |---|---|---|
@@ -374,7 +374,7 @@ Knowledge Graph:
 
 ---
 
-## 📚 References
+## References
 
 - Richmond, H., et al. (2020). The student is key: educational interventions to develop clinical reasoning. *Academic Medicine*.
 - Microsoft GraphRAG: https://github.com/microsoft/graphrag
@@ -384,9 +384,9 @@ Knowledge Graph:
 
 ---
 
-## 👥 Authors
+## Authors
 
-**Duy Nguyen** — Graduate Student Researcher  
+**Duy Nguyen** — Undergraduate Student Researcher  
 Repository: [duynguyenxc/LLM-Knowledge-Graph](https://github.com/duynguyenxc/LLM-Knowledge-Graph)
 
 *This project was developed as part of doctoral research for the Review of Research in Education (RRE) 2026.*
